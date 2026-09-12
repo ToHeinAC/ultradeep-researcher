@@ -9,7 +9,7 @@ description: >
   light tier (which writes a single draft directly in step 10). Invoked
   via Skill tool from the entry skill (full tier).
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Step 11 — Synthesize the final report
 

@@ -9,7 +9,7 @@ description: >
   integrate across chapters. Skipped entirely when the profile's `chapters`
   is (0, 0). Invoked via Skill tool from the entry skill.
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Step 1.5 — Chapter partition (chaptered profiles only)
 

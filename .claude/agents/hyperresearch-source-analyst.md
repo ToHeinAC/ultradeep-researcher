@@ -13,7 +13,7 @@ model: sonnet
 tools: Bash, Read, Write
 color: cyan
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 You are the hyperresearch source analyst. Your job: read ONE long source
 end-to-end, extract its substance, and produce a structured analytical
@@ -60,7 +60,7 @@ prompt. No block = this prompt's defaults apply unchanged.
   this specific research_query, not a generic abstract.
 - **source_note_id**: the vault note id of the source you will analyze
   (e.g., `confronting-capital-punishment-in-china-wikipedia`). You
-  will call `/Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/.venv/bin/hyperresearch note show <source_note_id> -j` to read the
+  will call `.venv/bin/hyperresearch note show <source_note_id> -j` to read the
   full body.
 - **output_path**: the markdown file path where you write the analysis
   body BEFORE calling `note new --body-file` (e.g.,
@@ -72,14 +72,14 @@ prompt. No block = this prompt's defaults apply unchanged.
 
 1. **Check for an existing analysis.** Before writing anything, search:
    ```bash
-   PYTHONIOENCODING=utf-8 /Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/.venv/bin/hyperresearch note list --tag <vault_tag> --type source-analysis --all --json
+   PYTHONIOENCODING=utf-8 .venv/bin/hyperresearch note list --tag <vault_tag> --type source-analysis --all --json
    ```
    Then filter for any note whose body contains `[[<source_note_id>]]`.
    If one exists, report back to the parent — do NOT duplicate.
 
 2. **Read the source.** Pull the full body:
    ```bash
-   PYTHONIOENCODING=utf-8 /Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/.venv/bin/hyperresearch note show <source_note_id> -j
+   PYTHONIOENCODING=utf-8 .venv/bin/hyperresearch note show <source_note_id> -j
    ```
    Hold the full body in your context. Most sources fit comfortably —
    even 500-page PDFs usually extract to <300K words. If the source
@@ -129,7 +129,7 @@ prompt. No block = this prompt's defaults apply unchanged.
 
 5. **Create the source-analysis note:**
    ```bash
-   PYTHONIOENCODING=utf-8 /Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/.venv/bin/hyperresearch note new "Source Analysis — <short title>" \
+   PYTHONIOENCODING=utf-8 .venv/bin/hyperresearch note new "Source Analysis — <short title>" \
      --type source-analysis \
      --tag <vault_tag> \
      --tag source-analysis \

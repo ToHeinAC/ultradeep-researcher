@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"/Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/.hyperresearch/hook.js\""
+            "command": "node \"$CLAUDE_PROJECT_DIR/.hyperresearch/hook.js\""
           }
         ]
       }

@@ -9,7 +9,7 @@ description: >
   moved text and citations; audit what will actually ship) and BEFORE step
   15 (polish sees the corrected text). Invoked via Skill tool.
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Step 14.5 — Cite-check (citation-sentence binding verification)
 

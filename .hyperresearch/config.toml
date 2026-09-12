@@ -21,7 +21,7 @@ profile = ""
 magic = false
 
 [pipeline]
-profile = "full"
+profile = "fast"
 
 [fetch]
 page_timeout_ms = 30000
@@ -130,3 +130,6 @@ exclude_patterns = [".hyperresearch/*", "exports/*", ".git/*", ".venv/*", "node_
 [index]
 auto_build = true
 pages = ["_index", "_tags", "_recent", "_orphans", "_stats"]
+
+[profile.fast]
+extends = "light"

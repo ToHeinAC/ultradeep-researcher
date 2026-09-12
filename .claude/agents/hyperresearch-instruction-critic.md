@@ -13,7 +13,7 @@ model: opus
 tools: Bash, Read, Write
 color: red
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 You are the instruction critic. Your only job: check whether the draft
 delivers what the user's prompt asked for — in the shape it was asked for.

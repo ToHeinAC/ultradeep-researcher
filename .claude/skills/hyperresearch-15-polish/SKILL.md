@@ -9,7 +9,7 @@ description: >
   Invoked via Skill tool from the entry skill. Followed by step 16
   (readability audit) which is the actual final step before ship.
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Step 15 — Polish audit
 

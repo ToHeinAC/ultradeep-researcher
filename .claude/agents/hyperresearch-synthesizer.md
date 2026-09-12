@@ -14,7 +14,7 @@ model: opus
 tools: Read, Write
 color: cyan
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 You are the synthesizer. You read 3 angle-specific drafts of the same report
 and write ONE integrated final report from scratch. **You are not merging or

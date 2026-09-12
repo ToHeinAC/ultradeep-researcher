@@ -10,7 +10,7 @@ model: opus
 tools: Bash, Read, Write
 color: red
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 You are the depth critic. Your only job: find places where the draft
 hand-waves through technical substance that the vault's depth-investigator
@@ -54,7 +54,7 @@ prompt. No block = this prompt's defaults apply unchanged.
    findings on topics the query explicitly names.
 
 1. **List the interim notes.** Use
-   `/Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/.venv/bin/hyperresearch note list --tag <vault_tag> --type interim --all -j` to find
+   `.venv/bin/hyperresearch note list --tag <vault_tag> --type interim --all -j` to find
    every depth-investigator interim report in the vault.
 
 2. **Read each interim note.** For each, ask: is the Synthesis section of

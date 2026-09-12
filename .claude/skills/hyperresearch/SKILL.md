@@ -4,13 +4,13 @@ description: >
   Deep research via the HYPERRESEARCH V8 architecture — a tier-adaptive 16-step
   pipeline (light / full / dissertation) that scales from a ~30-minute light-tier
   answer to an adversarially-audited report at the installed scale gear
-  (~1.5–2.5 hours). This entry skill is a ROUTER.
+  (~30–40 min). This entry skill is a ROUTER.
   It does not contain step procedures — it tells you which Skill to invoke
   for each step, in order. Each step's instructions live in its own skill
   file (`hyperresearch-1-decompose` through `hyperresearch-16-readability-audit`)
   and are loaded fresh into context when you invoke them.
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Hyperresearch V8 — multi-skill chain orchestrator
 
@@ -50,7 +50,7 @@ When you invoke a Skill, that skill's full procedure is loaded into your context
 | 7 | `hyperresearch-7-source-tensions` | Extract expert disagreements → source-tensions.json | full |
 | 8 | `hyperresearch-8-corpus-critic` | "What source would overturn this?" + targeted gap-fill fetch | full |
 | 9 | `hyperresearch-9-evidence-digest` | Top claims + verbatim quotes → evidence-digest.md | full |
-| 10 | `hyperresearch-10-triple-draft` | Per-angle source curation + 3 parallel draft-orchestrators (3 angle-specific drafts) | all |
+| 10 | `hyperresearch-10-triple-draft` | Per-angle source curation + 1 parallel draft-orchestrators (1 angle-specific drafts) | all |
 | 11 | `hyperresearch-11-synthesize` | Synthesis plan + outline + spawn synthesizer subagent (two-pass write) → final_report.md | full |
 | 12 | `hyperresearch-12-critics` | 4 adversarial critics in parallel → findings JSONs | full |
 | 13 | `hyperresearch-13-gap-fetch` | Fetch sources for critic-identified vault gaps | full |
@@ -68,14 +68,14 @@ Step 1 classifies the query into a `pipeline_tier` (`light` / `full`). The tier 
 | Tier | Steps that run | Typical time |
 |------|---|---|
 | `light` | 1 → 2 → 10 (single draft) → 15 → 16 | ~30–40 min |
-| `full` | 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13 → 14 → 14.5 → 15 → 16 | ~1.5–2.5 hours |
+| `full` | 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13 → 14 → 14.5 → 15 → 16 | ~30–40 min |
 | `dissertation` | 1 → 1.5 (chapter partition) → [2 → … → 10 per chapter] → 6g/11 (global) → 12 → 13 → 14 → 14.5 → 15 → 16 | ~4–8 hours |
 
 `dissertation` is opt-in only — the user must explicitly request it (or the run was initialized with `--profile dissertation`). Step 1 never auto-classifies into it. On dissertation runs, steps 2–10 loop per chapter (see `hyperresearch-1-5-chapter-partition`), with up to 2 chapters in flight; each chapter stays within the proven 40–80-source envelope while the run totals 300–450 sources.
 
 **RESPECT THE TIER GATE.** When step 1 classifies a query as `light`, do NOT run the skipped steps "just to be thorough." The tier classification is a product decision: simple queries should produce fast, right-sized answers. Trust the classification. If you're uncertain, tier up — but never silently upgrade every query to `full`.
 
-**Scale gear (tier ≠ gear).** The numbers rendered into the step skills — source targets, loci caps, depth budgets, word targets — come from the installed scale profile, the **gear** (currently `full`). The `full` tier row above already reflects it. Two gears ship: `full` (55–80 sources, ~1.5–2.5 hours) and `premier` (100–130 sources, double depth budget, ~3–5 hours). The user switches gears with `hyperresearch profile use <full|premier>` — that re-renders the installed skills, so it takes effect on the NEXT run, never mid-run. `light` and `dissertation` are tiers, not gears: light is auto-classified per query; dissertation is opt-in per run and loops each chapter inside the gear's envelope.
+**Scale gear (tier ≠ gear).** The numbers rendered into the step skills — source targets, loci caps, depth budgets, word targets — come from the installed scale profile, the **gear** (currently `fast`). The `full` tier row above already reflects it. Two gears ship: `full` (55–80 sources, ~1.5–2.5 hours) and `premier` (100–130 sources, double depth budget, ~3–5 hours). The user switches gears with `hyperresearch profile use <full|premier>` — that re-renders the installed skills, so it takes effect on the NEXT run, never mid-run. `light` and `dissertation` are tiers, not gears: light is auto-classified per query; dissertation is opt-in per run and loops each chapter inside the gear's envelope.
 
 ---
 
@@ -103,7 +103,7 @@ Before you invoke any step skill, do this:
    ```bash
    hyperresearch run init <vault_tag> --profile <full|light|premier|dissertation> --json
    ```
-   For a standard run, pass the installed gear (`full`) unless the user asked for something else.
+   For a standard run, pass the installed gear (`fast`) unless the user asked for something else.
    Pass `--budget <usd>` when the user set a spend ceiling. This scaffolds `research/runs/<vault_tag>/` (with `temp/`) and writes `run.json` — the run manifest. **The manifest is your durable memory**: record every step transition with `hyperresearch run step <vault_tag> <N> --status running|done -j` as you go. The profile here defaults to matching the tier you expect; if step 1 classifies differently, the manifest's profile field is informational — the decomposition's tier rules.
 
 3. **Persist the query file.** Write the verbatim canonical query to `research/runs/<vault_tag>/query.md`:

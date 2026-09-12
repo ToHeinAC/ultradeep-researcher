@@ -9,7 +9,7 @@ description: >
   highest-leverage move for insight scores. Invoked via Skill tool from
   the entry skill (full tier only).
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Step 7 — Source tension extraction
 

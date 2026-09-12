@@ -7,7 +7,7 @@ description: >
   consumes. Critics never modify the draft directly. Invoked via Skill
   tool from the entry skill (full tier only).
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Step 12 — Adversarial critique (parallel critics)
 

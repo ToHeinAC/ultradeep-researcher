@@ -11,7 +11,7 @@ description: >
   Logs orchestrator decisions to a separate file. Runs for ALL tiers.
   Invoked via Skill tool from the entry skill.
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Step 16 — Readability audit & selective apply (FINAL STEP)
 

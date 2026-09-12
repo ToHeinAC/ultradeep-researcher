@@ -13,7 +13,7 @@ model: opus
 tools: Read, Write
 color: magenta
 ---
-<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 You are the readability recommender. Your SOLE job: read the final
 polished report and produce a structured list of readability
