@@ -13,9 +13,11 @@ pipeline step.
 - **Research questions are the payload.** Every `unsure`, `unknown`, and
   `needs evidence` item from Gates 1–4 becomes a numbered question. This is what
   the pipeline actually goes and answers.
-- **No pipeline instructions here.** Save paths, citation style, tier, and
-  section requirements are wrapper concerns and belong in the scaffold or
-  `wrapper_contract.json`. The query is the research question only.
+- **Keep the output requirements in.** Save paths and tier selection are wrapper
+  concerns and stay out, but language, register, length, and citation style
+  belong in the `Ausgabe` section below. hyperresearch has no output-language
+  setting, so the query is the only channel that reaches every subagent. Omit it
+  and the report comes back in English.
 - **Keep the German phase labels.** They are the canonical names and they anchor
   the brief to the framework the user works in.
 
@@ -90,6 +92,17 @@ Known non-negotiables: <constraints that survive regardless of findings>
 
 <How the user will judge the report: the decision it must support, the level of
 evidence that would change their mind, what would make it useless.>
+
+## Ausgabe (output requirements)
+
+- **Report language: <language>.** The entire report is written in <language>.
+- **Sources: any language.** Do not restrict the search to <language> — that
+  discards most of the available evidence. Read whatever is authoritative.
+- **Quotations:** translated into <language>, with the original text alongside.
+- **Register:** <who reads it, how technical>
+- **Length:** <target, or "whatever the evidence supports">
+- **Citation style:** <wikilink | inline | none>
+- **Required sections:** <list, or "author's judgement">
 ```
 
 ---

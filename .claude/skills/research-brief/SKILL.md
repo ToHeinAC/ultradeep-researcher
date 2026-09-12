@@ -48,8 +48,8 @@ These are not stylistic preferences. Violating any of them defeats the skill.
 
 ## Workflow
 
-Track progress with the task tools so the user can see where they are. Seven
-gates: 0 → 1 → 2 → 3 → 4 → 5 (approval) → 6 (launch).
+Track progress with the task tools so the user can see where they are. Eight
+gates: 0 → 1 → 2 → 3 → 4 → 4.5 → 5 (approval) → 6 (launch).
 
 ### Gate 0 — AUSGANGSSITUATION
 
@@ -121,9 +121,37 @@ become the research scope.
 3. **What is the disruptive innovation** if the first-principles logic is
    followed all the way through?
 
+### Gate 4.5 — AUSGABE (output requirements)
+
+The deconstruction defines *what* is researched. This gate defines *what comes
+back*. Ask for each, offering a default:
+
+1. **Report language.** Which language the report is written in. Default: the
+   language the user has been interviewing in.
+2. **Source language policy.** Almost always: *search and read in any language,
+   write in the report language*. Confirm rather than assume — see the warning
+   below.
+3. **Register and audience.** Who reads it, and how technical it should be.
+4. **Length.** Approximate target, or "whatever the evidence supports".
+5. **Citation style.** `wikilink` (`[[note-id]]`, no Sources section), `inline`
+   (`[N]` markers plus a `## Sources` section), or `none`.
+6. **Required sections**, if the user needs a particular shape.
+
+**Language is carried by the query, not by configuration.** hyperresearch has no
+output-language setting — its levers are only `register`, `inference_depth`, and
+`domain_notes`. The single reliable channel is the canonical query itself, which
+every step and every subagent receives verbatim. So the language requirement
+must be written into the brief. Leaving it implicit produces an English report.
+
+**Never let the report language narrow the search.** Restricting sources to the
+report's language silently discards most of the literature — for a German report
+on a technical topic, nearly all of it. State the split explicitly in the brief:
+research in any language, write in the target language, and translate quoted
+material with the original alongside it.
+
 ### Gate 5 — Assembly and approval (MANDATORY)
 
-Read `assets/brief-template.md` and fill it from Gates 0–4. Then:
+Read `assets/brief-template.md` and fill it from Gates 0–4.5. Then:
 
 1. Present the **complete** brief in a fenced block. Never a summary or a diff —
    the user must approve the exact bytes that will drive the run.
@@ -186,10 +214,19 @@ Only after explicit approval.
    The final report MUST end with `## Appendix A — Research Brief`, containing
    the full verbatim contents of `research/prompt.txt` in a fenced block, plus
    the one-line provenance footer. Do not paraphrase, summarize, or reformat it.
+
+   ## Wrapper requirement — output language
+   The final report MUST be written in <language>. Sources may be in any
+   language; quoted material is translated with the original alongside. The
+   appendix above stays verbatim and is NOT translated.
    ```
 
-   Wrapper requirements belong in the scaffold, not in the query — the query is
-   the research question only.
+   Restating the language here is deliberate belt-and-braces: it is already in
+   the query, but the scaffold is what the synthesizer reads while writing.
+
+6. **Set the register lever** if Gate 4.5 produced one that differs from step 1's
+   classification: `$HPR levers set <vault_tag> register=<value> --rerender -j`.
+   Language is not a lever and cannot be set this way — it travels in the query.
 
 ### After the run
 
