@@ -8,6 +8,8 @@ The shared, vendor-neutral collaboration rules for AI coding tools live in [AGEN
 - Skills: `.claude/skills/`. Subagents: `.claude/agents/`.
 - Permissions/config: shared safe allows are committed in `.claude/settings.json`; machine-personal ones stay in `.claude/settings.local.json` (gitignored).
 - Secrets (`FRED_API_KEY`, `HYPERRESEARCH_CONTACT_EMAIL`) live in `.env` (gitignored) and are mirrored into the `env` block of `.claude/settings.local.json` so Claude Code tool calls inherit them. The `hyperresearch` CLI reads the process environment and does **not** load `.env` itself — export it with `set -a; . ./.env; set +a` when running the CLI by hand.
+- Environment: `pyproject.toml` + `uv.lock` pin the dependencies; rebuild with `uv sync`.
+- **After any environment rebuild or package upgrade, run `uv run python scripts/patch_edgar_ua.py`.** Without it SEC EDGAR returns zero results while still reporting itself available — a silent failure. See [docs/edgar-ua-patch.md](docs/edgar-ua-patch.md).
 
 <!-- hyperresearch:start -->
 ## Research Base (hyperresearch)

@@ -1,0 +1,15 @@
+[project]
+name = "ultradeep-researcher"
+version = "0.1.0"
+description = "Agent-driven deep research workspace built on hyperresearch and Claude Code skills."
+requires-python = ">=3.11,<3.14"
+license = "Apache-2.0"
+dependencies = [
+    "hyperresearch==0.11.1",
+]
+
+# This is an application workspace, not an installable library: there is no
+# package to build, so uv manages the environment without installing the
+# project itself.
+[tool.uv]
+package = false
