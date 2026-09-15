@@ -3,18 +3,18 @@ name: hyperresearch-2-width-sweep
 description: >
   Step 2 of the hyperresearch V8 pipeline. Multi-perspective search planning
   (breadth / depth / adversarial lenses) followed by parallel fetcher waves.
-  Achieves comprehensive topical coverage with 15–25 curated sources for
+  Achieves comprehensive topical coverage with 55–80 curated sources for
   full tier. Includes coverage check, evidence redundancy audit,
   and source count gating. Invoked via Skill tool from the entry skill
   after step 1 completes.
 ---
-<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Step 2 — Width sweep
 
 **Tier gate:** Runs for ALL tiers. For `light` tier: skip academic APIs, target 15–25 sources, limit to 2–3 fetcher batches. For `full`: run the full procedure below.
 
-**Goal:** achieve comprehensive topical coverage — every atomic item from the decomposition must have at least 3 supporting sources by the end of this step. Target 15–25 curated sources for `full` tier.
+**Goal:** achieve comprehensive topical coverage — every atomic item from the decomposition must have at least 3 supporting sources by the end of this step. Target 55–80 curated sources for `full` tier.
 
 ---
 
@@ -74,7 +74,7 @@ Before spawning any fetchers, produce a **search plan** that maps the decomposit
    | Entity: PE | "China private equity returns academic study" | academic | depth | canonical |
    ```
 
-   Plan typically has **8–20 planned searches** for a `full` query.
+   Plan typically has **40–100 planned searches** for a `full` query.
 
 4. **Search gap check.** Cross-check the search plan against `research/runs/<vault_tag>/temp/coverage-matrix.md`. For every row in the coverage matrix, verify at least one search in the plan targets that query phrase's atomic item. Re-read the verbatim query and check: is there any significant topic, entity, or category in the query that has ZERO rows in the search plan?
 
@@ -95,19 +95,19 @@ Before spawning any fetchers, produce a **search plan** that maps the decomposit
 
 1. **Academic APIs first.** For topics with a research literature, hit Semantic Scholar / arXiv / OpenAlex / PubMed BEFORE web search. Academic APIs return citation-ranked canonical papers.
 
-2. **Web searches from the plan.** Execute ALL planned searches across all three lenses. Aim for **20–40 candidate URLs** before deduplication for `full` tier.
+2. **Web searches from the plan.** Execute ALL planned searches across all three lenses. Aim for **80–120 candidate URLs** before deduplication for `full` tier.
 
-3. **Build and deduplicate the master URL queue.** Remove exact-URL duplicates. Remove obvious junk domains. The deduplicated queue should have **15–30 URLs** for `full` tier.
+3. **Build and deduplicate the master URL queue.** Remove exact-URL duplicates. Remove obvious junk domains. The deduplicated queue should have **60–100 URLs** for `full` tier.
 
    **Wikipedia SOURCE HUB rule:** Include Wikipedia URLs in the queue — they're valuable for discovery — but treat them as SOURCE HUBS, not as citable sources. When a fetcher processes a Wikipedia article, it extracts the references/citations Wikipedia links to. Those primary sources go into Wave 2 (or the same wave if capacity permits). Wikipedia itself is NEVER cited in the final report.
 
-4. **Partition the queue into non-overlapping batches.** Split the master queue into **2–3 batches** of **8–12 URLs each**. Each batch goes to exactly ONE fetcher. **Zero overlap.**
+4. **Partition the queue into non-overlapping batches.** Split the master queue into **10–12 batches** of **8–12 URLs each**. Each batch goes to exactly ONE fetcher. **Zero overlap.**
 
 ---
 
 ## Step 2.3 — Utility scoring and selection
 
-**Tier gate:** SKIP for `light`. SKIP for `full`.
+**Tier gate:** SKIP for `light`. Run for `full`.
 
 Before batching URLs, score each candidate URL on six dimensions (0–3 each, max composite 18):
 
@@ -128,7 +128,7 @@ Write to `research/runs/<vault_tag>/temp/scored-urls.md`.
 
 ## Step 2.4 — Parallel fetcher waves
 
-**Wave 1 (main wave):** Spawn **3–5 fetcher subagents in ONE message** — true parallel execution. Each fetcher gets its own non-overlapping batch.
+**Wave 1 (main wave):** Spawn **10–12 fetcher subagents in ONE message** — true parallel execution. Each fetcher gets its own non-overlapping batch.
 
 **Subagent type:** `hyperresearch-fetcher`
 
@@ -286,9 +286,9 @@ prompt: |
 | Tier | Minimum sources | Target sources | Fetchers per wave | Waves |
 |------|----------------|---------------|-------------------|-------|
 | `light` | 10 | 15–25 | 3–5 | 1–2 |
-| `full` | 10 | 15–25 | 3–5 | 1–2 |
+| `full` | 45 | 55–80 | 10–12 | 2–3 |
 
-Substantive (non-deprecated) note counts. The `full` row reflects the installed scale gear. Quality over quantity — beyond ~25 sources, each additional source yields diminishing returns while degrading summarizer quality.
+Substantive (non-deprecated) note counts. The `full` row reflects the installed scale gear. Quality over quantity — beyond ~80 sources, each additional source yields diminishing returns while degrading summarizer quality.
 
 ---
 

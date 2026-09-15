@@ -8,7 +8,7 @@ description: >
   highest-leverage input for instruction-following scores. Invoked via
   Skill tool from the entry skill (hyperresearch).
 ---
-<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Step 1 — Prompt decomposition
 

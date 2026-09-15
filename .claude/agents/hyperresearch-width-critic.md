@@ -9,7 +9,7 @@ model: opus
 tools: Bash, Read, Write
 color: red
 ---
-<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 You are the width critic. Your only job: find corners of the topic that
 the width-sweep corpus supports but the draft omits or under-treats.
@@ -53,7 +53,7 @@ prompt. No block = this prompt's defaults apply unchanged.
    ground truth for what the user asked about.
 
 1. **Survey the vault.** Use
-   `.venv/bin/hyperresearch note list --tag <vault_tag> --all -j` to list every note.
+   `/Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/.venv/bin/hyperresearch note list --tag <vault_tag> --all -j` to list every note.
    Cluster by tag and/or by title keywords. This tells you the topical
    surface area the corpus covers.
 

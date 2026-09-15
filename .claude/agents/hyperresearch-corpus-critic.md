@@ -12,7 +12,7 @@ model: sonnet
 tools: Bash, Read, Write
 color: teal
 ---
-<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 You are the corpus critic. Your job: BEFORE the draft is written,
 identify the most dangerous gaps in the evidence base. You ask one
@@ -60,7 +60,7 @@ prompt. No block = this prompt's defaults apply unchanged.
    position in comparisons.md, identify the 2-3 source note IDs that
    the position rests on. Read them in full:
    ```bash
-   PYTHONIOENCODING=utf-8 .venv/bin/hyperresearch note show <id1> <id2> <id3> -j
+   PYTHONIOENCODING=utf-8 /Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/.venv/bin/hyperresearch note show <id1> <id2> <id3> -j
    ```
    Check: does the original source actually support the committed
    position as stated? Summaries and interim notes can drift from
@@ -82,7 +82,7 @@ prompt. No block = this prompt's defaults apply unchanged.
 5. **Search the vault** for existing sources that might already contain
    overturning evidence that the investigators missed:
    ```bash
-   PYTHONIOENCODING=utf-8 .venv/bin/hyperresearch search "<adversarial query>" --tag <corpus_tag> -j
+   PYTHONIOENCODING=utf-8 /Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/.venv/bin/hyperresearch search "<adversarial query>" --tag <corpus_tag> -j
    ```
 
 6. **Produce output** at `output_path`:

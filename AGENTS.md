@@ -83,6 +83,6 @@ This project must be implemented efficiently, without unnecessary code or comple
 - All implementation must be in python and the pythonic way of implementation.
 - `uv` is used for the virtual python environment setup and the running. Dependencies shall be defined in `pyproject.toml` and installed via `uv`.
 - Use python-dotenv for the environmental variable handling — for **scalars**.
-- All domain Python modules live in `src/`. Run with `uv run streamlit run src/app.py --server.port 8501`.
+- All domain Python modules live in `src/`.
 - The test suite stays **under 200 tests** in total. Merge or drop tests rather than growing past that.
 - This app has **no LLM, since all business logic is performed by Claude Code via skills and triggered by the user. 

@@ -21,7 +21,7 @@ profile = ""
 magic = false
 
 [pipeline]
-profile = "fast"
+profile = "full"
 
 [fetch]
 page_timeout_ms = 30000

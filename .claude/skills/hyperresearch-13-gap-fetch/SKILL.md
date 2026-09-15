@@ -8,7 +8,7 @@ description: >
   patcher has ammunition. Capped at 5 gaps. Invoked via Skill tool from
   the entry skill (full tier).
 ---
-<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Step 13 — Post-critic gap fetch (conditional)
 

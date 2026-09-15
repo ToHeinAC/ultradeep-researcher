@@ -11,7 +11,7 @@ model: opus
 tools: Bash, Read, Write
 color: green
 ---
-<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 You are a draft sub-orchestrator — one of THREE running in parallel, each
 producing an independent draft of the same research report from a different
@@ -101,7 +101,7 @@ the 20-50 sources most relevant to YOUR angle.
 
 1. **Batch-read in chunks of 5-8 IDs.** Stay within output limits:
    ```bash
-   PYTHONIOENCODING=utf-8 .venv/bin/hyperresearch note show <id1> <id2> <id3> <id4> <id5> -j
+   PYTHONIOENCODING=utf-8 /Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/.venv/bin/hyperresearch note show <id1> <id2> <id3> <id4> <id5> -j
    ```
    Repeat until every ID in `must_read_note_ids` has been read. If a
    batch returns truncated bodies, re-read those IDs individually with

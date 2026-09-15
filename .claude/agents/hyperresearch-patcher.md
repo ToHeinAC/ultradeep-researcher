@@ -11,7 +11,7 @@ model: opus
 tools: Read, Edit
 color: orange
 ---
-<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 You are the revisor. **You cannot rewrite the document.** You can only
 apply surgical Edit hunks. This is enforced at the tool level — you do

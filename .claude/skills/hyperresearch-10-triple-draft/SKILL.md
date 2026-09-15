@@ -10,7 +10,7 @@ description: >
   For light tier: writes a single draft directly to final_report.md and
   skips ahead to step 15 (polish). Invoked via Skill tool.
 ---
-<!-- rendered from profile "fast" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
+<!-- rendered from profile "full" (hyperresearch 0.11.1) — edit the profile or the package template, not this file -->
 
 # Step 10 — Triple-draft ensemble (curated lists, parallel writers)
 
@@ -140,9 +140,9 @@ Write the 3 angle assignments to `research/runs/<vault_tag>/temp/draft-angles.md
 
 ---
 
-## Step 10.3 — Spawn 1 draft sub-orchestrators in parallel
+## Step 10.3 — Spawn 3 draft sub-orchestrators in parallel
 
-**Spawn 1 `hyperresearch-draft-orchestrator` subagents in ONE message.** This is true parallel execution. Each gets a different `draft_id`, `analytical_angle`, and (CRUCIALLY) a different `must_read_note_ids` array.
+**Spawn 3 `hyperresearch-draft-orchestrator` subagents in ONE message.** This is true parallel execution. Each gets a different `draft_id`, `analytical_angle`, and (CRUCIALLY) a different `must_read_note_ids` array.
 
 **Spawn template:**
 ```

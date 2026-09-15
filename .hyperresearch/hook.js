@@ -6,7 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const HPR = '.venv/bin/hyperresearch';
+const HPR = '/Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/.venv/bin/hyperresearch';
 
 // Check if a .hyperresearch directory exists (vault is initialized)
 function findVault() {
