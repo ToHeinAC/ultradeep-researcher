@@ -1,0 +1,95 @@
+{
+  "gaps": [
+    {
+      "id": "pp-1",
+      "type": "period-pinned-primary",
+      "target_position": "US v. Apple (D.N.J. 2:24-cv-04055) primary record: the DOJ complaint and the June 30 2025 opinion denying Apple's motion to dismiss — surviving claims, monopoly-power pleading findings, and remedies sought",
+      "search_queries": [
+        "site:justice.gov United States v. Apple complaint smartphone monopolization March 2024 PDF",
+        "courtlistener United States v. Apple 2:24-cv-04055 opinion motion to dismiss June 30 2025",
+        "United States v. Apple Inc D.N.J. 24-cv-04055 opinion denying motion to dismiss text"
+      ],
+      "source_type": "primary-filing",
+      "priority": "critical",
+      "rationale": "The decomposition names 'DOJ complaint and subsequent motions' as a period-pinned primary source. The vault holds only secondary coverage (Mintz law-firm analysis, AAF primer, 9to5Mac). The D.N.J. opinion is queued as browser-lane escalation #9 (law.justia.com Cloudflare challenge), so try justice.gov and CourtListener instead. Substance is covered secondarily (65%/70% share pleading, surviving NFC tap-to-pay claim), so this is a verification gap for the regulatory-exposure section rather than a numeric-precision gap — but the draft should be able to cite the primary record for the claims it makes about DOJ v. Apple's remedies and its threat to Apple Pay exclusivity."
+    },
+    {
+      "id": "cc-1",
+      "type": "overturning",
+      "target_position": "Falsification-test TAC input ($23-29B, central $26B): the scaling method holds 'Apple's share of Alphabet's distribution-partner TAC constant' from the 2022 court-found $20B figure forward via Alphabet's aggregate TAC CAGR (6.6%). The TAC investigator names this constant-share assumption as explicitly unverifiable and as the #1 thing that would change the position.",
+      "search_queries": [
+        "Alphabet 10-K distribution partner TAC disaggregated Apple Samsung Mozilla breakdown 2024 2025",
+        "Apple Google search default deal revenue share renegotiated 2023 2024 2025",
+        "Google traffic acquisition costs distribution partners concentration Apple percentage decline"
+      ],
+      "source_type": "government",
+      "priority": "critical",
+      "rationale": "If Apple's share of Alphabet's distribution-partner TAC has fallen since 2022 (e.g., because Samsung, Mozilla or other partners renegotiated better terms, or because Alphabet's own disclosures show partner TAC growing slower than total TAC), the $26B central estimate is overstated and the falsification test's headline 19.7-28.3% of gross profit shrinks -- directly undermining the central quantitative claim the whole draft rests on. This is the single most load-bearing unverified assumption in the sizing chain; Alphabet's 10-K MD&A occasionally comments on partner concentration and should be checked directly rather than assumed unchanged."
+    },
+    {
+      "id": "cc-2",
+      "type": "overturning",
+      "target_position": "Tension 1 / cross-locus convergence: 'AI query migration is already underway inside the 2-5 year window' rests entirely on ONE data point -- Eddy Cue's testimony that Safari search-query volume declined for the first time in 22 years, GenAI-attributed. Both the TAC and Lock-in investigators independently flag a second/third consecutive year of decline (or a reversal) as the thing that would most change their position.",
+      "search_queries": [
+        "Safari search query volume 2026 trend decline continued OR reversed",
+        "Apple Safari search share StatCounter 2026 second half",
+        "Google search query volume growth 2026 AI chatbot cannibalization data"
+      ],
+      "source_type": "industry",
+      "priority": "critical",
+      "rationale": "This single data point is doing outsized argumentative work: it reframes the report's central question (courts vs. interface) and overturns contradiction-cluster 5's 'long-horizon tail' verdict. Finding evidence the decline was a one-off (e.g., iOS version release timing, a Safari bug, a one-time methodology change in how Google or Apple counts queries) or evidence of a rebound would materially weaken Tension 1's central reframing and the AI-migration risk weighting in the falsification test's caveats. Conversely, a second down year would let the draft assert the trend with much higher confidence instead of hedging on n=1."
+    },
+    {
+      "id": "cc-3",
+      "type": "overturning",
+      "target_position": "Hardware locus commits: FY2026 iPhone strength is overwhelmingly ASP/mix, not units (IDC: shipments +4.9% vs. Apple iPhone revenue +23.3%, ~17.5pp attributed to ASP/mix) -- resting on ONE clean calendar-aligned quarter (CY Q4 2025 / Apple FQ1 2026). The investigator names an IDC/Counterpoint release with calendar-Q1/Q2-2026 Apple-specific units as the thing that would most weaken this reading.",
+      "search_queries": [
+        "IDC Counterpoint Apple iPhone unit shipments calendar Q1 2026",
+        "IDC Counterpoint Apple iPhone unit shipments calendar Q2 2026",
+        "Apple iPhone 17 sell-through units growth 2026 Canalys"
+      ],
+      "source_type": "industry",
+      "priority": "high",
+      "rationale": "This is one of the four minimum components the query demands (services CAGR needed to hold growth flat as hardware matures) and it directly feeds Tension 3's 'cost pass-through, low-quality growth' framing plus the KeyBanc price-led-vs-volume-led multiple argument. If more recent calendar-quarter data shows units accelerating alongside revenue (not just the single Q4 2025 print), the 'price not volume' reading needs softening and the draft's claim that FY2026 growth is low-quality cost pass-through is overstated."
+    },
+    {
+      "id": "cc-4",
+      "type": "overturning",
+      "target_position": "App Store locus commits: commission erosion is 'structurally durable' and 'even a full Apple win [at SCOTUS] cannot restore the 27% fee' because Question 1 is narrow/procedural and the Ninth Circuit's cost-based standard already governs the remand.",
+      "search_queries": [
+        "Ninth Circuit cost-based link-out commission rate estimate remand Epic Apple",
+        "what commission rate would cost-based standard produce Apple App Store analysts",
+        "Apple App Store cost of payment processing per transaction estimate developer"
+      ],
+      "source_type": "investigative",
+      "priority": "high",
+      "rationale": "The draft commits hard to commission economics being permanently impaired, but no source in the corpus yet estimates what a 'cost-based' fee under the Ninth Circuit's own standard would actually be -- comparisons.md itself flags this as 'the single most decision-relevant future number [that] does not yet exist.' If a credible source estimates Apple's actual cost of providing payment/IAP infrastructure at a rate well above near-zero (e.g., 3-8%, comparable to card-network interchange), that would meaningfully soften the 'structurally durable erosion to near-zero' framing the draft otherwise commits to, without contradicting the narrow-SCOTUS-scope finding."
+    },
+    {
+      "id": "cc-5",
+      "type": "independent-verification",
+      "target_position": "App Store commission revenue magnitude ($22-31B global, $8-10B US): per redundancy-audit.md, every dollar figure traces to two commercial analytics vendors (Appfigures, Sensor Tower), cross-checked only against Apple's own commissioned Analysis Group billings study ($131-149B) for internal consistency, not independent confirmation.",
+      "search_queries": [
+        "DOJ v. Apple complaint App Store commission revenue dollar estimate",
+        "congressional testimony Apple App Store commission revenue billions",
+        "Epic v. Apple damages expert App Store commission revenue estimate 2024 2025"
+      ],
+      "source_type": "government",
+      "priority": "high",
+      "rationale": "A litigation-discovery figure (DOJ complaint, a damages expert's court-filed number, or subpoenaed financial data) would be a genuinely independent, higher-authority anchor than two syndicated vendor estimators and could confirm or contradict the $22-31B range the falsification test depends on for roughly half of its contingent/repriceable gross-profit total."
+    },
+    {
+      "id": "cc-6",
+      "type": "independent-verification",
+      "target_position": "Current Google TAC to Apple ($23-29B, central $26B) is cross-checked against exactly one independent estimate (Morgan Stanley's Erik Woodring, >$25B) -- redundancy-audit.md notes the wider 'Big Tech $700B buildout' and Quartz pieces are themselves derivative of this same Morgan Stanley figure, so there is effectively one analyst voice, not several.",
+      "search_queries": [
+        "Bernstein Evercore Wells Fargo Apple Google search revenue estimate billions",
+        "Needham JPMorgan Apple services revenue Google TAC estimate 2025 2026",
+        "sell-side analyst Apple Google default search payment estimate independent"
+      ],
+      "source_type": "industry",
+      "priority": "high",
+      "rationale": "A second, differently-sourced analyst estimate (not a restatement of the Morgan Stanley note) would let the draft present a genuine range built from independent triangulation rather than one court figure scaled by an assumption plus one bank's model -- strengthening the central falsification-test number if it converges, or flagging real uncertainty if it diverges materially."
+    }
+  ]
+}

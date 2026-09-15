@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Electroiq.com's Apple Pay revenue table is an explicit verbatim copy of grabon.com's figures, itself three hops removed from the original Loup Ventures 2019 estimate -- illustrating the aggregator-recycling problem in Apple Pay revenue statistics.",
+    "stance": "neutral",
+    "stance_target": "reliability chain of commonly-cited Apple Pay revenue figures",
+    "evidence_type": "empirical",
+    "scope_conditions": "As fetched September 2026",
+    "quoted_support": "Apple Pay Revenue | Year | Annual Revenue ... (Source: grabon.com)",
+    "numbers": ["$0.998B (2019)", "$1.05B (2020)", "$1.00B (2021)", "$1.90B (2022)", "$4.00B (2023)", "$4.23B (2024)", "$4.45B (2025)"],
+    "entities": ["Apple", "Apple Pay", "electroiq.com", "grabon.com"],
+    "time_period": "2019-2025",
+    "region": "Global",
+    "confidence": "low",
+    "source_note_id": "apple-pay-statistics-by-revenue-users-security-and-facts-2025"
+  },
+  {
+    "claim": "In 2024, Apple released NFC and secure-element payment APIs to third-party developers in the EU, Australia, Brazil, Canada, Japan, New Zealand, the UK and the US, ending Apple's prior exclusive on-device NFC access and enabling third-party wallets like PayPal and Shopify to process contactless payments directly on iPhones.",
+    "stance": "supports",
+    "stance_target": "Apple Pay's revenue-generating position is contingent on an exclusivity regulators can and did void",
+    "evidence_type": "empirical",
+    "scope_conditions": "2024 rollout across the eight named markets",
+    "quoted_support": "For a long time, Apple Pay was the only contactless payment system available on iPhones globally, allowing Apple to have a monopoly on mobile proximity payments... For the EU, Australia, Brazil, Canada, Japan, New Zealand, the UK, and the U.S., Apple released NFC and secure element APIs to third-party developers in 2024, enabling payment services such as PayPal and Shopify to function on iPhones.",
+    "numbers": ["8 markets: EU, Australia, Brazil, Canada, Japan, New Zealand, UK, US"],
+    "entities": ["Apple", "Apple Pay", "PayPal", "Shopify", "European Commission"],
+    "time_period": "2024",
+    "region": "EU, Australia, Brazil, Canada, Japan, New Zealand, UK, US",
+    "confidence": "medium",
+    "source_note_id": "apple-pay-statistics-by-revenue-users-security-and-facts-2025"
+  },
+  {
+    "claim": "Apple stopped offering its own Apple Pay Later service as of June 2024, shifting to third-party BNPL providers like Affirm; prior to discontinuation, almost 20% of US BNPL users were on Apple Pay Later.",
+    "stance": "neutral",
+    "stance_target": "durability of Apple's in-house BNPL/lending product line within the payments business",
+    "evidence_type": "empirical",
+    "scope_conditions": "US BNPL market, through June 2024",
+    "quoted_support": "Apple stopped offering its own Apple Pay Later service as of June 2024 and started offering third-party Buy Now Pay Later (BNPL) services offered by companies like Affirm. Before discontinuing their service, almost 20% of U.S. BNPL users were on Apple Pay Later.",
+    "numbers": ["~20% of US BNPL users on Apple Pay Later pre-discontinuation"],
+    "entities": ["Apple", "Apple Pay Later", "Affirm"],
+    "time_period": "through June 2024",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "apple-pay-statistics-by-revenue-users-security-and-facts-2025"
+  }
+]

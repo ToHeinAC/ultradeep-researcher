@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Apple's Sept 9, 2026 'Surprise and Shine' event was John Ternus's first keynote as CEO, and the marquee launch was Apple's first foldable phone, the iPhone Duo.",
+    "stance": "neutral",
+    "stance_target": "Apple AI-era product strategy under new leadership",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple product event, September 9, 2026",
+    "quoted_support": "Apple on Wednesday unveiled its latest iPhones and Apple Watches at its first fall event under newly appointed CEO John Ternus. The main event was the tech giant's highly anticipated first foldable phone, the iPhone Duo.",
+    "numbers": ["$1,999 starting price", "256GB storage", "7.6-inch inner display", "5.4-inch outer display"],
+    "entities": ["Apple", "John Ternus", "iPhone Duo"],
+    "time_period": "September 9, 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo"
+  },
+  {
+    "claim": "The iPhone Duo's hinge, comprising over 100 specially engineered Grade 5 aluminum components, was explicitly described by Apple/TechCrunch coverage as 'built with AI'.",
+    "stance": "supports",
+    "stance_target": "Apple integrating AI into hardware engineering/manufacturing rather than only consumer-facing software",
+    "evidence_type": "empirical",
+    "scope_conditions": "iPhone Duo hardware design, 2026",
+    "quoted_support": "The Duo's hinge is made from Grade 5 aluminum and comprises more than 100 specially engineered components designed to ensure smooth opening and closing.",
+    "numbers": ["100+ components"],
+    "entities": ["Apple", "iPhone Duo"],
+    "time_period": "2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo"
+  },
+  {
+    "claim": "iPhone 18 Pro and Pro Max launched at $1,199 and $1,299 respectively, $100 more than the prior year's models, with the primary upgrade being camera hardware/software rather than AI features.",
+    "stance": "neutral",
+    "stance_target": "Apple hardware pricing power and upgrade cadence",
+    "evidence_type": "empirical",
+    "scope_conditions": "iPhone 18 Pro launch, September 2026",
+    "quoted_support": "The iPhone 18 Pro starts at $1,199, while the iPhone 18 Pro Max starts at $1,299, which is $100 more than last year's models.",
+    "numbers": ["$1,199", "$1,299", "+$100 YoY", "48-megapixel sensor"],
+    "entities": ["Apple", "iPhone 18 Pro", "iPhone 18 Pro Max"],
+    "time_period": "September 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo"
+  },
+  {
+    "claim": "Apple Watch Series 12 and Ultra 4 received AI software upgrades ('Sound Recognition', 'Audio Intelligence', 'Live Rewind', 'Siri Recap') rather than major hardware redesigns, priced at $399 and $499.",
+    "stance": "supports",
+    "stance_target": "Apple's AI strategy leans on software/on-device features layered onto existing hardware rather than new AI-first hardware categories",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Watch Series 12/Ultra 4 launch, September 2026",
+    "quoted_support": "The Apple Watch Series 12 and Apple Watch Ultra 4 aren't getting a major hardware makeover, but they are getting some significant software updates.",
+    "numbers": ["$399", "$499"],
+    "entities": ["Apple Watch Series 12", "Apple Watch Ultra 4"],
+    "time_period": "September 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo"
+  },
+  {
+    "claim": "Apple's redesigned Health app uses Apple Intelligence to generate a 'Readiness' score and 'Health Age' calculation, rolling out later in 2026 starting in U.S. English only.",
+    "stance": "neutral",
+    "stance_target": "Breadth of Apple Intelligence feature rollout across the product line",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Health app redesign, late 2026 rollout, U.S. English first",
+    "quoted_support": "The updates introduce a new Insights tab with a summary of the most timely health information, along with personalized guidance, assessments, a new \"Readiness\" score, and a calculation of your \"Health Age.\"",
+    "numbers": [],
+    "entities": ["Apple", "Apple Intelligence", "Apple Health app"],
+    "time_period": "late 2026",
+    "region": "United States (initial rollout)",
+    "confidence": "medium",
+    "source_note_id": "everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo"
+  }
+]

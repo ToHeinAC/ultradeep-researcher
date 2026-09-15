@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "In FY2023, Apple's risk-factor disclosure on the search-services licensing arrangement did not name Google at all -- it referred generically to 'licensing arrangements with other companies to offer their search services' -- unlike the FY2024 and FY2025 filings, which explicitly name Google LLC.",
+    "stance": "supports",
+    "stance_target": "the specificity of Apple's risk disclosure about the Google TAC arrangement escalated in step with the litigation timeline (DOJ v. Google filed 2020, liability finding August 2024, remedies order September 2025)",
+    "evidence_type": "legal",
+    "scope_conditions": "FY2023 10-K (fiscal year ended 2023-09-30)",
+    "quoted_support": "For example, the Company earns revenue from licensing arrangements with other companies to offer their search services on the Company's platforms and applications, and certain of these arrangements are currently subject to government investigations and legal proceedings.",
+    "numbers": [],
+    "entities": ["Apple Inc."],
+    "time_period": "FY2023 (fiscal year ended 2023-09-30)",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "aapl-20230930"
+  },
+  {
+    "claim": "Apple's Services gross margin premium over Products gross margin already exceeded 34 percentage points in FY2023 (70.8% vs 36.5%), three fiscal years before the run's most recent filing, establishing the durability-margin gap as a multi-year structural pattern rather than a recent phenomenon.",
+    "stance": "supports",
+    "stance_target": "earnings decomposition by durability class (annuity-like Services vs cyclical Products) is grounded in a multi-year, not single-year, margin differential",
+    "evidence_type": "empirical",
+    "scope_conditions": "FY2021-FY2023",
+    "quoted_support": "Total gross margin percentage 44.1 | 43.3 | 41.8 [FY2023/2022/2021]. Services gross margin percentage decreased during 2023 compared to 2022 due to higher Services costs and the weakness in foreign currencies relative to the U.S. dollar, partially offset by a different Services mix.",
+    "numbers": ["Products GM 36.5% FY23", "Services GM 70.8% FY23", "total GM 44.1% FY23 / 43.3% FY22 / 41.8% FY21"],
+    "entities": ["Apple Inc."],
+    "time_period": "FY2021-FY2023",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "aapl-20230930"
+  },
+  {
+    "claim": "Apple's diluted weighted-average share count fell from 16,864,919 thousand (FY2021) to 16,325,819 thousand (FY2022) to 15,812,547 thousand (FY2023), a cumulative 6.2% reduction over two years, driven by $76.6 billion of repurchases in FY2023 alone (471 million shares) under a new $90 billion program.",
+    "stance": "supports",
+    "stance_target": "sustained multi-year buyback-driven denominator shrinkage as an EPS growth driver independent of revenue growth",
+    "evidence_type": "empirical",
+    "scope_conditions": "FY2021-FY2023",
+    "quoted_support": "During 2023, the Company repurchased 471 million shares of its common stock for $76.6 billion, excluding excise tax due under the Inflation Reduction Act of 2022... In May 2023, the Company announced a new share repurchase program of up to $90 billion and raised its quarterly dividend from $0.23 to $0.24 per share.",
+    "numbers": ["diluted shares 16,864,919K FY21 / 16,325,819K FY22 / 15,812,547K FY23", "$76.6 billion repurchased FY23", "471 million shares FY23", "$90B program size"],
+    "entities": ["Apple Inc."],
+    "time_period": "FY2021-FY2023",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "aapl-20230930"
+  },
+  {
+    "claim": "Greater China net sales peaked at $72,559M in FY2023 with operating income of $30,328M -- the highest of the three fiscal years reviewed -- before declining in both FY2024 and FY2025.",
+    "stance": "neutral",
+    "stance_target": "China revenue/operating income trajectory as a supply-chain and geopolitical risk indicator, with FY2023 as the recent high-water mark",
+    "evidence_type": "empirical",
+    "scope_conditions": "FY2023, Greater China reportable segment",
+    "quoted_support": "Greater China 72,559 [net sales, FY2023]... Operating income/(loss) ... 30,328 [Greater China, FY2023]",
+    "numbers": ["Greater China net sales $72,559M FY23", "Greater China operating income $30,328M FY23"],
+    "entities": ["Apple Inc.", "Greater China segment"],
+    "time_period": "FY2023",
+    "region": "Greater China",
+    "confidence": "high",
+    "source_note_id": "aapl-20230930"
+  },
+  {
+    "claim": "Apple does not disclose App Store commission revenue or the Google traffic-acquisition/search-placement payment as separate line items in the FY2023 10-K; both audited absences are consistent across all three fiscal years reviewed (FY2023-FY2025).",
+    "stance": "neutral",
+    "stance_target": "audited absence of Google TAC and App Store commission disclosure is a stable, multi-year filing characteristic, not a one-time omission",
+    "evidence_type": "legal",
+    "scope_conditions": "FY2023 10-K, revenue recognition and MD&A sections",
+    "quoted_support": "For third-party applications sold through the App Store, the Company does not obtain control of the product before transferring it to the customer. Therefore, the Company accounts for all third-party application-related sales on a net basis by recognizing in Services net sales only the commission it retains.",
+    "numbers": [],
+    "entities": ["Apple Inc.", "App Store", "Google LLC"],
+    "time_period": "FY2023",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "aapl-20230930"
+  }
+]

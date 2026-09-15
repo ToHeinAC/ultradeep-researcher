@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Apple's admission of regulatory impact on Services growth was made orally on its July 2026 Q3 FY2026 earnings call, following which Apple reported $30.7 billion in services revenue for the June quarter -- a record but below the $31.4 billion analysts expected.",
+    "stance": "supports",
+    "stance_target": "Apple's own management commentary corroborates material regulatory impact on the contingent earnings class, independently of the disputed 'filing' quote",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q3 2026 (June quarter) earnings call, reported July 30, 2026",
+    "quoted_support": "The figures follow Apple's admission during last month's earnings call that regulatory changes have started to weigh on its Services growth. Apple reported services revenue of $30.7 billion for the June quarter, a record for the period but short of the $31.4 billion that analysts expected.",
+    "numbers": ["$30.7 billion services revenue (Q3 FY2026)", "$31.4 billion analyst expectation"],
+    "entities": ["Apple"],
+    "time_period": "July 2026",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "apples-us-app-store-commission-revenue-down-18-this-year-macrumors"
+  },
+  {
+    "claim": "Apple has not collected any fee on link-out purchases in the United States since April 2025, per independent tech press confirmation.",
+    "stance": "supports",
+    "stance_target": "Duration and persistence of the US zero-commission link-out regime",
+    "evidence_type": "empirical",
+    "scope_conditions": "United States, since April 2025",
+    "quoted_support": "Apple has not collected fees from link-outs in the U.S. since April 2025.",
+    "numbers": [],
+    "entities": ["Apple", "Epic Games"],
+    "time_period": "April 2025-August 2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "apples-us-app-store-commission-revenue-down-18-this-year-macrumors"
+  }
+]

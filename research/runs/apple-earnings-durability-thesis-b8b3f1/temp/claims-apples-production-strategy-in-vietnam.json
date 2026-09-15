@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Apple's Vietnam supplier count rose from 27 in 2022 to 35 by 2024, making Vietnam Apple's 4th-largest global supplier hub, behind China (158), Taiwan (49), and Japan (44) facility-hosting countries.",
+    "stance": "neutral",
+    "stance_target": "pace and scale of manufacturing diversification",
+    "evidence_type": "statistical",
+    "scope_conditions": "supplier count, not production volume; 2022-2024",
+    "quoted_support": "Apple has significantly expanded its operations in Vietnam, adding eight new partners and bringing the total number of vendors in the country to 35, as of 2024... trailing behind China (158), Taiwan (49), and Japan (44).",
+    "numbers": ["27 suppliers (2022)", "35 suppliers (2024)", "China 158 suppliers", "Taiwan 49", "Japan 44"],
+    "entities": ["Apple", "Vietnam", "Foxconn", "Luxshare", "Samsung", "Intel", "LG"],
+    "time_period": "2022-2024",
+    "region": "Vietnam",
+    "confidence": "high",
+    "source_note_id": "apples-production-strategy-in-vietnam"
+  },
+  {
+    "claim": "Apple has invested roughly US$15.8 billion (VND 400 trillion) in Vietnam via local supply-chain partners cumulatively since 2019, implying an average run-rate of roughly $2.6-3.2B/year over 5-6 years.",
+    "stance": "neutral",
+    "stance_target": "capital intensity/pace of Vietnam manufacturing buildout",
+    "evidence_type": "empirical",
+    "scope_conditions": "cumulative capex figure via supply-chain partners, not Apple's own balance-sheet capex; since 2019",
+    "quoted_support": "Since 2019, the U.S. tech giant has invested VND 400 trillion (around US$15.8 billion) in the country via local supply chain partners.",
+    "numbers": ["US$15.8 billion cumulative since 2019", "VND 400 trillion"],
+    "entities": ["Apple", "Vietnam"],
+    "time_period": "2019-2024",
+    "region": "Vietnam",
+    "confidence": "medium",
+    "source_note_id": "apples-production-strategy-in-vietnam"
+  },
+  {
+    "claim": "A JPMorgan analyst forecast (via TechCrunch, Sept 2022) projected Vietnam would produce 20% of global iPads and Apple Watches, 5% of MacBooks, and 65% of AirPods by 2025 -- a roughly 3-year buildout horizon from the forecast date, explicitly excluding iPhone.",
+    "stance": "supports",
+    "stance_target": "manufacturing diversification is physically slow but bounded in years, not decades, for non-iPhone products",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "forecast, not realized outcome; excludes iPhone",
+    "quoted_support": "Analysts forecast that by 2025, Vietnam will be responsible for producing 20 percent of all iPads and Apple Watches, 5 percent of MacBooks, and 65 percent of AirPods.",
+    "numbers": ["20% iPad/Watch by 2025", "5% MacBook by 2025", "65% AirPods by 2025"],
+    "entities": ["Apple", "Vietnam", "JPMorgan"],
+    "time_period": "2022-2025 forecast window",
+    "region": "Vietnam",
+    "confidence": "medium",
+    "source_note_id": "apples-production-strategy-in-vietnam"
+  },
+  {
+    "claim": "Foxconn committed US$300 million to expand a 111-acre production facility site in Vietnam (Saigon-Bac Giang Industrial Park Corp).",
+    "stance": "neutral",
+    "stance_target": "capex magnitude for Vietnam facility expansion",
+    "evidence_type": "empirical",
+    "scope_conditions": "single facility, Foxconn as Apple's primary iPhone assembler generally, though this facility is not confirmed as iPhone-specific",
+    "quoted_support": "Foxconn, Apple's primary iPhone supplier, initiated a significant expansion in Vietnam, committing US$300 million to enhance production facilities... its factory in Vietnam covers an extensive 111-acre site.",
+    "numbers": ["US$300 million", "111 acres"],
+    "entities": ["Foxconn", "Vietnam", "Saigon-Bac Giang Industrial Park"],
+    "time_period": "2023",
+    "region": "Vietnam",
+    "confidence": "medium",
+    "source_note_id": "apples-production-strategy-in-vietnam"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Total stock market return decomposes exactly (identity, not estimate) into dividend-price ratio x earnings-growth-rate x price-earnings-ratio-growth-rate, and forecasting these three components separately produces far higher out-of-sample explanatory power than forecasting the aggregate return directly.",
+    "stance": "supports",
+    "stance_target": "durability-based decomposition of earnings (query Phase 3) is methodologically superior to blending into one EPS/one P/E",
+    "evidence_type": "theoretical",
+    "scope_conditions": "US aggregate stock market, 1927-2007 sample, monthly and annual (non-overlapping) frequencies only",
+    "quoted_support": "1 + Rt+1 = (1+GMt+1)(1+GEt+1)(1+DPt+1)... forecasting separately the components of stock market returns delivers out-of-sample R-squares significantly higher than traditional predictive regressions.",
+    "numbers": ["out-of-sample R-squared: 1.32% (monthly, div+earnings only) vs -1.78% to 0.69% (traditional regression, monthly)", "13.43% (annual, div+earnings only) vs -17.57% to 7.54% (traditional regression, annual)"],
+    "entities": ["Ferreira", "Santa-Clara", "Goyal and Welch (2008)"],
+    "time_period": "1927-2007",
+    "region": "USA",
+    "confidence": "high",
+    "source_note_id": "ferreira-santaclara-sum-of-the-parts-nber-w14571"
+  },
+  {
+    "claim": "Price-earnings multiple mean-reversion is slow, taking up to nearly 10 years to revert to its fitted/fundamental value, so it does not average out within a 2-5 year holding period.",
+    "stance": "supports",
+    "stance_target": "over 2-5y, multiple change is a durable, non-mean-reverted exposure rather than noise that cancels out (query research question 8)",
+    "evidence_type": "empirical",
+    "scope_conditions": "US aggregate market P/E ratio regressed on macro variables (SVAR, term spread, T-bill rate), 1927-2007",
+    "quoted_support": "the realized multiple reverts to the fitted value... the reversion is quite slow and at times takes almost 10 years.",
+    "numbers": ["reversion horizon: up to ~10 years"],
+    "entities": ["S&P 500 / US aggregate market P/E"],
+    "time_period": "1927-2007",
+    "region": "USA",
+    "confidence": "high",
+    "source_note_id": "ferreira-santaclara-sum-of-the-parts-nber-w14571"
+  },
+  {
+    "claim": "The sum-of-the-parts decomposition contains no separate treatment of buyback yield or share-count reduction as a return component; buyback effects are implicitly absorbed into the per-share earnings-growth term.",
+    "stance": "neutral",
+    "stance_target": "how much buybacks contribute to 2-5y total return as a distinct, isolable driver (query implicit question 14)",
+    "evidence_type": "theoretical",
+    "scope_conditions": "methodological scope of the SOP framework itself; absence noted, not measured",
+    "quoted_support": "we decompose the total return of the stock market index into dividend yield and capital gains... [capital gains] = growth in price-earnings ratio x growth in earnings per share",
+    "numbers": [],
+    "entities": [],
+    "time_period": "n/a",
+    "region": "n/a",
+    "confidence": "medium",
+    "source_note_id": "ferreira-santaclara-sum-of-the-parts-nber-w14571"
+  },
+  {
+    "claim": "No holding-period-specific (2-year, 3-year, or 5-year) return decomposition exists in the sum-of-the-parts literature; only monthly and annual (non-overlapping) frequencies are reported.",
+    "stance": "neutral",
+    "stance_target": "direct empirical answer to the query's 2-5y-horizon-specific research question 8",
+    "evidence_type": "theoretical",
+    "scope_conditions": "audited absence — searched the full paper text for horizon/holding-period terms and found none beyond monthly/annual",
+    "quoted_support": "We now turn to the annual stock market return forecasts results in panel B of Table 2. We use non-overlapping returns to avoid the concerns with the measurement of R-squares with overlapping returns pointed out by Valkanov (2003)...",
+    "numbers": [],
+    "entities": [],
+    "time_period": "n/a",
+    "region": "n/a",
+    "confidence": "high",
+    "source_note_id": "ferreira-santaclara-sum-of-the-parts-nber-w14571"
+  }
+]

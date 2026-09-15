@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "Statista's Apple Pay revenue chart (statistics/1060577), the source most frequently cited by downstream blog aggregators, is itself sourced entirely from a single February 21, 2019 Loup Ventures estimate and has not been refreshed with newer data.",
+    "stance": "neutral",
+    "stance_target": "provenance of widely-cited Apple Pay revenue statistics",
+    "evidence_type": "empirical",
+    "scope_conditions": "As fetched September 2026",
+    "quoted_support": "Loup Ventures. (February 21, 2019). Global Apple Pay revenue worldwide in 2019, with a forecast for 2023 (in million U.S. dollars) [Graph]. In Statista.",
+    "numbers": [],
+    "entities": ["Statista", "Loup Ventures"],
+    "time_period": "2019 (data), accessed 2026",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "global-apple-pay-revenue-forecast-statista"
+  }
+]

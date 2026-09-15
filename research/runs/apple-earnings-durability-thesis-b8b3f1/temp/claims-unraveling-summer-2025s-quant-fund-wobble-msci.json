@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Goldman Sachs prime services estimated systematic long-short quant equity managers lost 4.2% cumulatively from June 1 to late July 2025, even though US equities rose approximately 8% to new record highs over the same period and fundamental equity managers did not suffer similar losses -- indicating a crowding/factor-rotation event rather than a broad market or volatility event.",
+    "stance": "supports",
+    "stance_target": "the query's Q5 concern that a documented 2025 quant unwind materially affected factor-exposed portfolios independent of market direction",
+    "evidence_type": "empirical",
+    "scope_conditions": "US long-short quant equity hedge funds, June 1 - late July 2025",
+    "quoted_support": "Goldman Sachs' prime services unit estimated that quant equity managers lost 4.2% over the period... U.S. equities were up by around 8%, setting new record highs. Moreover, fundamental equity managers did not face similar losses.",
+    "numbers": ["4.2%", "8%"],
+    "entities": ["Goldman Sachs", "Qube", "Point72", "Cubist", "Man Group", "Two Sigma", "Renaissance Technologies"],
+    "time_period": "June 1 - July 25, 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "unraveling-summer-2025s-quant-fund-wobble-msci"
+  },
+  {
+    "claim": "During the June-July 2025 quant wobble, profitability/'quality' factor exposure underperformed (consistent with a 'junk rally') while beta, volatility, liquidity, and large-market-cap exposures outperformed, and momentum underperformed anomalously despite the bull market -- with these factor returns reaching roughly 2x or more of their forecast volatility over the period.",
+    "stance": "supports",
+    "stance_target": "the quality/profitability factor -- relevant to mega-cap 'quality' holdings -- can suffer sharp, crowding-driven underperformance independent of fundamentals or overall market direction",
+    "evidence_type": "empirical",
+    "scope_conditions": "MSCI USA Equity Factor Trading Model (EFMUSATR), June 1 - July 25, 2025",
+    "quoted_support": "momentum stocks did not do well. Heavily shorted stocks also outperformed, a clear headwind for the short leg of these systematic funds, and, consistent with the idea of a 'junk' rally, profitable stocks also underperformed. ... The cumulative return over the summer was nearly double or more the model forecast.",
+    "numbers": ["~2x forecast volatility"],
+    "entities": ["MSCI USA Equity Factor Trading Model"],
+    "time_period": "June 1 - July 25, 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "unraveling-summer-2025s-quant-fund-wobble-msci"
+  },
+  {
+    "claim": "The MSCI Integrated Factor Crowding Model measures crowding via a pairwise-correlation score: the average specific-return correlation of stocks in the top and bottom quintiles of a factor over the trailing 63 trading days (returns adjusted for market, size, beta and residual-volatility factors); this pairwise correlation FELL across key factors during the June-July 2025 episode, interpreted as a partial crowding unwind.",
+    "stance": "supports",
+    "stance_target": "the specific crowding-measurement methodology cited in the research question (pairwise correlation, 63-day trailing window) and evidence that a documented unwind occurred in 2025",
+    "evidence_type": "empirical",
+    "scope_conditions": "MSCI USA Investable Market Index, June-July 2025",
+    "quoted_support": "The pairwise correlation score in the MSCI Integrated Factor Crowding Model measures the average specific return correlation of stocks in the top and bottom quintiles of a factor over the trailing 63 trading days... we see a fall in the pairwise correlation during the period of study. This suggests that some of the pain arose from a systematic reduction in crowded positions.",
+    "numbers": ["63 trading days"],
+    "entities": ["MSCI Integrated Factor Crowding Model"],
+    "time_period": "June-July 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "unraveling-summer-2025s-quant-fund-wobble-msci"
+  },
+  {
+    "claim": "Among the most heavily shorted US stocks (top 20% by short interest), nearly half had high residual-volatility exposure as of May 30, 2025, rising to 84% when including stocks with high liquidity, high beta, low profitability, small market cap, or low momentum -- meaning short-heavy systematic portfolios were compounding-exposed to the same interacting factor risks during the unwind.",
+    "stance": "neutral",
+    "stance_target": "mechanism by which factor interaction effects (not just single-factor exposures) amplified quant fund losses",
+    "evidence_type": "empirical",
+    "scope_conditions": "MSCI USA Investable Market Index, as of May 30, 2025",
+    "quoted_support": "among the most heavily shorted stocks (the top 20% of stocks in the MSCI USA Investable Market Index (IMI) by short interest), nearly half of them had high exposure to residual volatility... When we widened the net... the fraction increased to 84%.",
+    "numbers": ["20%", "50% (approx)", "84%"],
+    "entities": [],
+    "time_period": "as of May 30, 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "unraveling-summer-2025s-quant-fund-wobble-msci"
+  },
+  {
+    "claim": "This article does not name Apple or the 'Magnificent 7' and does not directly quantify the factor-interaction effect due to lack of fund-level holdings data; the crowding-unwind narrative is explicitly described as 'plausible' rather than proven.",
+    "stance": "neutral",
+    "stance_target": "limits on how directly this evidence can be applied to claims about Apple-specific crowding",
+    "evidence_type": "empirical",
+    "scope_conditions": "scope limitation stated by the source itself",
+    "quoted_support": "Without the holdings data of these quant funds, we can't directly quantify the impact of this interaction effect.",
+    "numbers": [],
+    "entities": ["Apple (absence noted)"],
+    "time_period": "2025",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "unraveling-summer-2025s-quant-fund-wobble-msci"
+  }
+]

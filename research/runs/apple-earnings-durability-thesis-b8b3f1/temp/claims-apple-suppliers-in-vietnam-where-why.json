@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Apple's Vietnam supplier count grew from 27 in 2022 to 35 in 2023 -- eight new suppliers added in a single year -- operating 38 factories, concentrated in northern provinces (Bac Ninh, Bac Giang, Hai Phong).",
+    "stance": "supports",
+    "stance_target": "manufacturing diversification can move at single-year granularity for supplier onboarding, even if full volume ramp is slower",
+    "evidence_type": "statistical",
+    "scope_conditions": "supplier/factory count, not production volume; 2022-2023",
+    "quoted_support": "the number of Apple's suppliers with manufacturing facilities in Vietnam increased from 27 in 2022 to 35 in 2023. This growth has made Vietnam the top destination for the tech giant's suppliers in Southeast Asia and the fourth worldwide.",
+    "numbers": ["27 (2022)", "35 (2023)", "38 factories"],
+    "entities": ["Apple", "Vietnam", "Bac Ninh", "Bac Giang", "Hai Phong"],
+    "time_period": "2022-2023",
+    "region": "Vietnam",
+    "confidence": "high",
+    "source_note_id": "apple-suppliers-in-vietnam-where-why"
+  },
+  {
+    "claim": "Tim Cook stated on Apple's Q2 FY2025 earnings call (May 1, 2025) that the majority of Apple products sold in the US were expected to be sourced from India and Vietnam combined, framed explicitly as a tariff-risk offset.",
+    "stance": "supports",
+    "stance_target": "India/Vietnam diversification has reached material scale by 2025, though not broken out by device or country",
+    "evidence_type": "statistical",
+    "scope_conditions": "combined India+Vietnam sourcing for US-bound products, not iPhone-specific; as of Q2 FY2025",
+    "quoted_support": "Revealing Apple's Q2 2025 financial statement on 1 May 2025, CEO Tim Cook highlighted that the majority of its products sold in the US were expected to be sourced from India and Vietnam.",
+    "numbers": ["majority of US-sold products from India + Vietnam combined"],
+    "entities": ["Apple", "Tim Cook", "India", "Vietnam"],
+    "time_period": "Q2 FY2025 (May 2025)",
+    "region": "US market, India/Vietnam sourcing",
+    "confidence": "high",
+    "source_note_id": "apple-suppliers-in-vietnam-where-why"
+  },
+  {
+    "claim": "Desay Group, a China-headquartered Apple/Huawei battery-technology supplier, added a further US$25 million to its existing >US$101 million investment in Bac Ninh, Vietnam in 2025, illustrating incremental (not one-shot) capex deployment.",
+    "stance": "neutral",
+    "stance_target": "capex velocity for individual Vietnam supplier facilities",
+    "evidence_type": "empirical",
+    "scope_conditions": "single supplier, Bac Ninh province, 2025",
+    "quoted_support": "Chinese electronics giant Desay Group, a core supplier to Apple and other leading global brands, has announced plans to expand its footprint in Bac Ninh province with an additional US$25 million investment. The company's existing projects in the province already amount to more than US$101 million.",
+    "numbers": ["US$25 million additional", "US$101 million existing"],
+    "entities": ["Desay Group", "Apple", "Huawei", "Bac Ninh"],
+    "time_period": "2025",
+    "region": "Bac Ninh, Vietnam",
+    "confidence": "medium",
+    "source_note_id": "apple-suppliers-in-vietnam-where-why"
+  }
+]

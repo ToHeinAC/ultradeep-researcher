@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Ternus's opening remarks at the September 9, 2026 keynote constitute Apple's explicit AI strategy statement: leverage the existing iPhone hardware platform as the AI interaction hub rather than build new AI-specific hardware.",
+    "stance": "supports",
+    "stance_target": "Apple's late-follower AI posture is a chosen capital-allocation strategy centered on iPhone hardware leverage",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple CEO keynote, September 9, 2026, Cupertino",
+    "quoted_support": "Instead of building new hardware for AI, Apple wants to make the iPhone the central way consumers interact with the new technology.",
+    "numbers": [],
+    "entities": ["John Ternus", "Apple", "iPhone", "Tim Cook"],
+    "time_period": "September 9, 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone-techcrunch"
+  },
+  {
+    "claim": "Ternus positioned data privacy and on-device processing as Apple's explicit AI differentiator against unnamed rivals, framing competitors as treating user data as something 'to collect and store.'",
+    "stance": "supports",
+    "stance_target": "Apple's AI strategy differentiates on privacy/on-device processing rather than competing head-to-head on model capability or being first-to-market",
+    "evidence_type": "empirical",
+    "scope_conditions": "Ternus keynote, September 9, 2026",
+    "quoted_support": "\"Honestly, trust only goes so far when your data is no longer yours to control; that's why Apple Intelligence runs on device whenever it can,\" Ternus concluded.",
+    "numbers": [],
+    "entities": ["John Ternus", "Apple", "Apple Intelligence"],
+    "time_period": "September 9, 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone-techcrunch"
+  },
+  {
+    "claim": "Tim Cook stepped down as Apple CEO and became executive chairman, with John Ternus assuming the CEO role, effective by the September 9, 2026 event (transition dated September 1, 2026 per corpus context).",
+    "stance": "neutral",
+    "stance_target": "Timeline of Apple's leadership transition and its coincidence with the AI-strategy pivot narrative",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple leadership transition, September 2026",
+    "quoted_support": "The comments come as Ternus takes the reins at Apple from Tim Cook, who is now executive chairman, and offer a clear picture of how the company plans to compete in the AI era.",
+    "numbers": [],
+    "entities": ["John Ternus", "Tim Cook", "Apple"],
+    "time_period": "September 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone-techcrunch"
+  }
+]

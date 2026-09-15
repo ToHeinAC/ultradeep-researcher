@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "DMA Article 6(7) requires that third-party virtual/AI assistants receive the same level of OS access as Apple's and Google's own native assistants, which is the specific legal mechanism that could let a third-party AI interface compete for primacy on an iPhone without the user switching devices or OS.",
+    "stance": "neutral",
+    "stance_target": "whether AI relocating the primary interface requires a full device/OS switch to erode Apple's lock-in, or could happen within iOS via third-party assistant access",
+    "evidence_type": "legal",
+    "scope_conditions": "EU DMA gatekeeper obligations as applied to Apple and Google mobile OSes",
+    "quoted_support": "There is nothing specific in the DMA with regards to artificial intelligence, only to virtual assistants and that the same level of access given to native virtual assistants should apply to any third-party assistant that the phone's owner wants to use.",
+    "numbers": [],
+    "entities": ["Apple", "Google", "DMA Article 6(7)", "European Commission"],
+    "time_period": "2024-2026",
+    "region": "EU",
+    "confidence": "medium",
+    "source_note_id": "the-eus-digital-markets-act-meets-the-mobile-os-round-two"
+  },
+  {
+    "claim": "Enterprise mobile security posture remains weak, with only about 40% of environments using mobile antivirus and about 35% using mobile threat defense, per Forrester's 2026 Security Survey -- cited as a reason opening OS-level access to third-party AI assistants under DMA is risky.",
+    "stance": "neutral",
+    "stance_target": "security-risk counter-argument to DMA-mandated third-party AI assistant OS access",
+    "evidence_type": "statistical",
+    "scope_conditions": "Enterprise/BYOD mobile environments, Forrester 2026 Security Survey",
+    "quoted_support": "data from Forrester's Security Survey, 2026 reveals that only about 40% of environments are using mobile antivirus and 35% are using mobile threat defense.",
+    "numbers": ["40% mobile antivirus adoption", "35% mobile threat defense adoption"],
+    "entities": ["Forrester"],
+    "time_period": "2026",
+    "region": "not specified (implicitly global/enterprise)",
+    "confidence": "medium",
+    "source_note_id": "the-eus-digital-markets-act-meets-the-mobile-os-round-two"
+  },
+  {
+    "claim": "This source contains no phone-level OS-switching-rate data and no EU DMA usage statistics; it is entirely a security-risk argument about third-party AI assistant access mandated by DMA Article 6(7).",
+    "stance": "neutral",
+    "stance_target": "audited absence of phone-level switching-rate evidence in this source",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Forrester blog post scope",
+    "quoted_support": "Forrester clients interested in this topic should connect with me to discuss via an inquiry or guidance session.",
+    "numbers": [],
+    "entities": ["Forrester"],
+    "time_period": "2026",
+    "region": "EU",
+    "confidence": "high",
+    "source_note_id": "the-eus-digital-markets-act-meets-the-mobile-os-round-two"
+  }
+]

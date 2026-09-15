@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "SellCell's 2026 survey (5,000 US respondents, stated switching intention) found 96.4% of iPhone users intend to stay with iPhone on their next upgrade, up from 91.9% in 2021 and 90.5% in 2019.",
+    "stance": "supports",
+    "stance_target": "Ecosystem lock-in is structural (rising stated loyalty over time)",
+    "evidence_type": "statistical",
+    "scope_conditions": "US, 5,000 respondents, self-reported future intention not observed behavior",
+    "quoted_support": "96.4% of customers surveyed said they planned to stick with an iPhone for their next upgrade, and 3.6% said they would choose a different brand. That's up from 91.9% in SellCell's 2021 survey and 90.5% in 2019.",
+    "numbers": ["96.4%", "3.6%", "91.9%", "90.5%"],
+    "entities": ["SellCell"],
+    "time_period": "2019, 2021, 2026",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "iphone-loyalty-hits-964-as-android-users-four-times-more-likely-to-switch-macrum"
+  },
+  {
+    "claim": "Only 17.4% of loyal iPhone users cite ecosystem investment as their reason for staying, versus 60.8% who cite general brand preference -- ecosystem lock-in specifically is a minority stated reason even among stayers.",
+    "stance": "refutes",
+    "stance_target": "Ecosystem lock-in (specifically) is the dominant driver of iPhone retention",
+    "evidence_type": "statistical",
+    "scope_conditions": "US, SellCell 2026 survey, stated reasons",
+    "quoted_support": "Most iPhone users said they would stick with an iPhone because they prefer Apple (60.8%), while 17.4% said they were invested in the Apple ecosystem.",
+    "numbers": ["60.8%", "17.4%"],
+    "entities": ["SellCell"],
+    "time_period": "2026",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "iphone-loyalty-hits-964-as-android-users-four-times-more-likely-to-switch-macrum"
+  },
+  {
+    "claim": "Android users are roughly four times more likely than iPhone users to plan a platform switch (13.6% vs 3.6%), and Android brand tenure is far shorter (33.8% report 5+ years on a brand vs 83.8% for iPhone).",
+    "stance": "supports",
+    "stance_target": "Asymmetric stickiness of iOS vs Android ecosystems",
+    "evidence_type": "statistical",
+    "scope_conditions": "US, SellCell 2026 survey",
+    "quoted_support": "Android users were less loyal to their brand, and are almost 4x more likely to switch than iPhone users. ... iPhone users were more likely to be loyal over time, and 83.8% said they had used an iPhone for more than five years. By comparison, just 33.8% of Android users said they had stuck with a brand for over five years.",
+    "numbers": ["13.6%", "3.6%", "83.8%", "33.8%"],
+    "entities": ["SellCell", "Android"],
+    "time_period": "2026",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "iphone-loyalty-hits-964-as-android-users-four-times-more-likely-to-switch-macrum"
+  }
+]

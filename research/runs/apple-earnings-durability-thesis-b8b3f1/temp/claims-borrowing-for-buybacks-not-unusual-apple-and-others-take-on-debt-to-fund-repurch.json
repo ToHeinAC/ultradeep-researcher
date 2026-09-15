@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "US industrial-company aggregate share repurchases fell from $448 billion in 2007 to $309 billion in 2008 to $128 billion in 2009 -- a roughly 70% peak-to-trough decline -- while dividends were reduced only modestly over the same period.",
+    "stance": "supports",
+    "stance_target": "buybacks are pro-cyclical and contract far more sharply than dividends when cash flow/market conditions weaken",
+    "evidence_type": "empirical",
+    "scope_conditions": "US industrial companies, 2007-2009",
+    "quoted_support": "Industrial companies cut repurchases from $448 billion in 2007 to $309 billion in 2008 and then to $128 billion in 2009 (by 70 percent overall).",
+    "numbers": ["$448 billion", "$309 billion", "$128 billion", "70%"],
+    "entities": ["US industrials"],
+    "time_period": "2007-2009",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "borrowing-for-buybacks-not-unusual-apple-and-others-take-on-debt-to-fund-repurch"
+  },
+  {
+    "claim": "Aggregate US industrial repurchases rebounded to $213 billion in 2010 (roughly matching that year's $214 billion in aggregate dividends) and then to $331 billion in 2011, well above dividends -- showing repurchases both fall faster and recover faster than dividends, consistent with pro-cyclicality rather than a floor function.",
+    "stance": "supports",
+    "stance_target": "buybacks do not provide a stable price/capital-return floor; they track the cycle",
+    "evidence_type": "empirical",
+    "scope_conditions": "US industrial companies, 2010-2011",
+    "quoted_support": "Aggregate repurchases rebounded to $213 billion in 2010, close to the same level as aggregate dividends ($214 billion), and then to $331 billion in 2011, well in excess of dividends, according to the researchers.",
+    "numbers": ["$213 billion", "$214 billion", "$331 billion"],
+    "entities": ["US industrials"],
+    "time_period": "2010-2011",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "borrowing-for-buybacks-not-unusual-apple-and-others-take-on-debt-to-fund-repurch"
+  },
+  {
+    "claim": "Repurchases are now mostly pro-cyclical and occur even when stock prices are at relative highs -- explicitly citing Apple's 2013 buyback program as an example -- contradicting the traditional theory that repurchases signal management's view that shares are undervalued.",
+    "stance": "refutes",
+    "stance_target": "the theory that share buybacks signal undervaluation or provide a valuation floor",
+    "evidence_type": "empirical",
+    "scope_conditions": "US public companies including Apple, as of 2013",
+    "quoted_support": "Repurchases, the researchers say, are now mostly pro-cyclical and occur even when stock prices are at relative highs, such is the case at Apple.",
+    "numbers": [],
+    "entities": ["Apple"],
+    "time_period": "2013",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "borrowing-for-buybacks-not-unusual-apple-and-others-take-on-debt-to-fund-repurch"
+  },
+  {
+    "claim": "In April 2013 Apple announced it would borrow $17 billion (against approximately $145 billion in cash, cash equivalents and marketable securities) to help fund a share-repurchase program of up to $60 billion by end-2015, plus a 15% dividend increase to $3.05 per share -- choosing debt issuance over repatriating offshore cash because repatriating the roughly $102.3 billion held in foreign subsidiaries would have cost at least $9.2 billion in tax at the then-35% US corporate rate.",
+    "stance": "neutral",
+    "stance_target": "whether Apple's buyback decisions are driven by valuation signaling versus tax/capital-structure optimization",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Inc., April 2013 capital-return program",
+    "quoted_support": "Apple announced in April it would borrow those billions to fund share repurchases of up to $60 billion by the end of 2015... Bringing that cash back home to fund the share buybacks would have cost Apple at least $9.2 billion in taxes at the 35 percent corporate tax rate.",
+    "numbers": ["$17 billion", "$145 billion", "$60 billion", "15%", "$3.05", "$102.3 billion", "$9.2 billion", "35%"],
+    "entities": ["Apple", "Moody's", "Financial Times"],
+    "time_period": "April 2013",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "borrowing-for-buybacks-not-unusual-apple-and-others-take-on-debt-to-fund-repurch"
+  },
+  {
+    "claim": "Apple's combination of large recurring dividends (about $11 billion/year as of 2013) plus a record buyback authorization is interpreted as a response to the 'agency cost of free cash flow' problem facing large, mature, low-growth firms -- returning cash rather than risking low-return internal investment -- not a signal of undervaluation or financial distress.",
+    "stance": "neutral",
+    "stance_target": "the economic rationale for mega-cap payout policy",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Apple Inc. and comparable large mature firms, 2013",
+    "quoted_support": "Apple doesn't need to use dividends to signal financial strength or repurchases to prop up an undervalued stock price. Instead, the company's strategy of high dividends and huge share repurchases is consistent with the response of large, mature firms in low-growth industries to the 'agency cost of free cash flow' problem.",
+    "numbers": ["$11 billion"],
+    "entities": ["Apple", "Tim Cook"],
+    "time_period": "2013",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "borrowing-for-buybacks-not-unusual-apple-and-others-take-on-debt-to-fund-repurch"
+  }
+]

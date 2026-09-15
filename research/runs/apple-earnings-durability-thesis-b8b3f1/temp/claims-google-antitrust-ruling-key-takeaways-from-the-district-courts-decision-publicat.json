@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "DOJ's November 2024 proposed remedies package included a specific ban on third-party payments for pre-installation of Google search on non-Google devices, which the court rejected.",
+    "stance": "supports",
+    "stance_target": "the payment ban scenario was live/considered but ultimately not adopted",
+    "evidence_type": "legal",
+    "scope_conditions": "DOJ proposed remedies, Nov 2024",
+    "quoted_support": "Third-party payments ban: Banning payments for pre-installation of Google search on non-Google devices",
+    "numbers": [],
+    "entities": ["DOJ", "Google"],
+    "time_period": "2024-11",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "google-antitrust-ruling-key-takeaways-from-the-district-courts-decision-publicat"
+  },
+  {
+    "claim": "The court explicitly reasoned that banning third-party default-search payments would risk harming distribution partners (particularly smaller firms) and consumers who benefit from Google's services -- the stated rationale for permitting continued Apple payments.",
+    "stance": "neutral",
+    "stance_target": "why the payment ban was rejected",
+    "evidence_type": "legal",
+    "scope_conditions": "Sept 2025 remedies judgment",
+    "quoted_support": "Third-party payments permitted: Google may continue paying distributors such as Apple or Samsung to set Google as the default search engine. The court reasoned that banning such payments would risk harming distribution partners -- particularly smaller firms -- and consumers who benefit from Google's services.",
+    "numbers": [],
+    "entities": ["Google", "Apple", "Samsung", "Judge Amit Mehta"],
+    "time_period": "2025-09",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "google-antitrust-ruling-key-takeaways-from-the-district-courts-decision-publicat"
+  },
+  {
+    "claim": "EU evidence on mandatory Android choice screens shows only marginal effect on consumer switching behavior: 97% of users still selected Google as default even after being shown a choice screen.",
+    "stance": "supports",
+    "stance_target": "structural/behavioral remedies (choice screens, exclusivity bans) yield limited real-world erosion of Google's default position",
+    "evidence_type": "empirical",
+    "scope_conditions": "European Union, Android choice-screen remedy",
+    "quoted_support": "Evidence from the European Union -- where the European Commission went further by requiring choice screens on Android devices -- indicates that such measures have little effect on behavior, with 97% of users still selecting Google.",
+    "numbers": ["97%"],
+    "entities": ["Google", "European Commission", "Android"],
+    "time_period": "EU choice-screen remedy, cited 2025",
+    "region": "European Union",
+    "confidence": "medium",
+    "source_note_id": "google-antitrust-ruling-key-takeaways-from-the-district-courts-decision-publicat"
+  },
+  {
+    "claim": "Google's stock price rose nearly 8% on September 2, 2025, the day the remedies ruling was issued, reflecting market interpretation of the outcome as a win for Google (and by extension, favorable for Apple's continued TAC revenue).",
+    "stance": "supports",
+    "stance_target": "market pricing treats the remedy as favorable/non-disruptive to the Google-Apple payment arrangement",
+    "evidence_type": "empirical",
+    "scope_conditions": "market reaction, Sept 2, 2025",
+    "quoted_support": "Markets quickly interpreted the outcome as a win for Google, with its share price rising by nearly 8% after the decision.",
+    "numbers": ["8%"],
+    "entities": ["Google", "Alphabet"],
+    "time_period": "2025-09-02",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "google-antitrust-ruling-key-takeaways-from-the-district-courts-decision-publicat"
+  },
+  {
+    "claim": "Data-sharing remedy requires a one-time snapshot of Google's search index plus ongoing but privacy-filtered ('k-anonymization, noise injection, generalization') disclosure of user-interaction data to qualified competitors, overseen by a court-appointed Technical Committee, with advertising/advertiser data carved out entirely.",
+    "stance": "neutral",
+    "stance_target": "precise scope of the data-sharing remedy",
+    "evidence_type": "legal",
+    "scope_conditions": "Sept 2025 remedies judgment",
+    "quoted_support": "The judgment imposes two data-sharing obligations: Google must provide a one-time snapshot of its search index to qualified competitors, and it must also disclose certain \"user-interaction\" data -- covering queries, clicks, and dwell times -- on an ongoing basis... The court itself acknowledged these risks and therefore conditioned disclosure on privacy-enhancing techniques, including k-anonymization, noise injection, and generalization.",
+    "numbers": [],
+    "entities": ["Google", "Technical Committee"],
+    "time_period": "2025-09",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "google-antitrust-ruling-key-takeaways-from-the-district-courts-decision-publicat"
+  }
+]

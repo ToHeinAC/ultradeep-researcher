@@ -1,0 +1,248 @@
+---
+title: "Tags Index"
+id: "_tags"
+type: index
+created: 2026-09-15T19:32:23.758552+00:00
+updated: 2026-09-15T19:32:23.758552+00:00
+---
+
+# Tags Index
+
+**233** unique tags.
+
+- **apple-earnings-durability-thesis-b8b3f1** (200 notes) → [[_tag-apple-earnings-durability-thesis-b8b3f1]]
+- **post-critic-fill** (21 notes) → [[_tag-post-critic-fill]]
+- **locus-appstore-commission-magnitude-margin-and-scotus-reversal** (13 notes) → [[_tag-locus-appstore-commission-magnitude-margin-and-scotus-reversal]]
+- **locus-google-tac-magnitude-repricing-and-appellate-tail** (11 notes) → [[_tag-locus-google-tac-magnitude-repricing-and-appellate-tail]]
+- **factor-crowding** (9 notes) → [[_tag-factor-crowding]]
+- **google-tac** (9 notes) → [[_tag-google-tac]]
+- **antitrust-remedy** (8 notes) → [[_tag-antitrust-remedy]]
+- **apple-supply-chain** (8 notes) → [[_tag-apple-supply-chain]]
+- **locus-ai-late-follower-chosen-vs-revealed** (8 notes) → [[_tag-locus-ai-late-follower-chosen-vs-revealed]]
+- **manufacturing-diversification** (8 notes) → [[_tag-manufacturing-diversification]]
+- **vietnam-lead-time** (8 notes) → [[_tag-vietnam-lead-time]]
+- **apple-governance** (7 notes) → [[_tag-apple-governance]]
+- **apple-pay** (7 notes) → [[_tag-apple-pay]]
+- **apple-pay-revenue** (7 notes) → [[_tag-apple-pay-revenue]]
+- **locus-lockin-durability-preference-vs-ai-interface** (7 notes) → [[_tag-locus-lockin-durability-preference-vs-ai-interface]]
+- **ceo-transition** (6 notes) → [[_tag-ceo-transition]]
+- **discount-rate-sensitivity** (6 notes) → [[_tag-discount-rate-sensitivity]]
+- **john-ternus** (6 notes) → [[_tag-john-ternus]]
+- **stablecoins** (6 notes) → [[_tag-stablecoins]]
+- **antitrust-remedies** (5 notes) → [[_tag-antitrust-remedies]]
+- **app-store-commission** (5 notes) → [[_tag-app-store-commission]]
+- **apple-ai-capex** (5 notes) → [[_tag-apple-ai-capex]]
+- **apple-value-chain** (5 notes) → [[_tag-apple-value-chain]]
+- **ecosystem-lock-in** (5 notes) → [[_tag-ecosystem-lock-in]]
+- **epic-v-apple** (5 notes) → [[_tag-epic-v-apple]]
+- **equity-duration** (5 notes) → [[_tag-equity-duration]]
+- **iphone-loyalty** (5 notes) → [[_tag-iphone-loyalty]]
+- **primary-source** (5 notes) → [[_tag-primary-source]]
+- **apple-10q** (4 notes) → [[_tag-apple-10q]]
+- **apple-financials** (4 notes) → [[_tag-apple-financials]]
+- **apple-modem-c2** (4 notes) → [[_tag-apple-modem-c2]]
+- **apple-silicon-margin** (4 notes) → [[_tag-apple-silicon-margin]]
+- **buyback-durability** (4 notes) → [[_tag-buyback-durability]]
+- **buybacks** (4 notes) → [[_tag-buybacks]]
+- **capex** (4 notes) → [[_tag-capex]]
+- **card-networks** (4 notes) → [[_tag-card-networks]]
+- **cirp** (4 notes) → [[_tag-cirp]]
+- **citation-chain** (4 notes) → [[_tag-citation-chain]]
+- **greater-china** (4 notes) → [[_tag-greater-china]]
+- **interested-party** (4 notes) → [[_tag-interested-party]]
+- **locus-hardware-regime-and-required-services-cagr** (4 notes) → [[_tag-locus-hardware-regime-and-required-services-cagr]]
+- **qualcomm-revenue-concentration** (4 notes) → [[_tag-qualcomm-revenue-concentration]]
+- **r-and-d-ai** (4 notes) → [[_tag-r-and-d-ai]]
+- **replacement-cycle** (4 notes) → [[_tag-replacement-cycle]]
+- **services-deceleration** (4 notes) → [[_tag-services-deceleration]]
+- **supply-chain** (4 notes) → [[_tag-supply-chain]]
+- **10-k** (3 notes) → [[_tag-10-k]]
+- **analysis-group** (3 notes) → [[_tag-analysis-group]]
+- **antitrust-monopolization** (3 notes) → [[_tag-antitrust-monopolization]]
+- **appfigures** (3 notes) → [[_tag-appfigures]]
+- **apple-china-exposure** (3 notes) → [[_tag-apple-china-exposure]]
+- **apple-durability-decomposition** (3 notes) → [[_tag-apple-durability-decomposition]]
+- **apple-tariff-refunds** (3 notes) → [[_tag-apple-tariff-refunds]]
+- **browser-choice-screen** (3 notes) → [[_tag-browser-choice-screen]]
+- **bull-case** (3 notes) → [[_tag-bull-case]]
+- **conflict-of-interest** (3 notes) → [[_tag-conflict-of-interest]]
+- **court-opinion** (3 notes) → [[_tag-court-opinion]]
+- **dc-circuit-appeal** (3 notes) → [[_tag-dc-circuit-appeal]]
+- **doj-v-apple** (3 notes) → [[_tag-doj-v-apple]]
+- **gap-cc-3** (3 notes) → [[_tag-gap-cc-3]]
+- **gemini-partnership** (3 notes) → [[_tag-gemini-partnership]]
+- **hyperscaler-capex** (3 notes) → [[_tag-hyperscaler-capex]]
+- **iphone-unit-shipments** (3 notes) → [[_tag-iphone-unit-shipments]]
+- **low-authority** (3 notes) → [[_tag-low-authority]]
+- **low-authority-aggregator** (3 notes) → [[_tag-low-authority-aggregator]]
+- **memory-cost-headwind** (3 notes) → [[_tag-memory-cost-headwind]]
+- **msci** (3 notes) → [[_tag-msci]]
+- **payout-policy** (3 notes) → [[_tag-payout-policy]]
+- **primary-filing** (3 notes) → [[_tag-primary-filing]]
+- **primary-lead** (3 notes) → [[_tag-primary-lead]]
+- **return-decomposition** (3 notes) → [[_tag-return-decomposition]]
+- **sec-8k** (3 notes) → [[_tag-sec-8k]]
+- **siri-delay** (3 notes) → [[_tag-siri-delay]]
+- **trade-deficit-methodology** (3 notes) → [[_tag-trade-deficit-methodology]]
+- **vietnam-capex** (3 notes) → [[_tag-vietnam-capex]]
+- **alphabet-tac** (2 notes)
+- **amicus-brief** (2 notes)
+- **app-store-business-model-change** (2 notes)
+- **apple-capital-return** (2 notes)
+- **apple-earnings-call** (2 notes)
+- **apple-fy2026-q1** (2 notes)
+- **apple-fy2026-q2** (2 notes)
+- **apple-fy2026-q3** (2 notes)
+- **apple-memory-costs** (2 notes)
+- **audited-absence** (2 notes)
+- **bear-case** (2 notes)
+- **capex-lead-time** (2 notes)
+- **contrarian-evidence** (2 notes)
+- **core-technology-fee** (2 notes)
+- **court-record** (2 notes)
+- **derivative-of-judge-allows-justice-departments-iphone-monopolization-suit-to-proceed-mintz** (2 notes)
+- **derivative-of-support-for-this-study-was-provided-by-apple** (2 notes)
+- **dma** (2 notes)
+- **dma-article-5-4** (2 notes)
+- **dma-fine** (2 notes)
+- **dma-fines** (2 notes)
+- **dma-primary-source** (2 notes)
+- **epic-games-store-adoption** (2 notes)
+- **fred** (2 notes)
+- **gap-cc-4** (2 notes)
+- **google-search-deal** (2 notes)
+- **idc-tracker** (2 notes)
+- **india-lead-time** (2 notes)
+- **inelastic-markets** (2 notes)
+- **interface-relocation-risk** (2 notes)
+- **interoperability** (2 notes)
+- **iphone-bom** (2 notes)
+- **legal-exposure** (2 notes)
+- **multiple-expansion** (2 notes)
+- **nber-w35112-lead** (2 notes)
+- **passive-investing** (2 notes)
+- **primary-analyst-estimate** (2 notes)
+- **primary-figure-source** (2 notes)
+- **pro-cyclical-buybacks** (2 notes)
+- **rate-data** (2 notes)
+- **regulatory-driver** (2 notes)
+- **sec-10-k** (2 notes)
+- **sensor-tower** (2 notes)
+- **source-analysis** (2 notes)
+- **sum-of-the-parts** (2 notes)
+- **tsmc-dependency** (2 notes)
+- **us-v-google-remedies** (2 notes)
+- **value-added-vs-assembly** (2 notes)
+- **withdrawn-preprint** (2 notes)
+- **academic-paper** (1 notes)
+- **aggregator-divergence** (1 notes)
+- **aggregator-recycling** (1 notes)
+- **ai-assistant-os-access** (1 notes)
+- **ai-supercycle-skeptic** (1 notes)
+- **alpha-decay** (1 notes)
+- **alternative-app-marketplace-catalog** (1 notes)
+- **alternative-marketplace-exit** (1 notes)
+- **app-store-fees** (1 notes)
+- **app-store-statistics** (1 notes)
+- **appellate-timeline** (1 notes)
+- **apple-10k** (1 notes)
+- **apple-admission** (1 notes)
+- **apple-amicus** (1 notes)
+- **apple-ceo-transition** (1 notes)
+- **apple-china-demand** (1 notes)
+- **apple-filings** (1 notes)
+- **apple-funded-study** (1 notes)
+- **apple-fy2022-baseline** (1 notes)
+- **apple-revenue-trend** (1 notes)
+- **apple-self-report** (1 notes)
+- **apple-services-deceleration** (1 notes)
+- **asp-mix** (1 notes)
+- **brand-loyalty-drivers** (1 notes)
+- **carrier-lock-in** (1 notes)
+- **contradicts-consensus** (1 notes)
+- **contrarian-silicon-thesis** (1 notes)
+- **cook-quote** (1 notes)
+- **court-docket** (1 notes)
+- **court-filing** (1 notes)
+- **data-portability** (1 notes)
+- **demand-system** (1 notes)
+- **derivative-dma-choice-study** (1 notes)
+- **derivative-ms-tac-estimate** (1 notes)
+- **derivative-of-aapl-8k-q3fy2026** (1 notes)
+- **derivative-xing-cepr** (1 notes)
+- **dma-article-6-7** (1 notes)
+- **dma-commission-passthrough** (1 notes)
+- **dma-enforcement** (1 notes)
+- **dma-interoperability** (1 notes)
+- **dma-primary-decision** (1 notes)
+- **dma-status-2026** (1 notes)
+- **duplicate-of-united-states-district-court** (1 notes)
+- **durability-decomposition** (1 notes)
+- **duration-measurement** (1 notes)
+- **early-impact-2024** (1 notes)
+- **ec-press-release** (1 notes)
+- **etf-activeness** (1 notes)
+- **eu-dma-alternative-marketplaces** (1 notes)
+- **exit-penalty** (1 notes)
+- **federighi-quote** (1 notes)
+- **fine-methodology** (1 notes)
+- **gap-pp-1** (1 notes)
+- **gated-source** (1 notes)
+- **google-search-remedy** (1 notes)
+- **google-tac-remedy** (1 notes)
+- **headline-multiple** (1 notes)
+- **inference-cost-decline** (1 notes)
+- **interchange-mechanism** (1 notes)
+- **iphone-supercycle-history** (1 notes)
+- **legal-risk-trend** (1 notes)
+- **locus-passive-flow-apple-specific-magnitude** (1 notes)
+- **long-source-flag** (1 notes)
+- **loup-ventures** (1 notes)
+- **mac-gross-margin-estimate** (1 notes)
+- **margin-data** (1 notes)
+- **mean-reversion** (1 notes)
+- **mega-cap** (1 notes)
+- **methodology** (1 notes)
+- **misleading-stat-clarified** (1 notes)
+- **momentum** (1 notes)
+- **mozilla-advocacy** (1 notes)
+- **mozilla-affiliated-not-independent** (1 notes)
+- **multiplier** (1 notes)
+- **nber-w35112** (1 notes)
+- **nfc-regulatory-opening** (1 notes)
+- **ninth-circuit** (1 notes)
+- **non-disclosure-confirmed** (1 notes)
+- **payment-ban** (1 notes)
+- **payment-cap-proposal** (1 notes)
+- **perceived-value-vs-trust** (1 notes)
+- **phone-switching-cost** (1 notes)
+- **platform-migration-case-study** (1 notes)
+- **practitioner-note** (1 notes)
+- **primary-source-disclosure** (1 notes)
+- **primary-source-links** (1 notes)
+- **pure-discounting** (1 notes)
+- **qualcomm-q3-fy2026-earnings** (1 notes)
+- **quant-unwind-2025** (1 notes)
+- **real-yield** (1 notes)
+- **regulatory-decision** (1 notes)
+- **scotus-ieepa-ruling** (1 notes)
+- **secondary-aggregator** (1 notes)
+- **sellcell** (1 notes)
+- **services-growth** (1 notes)
+- **services-margin** (1 notes)
+- **services-segment** (1 notes)
+- **setapp-mobile** (1 notes)
+- **smartphone-asp-forecast** (1 notes)
+- **source-hub** (1 notes)
+- **steering** (1 notes)
+- **sum-of-parts** (1 notes)
+- **switching-costs-literature** (1 notes)
+- **tail-risk** (1 notes)
+- **tariffs** (1 notes)
+- **technology-generation-shift** (1 notes)
+- **us-v-google-liability** (1 notes)
+- **value-premium** (1 notes)
+- **verification-caution** (1 notes)
+
+---
+*Auto-generated by hyperresearch. Do not edit manually.*

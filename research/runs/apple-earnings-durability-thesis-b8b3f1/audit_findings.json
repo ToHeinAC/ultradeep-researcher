@@ -1,0 +1,11 @@
+[
+  {
+    "mode": "hyperresearch-v8",
+    "run_id": "2026-09-15T19:17:34.529343+00:00",
+    "loci_count": 6,
+    "critical_findings_applied": 19,
+    "critical_findings_skipped": 0,
+    "polish_escalations": 2,
+    "final_word_count": 13910
+  }
+]

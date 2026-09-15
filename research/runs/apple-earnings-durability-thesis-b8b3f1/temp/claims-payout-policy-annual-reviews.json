@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Of the three traditional payout-policy motivations (agency, signaling, taxes), cross-sectional empirical evidence is most persuasive for agency-cost explanations.",
+    "stance": "supports",
+    "stance_target": "agency-cost-of-free-cash-flow as the dominant rationale for large-firm buybacks, consistent with the Chicago Booth Review's characterization of Apple's payout policy",
+    "evidence_type": "empirical",
+    "scope_conditions": "cross-sectional studies surveyed as of 2014",
+    "quoted_support": "The cross-sectional empirical evidence for the traditional motivations behind firms paying out (agency, signaling, and taxes) is most persuasive with regard to agency considerations.",
+    "numbers": [],
+    "entities": ["Joan Farre-Mensa", "Roni Michaely", "Martin Schmalz"],
+    "time_period": "as of 2014",
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "payout-policy-annual-reviews"
+  },
+  {
+    "claim": "Studies of the May 2003 dividend tax cut confirm that differences in taxation of dividends versus capital gains have only a second-order impact on payout policy.",
+    "stance": "supports",
+    "stance_target": "tax-based theories of dividend versus repurchase choice are not first-order determinants",
+    "evidence_type": "empirical",
+    "scope_conditions": "US firms around the 2003 Tax Relief Act",
+    "quoted_support": "Studies centered on the May 2003 dividend tax cut confirm that differences in the taxation of dividends and capital gains have only a second-order impact on setting payout policy.",
+    "numbers": [],
+    "entities": ["2003 Tax Relief Act"],
+    "time_period": "2003",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "payout-policy-annual-reviews"
+  },
+  {
+    "claim": "None of the three traditional payout motivations (agency, signaling, taxes) explains the secular 30-year shift in which repurchases have replaced dividends as the primary vehicle for corporate payouts; changes in compensation practices and management incentives better explain the time-series pattern.",
+    "stance": "neutral",
+    "stance_target": "the structural driver of the multi-decade rise of buybacks relative to dividends",
+    "evidence_type": "empirical",
+    "scope_conditions": "US firms, roughly 1984-2014",
+    "quoted_support": "None of the three traditional explanations can account for secular changes in how payouts have been made over the past 30 years, during which repurchases have replaced dividends as the prime vehicle for corporate payouts. Other payout motivations, such as changes in compensation practices and management incentives, are better able to explain the observed variation in payout patterns over time.",
+    "numbers": ["30 years"],
+    "entities": [],
+    "time_period": "1984-2014 approx.",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "payout-policy-annual-reviews"
+  }
+]

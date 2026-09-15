@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Apple's Services gross margin declined from 76.7% in FQ2 2026 to 75.6% in FQ3 2026 due to a mix shift, even as overall and product gross margins rose on tariff refunds.",
+    "stance": "supports",
+    "stance_target": "Services segment margin quality is deteriorating independent of the tariff-refund effect that flattered overall margins",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Services segment, FQ2 to FQ3 2026",
+    "quoted_support": "\"Services gross margin declined from 76.7% in Q2 2026 to 75.6% in Q3 2026, caused by a different mix.\"",
+    "numbers": ["76.7% -> 75.6% Services gross margin", "49.3% -> 50.1% overall gross margin", "38.7% -> 40.1% Products gross margin"],
+    "entities": ["Apple"],
+    "time_period": "FY2026 Q2-Q3",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-q3-2026-strong-iphone-demand-amid-services-moderation"
+  },
+  {
+    "claim": "CFO Kevan Parekh attributed the Services growth deceleration from 16.3% (Q2 2026) to 12.1% (Q3 2026) to the absence of a major theatrical film release (the prior year's F1) compared with prior quarters, alongside App Store revenue records despite mobile-gaming headwinds and business-model changes in selected countries.",
+    "stance": "neutral",
+    "stance_target": "quantifies the precise magnitude and stated drivers of Services deceleration",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Services segment, FY2026 Q2-Q3",
+    "quoted_support": "\"An analyst highlighted the sequential decline in services growth from 16.3% in Q2 2026 to 12.1% in Q3 2026. CFO Kevin Parekh attributed the decline to the absence of a major theatrical film release... Revenue from the App Store delivered a June quarter record despite mobile gaming headwinds and business model changes in selected countries.\"",
+    "numbers": ["16.3% Q2 2026 Services growth", "12.1% Q3 2026 Services growth"],
+    "entities": ["Kevan Parekh", "Apple", "App Store", "F1"],
+    "time_period": "FY2026 Q2-Q3",
+    "region": "selected countries (unspecified) plus global App Store",
+    "confidence": "high",
+    "source_note_id": "apple-q3-2026-strong-iphone-demand-amid-services-moderation"
+  },
+  {
+    "claim": "Apple guided FQ4 2026 Services revenue growth to 'low teens' percent, alongside total company growth of 9-11% and iPhone growth in the mid-teens.",
+    "stance": "neutral",
+    "stance_target": "forward Services growth guidance, relevant to the required-CAGR falsification test",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q4 2026 guidance",
+    "quoted_support": "\"Revenue in the September quarter is expected to grow between 9% and 11% year-on-year despite foreign exchange headwinds. iPhone revenue is anticipated to grow in the mid-teens... Services revenue is expected to grow in the low teens.\"",
+    "numbers": ["9-11% total revenue guidance", "mid-teens iPhone growth guidance", "low-teens Services growth guidance"],
+    "entities": ["Apple"],
+    "time_period": "FY2026 Q4 guidance",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-q3-2026-strong-iphone-demand-amid-services-moderation"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "The peer-reviewed version of Yuqing Xing's iPhone X value-added analysis was published in Frontiers of Economics in China (Higher Education Press), vol. 15(4), pp. 642-658, December 2020, confirming the working paper's findings passed academic peer review rather than remaining an unreviewed working paper.",
+    "stance": "supports",
+    "stance_target": "Citability and authority of the $104-value-added / 25% China-share iPhone X figures used elsewhere in this research",
+    "evidence_type": "empirical",
+    "scope_conditions": "Academic publication record, 2019-2020",
+    "quoted_support": "Other versions of this item: Yuqing Xing, 2020. \"How the iPhone Widens the U.S. Trade Deficit with China: The Case of the iPhone X,\" Frontiers of Economics in China-Selected Publications from Chinese Universities, Higher Education Press, vol. 15(4), pages 642-658, December.",
+    "numbers": ["Frontiers of Economics in China vol. 15(4), pp. 642-658, Dec 2020"],
+    "entities": ["Yuqing Xing", "Frontiers of Economics in China", "Higher Education Press"],
+    "time_period": "2019-2020",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "how-the-iphone-widens-the-us-trade-deficit-with-china-the-case-of-the-iphone-x"
+  },
+  {
+    "claim": "Approximately 45% of the iPhone X's total value added originated from Japan, South Korea, and other non-US, non-China economies -- a larger share than China's own 25% contribution.",
+    "stance": "supports",
+    "stance_target": "China is not even the largest source of non-US value-added in the iPhone; Japan/Korea/other collectively exceed it",
+    "evidence_type": "empirical",
+    "scope_conditions": "iPhone X bill of materials, 2017-2019 analysis",
+    "quoted_support": "According to the bill of materials, those companies contributed 25% of the value added of the iPhone X. About 45% of the value added of the iPhone X originated from Japan, Korean and other economies.",
+    "numbers": ["25% China value-added share", "45% Japan/Korea/other value-added share"],
+    "entities": ["Yuqing Xing", "Apple", "China", "Japan", "South Korea"],
+    "time_period": "2017-2019",
+    "region": "China, Japan, South Korea",
+    "confidence": "high",
+    "source_note_id": "how-the-iphone-widens-the-us-trade-deficit-with-china-the-case-of-the-iphone-x"
+  }
+]

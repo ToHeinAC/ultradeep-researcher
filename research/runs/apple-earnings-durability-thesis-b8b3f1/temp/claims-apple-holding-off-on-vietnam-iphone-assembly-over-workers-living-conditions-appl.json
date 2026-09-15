@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Luxshare's 30-hectare Bac Giang, Vietnam factory (Van Trung Industrial Park) was physically constructed in 5 months after Apple requested the capacity expansion -- the single fastest quantified shell-construction lead time found for Vietnam manufacturing.",
+    "stance": "refutes",
+    "stance_target": "the brief's assumption that manufacturing diversification is physically slow, specifically as regards SHELL CONSTRUCTION (not full production ramp)",
+    "evidence_type": "empirical",
+    "scope_conditions": "physical factory shell construction only, one Luxshare facility, 2020",
+    "quoted_support": "According to Bang, the 30-hectare factory was constructed in 5 months after Apple's request to expand production. \"Apple Corporation is impressed by the speed at which our fast facility is built here.\"",
+    "numbers": ["30 hectares", "5 months construction", "US$270 million invested"],
+    "entities": ["Luxshare", "Apple", "Bac Giang", "Tang Duc Bang"],
+    "time_period": "2020",
+    "region": "Bac Giang, Vietnam",
+    "confidence": "medium",
+    "source_note_id": "apple-holding-off-on-vietnam-iphone-assembly-over-workers-living-conditions-appl"
+  },
+  {
+    "claim": "Despite the fast physical build, Apple explicitly withheld approval for iPhone production at the Luxshare Bac Giang facility in 2020 because on-site worker dormitory conditions did not meet Apple's supplier-conduct standards -- the binding constraint was regulatory/labor-compliance, not construction speed or physical capacity.",
+    "stance": "refutes",
+    "stance_target": "the assumption that manufacturing diversification lead time is purely a physical/capex constraint",
+    "evidence_type": "empirical",
+    "scope_conditions": "one facility, 2020, specific to iPhone assembly approval",
+    "quoted_support": "part of the facility has yet to meet Apple's requirements, specifically those relating to the on-side dormitories. It is unclear what requirements Luxshare missed, but it seems to be the main thing holding back the facility from gaining Apple's approval.",
+    "numbers": ["28,000 workers actual", "50,000-60,000 workers needed for iPhone assembly"],
+    "entities": ["Luxshare", "Apple", "Bac Giang"],
+    "time_period": "2020",
+    "region": "Bac Giang, Vietnam",
+    "confidence": "medium",
+    "source_note_id": "apple-holding-off-on-vietnam-iphone-assembly-over-workers-living-conditions-appl"
+  },
+  {
+    "claim": "AUDITED ABSENCE: as of the current research date (Sept 2026), six years after Apple's 2020 inspection of a Vietnam facility for potential iPhone assembly, iPhone final assembly still has not moved to Vietnam -- only AirPods, iPad, Apple Watch and some MacBook models have. India remains the sole non-China iPhone final-assembly location. No source found (searched TechCrunch, AppleInsider, Nikkei Asia via secondary citation, vietnam-briefing.com, SCMP, SAG Wearables/Smartphone trackers) reports Vietnam iPhone final assembly at any point 2020-2026.",
+    "stance": "refutes",
+    "stance_target": "manufacturing diversification is a simple physical/capex-timeline function that would have produced Vietnam iPhone assembly by now if capex/lead-time were the only constraint",
+    "evidence_type": "empirical",
+    "scope_conditions": "iPhone final assembly specifically, Vietnam, 2020-2026; audited absence, not a confirmed negative from an official Apple statement",
+    "quoted_support": "Apple is considering the possibility of bringing iPhone manufacturing to Vietnam, a report claims, after the Cupertino company visited a factory owned by assembly partner Luxshare to check the conditions of the facility. [2020 article -- no subsequent iPhone-in-Vietnam assembly confirmed as of 2026 across all sources checked]",
+    "numbers": ["0% iPhone final assembly share in Vietnam, 2020-2026 (audited absence)"],
+    "entities": ["Apple", "Vietnam", "Luxshare", "iPhone"],
+    "time_period": "2020-2026",
+    "region": "Vietnam",
+    "confidence": "medium",
+    "source_note_id": "apple-holding-off-on-vietnam-iphone-assembly-over-workers-living-conditions-appl"
+  }
+]

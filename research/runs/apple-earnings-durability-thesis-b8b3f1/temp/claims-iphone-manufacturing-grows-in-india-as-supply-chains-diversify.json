@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Apple assembled about 55 million iPhones in India in 2025, up from roughly 36 million in 2024, a roughly 53% year-over-year unit increase.",
+    "stance": "supports",
+    "stance_target": "rapid manufacturing diversification, contradicting 'physically slow' framing",
+    "evidence_type": "empirical",
+    "scope_conditions": "India iPhone assembly units, 2024-2025, industry estimates via AppleInsider/Reuters",
+    "quoted_support": "Apple assembled about 55 million iPhones in India that year, up from roughly 36 million in 2024.",
+    "numbers": ["55 million (2025)", "36 million (2024)", "~53% YoY increase"],
+    "entities": ["Apple", "India"],
+    "time_period": "2024-2025",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "iphone-manufacturing-grows-in-india-as-supply-chains-diversify"
+  },
+  {
+    "claim": "Many key iPhone components are still manufactured in China before final assembly takes place elsewhere, and replicating the scale and supplier density of China's manufacturing base will take years.",
+    "stance": "refutes",
+    "stance_target": "assembly-share shift implies equivalent shift in component/value-chain manufacturing",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "global iPhone component sourcing, 2026",
+    "quoted_support": "Many key iPhone components are still manufactured in China before final assembly takes place elsewhere. Replicating the scale and supplier density of China's manufacturing base will take years.",
+    "numbers": [],
+    "entities": ["China", "Apple", "India"],
+    "time_period": "2026",
+    "region": "China",
+    "confidence": "medium",
+    "source_note_id": "iphone-manufacturing-grows-in-india-as-supply-chains-diversify"
+  },
+  {
+    "claim": "Final assembly of iPhones in India is estimated to be about 5% to 10% more costly than in China because many components must still be imported.",
+    "stance": "supports",
+    "stance_target": "value-added remains concentrated in China even as assembly shifts to India",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "industry cost estimates, India vs China final assembly, 2026",
+    "quoted_support": "Analysts say manufacturing in India can also be slightly more expensive than in China because many components must still be imported. Industry estimates suggest final assembly in India can be about 5% to 10% more costly.",
+    "numbers": ["5%-10% cost premium for India assembly vs China"],
+    "entities": ["India", "China", "Apple suppliers"],
+    "time_period": "2026",
+    "region": "India, China",
+    "confidence": "low",
+    "source_note_id": "iphone-manufacturing-grows-in-india-as-supply-chains-diversify"
+  },
+  {
+    "claim": "India's prior production-linked incentive (PLI) program, worth about $21 billion, expires in March 2026; a new phase under consultation may tie incentives more closely to export performance, applying to investments from April 2026.",
+    "stance": "neutral",
+    "stance_target": "policy mechanics underlying India's manufacturing capacity build-out",
+    "evidence_type": "empirical",
+    "scope_conditions": "India government policy, per Reuters reporting, March 2026",
+    "quoted_support": "The previous production-linked incentive program was worth about $21 billion and accelerated the growth of smartphone factories nationwide... The new program could apply to investments beginning in April 2026.",
+    "numbers": ["$21 billion (prior PLI program)"],
+    "entities": ["India government", "PLI scheme"],
+    "time_period": "PLI expires March 2026, new phase from April 2026",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "iphone-manufacturing-grows-in-india-as-supply-chains-diversify"
+  },
+  {
+    "claim": "Apple wants to assemble most iPhones sold in the US from India by the end of 2026.",
+    "stance": "supports",
+    "stance_target": "US-specific supply chain reconfiguration is an active, fast-moving corporate target, not a slow multi-year drift",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple corporate strategy, target date end of 2026",
+    "quoted_support": "The company wants to assemble most iPhones sold in the United States in India by the end of 2026.",
+    "numbers": [],
+    "entities": ["Apple", "India", "United States"],
+    "time_period": "target: end of 2026",
+    "region": "United States, India",
+    "confidence": "medium",
+    "source_note_id": "iphone-manufacturing-grows-in-india-as-supply-chains-diversify"
+  }
+]

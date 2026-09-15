@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Grabon.com's Apple Pay 2024-2025 revenue projections ($4.23B/$4.45B) are its own mechanical extrapolation -- 'assuming revenue per user remains stable' -- of the 2019 Loup Ventures forecast, not an independent analyst estimate, and grabon does not cite Loup Ventures directly.",
+    "stance": "neutral",
+    "stance_target": "provenance of the $4.23B/2024 and $4.45B/2025 Apple Pay revenue figures widely recycled by aggregator sites",
+    "evidence_type": "empirical",
+    "scope_conditions": "As fetched September 2026",
+    "quoted_support": "Given the past trends, Apple Pay's revenue is expected to grow moderately in 2024 and 2025, reaching approximately $4.23 billion in 2024 and $4.45 billion in 2025, assuming revenue per user remains stable.",
+    "numbers": ["$4.23 billion (2024)", "$4.45 billion (2025)"],
+    "entities": ["Apple", "Apple Pay", "grabon.com", "Statista", "SignHouse"],
+    "time_period": "2024-2025",
+    "region": "Global",
+    "confidence": "low",
+    "source_note_id": "apple-pay-usage-statistics-in-2024"
+  },
+  {
+    "claim": "Grabon.com's own revenue table shows Apple Pay revenue nearly doubling twice: $1.9 billion in 2022 to $4.00 billion in 2023 (a 110.5% YoY jump), with the 2023 figure itself being Loup Ventures' 2019 forecast target, not a confirmed actual.",
+    "stance": "neutral",
+    "stance_target": "trajectory of Apple Pay revenue estimates 2019-2023",
+    "evidence_type": "statistical",
+    "scope_conditions": "Estimated figures per grabon.com, ultimately Loup-Ventures-derived",
+    "quoted_support": "In 2022, Apple Pay nearly doubled its revenue and earned US$1.90 billion. The most notable increase took place in 2023, where the revenue doubled for a second time and reached the estimated mark of US$4.00 billion. This increase is quite significant, standing at a 110.5% year-over-year rise.",
+    "numbers": ["$1.9 billion (2022)", "$4.00 billion (2023 est.)", "110.5% YoY"],
+    "entities": ["Apple", "Apple Pay", "grabon.com"],
+    "time_period": "2019-2023",
+    "region": "Global",
+    "confidence": "low",
+    "source_note_id": "apple-pay-usage-statistics-in-2024"
+  }
+]

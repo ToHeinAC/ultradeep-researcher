@@ -1,0 +1,186 @@
+{
+  "vault_tag": "apple-earnings-durability-thesis-b8b3f1",
+  "note": "Seven tensions: two from comparisons.md, two from high-relevance contradiction-graph clusters, three orphan tensions never promoted to loci (payments prior, margin trend, supply chain). Silicon margin (gross displacement vs net-of-R&D) was dropped as largely definitional; the passive-flow multiplier is carried by comparisons.md Tension 5. Orphan nuances were taken from full-body reads, not claims summaries.",
+  "tensions": [
+    {
+      "name": "Toothless remedy vs structural erosion of Google's search rent",
+      "origin": "contradiction-graph",
+      "decision_relevance": "high",
+      "side_a": {
+        "position": "The US v. Google remedy leaves Apple's search-placement income effectively intact: payments continue, Apple keeps Google as default, and annual rebidding changes nothing because no rival can outbid Google.",
+        "evidence": "The remedies opinion itself (p.108) acknowledges distributors like Apple will likely still select Google as primary default; the one-year term (p.110) cannot bite when Microsoft already offered Apple 100%+ revenue share and lost on quality ('Alice in Wonderland' analysis; Pichai testimony that Google priced knowing Apple had no alternative). Market read it the same way: Alphabet +8.5%, Apple +2.8% on the ruling. Critics (Sweeney: 'a convicted bank robber sentenced to probation'; Yelp) call payment permission a fatal flaw.",
+        "proponents": [
+          "us-courts-remedies-not-enough-given-google-can-continue-to-pay-for-search-defaul",
+          "how-the-google-antitrust-ruling-reshapes-search-ai-and-more",
+          "united-states-district-court-3",
+          "doj-and-states-appeal-google-search-antitrust-remedies-ruling"
+        ]
+      },
+      "side_b": {
+        "position": "Non-exclusivity plus annual recontestability structurally changes the pricing mechanism and erodes the rent Google pays over time.",
+        "evidence": "Both parties' retained economists — Chipty for plaintiffs and Murphy for Google — independently predicted non-exclusive, annually recontestable bidding compresses the PRICE Google pays even if search VOLUME barely shifts; revenue-share agreements can no longer tie top-tier rates to exclusive placement; the court extended one-year terms sua sponte beyond Google's own draft; KGI's 'Pay for Half' design shows a quantified intermediate remedy is live on appeal.",
+        "proponents": [
+          "source-analysis-us-v-google-remedies-opinion-doc-1436-sept-2-2025",
+          "united-states-district-court-2",
+          "pay-for-half-a-better-remedy-for-google-search-knight-georgetown-institute",
+          "court-issues-remedies-ruling-in-united-states-v-google-search-case-hughes-hubbar"
+        ]
+      },
+      "resolution": "Both sides are right about different variables, and the load-bearing evidence is that ADVERSARIAL experts converge. Side A is correct on VOLUME and default choice: Apple keeps Google and no bidder can replace the payment. Side B is correct on PRICE: when the experts retained by opposite parties independently predict price compression, that is close to the strongest evidence available short of outcome data. The rent is durable in existence and fragile in rate. Model TAC ($23-29B current run-rate, central ~$26B) as an annuity with gradual single-digit annual rate erosion, a modal ~45-55% probability the current remedy persists to 2031, a ~25-35% back-loaded Pay-for-Half-style cap, and a ~15-20% payment-ban tail — the probability weights are constructed estimates, the mechanism is court-documented."
+    },
+    {
+      "name": "Apple's risk factors vs Apple's own testimony: courts or AI?",
+      "origin": "comparisons",
+      "decision_relevance": "high",
+      "side_a": {
+        "position": "The principal threat to Apple's search-placement income is legal: an appellate reversal toward a payment ban.",
+        "evidence": "Apple's own FY2025 10-K and FY2026 10-Qs single out the Sept 2 2025 remedies order, under appeal by BOTH DOJ and Google, warning a DOJ-favourable reversal 'could materially adversely affect the Company's ability to earn revenue from such licensing arrangements'; DOJ's original Nov 2024 remedy package sought a full payment ban; the D.C. Circuit cross-appeal (No. 26-5023) is live.",
+        "proponents": [
+          "aapl-20250927",
+          "aapl-20260627",
+          "google-antitrust-ruling-key-takeaways-from-the-district-courts-decision-publicat",
+          "interim-report-google-tac-magnitude-repricing-and-appellate-tail"
+        ]
+      },
+      "side_b": {
+        "position": "The faster and more consequential threat is generative-AI query migration away from the default browser path, which no remedy addresses.",
+        "evidence": "Eddy Cue's sworn, court-accepted testimony that Safari search-query volume declined for the first time in 22 years, attributed to generative AI; the remedies court itself treats AI-driven query migration as the more consequential risk to the arrangement's economic logic; Cue states Apple is 'actively looking at' AI-prioritised Safari search; brand-loyalty research (Lam & Shankar) indicates preference tied to an interface's perceived value is roughly halved across a paradigm shift.",
+        "proponents": [
+          "apple-explores-move-to-ai-search-in-browser-amid-google-fallout-bloomberg",
+          "source-analysis-us-v-google-remedies-opinion-doc-1436-sept-2-2025",
+          "interim-report-lockin-durability-preference-vs-ai-interface",
+          "asymmetries-in-the-effects-of-drivers-of-brand-loyalty-between-early-and"
+        ]
+      },
+      "resolution": "Side B holds the better case on SPEED and IMPACT, Side A on legal visibility. The appellate timetable alone rules out a binding legal change before ~2028 (briefing closes Oct 29 2026, no argument date, decision 2027-28, likely remand), and the cross-appeal is narrow and procedural. Query migration, by contrast, is already visible in first-party data. Load-bearing reason: two investigators reached this conclusion through independent evidence chains (the court record; loyalty research plus testimony). Crucially, Apple's risk-factor language is a disclosure obligation that must name legal worst cases — it is not a management estimate of relative likelihood, so it cannot adjudicate this. Caveat the draft must carry: 'already underway' rests on ONE data point; a second year of Safari search decline is the leading indicator to watch."
+    },
+    {
+      "name": "The 78% App Store margin: expert testimony vs court findings",
+      "origin": "contradiction-graph",
+      "decision_relevance": "high",
+      "side_a": {
+        "position": "The App Store is extraordinarily profitable — roughly a 78% margin — so commission income is a very high-margin earnings pool, and Apple can preserve it by restructuring fees.",
+        "evidence": "Widely reported '78% profit margin according to court testimony' (Epic expert Ned Barnes, 2018-2019); the court found the 30% commission produced 'supracompetitive operating margins'; Apple responded to each ruling by relabeling rather than abandoning fees — a 27% US link-out commission after the 2021 injunction and a 5% EU Core Technology Commission under the DMA.",
+        "proponents": [
+          "apple-runs-app-store-with-78-profit-margin-according-to-court-testimony-9to5mac",
+          "epic-games-wins-injunction-against-apple-pdf-legal-remedy-injunction",
+          "apple-reveals-new-app-store-fees-to-avoid-eu-fine-of-500-million-euro"
+        ]
+      },
+      "side_b": {
+        "position": "The 78% figure is a contested, stale operating-margin estimate the court never adopted, and every fee relabeling has been struck down — so the commission pool is both smaller-margin than assumed and structurally eroding.",
+        "evidence": "The 78-79.6% figures are Barnes's disputed 2018-19 OPERATING-margin calculations that the court's written findings of fact declined to adopt; the only evidenced gross-margin anchor is Apple's disclosed Services segment gross margin (75.4% FY2025). The court found Apple WILFULLY violated the 2021 injunction and a VP of Finance testified untruthfully; Apple was enjoined from ANY link-out fee from Apr 30 2025; the EC rejected 'cosmetic compliance' and issued new preliminary findings against the CTF. SCOTUS No. 25-1311 grants only Question 1 (civil-contempt procedural standard) and Justice Kagan DENIED Apple's stay on Aug 13 2026, so the cost-based fee remand proceeds.",
+        "proponents": [
+          "full-findings-of-the-court-in-epic-games-v-apple-pdf-ios-computing",
+          "apple-inc-v-epic-games-inc-25-1311-scotusblog",
+          "the-supreme-court-took-apples-epic-appeal-but-only-on-one-narrow-question",
+          "interim-report-appstore-commission-magnitude-margin-and-scotus-reversal",
+          "european-commission"
+        ]
+      },
+      "resolution": "Side B, on both counts. The load-bearing reason for the margin is definitional: an adversarial expert's OPERATING margin from 2018-19, unadopted by the court, cannot substitute for a GROSS margin in 2025-26 — use the disclosed 75.4% Services gross margin as the evidenced floor and never 78% or the earlier unevidenced ~90%. The load-bearing reason for durability is the pattern: three relabeling cycles, three adverse findings, a wilful-violation finding that exhausts the court's patience, and a Supreme Court grant too narrow to restore the 27% rate even if Apple wins. Offsetting force that bounds SPEED but not DIRECTION: real-world uptake of alternatives stays low (EU alternative-marketplace adoption under 3%). Commission revenue ($22-31B global, $8-10B US) is eroding structurally; the single most decision-relevant future number — the remand's cost-based link-out rate — does not yet exist."
+    },
+    {
+      "name": "Reader prior 1: chosen capital discipline vs revealed execution failure",
+      "origin": "comparisons",
+      "decision_relevance": "high",
+      "side_a": {
+        "position": "Apple's late-follower AI posture is a deliberate capital-allocation advantage: it avoids the hyperscaler capex arms race and rents capability as inference commoditises.",
+        "evidence": "Capex on property and equipment fell 19-28% YoY in every FY2026 quarter; Cook: AI spending is 'incremental on top of the existing product roadmap, not a strategic pivot'; Apple rents Google Gemini for ~$1B/yr to power Siri; inference prices for fixed performance fell 9x-900x per year (Epoch AI); Apple rose ~7% in the Feb 2026 week hyperscalers lost ~$900B over AI capex ROI; Ternus (Sept 2026) frames the iPhone as the 'intelligent hub'.",
+        "proponents": [
+          "aapl-20260328",
+          "big-techs-700-billion-ai-buildout-what-msft-googl-meta-amzn-and-aapl-are-spendin",
+          "googles-gemini-to-power-apples-ai-features-like-siri-techcrunch",
+          "llm-inference-prices-have-fallen-rapidly-but-unequally-across-tasks-epoch-ai",
+          "660b-capex-bill-triggers-900b-wipeout-why-apple-shares-outperform-amazon-and-goo"
+        ]
+      },
+      "side_b": {
+        "position": "The position was revealed by failure, not chosen: Apple tried to build, missed its own quality bar, and is renting because it could not execute.",
+        "evidence": "Craig Federighi stated the March 2025 Siri delay was caused by the V1 architecture failing Apple's quality bar — 'not a strategic choice'; an ~18-month chain of missed dates since the June 2024 unveiling; a $250M consumer settlement over the delayed Siri; the AI chief's exit; cumulative 2020-2025 AI spend of ~$20B vs $141-205B for each hyperscaler with no contemporaneous 'wait for commoditisation' rationale; R&D actually rose ~32-34% YoY, so Apple is not abstaining from AI spend at all.",
+        "proponents": [
+          "apple-reportedly-targets-spring-2026-for-launch-of-delayed-ai-siri-upgrade-but-i",
+          "apples-siri-revamp-reportedly-delayed-again-techcrunch",
+          "we-tried-the-new-siri-beta-has-apple-finally-delivered-on-its-promises",
+          "725b-on-ai-where-big-tech-is-spending-in-2026",
+          "interim-report-ai-late-follower-chosen-vs-revealed"
+        ]
+      },
+      "resolution": "Split verdict, because the prior conflates two questions with different truth values. ORIGIN: Side B, high confidence — a first-party executive admission, a settlement and an executive exit are what getting caught short looks like, and no pre-2024 document rationalising the gap exists (the investigator searched). Ternus's framing post-dates the Gemini deal and is retroactive narrative, not origin evidence. CURRENT ECONOMICS: Side A, medium confidence and conditional — renting is capital-efficient today, but it is a capital-STRUCTURE substitution (opex/rent for capex/own), not capital restraint, and its efficiency depends on inference-price declines that Epoch AI itself will not vouch for beyond the latest year and that Cook called 'a bit uncertain at the moment'. Also relevant: the court found Google's search payments disincentivised Apple from building its own search engine — plausibly a contributing cause of the late-follower origin (an orchestrator inference, not a finding)."
+    },
+    {
+      "name": "Reader prior 2: merchant-led rail disruption vs incumbent absorption",
+      "origin": "orphan-scan",
+      "decision_relevance": "high",
+      "side_a": {
+        "position": "Crypto and AI payment rails pose a near-term threat to incumbent payments economics, including Apple Pay.",
+        "evidence": "The largest merchants (Amazon, Walmart, Shopify) have strong incentives to route payments over cheaper rails; card processing costs 1.70-3.50% of transaction value vs 0.1-0.3% for stablecoin settlement, a 10-25x gap; B2B stablecoin payments reached ~$226B in 2025, +733% YoY; Visa and Mastercard lagged the S&P 500 over three years, suggesting the market prices disruption risk; even an incumbent-friendly expert concedes stablecoins 'may erode legacy transaction fees'.",
+        "proponents": [
+          "why-stablecoins-havent-shaken-the-card-networks",
+          "stablecoin-payments-for-merchants-costs-integration-and-the-2026-adoption-wave-s",
+          "mastercard-and-visa-building-crypto-rails-what-card-network-integration-means-fo"
+        ]
+      },
+      "side_b": {
+        "position": "Consumer-retail disruption is not a 2-5 year threat: incumbents are absorbing stablecoins as a settlement layer, and adoption lives in B2B, not consumer checkout.",
+        "evidence": "Visa CEO McInerny: little product-market fit for stablecoin payments in consumer payments in developed markets; Mastercard CEO Miebach: stablecoins are infrastructure the network supports, and trading remains the dominant use; stablecoin-linked card spend ~$18B annualised vs ~$23.7T combined Visa+Mastercard volume; only ~$390B of ~$33T 2025 stablecoin volume is organic payments; stablecoin cards ride existing card rails; Mastercard bought BVNK for $1.8B; Chainalysis projects on-chain transaction counts match card networks only in 2031-2039; 'most consumers still pay with cards'.",
+        "proponents": [
+          "visa-and-mastercard-arent-buying-the-stablecoin-hype-for-everyday-payments",
+          "stablecoin-cards-in-2026-insights4vc",
+          "stablecoin-utility-and-the-future-of-payments",
+          "mastercard-and-visa-building-crypto-rails-what-card-network-integration-means-fo"
+        ]
+      },
+      "resolution": "Side B on the prior's MECHANISM, decisively: volume ratios of roughly 1,300:1, named-CEO statements, and an industry's own optimistic timeline falling outside the window outweigh incentive-based reasoning, and Side A's strongest data (B2B volume) sits where Apple Pay does not. Agreement across OPPOSING interests (card incumbents and stablecoin vendors) strengthens the consensus. But the prior is directionally RIGHT about the outcome: Apple's payment-adjacent economics ARE under pressure — through courts and regulators (App Store link-out erosion; DOJ's surviving NFC tap-to-pay claim against Apple Pay exclusivity), not through rails. Residual nuance the draft should keep: fee COMPRESSION without network DISPLACEMENT is possible, but Apple Pay's issuer-interchange share is small relative to Services. Answering only 'crypto will not disrupt payments' would address the letter of the prior and miss its substance."
+    },
+    {
+      "name": "Operating leverage vs ex-refund margin contraction",
+      "origin": "orphan-scan",
+      "decision_relevance": "high",
+      "side_a": {
+        "position": "Apple's margins are expanding with operating leverage, and memory-cost fears are overstated.",
+        "evidence": "Operating income grew 26.57% YoY in FQ3 2026 against 16.4% revenue growth; headline gross margin reached 50.1%; the 247 Wall St opinion calls the memory-cost 'panic' overstated, citing supply-chain analyst Ming-Chi Kuo that 'Tight memory supply is real' yet Apple plans processor production months in advance, making a shock scenario unlikely.",
+        "proponents": [
+          "opinion-wall-streets-new-apple-bear-case-is-dead-wrong-247-wall-st",
+          "aapl-8k-q3fy2026"
+        ]
+      },
+      "side_b": {
+        "position": "Underlying margin is contracting on memory costs, masked by a shrinking one-off tariff refund.",
+        "evidence": "CFO Parekh: Q3 FY26's 50.1% included ~2pp of tariff refunds and EPS $2.02 included $0.11; ex-refund margin falls from 48.0% (Q3) to a 46.5% midpoint in Q4 guidance, with memory costs explaining 'more than 100%' of the decline; the Q4 guide carries only ~1pp of refund benefit; Cook called memory pricing a 'hundred-year flood' and Apple 'reluctantly' raised Mac and iPad prices; the refunds stem from a Feb 20 2026 Supreme Court ruling striking down IEEPA tariffs — non-recurring by construction.",
+        "proponents": [
+          "one-last-time-this-is-tim-final-transcript-of-apples-q3-2026-earnings-call-six-c",
+          "apple-aapl-q2-2026-earnings-call-transcript-the-motley-fool",
+          "aapl-20260627"
+        ]
+      },
+      "resolution": "Side B. Load-bearing reason: primary CFO guidance with explicit refund attribution outranks an opinion column, and Side A's operating-leverage figure is inflated by the very same ~2pp refund. Nuance from the full text: Kuo's quoted pushback concerns processor production PLANNING (supply availability), not DRAM PRICE — so the column deploys it against an argument it does not address; the two sides are partly talking past each other. The same outlet's own related coverage concedes memory costs are 'already squeezing Apple' and 'the worst may still be ahead'. Consequence for the report: FY2026's headline margin and EPS strength is partly a non-recurring court-created benefit, and the underlying trend is ~150bp of contraction into Q4."
+    },
+    {
+      "name": "Fast assembly shift vs slow, China-anchored manufacturing capability",
+      "origin": "orphan-scan",
+      "decision_relevance": "high",
+      "side_a": {
+        "position": "Manufacturing diversification away from China is fast, overturning the brief's 'physically slow' verdict.",
+        "evidence": "China's share of global iPhone assembly fell from 83% (2024) to 74% (2025) while India's rose from 14% to 23%, projected 28% in 2026 (Smart Analytics Global); India assembled ~55M iPhones in 2025, +53%, and $22B factory-gate value in the 12 months to March 2025; Apple targets assembling most US-sold iPhones in India by end-2026; India's Feb 2026 budget shortens capex lead times with a five-year machinery tax holiday.",
+        "proponents": [
+          "indias-share-in-global-iphone-assembly-projected-to-reach-28-in-2026",
+          "iphone-manufacturing-grows-in-india-as-supply-chains-diversify",
+          "apple-india-shift-22-billion-iphone-production-diversifies-from-china",
+          "why-is-apple-moving-its-iphone-production-to-india-technology-magazine"
+        ]
+      },
+      "side_b": {
+        "position": "Where the capability and value sit, diversification is slow — and some of it is moving INTO China.",
+        "evidence": "AEI: China's share of Apple supplier factory locations stayed ~40% from 2013 to 2023; assembly diversification is largely the same Taiwanese contract manufacturers relocating; precision manufacturing shifted toward Chinese ownership (China-headquartered share 14% to 86%), though Chinese firms mainly win lower-value segments while US, Japanese and Taiwanese firms retain a durable role in factories located IN China; India assembly is 5-10% costlier because components are still imported; with ~200 suppliers 'moves to other countries could take years'. SemiAnalysis: leading-edge Apple silicon is concentrated at one Taiwan fab, and TSMC Arizona will not materially reduce Taiwan dependence until 2028+.",
+        "proponents": [
+          "apples-supply-chain-economic-and-geopolitical-implications-american-enterprise-i",
+          "apple-india-shift-22-billion-iphone-production-diversifies-from-china",
+          "apple-tsmc-the-partnership-that-built-modern-semiconductors",
+          "how-the-iphone-widens-the-us-trade-deficit-with-china-the-case-of-the-iphone-x-c"
+        ]
+      },
+      "resolution": "A synthesis — both are right about different layers, and the brief's Phase 2 verdict must be REFINED, not simply reversed. ASSEMBLY diversification is fast (≈9pp a year). VALUE-ADDED and CAPABILITY diversification is slow: China's value-added share of an iPhone is only ~7% (landed-cost basis, iPhone 16) to ~25% (BOM basis, iPhone X), but the supplier-factory base, tooling depth and precision manufacturing remain China-anchored. The full text adds a distinction the draft must keep: GEOGRAPHIC concentration (many foreign-owned factories located in China) and Chinese OWNERSHIP (concentrated in lower-value segments) are separate risks — geopolitical exposure is driven by the first. On silicon the nuance cuts against an earlier orchestrator reading: SemiAnalysis attributes Apple's falling 2nm share to the node being built for a different customer 'not because Apple lost leverage', with Apple still the 2nm anchor; the real future contest is for advanced 3D-packaging capacity that Apple's M5/M6 Ultra chips will share with AI customers — and all of it sits in Taiwan."
+    }
+  ]
+}

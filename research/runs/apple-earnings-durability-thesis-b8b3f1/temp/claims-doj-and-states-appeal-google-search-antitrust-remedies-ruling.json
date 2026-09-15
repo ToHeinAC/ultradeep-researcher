@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Google's default search deals with Apple, Samsung and other device makers cost Google more than $20 billion a year, per Judge Mehta's August 2024 liability ruling.",
+    "stance": "neutral",
+    "stance_target": "dollar magnitude of the Google-to-Apple TAC payment",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google liability ruling, August 2024, court-referenced figure",
+    "quoted_support": "Mehta ruled in August 2024 that Google unlawfully maintained its search monopoly through default search agreements with Apple, Samsung, and other device makers. Those deals cost Google more than $20 billion a year and blocked rivals from key distribution channels.",
+    "numbers": ["more than $20 billion a year"],
+    "entities": ["Google", "Apple", "Samsung", "Judge Amit Mehta"],
+    "time_period": "as of August 2024 ruling",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "doj-and-states-appeal-google-search-antitrust-remedies-ruling"
+  },
+  {
+    "claim": "The remedy requires Google to rebid its default search and AI app contracts annually, rather than banning default-search payments or forcing Chrome divestiture.",
+    "stance": "neutral",
+    "stance_target": "remedy design actually imposed",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google remedies ruling, Sept 2025",
+    "quoted_support": "After a second remedies trial in 2025, Mehta rejected the government's request to force Google to divest Chrome or prohibit payments for default search status. Instead, he ordered Google to rebid its default search and AI app contracts annually.",
+    "numbers": ["annual"],
+    "entities": ["Google", "Judge Amit Mehta"],
+    "time_period": "2025-09",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "doj-and-states-appeal-google-search-antitrust-remedies-ruling"
+  },
+  {
+    "claim": "DOJ and a coalition of state attorneys general filed notices of appeal on February 3, 2026 against Mehta's remedies ruling, with the D.C. Circuit expected to hear the case later in 2026; the remedy remains in force pending appeal.",
+    "stance": "neutral",
+    "stance_target": "appellate timetable for the query's 2-5 year holding horizon",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google appeal, filed Feb 3 2026",
+    "quoted_support": "The U.S. Court of Appeals for the D.C. Circuit is expected to hear the case later this year. For now, it's business as usual for Google -- though its most important contracts now face annual review, and the risk of tougher remedies remains firmly on the table.",
+    "numbers": [],
+    "entities": ["DOJ", "D.C. Circuit", "Google"],
+    "time_period": "2026-02 filing; hearing expected later 2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "doj-and-states-appeal-google-search-antitrust-remedies-ruling"
+  },
+  {
+    "claim": "Appeal grounds are not yet detailed in the filings, but commentators expect the appeal to focus specifically on Chrome divestiture and Google's default search deal with Apple.",
+    "stance": "neutral",
+    "stance_target": "which parts of the ruling are contested on appeal",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google appeal, Feb 2026",
+    "quoted_support": "The DOJ and states haven't detailed their legal arguments. Court filings didn't specify which parts of the ruling they will challenge, though attention is expected to focus on Chrome and Google's default search deal with Apple.",
+    "numbers": [],
+    "entities": ["DOJ", "Google", "Apple", "Chrome"],
+    "time_period": "2026-02",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "doj-and-states-appeal-google-search-antitrust-remedies-ruling"
+  },
+  {
+    "claim": "Yelp's VP of public policy argues the remedy's continued permission for default-placement payments is a fatal flaw because that payment mechanism 'was the primary mechanism by which Google unlawfully foreclosed competition to begin with.'",
+    "stance": "supports",
+    "stance_target": "remedy is toothless / insufficient",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "reaction to appeal filing, Feb 2026",
+    "quoted_support": "the measures put forth in the trial court's remedy decision are unlikely to restore competition -- for instance, it allows for Google to continue to pay third parties for default placement in browsers and devices, which was the primary mechanism by which Google unlawfully foreclosed competition to begin with.",
+    "numbers": [],
+    "entities": ["Yelp", "David Segal", "Google"],
+    "time_period": "2026-02",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "doj-and-states-appeal-google-search-antitrust-remedies-ruling"
+  }
+]

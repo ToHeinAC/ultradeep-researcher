@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Capital One Shopping estimates Apple Pay's 2025 revenue at $3.0 billion and 2022 revenue at $1.9 billion, but attributes these figures only to its own team's compilation of publicly available data, not to a named analyst or research firm.",
+    "stance": "neutral",
+    "stance_target": "size of Apple Pay revenue, 2025",
+    "evidence_type": "statistical",
+    "scope_conditions": "Page updated July 22, 2026; no disclosed methodology for the 2025 figure specifically",
+    "quoted_support": "Apple Pay's 2025 revenue was an estimated $3.0 billion. In 2022, Apple Pay produced a revenue of $1.9 billion... These data and insights were compiled by the Capital One Shopping team based on publicly available data.",
+    "numbers": ["$3.0 billion (2025 est.)", "$1.9 billion (2022 est.)"],
+    "entities": ["Apple", "Apple Pay", "Capital One Shopping"],
+    "time_period": "2022, 2025",
+    "region": "Global",
+    "confidence": "low",
+    "source_note_id": "apple-pay-statistics-2026-users-market-share-growth-rate"
+  },
+  {
+    "claim": "Third-party Apple Pay 2025 revenue estimates diverge substantially: Capital One Shopping states $3.0 billion while grabon.com/electroiq.com (extrapolating the same underlying Loup Ventures 2019 base) state $4.45 billion -- a roughly 48% spread between the two chains for the same year, despite both agreeing on the $1.9 billion 2022 base figure.",
+    "stance": "neutral",
+    "stance_target": "reliability of aggregator-sourced Apple Pay revenue figures",
+    "evidence_type": "statistical",
+    "scope_conditions": "2025 estimate comparison across two independent aggregator chains",
+    "quoted_support": "Apple Pay's 2025 revenue was an estimated $3.0 billion.",
+    "numbers": ["$3.0 billion (Capital One Shopping)", "$4.45 billion (grabon/electroiq)", "~48% divergence"],
+    "entities": ["Apple", "Apple Pay", "Capital One Shopping", "grabon.com", "electroiq.com"],
+    "time_period": "2025",
+    "region": "Global",
+    "confidence": "medium",
+    "source_note_id": "apple-pay-statistics-2026-users-market-share-growth-rate"
+  },
+  {
+    "claim": "Apple Pay generates revenue through multiple distinct streams: fees charged to banks that support it (interchange-style issuer fee), plus interest and late fees from Apple Pay Cash and Apple Card.",
+    "stance": "neutral",
+    "stance_target": "composition of Apple Pay-adjacent revenue",
+    "evidence_type": "empirical",
+    "scope_conditions": "As of 2026",
+    "quoted_support": "Apple Pay generates revenue through fees charged to banks that support it, as well as interest and late fees from Apple Pay Cash and Apple Card.",
+    "numbers": [],
+    "entities": ["Apple", "Apple Pay", "Apple Pay Cash", "Apple Card"],
+    "time_period": "2026",
+    "region": "Global",
+    "confidence": "medium",
+    "source_note_id": "apple-pay-statistics-2026-users-market-share-growth-rate"
+  }
+]

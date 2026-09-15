@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Alphabet's total TAC was $45,566 million in 2021 and $48,955 million in 2022, with the TAC rate flat at 22% in both years.",
+    "stance": "neutral",
+    "stance_target": "prior-period baseline for TAC magnitude trend",
+    "evidence_type": "empirical",
+    "scope_conditions": "Alphabet consolidated, FY2021-FY2022",
+    "quoted_support": "TAC | 45,566 | 48,955 ... The TAC rate was 22% in both 2021 and 2022.",
+    "numbers": ["$45,566 million FY2021 TAC", "$48,955 million FY2022 TAC", "22% TAC rate both years"],
+    "entities": ["Alphabet Inc."],
+    "time_period": "FY2021-FY2022",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "goog-20221231"
+  },
+  {
+    "claim": "Alphabet's FY2022 10-K, like its FY2025 10-K, discloses only a combined TAC dollar figure covering both distribution partners and Google Network partners, never a distribution-partners-only (e.g., Apple-specific) dollar breakout.",
+    "stance": "refutes",
+    "stance_target": "the idea that Alphabet's SEC filings disclose an Apple-specific or distribution-partner-only TAC dollar figure",
+    "evidence_type": "empirical",
+    "scope_conditions": "Alphabet 10-K MD&A cost-of-revenues disclosure, at least FY2021-FY2025",
+    "quoted_support": "The increase in TAC from 2021 to 2022 was due to an increase in TAC paid to distribution partners and to Google Network partners, primarily driven by growth in revenues subject to TAC.",
+    "numbers": [],
+    "entities": ["Alphabet Inc.", "distribution partners", "Google Network partners", "Apple"],
+    "time_period": "FY2021-FY2025",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "goog-20221231"
+  },
+  {
+    "claim": "Consolidated TAC grew from $48,955 million (FY2022) to $59,926 million (FY2025), roughly a 22% increase over three years, while the TAC rate compressed from 22% to 20.3% over the same period.",
+    "stance": "neutral",
+    "stance_target": "three-year trajectory of Google's aggregate distribution-payment magnitude and rate",
+    "evidence_type": "empirical",
+    "scope_conditions": "Alphabet consolidated, FY2022 vs FY2025, computed from two 10-Ks",
+    "quoted_support": "TAC | 45,566 | 48,955 (FY2022 10-K); TAC | 54,900 | 59,926 (FY2025 10-K)",
+    "numbers": ["$48,955 million FY2022 TAC", "$59,926 million FY2025 TAC", "22% FY2022 TAC rate", "20.3% FY2025 TAC rate"],
+    "entities": ["Alphabet Inc."],
+    "time_period": "FY2022-FY2025",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "goog-20221231"
+  }
+]

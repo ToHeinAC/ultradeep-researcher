@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Using WSJ-sourced (TechInsights/iFixit/FactSet) iPhone 16 cost data, China's value-added on a China-assembled iPhone 16 is estimated at only $38.89 out of a $563.73 total landed cost ($549.73 components + $14.00 Foxconn assembly fee), comprising $4.10 battery/case materials, $20.79 other China-sourced components, and $14.00 assembly.",
+    "stance": "supports",
+    "stance_target": "China's actual captured value-added on the iPhone is a small fraction of the product's total landed/import cost, despite China being the final assembly and export point",
+    "evidence_type": "empirical",
+    "scope_conditions": "iPhone 16, China-assembled units, cost estimate as of April 2025",
+    "quoted_support": "the total cost of a finished, assembled iPhone 16 comes to: $549.73 + 14.00 = $563.73. The Chinese portion is only $4.10 + 20.79 + 14.00 = $38.89",
+    "numbers": ["$38.89 China value-added", "$563.73 total landed cost", "$549.73 components", "$14.00 Foxconn assembly fee"],
+    "entities": ["Farok J. Contractor", "Apple", "Foxconn", "China", "Rutgers Business School"],
+    "time_period": "2025",
+    "region": "China",
+    "confidence": "medium",
+    "source_note_id": "misrepresentations-about-international-trade-the-case-of-apples-iphone-globalbus"
+  },
+  {
+    "claim": "Of the ~$563.73 in per-unit value associated with a China-assembled iPhone 16 imported to the US, US-based value-added (US-sourced components plus Apple's gross margin plus US distributor/retailer margin) totals an estimated $32.97 billion annually versus only $2.41 billion of Chinese value-added, based on 62 million units imported in 2024.",
+    "stance": "supports",
+    "stance_target": "The US, not China, captures the overwhelming majority of value from iPhone sales despite China being the point of final assembly and export",
+    "evidence_type": "statistical",
+    "scope_conditions": "iPhone 16, 2024 import volume (62 million units)",
+    "quoted_support": "the value being added in China is only $2.41 billion annually (for the battery, case, and assembly of each phone). The value added in the US is for the US-sourced components ($1.35 billion), plus the gross margin of Apple Inc. ($22.32 billion) and its distributors and retailers ($9.30 billion), totaling $32.97 billion.",
+    "numbers": ["$2.41 billion China value-added (annual)", "$32.97 billion US value-added (annual)", "62 million units (2024)", "$359.97 Apple gross margin per unit"],
+    "entities": ["Farok J. Contractor", "Apple", "China", "United States"],
+    "time_period": "2024-2025",
+    "region": "United States, China",
+    "confidence": "medium",
+    "source_note_id": "misrepresentations-about-international-trade-the-case-of-apples-iphone-globalbus"
+  },
+  {
+    "claim": "Because import tariffs are typically assessed on the entire FOB value of a finished, China-assembled product rather than on the actual China-origin value-added, tariff policy structurally overstates the 'Chinese content' being taxed, and administering value-added-based tariff refunds is 'an accounting nightmare' for both companies and customs authorities.",
+    "stance": "supports",
+    "stance_target": "Difficulty and imprecision inherent in any value-added-adjusted tariff or refund regime applied to complex multinational supply chains like Apple's",
+    "evidence_type": "theoretical",
+    "scope_conditions": "General tariff assessment methodology as applied to the iPhone case",
+    "quoted_support": "We can see in the Apple example how the value added in China amounts to only $38.89 in an iPhone 16. But the US customs department may assess a punitive tariff on the entire $563.73 FOB import value of the phone because all the components were finally assembled in China... Some governments rebate or refund part of the tariff paid if the company can show what portion... was initially sourced from other countries. But... that can become an accounting difficulty, if not an accounting nightmare.",
+    "numbers": ["$38.89 China value-added", "$563.73 FOB import value"],
+    "entities": ["Farok J. Contractor", "US Customs", "Apple"],
+    "time_period": "2025",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "misrepresentations-about-international-trade-the-case-of-apples-iphone-globalbus"
+  },
+  {
+    "claim": "If all iPhone 16 components and assembly were sourced domestically in the US, the estimated retail price would rise from about $1,100 to $3,500, according to an analyst calculation cited by CNBC.",
+    "stance": "supports",
+    "stance_target": "Full US reshoring of iPhone production would be economically punitive to consumers, illustrating the depth of the current international division of labor",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Hypothetical fully-US-made iPhone 16, 2025 estimate",
+    "quoted_support": "If all components and assembly of, say, the iPhone 16 were sourced domestically in the US, the final estimated price would likely rise from the current average of $1,100 to $3,500.",
+    "numbers": ["$1,100 current average price", "$3,500 hypothetical fully-US-made price"],
+    "entities": ["Dan Ives", "Apple", "CNBC"],
+    "time_period": "2025",
+    "region": "United States",
+    "confidence": "low",
+    "source_note_id": "misrepresentations-about-international-trade-the-case-of-apples-iphone-globalbus"
+  }
+]

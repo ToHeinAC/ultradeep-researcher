@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "The revamped Siri debuting in iOS 27, roughly two years after being demoed at WWDC 2024, is judged by a hands-on reviewer to be 'effectively on par with the original 2024 demo' in personal-context capability.",
+    "stance": "refutes",
+    "stance_target": "Apple's AI product execution has permanently fallen short of its own 2024 promises (this evidence suggests the delayed product substantially delivers on the original demo, i.e. execution delay rather than execution failure)",
+    "evidence_type": "empirical",
+    "scope_conditions": "iOS 27 developer beta hands-on testing, pre-September 2026 public release",
+    "quoted_support": "Yes, this new Siri is effectively on par with the original 2024 demo. Gone are the days of it completely misunderstanding basic requests, or hitting you with a \"here's what I found on Google.\"",
+    "numbers": ["two years late"],
+    "entities": ["Siri", "Apple", "iOS 27", "WWDC 2024"],
+    "time_period": "2024-2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "we-tried-the-new-siri-beta-has-apple-finally-delivered-on-its-promises"
+  },
+  {
+    "claim": "Apple paid $250 million to settle claims from users who purchased iPhones expecting the personal-context Siri promised in 2024, which was then delayed roughly two years.",
+    "stance": "supports",
+    "stance_target": "Apple's late-follower AI posture reflects a revealed execution failure (delayed shipping caused quantifiable consumer/legal harm) rather than a purely strategic choice",
+    "evidence_type": "legal",
+    "scope_conditions": "US consumer settlement related to delayed Siri AI features, timeframe 2024-2026",
+    "quoted_support": "Things got so bad that Apple coughed up $250 million to disgruntled users who bought iPhones for the new Siri, and rumors swirled that the entire demo had been a Silicon Valley fever dream.",
+    "numbers": ["$250 million"],
+    "entities": ["Apple", "Siri"],
+    "time_period": "2024-2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "we-tried-the-new-siri-beta-has-apple-finally-delivered-on-its-promises"
+  },
+  {
+    "claim": "Despite Apple/Ternus marketing the new Siri as running AI 'on device whenever it can,' the reviewer found complex requests still depend on Apple's Private Cloud Compute servers and fail or stall without good internet connectivity -- true offline function does not work as customers may assume.",
+    "stance": "refutes",
+    "stance_target": "Apple's on-device-AI privacy/capability differentiation claim as marketed by Ternus is fully accurate in practice for the new Siri",
+    "evidence_type": "empirical",
+    "scope_conditions": "iOS 27 beta hands-on testing with poor Wi-Fi/cell signal",
+    "quoted_support": "This is because, I learned, even though the processing does happen on device, Siri relies on Apple's Private Cloud Compute servers to know how to approach a request. My complex requests either took forever or failed until I found a good Wi-Fi network.",
+    "numbers": [],
+    "entities": ["Siri", "Apple", "Private Cloud Compute"],
+    "time_period": "2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "we-tried-the-new-siri-beta-has-apple-finally-delivered-on-its-promises"
+  },
+  {
+    "claim": "The new Siri's personal-context indexing process took over a week to complete on an iPad and multiple days on an iPhone during beta testing, even with a modest ~200GB of personal data, degrading usability during that period.",
+    "stance": "neutral",
+    "stance_target": "Practical rollout friction of Apple's on-device personal-context AI architecture",
+    "evidence_type": "empirical",
+    "scope_conditions": "iOS/iPadOS 27 developer beta, 2026",
+    "quoted_support": "On the iPad, I just used it normally...As a result, indexing took forever. Literally over a week. On my iPhone, I left it plugged in for hours at a time, and it finished in a couple of days.",
+    "numbers": ["200GB", "over a week (iPad)", "a couple of days (iPhone)"],
+    "entities": ["Siri", "Apple", "iOS 27", "iPadOS 27"],
+    "time_period": "2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "we-tried-the-new-siri-beta-has-apple-finally-delivered-on-its-promises"
+  },
+  {
+    "claim": "The revamped Siri's usefulness is explicitly gated by how deep a user is embedded in Apple's own first-party app ecosystem (iMessage, Mail, Notes) versus third-party apps like Gmail or WhatsApp, a limitation the reviewer experienced directly.",
+    "stance": "neutral",
+    "stance_target": "Apple's iPhone-as-AI-hub strategy depends on ecosystem lock-in for full value delivery",
+    "evidence_type": "empirical",
+    "scope_conditions": "iOS 27 beta, 2026",
+    "quoted_support": "Most of my chats are not in iMessage, so any questions leveraging previous conversations with family and friends fell on deaf ears. This was frustrating even though I have the lion's share of my personal data in Apple's ecosystem.",
+    "numbers": [],
+    "entities": ["Siri", "Apple", "iMessage", "Gmail", "WhatsApp"],
+    "time_period": "2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "we-tried-the-new-siri-beta-has-apple-finally-delivered-on-its-promises"
+  }
+]

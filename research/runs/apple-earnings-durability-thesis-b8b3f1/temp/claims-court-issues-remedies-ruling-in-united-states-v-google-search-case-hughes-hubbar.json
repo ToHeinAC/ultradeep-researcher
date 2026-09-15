@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Judge Mehta's remedies ruling explicitly does not prohibit Google's payment for default search status to distribution partners such as Apple.",
+    "stance": "supports",
+    "stance_target": "Google TAC to Apple survives the remedy largely intact in dollar terms",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google remedies ruling, Sept 2, 2025",
+    "quoted_support": "Partners such as Apple and Samsung will have more negotiating power and flexibility regarding default search settings on their devices, though the ruling does not prohibit payment for default status.",
+    "numbers": [],
+    "entities": ["Apple", "Samsung", "Google", "Judge Amit Mehta"],
+    "time_period": "2025-09-02",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "court-issues-remedies-ruling-in-united-states-v-google-search-case-hughes-hubbar"
+  },
+  {
+    "claim": "The remedies ruling bans exclusive search distribution deals, giving distribution partners like Apple leverage to feature competing search engines and renegotiate terms.",
+    "stance": "supports",
+    "stance_target": "annual rebidding / non-exclusivity structurally erodes Google's rent over time",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google remedies ruling",
+    "quoted_support": "The court did not ban Google's payments to partners such as Apple to set Google as the default search engine, but it did prohibit exclusive search distribution deals. This ruling enables a variety of companies, including browser providers and cellphone and laptop manufacturers, to feature other search engines and gives them greater leverage in negotiations with Google.",
+    "numbers": [],
+    "entities": ["Google", "Apple"],
+    "time_period": "2025-09-02",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "court-issues-remedies-ruling-in-united-states-v-google-search-case-hughes-hubbar"
+  },
+  {
+    "claim": "Google is expected to appeal the underlying monopolization finding, and DOJ may appeal the scope of remedies; this appellate process 'could take years' and a stay of remedies pending appeal is possible.",
+    "stance": "neutral",
+    "stance_target": "appellate timetable for the Google TAC binary/repricing event",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google, post-remedies-ruling",
+    "quoted_support": "Following the remedy ruling, Google is expected to appeal Mehta's underlying finding of monopolization. The DOJ may appeal the scope of the remedies. This process could take years and means the ordered remedies may not be implemented immediately pending a motion to stay the remedies during any appeal.",
+    "numbers": [],
+    "entities": ["Google", "DOJ", "Judge Amit Mehta"],
+    "time_period": "post-2025-09-02",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "court-issues-remedies-ruling-in-united-states-v-google-search-case-hughes-hubbar"
+  },
+  {
+    "claim": "The court denied forced divestiture of Chrome/Android because DOJ failed to show a strong causal connection between those assets and the proven competitive harm, and because less severe remedies were deemed likely adequate.",
+    "stance": "neutral",
+    "stance_target": "scope of structural vs behavioral remedy in US v. Google",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google remedies ruling",
+    "quoted_support": "Mehta concluded that 'the complete divestiture of Chrome is a poor fit for this case' both because the DOJ had failed to show a strong enough 'causal connection' between Chrome and the competitive harm it had proven and it had not shown a divestiture of Chrome was necessary because 'less severe remedies likely would prove inadequate to remedy the competitive harm.'",
+    "numbers": [],
+    "entities": ["Google", "Chrome", "Android", "Judge Amit Mehta"],
+    "time_period": "2025-09-02",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "court-issues-remedies-ruling-in-united-states-v-google-search-case-hughes-hubbar"
+  },
+  {
+    "claim": "Data sharing remedies require Google to share search index and user interaction data (not ads data) with 'qualified competitors' at Google's marginal cost, with scope not yet finalized as of Sept 3, 2025.",
+    "stance": "neutral",
+    "stance_target": "effectiveness of behavioral remedy in restoring search competition",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google remedies ruling",
+    "quoted_support": "In a partial victory for the government and competitors, the court ordered Google to share certain search data with \"qualified competitors.\" While the specific scope of the shared data has yet to be finalized, it will include portions of Google's search index and user interaction data, though not its proprietary ads data. The data must be shared at Google's \"marginal cost.\"",
+    "numbers": [],
+    "entities": ["Google"],
+    "time_period": "2025-09-02",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "court-issues-remedies-ruling-in-united-states-v-google-search-case-hughes-hubbar"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "claim": "This paper is a pure econometric-theory extension of Gabaix & Koijen's (2021) Granular Instrumental Variables (GIV) estimator to a large-N, large-T setting (GK's original identification was for fixed N, large T); its empirical application is the global crude oil market's supply and demand elasticities, not equities, and it contains no equity-market or Apple-specific estimate.",
+    "stance": "neutral",
+    "stance_target": "The demand-system/GIV literature can support an Apple-specific passive-flow multiplier estimate",
+    "evidence_type": "theoretical",
+    "scope_conditions": [
+      "econometric identification theory paper, not an empirical equity-market study",
+      "empirical application is the global crude oil market"
+    ],
+    "quoted_support": "we naturally extend GK’s identification procedure to a large N and\nlarge T framework (GK formally introduced GIV for a fixed N and large T) by establishing and restricting\nthe asymptotic behavior of the Herfindahl index for large N markets as a function of the tail index of\nthe size distribution.",
+    "numbers": [],
+    "entities": ["Banafti", "Lee", "Gabaix", "Koijen", "GIV"],
+    "time_period": "2023 (arXiv v2)",
+    "region": "global crude oil market (empirical application)",
+    "confidence": "high",
+    "source_note_id": "inferential-theory-for-granular-instrumental-variables-in-high-dimensions"
+  },
+  {
+    "claim": "In the GIV framework, market concentration (measured by the Herfindahl index of unit sizes) governs the STATISTICAL PRECISION of the estimator, not the magnitude of the price/elasticity effect: the variance of the just-identified GIV estimator is inversely proportional to the Herfindahl index, so a more concentrated market yields a more precise (lower-variance) estimate, while a market converging to zero concentration makes the estimator's variance diverge.",
+    "stance": "neutral",
+    "stance_target": "Concentrated ownership (e.g. a handful of large asset managers dominating a stock's shareholder register) mechanically implies a larger price-impact multiplier for that stock",
+    "evidence_type": "theoretical",
+    "scope_conditions": [
+      "statement about estimator variance/identification strength, not about the economic magnitude of a price multiplier",
+      "large-N asymptotic theory"
+    ],
+    "quoted_support": "reflecting the fact that the more concentrated\nthe market, the more precise the GIV methodology will be and also reflecting the fact that if the Herfindahl\nconverges to zero in the limit, the variance will diverge.",
+    "numbers": [],
+    "entities": ["Banafti", "Lee", "Herfindahl index"],
+    "time_period": "2023",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "inferential-theory-for-granular-instrumental-variables-in-high-dimensions"
+  },
+  {
+    "claim": "The paper's Monte Carlo evidence and its overidentified GMM estimator produce 'new and improved results' in the crude oil market application, validating the generalized GIV methodology's finite-sample performance, but the authors do not revisit or revise Gabaix-Koijen's original equity-market multiplier estimate ($3-8 per $1 of flow); the two literatures remain unconnected empirically.",
+    "stance": "neutral",
+    "stance_target": "The GIV/demand-system literature has revised Gabaix-Koijen's aggregate equity multiplier estimate",
+    "evidence_type": "theoretical",
+    "scope_conditions": [
+      "no equity application is attempted",
+      "methodological validation only"
+    ],
+    "quoted_support": "We also overidentify the structural\nparameters, which leads to new and improved results in the crude oil markets application and demonstrate\nthat the J-test is well sized with simulation evidence.",
+    "numbers": [],
+    "entities": ["Banafti", "Lee"],
+    "time_period": "2023",
+    "region": "global crude oil market",
+    "confidence": "high",
+    "source_note_id": "inferential-theory-for-granular-instrumental-variables-in-high-dimensions"
+  }
+]

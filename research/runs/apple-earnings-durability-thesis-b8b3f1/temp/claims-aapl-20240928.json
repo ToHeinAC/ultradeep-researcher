@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Apple's FY2024 risk-factor language on search-services licensing names Google LLC explicitly for the first time (vs. generic 'other companies' in FY2023) but predates the September 2, 2025 remedies order, so it does not yet discuss remedy design or timetable.",
+    "stance": "supports",
+    "stance_target": "the Google TAC risk disclosure evolved materially year over year as the litigation progressed, evidencing genuine escalation of legal exposure rather than a static boilerplate risk",
+    "evidence_type": "legal",
+    "scope_conditions": "FY2024 10-K (fiscal year ended 2024-09-28), filed before the Sept 2025 D.C. District Court remedies order",
+    "quoted_support": "For example, the Company earns revenue from licensing arrangements with Google LLC and other companies to offer their search services on the Company's platforms and applications, and certain of these arrangements are currently subject to government investigations and legal proceedings.",
+    "numbers": [],
+    "entities": ["Apple Inc.", "Google LLC"],
+    "time_period": "FY2024 (fiscal year ended 2024-09-28)",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "aapl-20240928"
+  },
+  {
+    "claim": "As of the FY2024 10-K, Epic v. Apple litigation status was pre-contempt: Apple had implemented its 2021-injunction compliance plan on January 16, 2024, Epic's enforcement motion was still pending, and Apple had just filed (September 30, 2024) a motion to narrow or vacate the injunction -- all before the April 30, 2025 contempt finding disclosed in the FY2025 10-K.",
+    "stance": "supports",
+    "stance_target": "legal exposure on App Store commissions escalated materially between FY2024 and FY2025 filings",
+    "evidence_type": "legal",
+    "scope_conditions": "N.D. California, Epic Games v. Apple, status as of FY2024 filing",
+    "quoted_support": "On January 16, 2024, the Company implemented a plan to comply with the injunction and filed a statement of compliance with the California District Court. A motion by Epic disputing the Company's compliance plan and seeking to enforce the injunction, which the Company has opposed, is pending before the California District Court. On September 30, 2024, the Company filed a motion with the California District Court to narrow or vacate the injunction.",
+    "numbers": [],
+    "entities": ["Apple Inc.", "Epic Games Inc.", "N.D. California District Court"],
+    "time_period": "January-September 2024",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "aapl-20240928"
+  },
+  {
+    "claim": "Apple's net income fell to $93,736M in FY2024 (from $96,995M in FY2023) despite higher operating income ($123,216M vs $114,301M), driven by a one-time $10.2 billion net income-tax charge tied to the EU State Aid Decision after the September 10, 2024 ECJ ruling.",
+    "stance": "neutral",
+    "stance_target": "one-off tax items can distort single-year net income and EPS comparisons independent of the durability decomposition",
+    "evidence_type": "empirical",
+    "scope_conditions": "FY2024, EU State Aid Decision (Ireland tax ruling)",
+    "quoted_support": "The Company's effective tax rate for 2024 was higher than the statutory federal income tax rate due primarily to a one-time income tax charge of $10.2 billion, net, related to the State Aid Decision... As of September 28, 2024, the Company had an obligation to pay €14.2 billion or $15.8 billion to Ireland in connection with the State Aid Decision.",
+    "numbers": ["$10.2 billion net one-time tax charge", "€14.2 billion / $15.8 billion payable to Ireland", "net income $93,736M FY24 vs $96,995M FY23", "operating income $123,216M FY24 vs $114,301M FY23"],
+    "entities": ["Apple Inc.", "European Commission", "Ireland", "European Court of Justice"],
+    "time_period": "FY2024, ruling dated September 10, 2024",
+    "region": "European Union / Ireland",
+    "confidence": "high",
+    "source_note_id": "aapl-20240928"
+  },
+  {
+    "claim": "Apple's diluted weighted-average share count fell from 15,812,547 thousand (FY2023) to 15,408,095 thousand (FY2024), a 2.6% reduction, funded by $95.0 billion of share repurchases (499 million shares) under a new $110 billion program announced May 2024.",
+    "stance": "supports",
+    "stance_target": "buybacks mechanically compress the EPS denominator without revenue growth",
+    "evidence_type": "empirical",
+    "scope_conditions": "FY2024",
+    "quoted_support": "During 2024, the Company repurchased 499 million shares of its common stock for $95.0 billion... In May 2024, the Company announced a new share repurchase program of up to $110 billion and raised its quarterly dividend from $0.24 to $0.25 per share.",
+    "numbers": ["$95.0 billion repurchased", "499 million shares", "diluted shares 15,408,095K FY24 vs 15,812,547K FY23", "$110B program size"],
+    "entities": ["Apple Inc."],
+    "time_period": "FY2024",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "aapl-20240928"
+  },
+  {
+    "claim": "Services gross margin percentage rose to 73.9% in FY2024 from 70.8% in FY2023, while Products gross margin percentage rose to 37.2% from 36.5%, widening the margin gap between the two durability classes.",
+    "stance": "supports",
+    "stance_target": "Services margin premium over Products is a stable, widening structural feature, not a one-year artifact",
+    "evidence_type": "empirical",
+    "scope_conditions": "FY2023 to FY2024",
+    "quoted_support": "Total gross margin percentage 46.2 | 44.1 | 43.3 [FY2024/2023/2022]... Services gross margin percentage increased during 2024 compared to 2023 due to a different Services mix.",
+    "numbers": ["Products GM 37.2% FY24 vs 36.5% FY23", "Services GM 73.9% FY24 vs 70.8% FY23", "total GM 46.2% FY24 vs 44.1% FY23 vs 43.3% FY22"],
+    "entities": ["Apple Inc."],
+    "time_period": "FY2022-FY2024",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "aapl-20240928"
+  }
+]

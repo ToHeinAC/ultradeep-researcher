@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "In fiscal Q1 2019 (Oct-Dec 2018, iPhone XS/XS Max/XR quarter, the first quarter Apple stopped disclosing unit counts going forward), iPhone unit sales fell 11.5% YoY to 68.4 million despite three new premium models being launched.",
+    "stance": "supports",
+    "stance_target": "Prior 'supercycle' launch quarters can show unit declines even when new premium models are released, an early precedent for revenue growth decoupling from unit growth",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q1 2019, worldwide, Apple's own disclosed unit figure (last quarter before Apple stopped reporting units)",
+    "quoted_support": "In fiscal Q1 2019 quarter, Apple shipped 68.4 million units of iPhones, worldwide. Despite launching three most expensive iPhones – iPhone XS Max, iPhone XS and iPhone XR – the company has registered a notable 11.5% YoY decline in its iPhone sales.",
+    "numbers": ["68.4 million units", "-11.5% YoY"],
+    "entities": ["Apple", "iPhone XS", "iPhone XS Max", "iPhone XR"],
+    "time_period": "Fiscal Q1 2019 (Oct-Dec 2018)",
+    "region": "Worldwide",
+    "confidence": "high",
+    "source_note_id": "apple-iphone-sales-by-quarter-fy-q3-2007-q1-2021-dazeinfo"
+  },
+  {
+    "claim": "Fiscal Q1 2017 (holiday quarter, pre-iPhone X, iPhone 7 era) was the historical peak for quarterly iPhone unit sales at that time: 78.29 million units, +4.7% YoY.",
+    "stance": "neutral",
+    "stance_target": "Historical iPhone unit-sales peaks by fiscal quarter",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q1 2017 (Oct-Dec 2016), worldwide, Apple-disclosed unit figure",
+    "quoted_support": "It was the fiscal Q1 2017 when the global sales of Apple iPhones reached an all-time high of 78.29 million units. That's 4.7% YoY and a whopping 72% QoQ growth.",
+    "numbers": ["78.29 million units", "+4.7% YoY", "+72% QoQ"],
+    "entities": ["Apple"],
+    "time_period": "Fiscal Q1 2017 (Oct-Dec 2016)",
+    "region": "Worldwide",
+    "confidence": "high",
+    "source_note_id": "apple-iphone-sales-by-quarter-fy-q3-2007-q1-2021-dazeinfo"
+  },
+  {
+    "claim": "The iPhone 12 supercycle drove fiscal Q1 2021 (Dec quarter 2020) iPhone unit shipments to 90.1 million, +22.2% YoY, after a delayed-launch-driven unit decline of 10.6% YoY (41.6 million units) in the preceding fiscal Q4 2020.",
+    "stance": "neutral",
+    "stance_target": "Comparison baseline for prior iPhone supercycle unit-growth magnitudes (iPhone 12, FY2021) versus the current iPhone 17 cycle",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q4 2020 and fiscal Q1 2021, worldwide, mix of Apple-disclosed and IDC-estimated figures (Apple had stopped disclosing units by this point, so these are IDC/analyst estimates cited by Dazeinfo)",
+    "quoted_support": "Apple shipped a whopping 90.1 million units of iPhones during Oct-Dec 2020, worldwide. The 22.2% YoY growth was primarily driven by huge demand for the iPhone 12 series... The global iPhone sales declined a notable 10.6% YoY during the fiscal Q4 2020, totalling 41.6 million units.",
+    "numbers": ["90.1 million units Q1 FY2021", "+22.2% YoY", "41.6 million units Q4 FY2020", "-10.6% YoY"],
+    "entities": ["Apple", "iPhone 12"],
+    "time_period": "Fiscal Q4 2020 and Fiscal Q1 2021",
+    "region": "Worldwide",
+    "confidence": "medium",
+    "source_note_id": "apple-iphone-sales-by-quarter-fy-q3-2007-q1-2021-dazeinfo"
+  },
+  {
+    "claim": "The iPhone X was the world's best-selling smartphone model in both fiscal Q1 2018 and fiscal Q2 2018, with 3 out of every 10 iPhones sold globally in fiscal Q2 2018 being an iPhone X, but no explicit total iPhone unit count for those quarters is given in this source.",
+    "stance": "neutral",
+    "stance_target": "iPhone X (FY2018) supercycle unit performance",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q1 2018 and fiscal Q2 2018, worldwide; qualitative claim only, no aggregate unit figure disclosed in this source",
+    "quoted_support": "Despite tagged as 'failed' and 'flop', iPhone X emerged as the world's best-selling smartphone model in both, fiscal Q1 2018 and fiscal Q2 2018. In fiscal Q2 2018, 3 out of every 10 units of sold iPhones, globally, were iPhone X.",
+    "numbers": ["30% of iPhone units sold in fiscal Q2 2018 were iPhone X"],
+    "entities": ["Apple", "iPhone X"],
+    "time_period": "Fiscal Q1 2018 and Fiscal Q2 2018",
+    "region": "Worldwide",
+    "confidence": "low",
+    "source_note_id": "apple-iphone-sales-by-quarter-fy-q3-2007-q1-2021-dazeinfo"
+  },
+  {
+    "claim": "This source's fetched text does not contain explicit quarterly unit-sales figures for the iPhone 6 supercycle (FY2015) or full iPhone X-era (FY2018) quarters -- only narrative statements that iPhone 6/6S growth was 'unprecedented' -- despite the underlying chart purportedly spanning FY2007-FY2021.",
+    "stance": "neutral",
+    "stance_target": "Data availability gap for FY2015 and FY2018 quarterly iPhone unit figures",
+    "evidence_type": "empirical",
+    "scope_conditions": "Data-gap/methodology note, not a substantive market claim",
+    "quoted_support": "There was unprecedented growth recorded in the worldwide sales of iPhone after the launch of iPhone 6 and its successor iPhone 6S. In fact, iPhone 6S has been the most selling iPhone model to date.",
+    "numbers": [],
+    "entities": ["Apple", "iPhone 6", "iPhone 6S"],
+    "time_period": "FY2015 and FY2018",
+    "region": "Worldwide",
+    "confidence": "low",
+    "source_note_id": "apple-iphone-sales-by-quarter-fy-q3-2007-q1-2021-dazeinfo"
+  }
+]

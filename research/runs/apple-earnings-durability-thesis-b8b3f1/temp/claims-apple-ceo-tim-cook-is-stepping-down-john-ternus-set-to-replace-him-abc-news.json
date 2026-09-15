@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Apple announced on April 20, 2026 that Tim Cook is stepping down as CEO and John Ternus will replace him, with Cook becoming executive chairman of Apple's board.",
+    "stance": "neutral",
+    "stance_target": "CEO transition timeline and structure",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Inc., announced April 20 2026",
+    "quoted_support": "Apple CEO Tim Cook is stepping down, with the company announcing on Monday that John Ternus will take his place as the head of the technology giant. Cook will become the executive chairman of Apple's board of directors, the company said. Ternus will officially become CEO on Sept. 1.",
+    "numbers": [],
+    "entities": ["Tim Cook", "John Ternus", "Apple"],
+    "time_period": "announced April 20 2026, effective Sept 1 2026",
+    "region": "global (Apple Inc.)",
+    "confidence": "high",
+    "source_note_id": "apple-ceo-tim-cook-is-stepping-down-john-ternus-set-to-replace-him-abc-news"
+  },
+  {
+    "claim": "Under Cook's 2011-2026 CEO tenure, Apple's market capitalization grew from approximately $350 billion to $4 trillion.",
+    "stance": "neutral",
+    "stance_target": "Continuity narrative: transition occurs from a position of financial strength",
+    "evidence_type": "statistical",
+    "scope_conditions": "Apple Inc., 2011-2026",
+    "quoted_support": "The company said that under his leadership, Apple has grown from a market capitalization of approximately $350 billion to $4 trillion.",
+    "numbers": ["$350 billion", "$4 trillion"],
+    "entities": ["Apple", "Tim Cook"],
+    "time_period": "2011-2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-ceo-tim-cook-is-stepping-down-john-ternus-set-to-replace-him-abc-news"
+  },
+  {
+    "claim": "John Ternus has worked at Apple since 2001, became VP of Hardware Engineering in 2013, and worked on product lines including iPad, AirPods, and Apple Watch -- a hardware-engineering background, not a software/services or AI background.",
+    "stance": "supports",
+    "stance_target": "A hardware-engineering CEO is directly relevant to testing the late-follower-in-AI-is-an-advantage prior",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Inc. executive career history",
+    "quoted_support": "Ternus has worked at Apple since 2001 and became a vice president of Hardware Engineering in 2013, according to the company. He has worked on several product lines, including the iPad, AirPods, and Apple Watch.",
+    "numbers": ["2001", "2013"],
+    "entities": ["John Ternus", "Apple", "iPad", "AirPods", "Apple Watch"],
+    "time_period": "2001-2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-ceo-tim-cook-is-stepping-down-john-ternus-set-to-replace-him-abc-news"
+  }
+]

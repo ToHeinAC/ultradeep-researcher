@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "IDC forecasts worldwide smartphone unit shipments will fall 16.7% in CY2026 to just over 1 billion units, the steepest annual contraction on record, while total market value still grows 6.3% to $613 billion because average selling prices are rising sharply.",
+    "stance": "supports",
+    "stance_target": "Industry-wide 2026 dynamic of falling units / rising ASP, the same dynamic potentially present in Apple's own FY2026 results",
+    "evidence_type": "statistical",
+    "scope_conditions": "Worldwide smartphone market, calendar year 2026, IDC Worldwide Quarterly Mobile Phone Tracker forecast published August 26, 2026",
+    "quoted_support": "Worldwide smartphone shipments will fall 16.7% in 2026 to just over 1 billion units... Total market value will still grow 6.3% to $613 billion, because higher prices are now doing the heavy lifting that volume once did.",
+    "numbers": ["-16.7% unit decline 2026", "~1 billion units 2026", "+6.3% market value growth", "$613 billion market value"],
+    "entities": ["IDC"],
+    "time_period": "CY2026",
+    "region": "Worldwide",
+    "confidence": "high",
+    "source_note_id": "idc-smartphone-shipments-to-drop-167-in-2026-as-memory-crisis-bites"
+  },
+  {
+    "claim": "A memory-chip (NAND/DRAM) cost shock, with component costs up over 300% YoY, is forecast to push average smartphone selling price up 27.6% to $581 in 2026, effectively ending the sub-$100 smartphone segment.",
+    "stance": "neutral",
+    "stance_target": "Macro driver of rising smartphone ASPs industry-wide in 2026",
+    "evidence_type": "statistical",
+    "scope_conditions": "Worldwide smartphone market, CY2026",
+    "quoted_support": "The average selling price of a smartphone will reach $581 in 2026, up 27.6% in a single year and revised upward from the $550 projected last quarter... NAND and DRAM costs continue to rise, up over 300% YoY.",
+    "numbers": ["$581 ASP 2026", "+27.6% ASP growth", "+300% NAND/DRAM cost YoY", "173 million sub-$100 phones shipped in prior year"],
+    "entities": ["IDC"],
+    "time_period": "CY2026",
+    "region": "Worldwide",
+    "confidence": "high",
+    "source_note_id": "idc-smartphone-shipments-to-drop-167-in-2026-as-memory-crisis-bites"
+  },
+  {
+    "claim": "Apple's iOS shipments are forecast to decline only 1.3% YoY in 2026, far more resilient than the Android-wide 24.3% YoY decline, and iOS's global unit share is forecast to rise about 4 percentage points to a record 23.6%.",
+    "stance": "supports",
+    "stance_target": "Apple's iPhone unit shipments are far more resilient than the broader market but are not growing meaningfully in FY2026",
+    "evidence_type": "statistical",
+    "scope_conditions": "Worldwide, calendar year 2026, IDC forecast; applying -1.3% to IDC's own CY2025 actual of 247.8M units implies ~244.6M Apple units in CY2026",
+    "quoted_support": "iOS share moves in the opposite direction, increasing almost four percentage points from last year to a record-high 23.6% share, as shipments remain relatively resilient, down just 1.3% YoY in 2026... Android bears almost the entire decline, falling 24.3% in 2026.",
+    "numbers": ["-1.3% iOS unit decline 2026", "23.6% iOS share 2026", "-24.3% Android unit decline 2026", "implied ~244.6 million Apple units CY2026 (derived: 247.8M x 0.987)"],
+    "entities": ["Apple", "IDC", "Android"],
+    "time_period": "CY2026",
+    "region": "Worldwide",
+    "confidence": "medium",
+    "source_note_id": "idc-smartphone-shipments-to-drop-167-in-2026-as-memory-crisis-bites"
+  },
+  {
+    "claim": "Apple's entry into the foldable iPhone category in H2 2026 is forecast to ship more than 17 million foldable units by 2027 at an ASP exceeding $2,550, generating more than $45.7 billion in value and capturing roughly 40% of the global foldables market -- a distinct, high-ASP mix-shift driver separate from the base iPhone unit/ASP dynamic.",
+    "stance": "neutral",
+    "stance_target": "Additional forward-looking ASP/mix driver for Apple beyond the base iPhone 17 cycle",
+    "evidence_type": "statistical",
+    "scope_conditions": "Apple foldable iPhone, worldwide, cumulative through 2027, IDC forecast",
+    "quoted_support": "We forecast Apple will ship more than 17 million foldable iPhones by 2027, capturing roughly 40% of the global foldables market. With an average selling price exceeding $2,550, Apple is expected to generate more than $45.7 billion in value.",
+    "numbers": ["17 million foldable iPhone units by 2027", ">$2,550 ASP", "$45.7 billion value", "~40% of global foldables market"],
+    "entities": ["Apple", "IDC"],
+    "time_period": "H2 2026 through 2027",
+    "region": "Worldwide",
+    "confidence": "medium",
+    "source_note_id": "idc-smartphone-shipments-to-drop-167-in-2026-as-memory-crisis-bites"
+  }
+]

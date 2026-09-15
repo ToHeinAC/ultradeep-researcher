@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Apple traded at a 34.6x trailing P/E as of mid-August 2026, versus a 28x three-year average trailing P/E; forward P/E was 34.2x.",
+    "stance": "neutral",
+    "stance_target": "headline multiple pinning for the falsification test",
+    "evidence_type": "statistical",
+    "scope_conditions": "as of August 14, 2026, US equity market",
+    "quoted_support": "\"The stock is currently valued at 34.6x trailing P/E, versus a three-year average multiple of 28x.\" Table: \"Trailing P/E 34.6x | Forward P/E 34.2x | Three-year average P/E 28x\"",
+    "numbers": ["34.6x trailing P/E", "34.2x forward P/E", "28x three-year average P/E"],
+    "entities": ["Apple", "InvestingPro"],
+    "time_period": "August 14, 2026",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "apple-valuation-faces-scrutiny-as-services-growth-cools"
+  },
+  {
+    "claim": "KeyBanc argues that growth driven primarily by price increases should command a lower valuation multiple than growth driven by expanding unit volumes, and this thesis is gaining traction across Wall Street analysts.",
+    "stance": "supports",
+    "stance_target": "bear case: current multiple is not justified given the composition of growth",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Apple, as of August 2026 analyst commentary",
+    "quoted_support": "\"The investment case put forward by KeyBanc – that growth driven primarily by higher prices should command a lower valuation multiple than growth driven by expanding volumes – is increasingly mirrored in broader analyst positioning.\"",
+    "numbers": [],
+    "entities": ["KeyBanc", "Barclays", "Morgan Stanley"],
+    "time_period": "August 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "apple-valuation-faces-scrutiny-as-services-growth-cools"
+  },
+  {
+    "claim": "Morgan Stanley, while remaining bullish (Overweight), explicitly cut its Apple price target citing slower Services expansion and margin pressure as reasons.",
+    "stance": "supports",
+    "stance_target": "even bulls are pricing in the Services deceleration as a fundamental risk, not noise",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "as of August 2026",
+    "quoted_support": "\"Morgan Stanley has remained Overweight but has reduced its price target to $360, explicitly pointing to slower Services expansion and margin pressure as reasons for the cut.\"",
+    "numbers": ["$360 revised price target"],
+    "entities": ["Morgan Stanley", "Apple"],
+    "time_period": "August 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "apple-valuation-faces-scrutiny-as-services-growth-cools"
+  },
+  {
+    "claim": "Apple's Services revenue of $30.74 billion in the June 2026 quarter missed Barclays' projection of $31.18 billion, and one measure of Services YoY growth fell below 10% for the first time since the June 2023 quarter.",
+    "stance": "supports",
+    "stance_target": "bear case: Services deceleration is now a measurable, estimate-missing trend, not a one-off",
+    "evidence_type": "statistical",
+    "scope_conditions": "Apple Services segment, June 2026 quarter, compared against a June 2023 baseline",
+    "quoted_support": "\"Services revenue in the latest quarter came in at $30.74 billion, falling short of Barclays' projection of $31.18 billion. Year-over-year growth in this segment has now dropped below 10%, aligning with the risk KeyBanc highlighted around the potential weakening of the Services 'flywheel.'\"",
+    "numbers": ["$30.74B Services revenue", "$31.18B Barclays estimate", "<10% YoY growth (per this source's framing)"],
+    "entities": ["Apple", "Barclays", "KeyBanc"],
+    "time_period": "June 2026 quarter (FQ3 2026)",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "apple-valuation-faces-scrutiny-as-services-growth-cools"
+  }
+]

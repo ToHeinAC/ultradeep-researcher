@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "The claim that '90% of App Store sales escape Apple's commission cut' derives from Apple's own commissioned Analysis Group study measuring total App Store ecosystem billings/sales of ~$1.4 trillion in 2025, of which $1.1 trillion is physical goods/services (retail, ride-hailing, food delivery, travel) that were NEVER subject to Apple commission -- it is a gross-ecosystem-billings artifact, not evidence of regulatory-driven commission erosion.",
+    "stance": "refutes",
+    "stance_target": "The '90% escapes commission' statistic proves recent regulatory disruption to Apple's contingent revenue class",
+    "evidence_type": "statistical",
+    "scope_conditions": "Global App Store ecosystem, 2025 figures, study commissioned by Apple and released to developers June 4, 2026",
+    "quoted_support": "So the line that 90% of App Store activity is commission-free holds, but only because most of what people buy through apps is physical goods that Apple was never going to tax.",
+    "numbers": ["$1.4 trillion total ecosystem billings/sales (2025)", "$1.1 trillion physical goods/services (2025)", "$149 billion digital goods/services (2025), up from $131 billion in 2024"],
+    "entities": ["Apple", "Analysis Group"],
+    "time_period": "2025 (study published June 2026)",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "how-apple-makes-billions-from-the-app-storeand-why-90-of-sales-now-escape-its-co"
+  },
+  {
+    "claim": "Appfigures estimates Apple earned over $10.1 billion from US App Store commissions in 2024 (more than double its ~$4.76 billion estimate for 2020), and over $27.39 billion globally in 2024.",
+    "stance": "neutral",
+    "stance_target": "Magnitude of the contingent (App Store commission) earnings class",
+    "evidence_type": "statistical",
+    "scope_conditions": "United States and global, calendar year 2024",
+    "quoted_support": "App intelligence firm Appfigures calculated that Apple earned over £7.6B ($10.1B) from US App Store commissions in 2024 alone, more than double its £3.6B ($4.76B) estimate for 2020. Globally, Appfigures put the 2024 haul above £20.5B ($27.39B).",
+    "numbers": ["$10.1 billion US commissions 2024", "$4.76 billion US commissions 2020 (estimate)", "$27.39 billion global commissions 2024"],
+    "entities": ["Appfigures", "Apple"],
+    "time_period": "2020, 2024",
+    "region": "United States, Global",
+    "confidence": "medium",
+    "source_note_id": "how-apple-makes-billions-from-the-app-storeand-why-90-of-sales-now-escape-its-co"
+  },
+  {
+    "claim": "Apple's total Services revenue reached $109.16 billion in fiscal year 2025 (up ~14% YoY), per Apple's SEC annual filing, making it Apple's second-largest business after the iPhone; Apple does not disclose App Store commission revenue as a separate line within Services.",
+    "stance": "neutral",
+    "stance_target": "Baseline scale of the Services segment within which the undisclosed App Store commission line sits",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal year 2025, per SEC 10-K",
+    "quoted_support": "Apple does not disclose App Store revenue on its own. It folds the commission into its Services division, which hit a record £82B ($109.16B) in its 2025 financial year, up roughly 14% year on year and now its second-largest business after the iPhone, according to Apple's annual report filed with the US Securities and Exchange Commission.",
+    "numbers": ["$109.16 billion FY2025 Services revenue", "+14% YoY"],
+    "entities": ["Apple", "SEC"],
+    "time_period": "FY2025",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "how-apple-makes-billions-from-the-app-storeand-why-90-of-sales-now-escape-its-co"
+  },
+  {
+    "claim": "In December 2025 the Ninth Circuit partly upheld Judge Gonzalez Rogers's contempt ruling against Apple but held that Apple may still charge some 'reasonable' fee on external transactions, remanding the case to define that standard -- meaning the door for Apple to reintroduce a partial fee on external purchases is not fully closed.",
+    "stance": "neutral",
+    "stance_target": "Durability/permanence of the US external-payment 0%-commission regime",
+    "evidence_type": "legal",
+    "scope_conditions": "United States, Ninth Circuit Court of Appeals, December 2025",
+    "quoted_support": "In December 2025, the Ninth Circuit partly upheld the ruling but said Apple may still charge some reasonable fee on external transactions, sending the case back to define 'reasonable', per the US Court of Appeals.",
+    "numbers": [],
+    "entities": ["Ninth Circuit Court of Appeals", "Apple", "Epic Games"],
+    "time_period": "December 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "how-apple-makes-billions-from-the-app-storeand-why-90-of-sales-now-escape-its-co"
+  }
+]

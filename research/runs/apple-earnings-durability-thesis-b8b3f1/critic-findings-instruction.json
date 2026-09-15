@@ -1,0 +1,95 @@
+{
+  "critic_type": "instruction",
+  "structural_mirror_check": {
+    "status": "pass",
+    "expected": [
+      "## 1. Ertragsdekomposition nach Dauerhaftigkeitsklassen",
+      "## 2. Falsifikationstest: impliziter Blended Multiple vs. Headline-P/E",
+      "## 3. Dekomposition des Bewertungsmultiplikators: verdient vs. Flow-Artefakt",
+      "## 4. Binäre und kontingente Ereignisse: Google TAC, App Store, DMA",
+      "## 5. Prüfung der Leserannahme I — Late-Follower-Status als Vorteil in der KI",
+      "## 6. Prüfung der Leserannahme II — Disruption des Zahlungsgeschäfts",
+      "## 7. Ökosystem-Lock-in, Lieferkette und geopolitische Exposition",
+      "## 8. Verdikt für den 2–5-Jahres-Horizont"
+    ],
+    "actual_body_h2": [
+      "## 1. Ertragsdekomposition nach Dauerhaftigkeitsklassen",
+      "## 2. Falsifikationstest: impliziter Blended Multiple vs. Headline-P/E",
+      "## 3. Dekomposition des Bewertungsmultiplikators: verdient vs. Flow-Artefakt",
+      "## 4. Binäre und kontingente Ereignisse: Google TAC, App Store, DMA",
+      "## 5. Prüfung der Leserannahme I — Late-Follower-Status als Vorteil in der KI",
+      "## 6. Prüfung der Leserannahme II — Disruption des Zahlungsgeschäfts",
+      "## 7. Ökosystem-Lock-in, Lieferkette und geopolitische Exposition",
+      "## 8. Verdikt für den 2–5-Jahres-Horizont",
+      "## Sources",
+      "## Appendix A — Research Brief"
+    ],
+    "note": "Element-wise match on all eight required headings, in order. ## Sources and ## Appendix A are the wrapper contract's terminal sections. The further H2s a naive grep finds below line 462 sit inside the Appendix A text fence and are part of the verbatim, untranslated brief — not draft structure. No restructure needed."
+  },
+  "format_checks": {
+    "german_body": "pass",
+    "inline_bracket_citations_plus_sources": "pass (180 citation references in body, 95 sources listed)",
+    "citation_density": "pass (~19.4 per 1000 body words)",
+    "quotations_translated_with_english_original": "pass (English original followed by German rendering throughout, e.g. 4.1, 4.3, 6.2)",
+    "appendix_a_verbatim_untranslated": "pass (identical to research/runs/.../query.md body; only the fence and a one-line provenance note added)",
+    "required_formats": "all six present — decomposition table 1.3, multiple-decomposition range table 3.3, binary event calendar 4.5, required-services-CAGR calculation 7.3, falsification result 2.2/2.3, barrier classification table 2.5",
+    "peer_multiple_rejection": "pass (peer comparison appears only in the barrier table, classified as Konvention and replaced)",
+    "tac_vs_payments_separation": "pass (explicit separation asserted in the Kurzantwort and again at the head of section 6.1)"
+  },
+  "findings": [
+    {
+      "severity": "major",
+      "atomic_item": "Manufacturing diversification is physically slow | load-bearing | Capex-to-output lead times for India/Vietnam capacity",
+      "failure_mode": "under-covered",
+      "location": "Section 7.5 Lieferkette: Montage schnell, Fähigkeiten langsam, Taiwan binär — paragraph starting 'Die Endmontage verlagert sich schneller, als das Ausgangsraster annimmt.'",
+      "issue": "The brief names India AND Vietnam as the diversification entities and names capex-to-output lead times as the load-bearing evidence that would settle the assumption; the draft body covers India assembly share only, never mentions Vietnam (the word appears in the report solely inside the verbatim Appendix A brief), and substitutes 'könnten Verlagerungen in andere Länder Jahre dauern' for an actual lead-time figure.",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "In 7.5, add one or two sentences covering Vietnam's role in the non-iPhone assembly base (AirPods/Mac/iPad) alongside the India share figures, and give the capex-to-output lead time explicitly — a stated number of quarters/years from plant commitment to volume output, sourced from the vault, or an explicit audited absence naming what was searched if the vault has no such figure. Keep the existing adjudication ('Montage schnell, Fähigkeiten langsam') intact; this is evidence completion, not a reversal."
+    },
+    {
+      "severity": "major",
+      "atomic_item": "Higher discount rates compress long-duration cash flows more than short. / How sensitive is Apple's valuation to discount-rate changes given the duration of its cash flows?",
+      "failure_mode": "vague-recommendation",
+      "location": "Section 3.3 Crowding, Zinsen, Nennerqualität — paragraph starting 'Zinsrückenwind gab es nicht: Am 10. September 2026 lag die zehnjährige Treasury-Rendite bei 4,95 %'; and the premium table row 'Diskontsatz / Duration | ~0 (eher Gegenwind)'.",
+      "issue": "The prompt names discount-rate/duration sensitivity as a Phase-1 arithmetic truth and the decomposition raises it as a sub-question, but the draft answers only directionally ('kurze Cashflow-Duration', '~0 Punkte') with no elasticity: no statement of how many multiple points a 100bp move in the real rate is worth for a cash-flow profile of Apple's duration, despite the FRED series [28, 29] and the Gormsen/Lazarus 35 % pass-through finding [31] being in hand to support one.",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "Add one sentence to 3.3 quantifying the sensitivity: an approximate multiple-point impact per 100bp real-rate move, derived from the report's own earnings yield (~2,9 %) and the short-duration profile, damped by the Gormsen/Lazarus 35 % pure-discount-rate share, flagged '(eigene Rechnung)' with the assumptions named. This turns the '~0 (eher Gegenwind)' table row from an assertion into a bounded quantity."
+    },
+    {
+      "severity": "major",
+      "atomic_item": "What services CAGR is required to hold total growth flat as hardware matures, and is that rate historically plausible?",
+      "failure_mode": "under-covered",
+      "location": "Section 7.3 Erforderliche Services-CAGR: statisch und dynamisch — the dynamic table and the paragraph 'Um 12,1 % Services-Wachstum zu halten, müssten die übrigen Services bei stagnierenden Kommissionen um rund 21–22 % pro Jahr wachsen'.",
+      "issue": "The prompt's research question 7 has two clauses; the draft computes the required rate precisely (static and dynamic) but never adjudicates the second clause — whether 21–27 % annual growth in rest-Services is historically plausible — even though the section cites the realised FY2026 Services prints (13,9 % / 16,3 % / 12,1 %) that would anchor that judgment. The analyze register requires commitment where the evidence supports it.",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "Close 7.3 with an explicit verdict sentence: compare the required 21–27 % rest-Services growth against Apple's realised Services trajectory (and the Q4 guidance implying reported Services growth just under 10 %), and state plainly whether that rate has ever been sustained — i.e. commit that the dynamic requirement is historically unprecedented at this revenue scale, or name the period in which it was achieved."
+    },
+    {
+      "severity": "minor",
+      "atomic_item": "Apple Pay | product | required_fields: revenue contribution, disruption exposure",
+      "failure_mode": "under-covered",
+      "location": "Section 6.3 Richtung: bestätigt – aber der Täter ist ein anderer — sentence 'Apple weist die Apple-Pay-Erlöse nicht aus; ihr Interchange-Anteil ist klein relativ zu Services'.",
+      "issue": "Disruption exposure for Apple Pay is worked thoroughly, but the revenue contribution is left as the unquantified adjective 'klein' with no order of magnitude and no statement of what was searched — exactly the provenance discipline the deep-inference directive requires for an audited absence.",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "Replace 'klein relativ zu Services' with a bounded order-of-magnitude estimate (an interchange-share-times-volume band marked '(eigene Rechnung)' with the assumption named), or, if the vault has no usable volume figure, state the audited absence explicitly — that Apple discloses no Apple Pay line in FY2022–FY2026 filings and that no court or regulatory record surfaced one."
+    },
+    {
+      "severity": "minor",
+      "atomic_item": "Passive/index flows mechanically support the multiple | unknown | Passive share of float; mega-cap behaviour in drawdowns",
+      "failure_mode": "under-covered",
+      "location": "Section 3.2 Passive Flows: Exposition ist nicht Elastizität — closing sentences 'Apples Exposition ... überdurchschnittlich, seine Preiswirkung je Flow-Dollar wahrscheinlich unterdurchschnittlich. Eine Apple-spezifische Zahl gibt die Literatur nicht her, und keine wird hier behauptet.'",
+      "issue": "The brief names two specific settling measures — passive share of float, and mega-cap behaviour in drawdowns. The draft asserts above-average passive exposure without giving the passive share of Apple's float (a disclosed, citable quantity), the drawdown-behaviour leg appears only as a single closing clause in 3.3 with no evidence, and the audited absence is asserted without naming what was searched.",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "Add the passive share of Apple's float as a figure (index-fund and ETF ownership as a percentage of shares outstanding) to ground the 'überdurchschnittliche Exposition' claim, and extend the audited-absence sentence to name the searches run that returned no Apple-specific price-elasticity estimate. If the drawdown leg cannot be evidenced from the vault, say so in the same sentence rather than leaving it implied."
+    },
+    {
+      "severity": "minor",
+      "atomic_item": "Out of scope: ... personalised investment advice or a buy/sell/hold recommendation.",
+      "failure_mode": "wrong-format",
+      "location": "Section 8.6 Ausblick bis 2031 — final line 'Der Leser kann Apple über 2–5 Jahre mit guten Gründen halten – aber nicht mit der Begründung, der Premium-Multiplikator sei durch dauerhafte Erträge verdient.'",
+      "issue": "The brief puts a buy/sell/hold recommendation out of scope; the closing sentence reads as a qualified hold ('kann Apple ... halten'), the one output shape the prompt excluded, even though the rest of the report scrupulously avoids it.",
+      "requires_orchestrator_restructure": false,
+      "recommendation": "Reframe the closing sentence so the verdict lands on the thesis rather than the position — state that the evidence supports a defensible bull case on the existence of the earnings while withdrawing the 'premium is earned by durable earnings' justification, without telling the reader what to do with the shares. Preserve the adjudicative force; change only the hold-shaped framing."
+    }
+  ]
+}

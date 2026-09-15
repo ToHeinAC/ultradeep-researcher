@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Apple SVP Craig Federighi stated directly that the March 2025 Siri delay was caused by the technical limitations of the V1 architecture failing to meet the quality bar, not by a strategic choice.",
+    "stance": "supports",
+    "stance_target": "Apple's AI position is REVEALED (execution failure)",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "post-WWDC 2025 interview, June 2025",
+    "quoted_support": "We set about for months, making Siri work better and better across more app intents, better and better for doing search. But fundamentally, we found that the limitations of the V1 architecture weren't getting us to the quality level that we knew our customers needed and expected.",
+    "numbers": [],
+    "entities": ["Craig Federighi", "Apple", "Siri"],
+    "time_period": "June 2025",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-reportedly-targets-spring-2026-for-launch-of-delayed-ai-siri-upgrade-but-i"
+  },
+  {
+    "claim": "As of June 2025, Apple's internal target for the AI Siri overhaul was 'spring 2026' (iOS 26.4, roughly March/April 2026), with no exact date fixed beyond a seasonal window.",
+    "stance": "neutral",
+    "stance_target": "Precise chronology of the Siri delay",
+    "evidence_type": "empirical",
+    "scope_conditions": "Bloomberg reporting via Mark Gurman, June 2025",
+    "quoted_support": "Apple has 'set an internal release target of spring 2026 for its delayed upgrade of Siri, marking a key step in its artificial intelligence turnaround effort.' ... Gurman's sources told him an exact date hasn't been set internally, 'beyond a spring time frame.'",
+    "numbers": [],
+    "entities": ["Apple", "Mark Gurman", "Bloomberg", "Siri"],
+    "time_period": "June 2025 report, spring 2026 target",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-reportedly-targets-spring-2026-for-launch-of-delayed-ai-siri-upgrade-but-i"
+  },
+  {
+    "claim": "The AI-powered Siri overhaul was originally unveiled at WWDC in June 2024 as part of iOS 18, then delayed in March 2025 — the first of what became a chain of slips.",
+    "stance": "supports",
+    "stance_target": "Precise chronology of Siri delays needed to weigh execution-failure evidence",
+    "evidence_type": "historical",
+    "scope_conditions": "June 2024 – March 2025",
+    "quoted_support": "AI-powered Siri was supposed to launch as part of iOS 18 and was initially unveiled at WWDC 2024... This led to Apple postponing the release of Siri's major upgrade in March of this year [2025].",
+    "numbers": [],
+    "entities": ["Apple", "Siri", "iOS 18"],
+    "time_period": "June 2024 – March 2025",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-reportedly-targets-spring-2026-for-launch-of-delayed-ai-siri-upgrade-but-i"
+  }
+]

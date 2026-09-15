@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "As of February 2026, at least five alternative iOS app marketplaces operate under the EU DMA: AltStore PAL, Aptoide, Epic Games Store on iOS, Setapp, and Skich, each with distinct fee structures under Apple's alternative business terms.",
+    "stance": "neutral",
+    "stance_target": "existence and diversity of the EU alternative-marketplace ecosystem",
+    "evidence_type": "empirical",
+    "scope_conditions": "European Union, as of February 2026",
+    "quoted_support": "Below is a list of the alternative app stores iPhone users in these markets can try today.",
+    "numbers": ["10-20% Aptoide commission on in-app purchases", "15% Skich commission", "EUR0.50 per first annual install marketplace operator fee"],
+    "entities": ["AltStore PAL", "Aptoide", "Epic Games Store", "Setapp", "Skich", "Apple", "Riley Testut", "MacPaw"],
+    "time_period": "as of February 2026",
+    "region": "European Union",
+    "confidence": "high",
+    "source_note_id": "move-over-apple-meet-the-alternative-app-stores-available-in-the-eu-and-elsewher"
+  },
+  {
+    "claim": "This TechCrunch roundup contains no download, install, user-count, or market-share figures for any EU alternative iOS app marketplace, despite cataloging five named operators in detail.",
+    "stance": "neutral",
+    "stance_target": "availability of adoption-rate data for EU alternative app marketplaces",
+    "evidence_type": "empirical",
+    "scope_conditions": "single TechCrunch article, Feb 2026",
+    "quoted_support": "Unlike Apple's App Store, AltStore apps are self-hosted by the developer. To work, developers download an alternative distribution packet (ADP) and upload it to their server, then create a source that users will add to the AltStore to access their apps.",
+    "numbers": [],
+    "entities": ["AltStore PAL", "Aptoide", "Epic Games Store", "Setapp", "Skich"],
+    "time_period": "February 2026",
+    "region": "European Union",
+    "confidence": "high",
+    "source_note_id": "move-over-apple-meet-the-alternative-app-stores-available-in-the-eu-and-elsewher"
+  },
+  {
+    "claim": "Apple charges EU alternative marketplace operators a per-install Core Technology Fee-equivalent charge that applies even below the 1-million-install threshold that shields other DMA-compliant apps, raising the cost floor for marketplace operators before any revenue.",
+    "stance": "supports",
+    "stance_target": "Apple retains structural fee leverage over alternative marketplaces even after DMA compliance",
+    "evidence_type": "empirical",
+    "scope_conditions": "EU marketplace operators under Apple's DMA business terms",
+    "quoted_support": "for each first annual install of their marketplace app, even before the threshold of 1 million installs is met, which is the bar for other EU apps distributed under Apple's DMA business terms.",
+    "numbers": ["1 million install threshold for standard apps"],
+    "entities": ["Apple", "EU marketplace operators"],
+    "time_period": "as of February 2026",
+    "region": "European Union",
+    "confidence": "medium",
+    "source_note_id": "move-over-apple-meet-the-alternative-app-stores-available-in-the-eu-and-elsewher"
+  },
+  {
+    "claim": "Epic Games Store launched on iOS in the EU in August 2024, restoring Fortnite to iPhones in Europe after Epic's prior removal from the App Store, and Epic supports its games on other alternative stores including AltStore PAL and Aptoide via a grant program.",
+    "stance": "neutral",
+    "stance_target": "Epic Games Store EU iOS launch and cross-marketplace strategy",
+    "evidence_type": "empirical",
+    "scope_conditions": "European Union, August 2024 onward",
+    "quoted_support": "The company said it's also bringing its games to other alternative app stores, including AltStore PAL, which it's now supporting via a grant, as well as Aptoide's iOS store in the EU and ONE Store on Android.",
+    "numbers": [],
+    "entities": ["Epic Games", "Epic Games Store", "Fortnite", "AltStore PAL", "Aptoide", "ONE Store"],
+    "time_period": "August 2024 onward",
+    "region": "European Union",
+    "confidence": "high",
+    "source_note_id": "move-over-apple-meet-the-alternative-app-stores-available-in-the-eu-and-elsewher"
+  }
+]

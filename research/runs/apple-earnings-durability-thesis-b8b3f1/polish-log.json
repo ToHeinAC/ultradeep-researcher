@@ -1,0 +1,30 @@
+{
+  "applied": [
+    {
+      "category": "hygiene",
+      "description": "10 decorative/non-verbatim quotation marks converted to italics or plain prose (report coinages, scare quotes, one paraphrase); verbatim source quotes untouched",
+      "chars_removed": 40
+    },
+    {
+      "category": "readability",
+      "description": "3 over-long sentences split (lines 3, 177, 249) + 1 paragraph break in §7.5",
+      "chars_removed": 0
+    },
+    {
+      "category": "hedge",
+      "description": "struck 'potenziell' from the Verbundproduktion objection in §2.3",
+      "chars_removed": 11
+    }
+  ],
+  "escalations": [
+    {
+      "category": "prompt_adherence",
+      "issue": "Appendix A reproduces the full research brief verbatim (~190 lines) — deliberate and provenance-stamped, per research/wrapper_contract.json's required_terminal_sections: ['## Appendix A — Research Brief']. Orchestrator confirmed this is a wrapper requirement, not a leak. Kept as-is.",
+      "resolution": "kept, confirmed required by wrapper_contract.json"
+    },
+    {
+      "category": "tooling",
+      "issue": "polish-auditor Edit calls blocked by bg-isolation guard; all 15 hunks hand-applied by orchestrator via direct file write."
+    }
+  ]
+}

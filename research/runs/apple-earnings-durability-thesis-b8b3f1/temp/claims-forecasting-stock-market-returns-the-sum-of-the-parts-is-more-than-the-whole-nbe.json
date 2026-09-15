@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "An investor forecasting dividend yield, earnings growth, and P/E growth separately (sum-of-the-parts) rather than forecasting total market return directly would have achieved a certainty-equivalent gain of up to 2.3% per year and a 77% higher Sharpe ratio than a historical-mean benchmark.",
+    "stance": "supports",
+    "stance_target": "decomposed, durability-tagged return forecasting outperforms blended single-multiple approaches",
+    "evidence_type": "empirical",
+    "scope_conditions": "US aggregate market, real-time out-of-sample simulation, 1927-2007",
+    "quoted_support": "An investor who timed the market with our approach would have had a certainty equivalent gain of as much as 2.3% per year and a Sharpe ratio 77% higher relative to the historical mean.",
+    "numbers": ["certainty-equivalent gain up to 2.3%/yr", "Sharpe ratio +77%"],
+    "entities": ["Ferreira", "Santa-Clara"],
+    "time_period": "1927-2007",
+    "region": "USA",
+    "confidence": "medium",
+    "source_note_id": "forecasting-stock-market-returns-the-sum-of-the-parts-is-more-than-the-whole-nbe"
+  }
+]

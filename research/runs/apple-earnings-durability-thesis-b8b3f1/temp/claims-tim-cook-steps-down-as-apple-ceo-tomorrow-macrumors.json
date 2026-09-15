@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "As executive chairman, Cook will 'assist with certain aspects of the company, including engaging with policymakers around the world,' meaning Cook retains an active regulatory/political liaison role post-transition.",
+    "stance": "neutral",
+    "stance_target": "Continuity of Apple's regulatory and political engagement strategy (DMA, DOJ antitrust) through the CEO transition",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Inc. governance, effective Sept 1 2026",
+    "quoted_support": "Cook will remain at Apple as the executive chairman of the company's board of directors. In this new role, Apple said Cook will assist with \"certain aspects\" of the company, including \"engaging with policymakers around the world.\"",
+    "numbers": [],
+    "entities": ["Tim Cook", "Apple"],
+    "time_period": "effective Sept 1 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "tim-cook-steps-down-as-apple-ceo-tomorrow-macrumors"
+  },
+  {
+    "claim": "John Ternus is 51 years old at the time of becoming CEO, giving him a plausible 10-15 year runway before typical retirement age.",
+    "stance": "neutral",
+    "stance_target": "Expected duration/stability of the new leadership regime over the 2-5 year holding horizon",
+    "evidence_type": "empirical",
+    "scope_conditions": "As of Sept 1 2026",
+    "quoted_support": "He is 51, so he could serve as CEO for 10 to 15 years before reaching typical retirement age.",
+    "numbers": ["51", "10-15 years"],
+    "entities": ["John Ternus"],
+    "time_period": "Sept 2026 onward",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "tim-cook-steps-down-as-apple-ceo-tomorrow-macrumors"
+  },
+  {
+    "claim": "Apple set all-time quarterly revenue records over the quarters preceding the CEO transition, indicating the handover occurred from a position of strength rather than distress.",
+    "stance": "neutral",
+    "stance_target": "Whether the transition signals continuity or crisis-driven change",
+    "evidence_type": "empirical",
+    "scope_conditions": "Quarters preceding Sept 2026",
+    "quoted_support": "Apple has set all-time quarterly revenue records over its past few quarters, so the company is in a strong financial position as Cook hands the reins to Ternus.",
+    "numbers": [],
+    "entities": ["Apple"],
+    "time_period": "2025-2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "tim-cook-steps-down-as-apple-ceo-tomorrow-macrumors"
+  }
+]

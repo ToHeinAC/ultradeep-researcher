@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "The 10-year US Treasury real (TIPS) yield (DFII10) stood at 2.55% as of 2026-09-10, up from 2.43% on 2026-09-04, and implies a 10-year breakeven inflation rate of approximately 2.40 percentage points on 2026-09-10 (4.95% nominal minus 2.55% real).",
+    "stance": "neutral",
+    "stance_target": "pinning the present real-rate environment with dates, since real yield matters more than nominal for equity-duration arguments",
+    "evidence_type": "statistical",
+    "scope_conditions": "US TIPS market, daily observations, not seasonally adjusted",
+    "quoted_support": "2026-09-10: 2.55 | Percent, Not Seasonally Adjusted | Daily",
+    "numbers": ["2.55%", "2.46%", "2.43%", "~2.40pp breakeven inflation"],
+    "entities": ["Federal Reserve Board", "DFII10", "H.15 Selected Interest Rates"],
+    "time_period": "2026-09-04 to 2026-09-10",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "market-yield-on-us-treasury-securities-at-10-year-constant-maturity-quoted-on-2"
+  },
+  {
+    "claim": "In the observed early-September 2026 window, the real 10-year yield rose by about 12 basis points while the nominal 10-year yield rose by about 17 basis points over the same days, indicating the move was predominantly a real-rate (discount-rate) shift rather than a shift in inflation expectations.",
+    "stance": "neutral",
+    "stance_target": "distinguishing a real-rate/pure-discounting shock from an inflation-expectations shock, relevant to which component should pass through to equity valuations per Gormsen & Lazarus",
+    "evidence_type": "statistical",
+    "scope_conditions": "US Treasury and TIPS markets, 2026-09-04 to 2026-09-10",
+    "quoted_support": "2026-09-04: 2.43 ... 2026-09-10: 2.55 (real); 2026-09-04: 4.78 ... 2026-09-10: 4.95 (nominal)",
+    "numbers": ["12bp (real move)", "17bp (nominal move)"],
+    "entities": [],
+    "time_period": "2026-09-04 to 2026-09-10",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "market-yield-on-us-treasury-securities-at-10-year-constant-maturity-quoted-on-2"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "Luxshare received approval in Nov 2023 for an additional US$330 million investment in its Bac Giang, Vietnam plant (raising total investment to US$504 million); the 70-acre facility -- producing cables, touch pens, smart positioning tags and smartwatch components -- is officially expected to be completed in 12 to 24 months.",
+    "stance": "supports",
+    "stance_target": "load-bearing capex-to-output lead-time figure: Vietnam facility construction runs 1-2 years, independently confirming the faster end of the AppleInsider 2020 5-month figure is not an outlier but part of a consistent single-digit-months-to-2-years construction-lead-time range",
+    "evidence_type": "empirical",
+    "scope_conditions": "one Luxshare facility, Bac Giang province, construction-to-completion only (not full volume ramp), announced Nov 2023",
+    "quoted_support": "The new facility, under Luxshare's arm in Vietnam, will be on a plot of over 70 acres and is expected to be completed in 12 to 24 months... The additional amount raises the total plant investment to US$504 million.",
+    "numbers": ["US$330 million additional", "US$504 million total", "70 acres", "12-24 months construction"],
+    "entities": ["Luxshare", "Apple", "Bac Giang"],
+    "time_period": "2023-2025 (12-24 months from Nov 2023)",
+    "region": "Bac Giang, Vietnam",
+    "confidence": "high",
+    "source_note_id": "apple-supplier-luxshare-to-invest-additional-us330-million-in-vietnam-plant-as-s"
+  }
+]

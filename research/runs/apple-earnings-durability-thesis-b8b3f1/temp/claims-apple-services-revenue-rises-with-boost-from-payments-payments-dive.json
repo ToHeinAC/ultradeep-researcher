@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Apple does not disclose Apple Pay revenue as a separate line item; an Apple spokesperson confirmed this directly to Payments Dive in August 2024.",
+    "stance": "neutral",
+    "stance_target": "Apple's disclosure practice for Apple Pay revenue",
+    "evidence_type": "empirical",
+    "scope_conditions": "As of FY2024 Q3 earnings (quarter ended June 29, 2024)",
+    "quoted_support": "However, an Apple spokesperson said the company does not disclose revenue from individual services like Apple Pay.",
+    "numbers": [],
+    "entities": ["Apple", "Apple Pay"],
+    "time_period": "August 2024",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "apple-services-revenue-rises-with-boost-from-payments-payments-dive"
+  },
+  {
+    "claim": "Apple's Services category (which includes payments) generated a record $24.21 billion in FY2024 Q3 revenue, up 14% year-over-year, with Tim Cook stating payments revenue specifically reached an all-time quarterly high.",
+    "stance": "neutral",
+    "stance_target": "growth trajectory of Apple's Services/payments revenue",
+    "evidence_type": "statistical",
+    "scope_conditions": "Apple fiscal Q3 2024 (quarter ended June 29, 2024)",
+    "quoted_support": "The Cupertino, California-based company said its overall services category -- which includes payments -- also logged a record, generating $24.21 billion in revenue for the quarter... Revenue from its payment services reached an all-time quarterly high for its fiscal third quarter ended June 29, Apple CEO Tim Cook said.",
+    "numbers": ["$24.21 billion Services revenue", "14% YoY increase"],
+    "entities": ["Apple", "Apple Pay", "Tim Cook", "Luca Maestri"],
+    "time_period": "FY2024 Q3",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "apple-services-revenue-rises-with-boost-from-payments-payments-dive"
+  }
+]

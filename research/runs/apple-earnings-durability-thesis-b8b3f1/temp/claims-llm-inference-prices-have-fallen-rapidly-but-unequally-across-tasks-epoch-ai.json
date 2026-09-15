@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "The inference price required to achieve a fixed LLM performance benchmark has fallen between 9x and 900x per year depending on the task, with the price to match GPT-4-level performance on PhD-level science questions (GPQA) falling approximately 40x per year.",
+    "stance": "supports",
+    "stance_target": "The reader's prior that late-follower status is an advantage because inference/capability is genuinely commoditising and cheapening over time -- gives the prior a real measured cost curve rather than an assumption",
+    "evidence_type": "empirical",
+    "scope_conditions": "October 2021 to April 2025, six benchmarks (MMLU, GPQA Diamond, MATH-500, MATH L5, HumanEval, LMSys Chatbot Arena ELO)",
+    "quoted_support": "The inference price of LLMs has fallen dramatically in recent years... the price to achieve GPT-4's performance on a set of PhD-level science questions fell by 40x per year. The rate of decline varies dramatically depending on the performance milestone, ranging from 9x to 900x per year.",
+    "numbers": ["9x", "40x", "900x"],
+    "entities": ["Epoch AI", "Artificial Analysis", "GPT-4", "GPQA Diamond"],
+    "time_period": "2021-2025",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "llm-inference-prices-have-fallen-rapidly-but-unequally-across-tasks-epoch-ai"
+  },
+  {
+    "claim": "GPT-4-0314-equivalent MMLU performance (score 86.0) cost $37.50 per million tokens at its March 2023 release; by February 2025 Gemini 2.0 Flash matched or exceeded that score (88.0) at $0.18 per million tokens, a roughly 200x price decline in under two years.",
+    "stance": "supports",
+    "stance_target": "Concrete magnitude of inference cost decline available to a late mover like Apple",
+    "evidence_type": "empirical",
+    "scope_conditions": "March 2023 to February 2025, MMLU benchmark",
+    "quoted_support": "MMLU | GPT-4-0314 | [86.0, 100] | GPT-4-0314 | 2023-03-14 | $37.50 ... MMLU | GPT-4-0314 | [86.0, 100] | Gemini 2.0 Flash | 2025-02-05 | $0.18 | ... | 88.0",
+    "numbers": ["$37.50", "$0.18", "86.0", "88.0"],
+    "entities": ["GPT-4", "Gemini 2.0 Flash"],
+    "time_period": "March 2023 - February 2025",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "llm-inference-prices-have-fallen-rapidly-but-unequally-across-tasks-epoch-ai"
+  },
+  {
+    "claim": "Epoch AI cautions that the fastest inference price declines (up to 900x/year) occurred only in the most recent year of data and their persistence going forward is uncertain.",
+    "stance": "refutes",
+    "stance_target": "An unconditional extrapolation of the inference-cost-decline trend to justify Apple's late-follower patience over a full 2-5 year window",
+    "evidence_type": "empirical",
+    "scope_conditions": "as of the data's last update, ~2025",
+    "quoted_support": "The fastest price drops in that range have occurred in the past year, so it's less clear that those will persist.",
+    "numbers": ["900x"],
+    "entities": ["Epoch AI"],
+    "time_period": "2024-2025",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "llm-inference-prices-have-fallen-rapidly-but-unequally-across-tasks-epoch-ai"
+  }
+]

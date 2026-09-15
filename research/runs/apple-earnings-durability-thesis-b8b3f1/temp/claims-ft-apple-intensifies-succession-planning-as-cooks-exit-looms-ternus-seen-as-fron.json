@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "The Financial Times reported on Nov 14-15, 2025 that Apple's board and senior executives had intensified succession planning for Cook to step down as soon as 2026, with John Ternus widely seen internally as the most likely successor.",
+    "stance": "neutral",
+    "stance_target": "Timing and deliberateness of the CEO succession process",
+    "evidence_type": "empirical",
+    "scope_conditions": "Reported by FT, republished via Reuters/Malay Mail, Nov 15 2025",
+    "quoted_support": "Apple is stepping up its succession planning efforts as it prepares for Tim Cook to step down as chief executive of the tech giant as soon as next year, the Financial Times reported yesterday. John Ternus, Apple's senior vice president of hardware engineering, is widely seen as Cook's most likely successor, the FT reported, citing several people familiar with discussions.",
+    "numbers": [],
+    "entities": ["Financial Times", "Tim Cook", "John Ternus", "Apple"],
+    "time_period": "reported Nov 2025, referring to 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "ft-apple-intensifies-succession-planning-as-cooks-exit-looms-ternus-seen-as-fron"
+  },
+  {
+    "claim": "Apple was reported unlikely to name a new CEO before its late-January earnings report, which covers the critical holiday quarter -- implying deliberate sequencing around the fiscal calendar.",
+    "stance": "neutral",
+    "stance_target": "Deliberate, planned nature of the succession timing",
+    "evidence_type": "empirical",
+    "scope_conditions": "As reported Nov 2025",
+    "quoted_support": "Apple is unlikely to name a new CEO before its next earnings report in late January, which covers the critical holiday period, the FT said.",
+    "numbers": [],
+    "entities": ["Apple", "Financial Times"],
+    "time_period": "late January (fiscal Q1) earnings reporting",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "ft-apple-intensifies-succession-planning-as-cooks-exit-looms-ternus-seen-as-fron"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Apple's annual revenue declined in FY2023 ($383,285M, -2.8% YoY) — the only YoY revenue decline in the 2011-2026 series shown — before resuming growth in FY2024 (+2.02%) and accelerating in FY2025 (+6.43%) and the trailing twelve months through June 2026 (+14.24%).",
+    "stance": "neutral",
+    "stance_target": "A ~$3-4T company cannot compound at small-cap rates; growth must decay toward GDP+ over long horizons, but near-term reacceleration is possible off a soft base",
+    "evidence_type": "statistical",
+    "scope_conditions": "Aggregated from Apple's own annual filings by Macrotrends, a secondary source; used for trend framing only",
+    "quoted_support": "Apple annual revenue for 2023 was $383.285B, a 2.8% decline from 2022. ... Apple annual revenue for 2025 was $416.161B, a 6.43% increase from 2024.",
+    "numbers": ["FY2023 revenue $383,285M (-2.8%)", "FY2024 revenue $391,035M (+2.02%)", "FY2025 revenue $416,161M (+6.43%)", "TTM through June 2026 $466,823M (+14.24%)"],
+    "entities": ["Apple Inc."],
+    "time_period": "FY2022-TTM June 2026",
+    "region": "Global consolidated",
+    "confidence": "medium",
+    "source_note_id": "apple-revenue-2012-2026-aapl-macrotrends"
+  },
+  {
+    "claim": "Apple's revenue grew from $108,249M (FY2011) to $416,161M (FY2025), roughly a 3.8x increase over 14 years (~10.2% CAGR), with growth decelerating markedly from the 2011-2015 hypergrowth era (iPhone ramp) toward single-digit annual rates by FY2023-2024.",
+    "stance": "supports",
+    "stance_target": "A ~$3-4T company cannot compound at small-cap rates; growth must decay toward GDP+ over long horizons",
+    "evidence_type": "statistical",
+    "scope_conditions": "Long-run annual series, secondary aggregator sourced from Apple's own 10-K filings",
+    "quoted_support": "Apple annual revenue for 2024 was $391.035B, a 2.02% increase from 2023.",
+    "numbers": ["FY2011 revenue $108,249M", "FY2025 revenue $416,161M", "~10.2% 14-year CAGR", "FY2024 growth 2.02%"],
+    "entities": ["Apple Inc."],
+    "time_period": "FY2011-FY2025",
+    "region": "Global consolidated",
+    "confidence": "medium",
+    "source_note_id": "apple-revenue-2012-2026-aapl-macrotrends"
+  }
+]

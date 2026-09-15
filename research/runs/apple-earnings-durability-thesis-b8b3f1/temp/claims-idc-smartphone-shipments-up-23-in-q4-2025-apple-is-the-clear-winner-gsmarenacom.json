@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "IDC's preliminary Q4 2025 tracker shows Apple shipped 81.3 million smartphones globally, up only 4.9% YoY from 77.5 million in Q4 2024, for the same calendar quarter in which Apple disclosed +23.3% YoY iPhone revenue growth.",
+    "stance": "supports",
+    "stance_target": "Apple's FY2026 hardware revenue growth is driven primarily by ASP/mix, not unit volume",
+    "evidence_type": "statistical",
+    "scope_conditions": "Worldwide smartphone shipments, calendar Q4 2025 (= Apple fiscal Q1 2026), IDC sell-in/shipment methodology, preliminary data",
+    "quoted_support": "Apple led the way with 81.3 million shipments for the period and a 24.2% global market share... Q4 25 Shipments 81.3 | Q4 25 Market Share 24.2% | Q4 24 Shipments 77.5 | Q4 24 Market Share 23.6% | Q4 24/Q4 25 Growth 4.9%",
+    "numbers": ["81.3 million units Q4 2025", "77.5 million units Q4 2024", "+4.9% YoY unit growth", "24.2% market share Q4 2025", "23.6% market share Q4 2024"],
+    "entities": ["Apple", "IDC", "Samsung"],
+    "time_period": "Q4 2025 (calendar)",
+    "region": "Worldwide",
+    "confidence": "high",
+    "source_note_id": "idc-smartphone-shipments-up-23-in-q4-2025-apple-is-the-clear-winner-gsmarenacom"
+  },
+  {
+    "claim": "Apple overtook Samsung as the top global smartphone vendor by shipments in 2025 for the first time in over 14 years.",
+    "stance": "neutral",
+    "stance_target": "Apple's competitive position in the smartphone market",
+    "evidence_type": "statistical",
+    "scope_conditions": "Full calendar year 2025, worldwide, IDC data",
+    "quoted_support": "After over 14 years, Apple overtook Samsung as the top smartphone vendor in the world.",
+    "numbers": ["247.8 million units Apple CY2025", "241.2 million units Samsung CY2025", "19.7% Apple market share", "19.1% Samsung market share"],
+    "entities": ["Apple", "Samsung", "IDC"],
+    "time_period": "CY2025",
+    "region": "Worldwide",
+    "confidence": "high",
+    "source_note_id": "idc-smartphone-shipments-up-23-in-q4-2025-apple-is-the-clear-winner-gsmarenacom"
+  },
+  {
+    "claim": "Apple's full-year 2025 iPhone unit shipments grew 6.3% YoY (247.8M vs 233.1M in 2024), a materially slower growth rate than Apple's disclosed fiscal-year iPhone revenue growth for the overlapping period.",
+    "stance": "supports",
+    "stance_target": "Apple's FY2026 hardware revenue growth is driven primarily by ASP/mix, not unit volume",
+    "evidence_type": "statistical",
+    "scope_conditions": "Full calendar year 2025, worldwide, IDC shipment data",
+    "quoted_support": "Cupertino achieved a record 247.8 million shipments for the period with a 19.7% global market share... 1. Apple 247.8 | 2025 Market Share 19.7% | 2024 Shipments 233.1 | 2024 Market Share 18.9% | 2024/2025 Growth 6.3%",
+    "numbers": ["247.8 million units CY2025", "233.1 million units CY2024", "+6.3% YoY"],
+    "entities": ["Apple", "IDC"],
+    "time_period": "CY2025",
+    "region": "Worldwide",
+    "confidence": "high",
+    "source_note_id": "idc-smartphone-shipments-up-23-in-q4-2025-apple-is-the-clear-winner-gsmarenacom"
+  },
+  {
+    "claim": "IDC's Q4 2025 smartphone shipment figures are preliminary sell-in/shipment estimates, not sell-through/retail-sales figures, and were published January 13-14, 2026.",
+    "stance": "neutral",
+    "stance_target": "Reliability and methodology of third-party iPhone unit estimates",
+    "evidence_type": "empirical",
+    "scope_conditions": "IDC Worldwide Quarterly Mobile Phone Tracker methodology",
+    "quoted_support": "According to preliminary data from the International Data Corporation (IDC), a total of 336.3 million smartphones were shipped in the last quarter of 2025... Source: IDC Worldwide Quarterly Mobile Phone Tracker, January 13, 2026",
+    "numbers": ["336.3 million total smartphones Q4 2025", "328.8 million total smartphones Q4 2024", "+2.3% total market growth"],
+    "entities": ["IDC"],
+    "time_period": "Q4 2025",
+    "region": "Worldwide",
+    "confidence": "medium",
+    "source_note_id": "idc-smartphone-shipments-up-23-in-q4-2025-apple-is-the-clear-winner-gsmarenacom"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "claim": "Most ETFs are active investments in form (designed to generate alpha) or function (serve as building blocks of active portfolios), not passive index trackers, despite the industry label 'passive' commonly applied to the whole ETF wrapper category.",
+    "stance": "refutes",
+    "stance_target": "Headline 'passive AUM' or 'passive ownership share' figures measure a mechanically inelastic, price-insensitive flow into large-cap stocks",
+    "evidence_type": "empirical",
+    "scope_conditions": [
+      "US-listed equity ETF universe",
+      "classification by a constructed Activeness Index (turnover, concentration, flow-performance sensitivity)"
+    ],
+    "quoted_support": "We show that most ETFs are \nactive investments in form (designed to generate alpha) or function (serve as building blocks of \nactive portfolios).",
+    "numbers": [],
+    "entities": ["Easley", "Michayluk", "O'Hara", "Putnins", "ETF"],
+    "time_period": "sample through ~2019 (Review of Finance, forthcoming 2021)",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "the-active-world-of-passive-investing-easley-michayluk-ohara-putnins"
+  },
+  {
+    "claim": "By number of funds, 'Very Active' ETFs (Activeness Index > 75%) alone account for 84% of the US equity ETF population, and 'Very Active' plus 'Moderately Active' together account for 92% of all US equity ETFs; active ETFs (Very + Moderately Active) hold 58% of aggregate ETF assets, versus only 42% held by the two more passive categories combined.",
+    "stance": "refutes",
+    "stance_target": "Headline 'passive AUM' or 'passive ownership share' figures measure a mechanically inelastic, price-insensitive flow into large-cap stocks",
+    "evidence_type": "empirical",
+    "scope_conditions": [
+      "classification by average Activeness Index quartile",
+      "US equity ETF universe"
+    ],
+    "quoted_support": "Very Active ETFs alone account for 84% \nof the ETF population.  Adding the Moderately Active ETFs brings the share of these “aggressive-\npassive” ETFs to 92% of all US equity ETFs.",
+    "numbers": ["84%", "92%", "58%"],
+    "entities": ["Easley", "Michayluk", "O'Hara", "Putnins"],
+    "time_period": "sample through ~2019",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "the-active-world-of-passive-investing-easley-michayluk-ohara-putnins"
+  },
+  {
+    "claim": "The most passive ETFs are few in number but disproportionately large: the 'Very Passive' bucket (Activeness Index < 25%, e.g. broad-market cap-weighted index funds of the kind that dominate Apple's institutional ownership) is only 8% of ETFs by count but holds 42% of aggregate ETF asset value -- so the truly mechanical, price-insensitive flow is concentrated in a small number of very large vehicles rather than spread evenly across the labeled 'passive' category.",
+    "stance": "neutral",
+    "stance_target": "What fraction of nominal 'passive' AUM is actually mechanically price-insensitive",
+    "evidence_type": "empirical",
+    "scope_conditions": [
+      "AUM-weighted, not count-weighted",
+      "excludes SPY from secondary-market turnover calculations due to its anomalous futures-arbitrage role"
+    ],
+    "quoted_support": "they account for a mere 8% of ETFs, but 42% of aggregate ETF asset value.",
+    "numbers": ["8%", "42%"],
+    "entities": ["Easley", "Michayluk", "O'Hara", "Putnins", "SPY"],
+    "time_period": "sample through ~2019",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "the-active-world-of-passive-investing-easley-michayluk-ohara-putnins"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "To comply with the DMA and try to avoid the EUR 500m fine, Apple introduced a new EU fee structure including a 5% 'core technology commission' on all digital purchases made outside the App Store, layered on top of existing fees so some developers pay three separate fees for a single download.",
+    "stance": "supports",
+    "stance_target": "App Store commission structure is being reshaped, not eliminated, by regulatory pressure",
+    "evidence_type": "legal",
+    "scope_conditions": "European Union, announced June 26, 2025",
+    "quoted_support": "Apple also is going to introduce a new set of rules for all app developers in Europe, which includes a fee called the \"core technology commission\" of 5% on all digital purchases made outside the App Store.",
+    "numbers": ["5% core technology commission", "EUR 500 million potential fine", "up to EUR 50 million per day threatened penalty"],
+    "entities": ["Apple", "European Commission"],
+    "time_period": "June 2025",
+    "region": "European Union",
+    "confidence": "high",
+    "source_note_id": "apple-reveals-new-app-store-fees-to-avoid-eu-fine-of-500-million-euro"
+  },
+  {
+    "claim": "Following an April 2025 contempt ruling by Judge Yvonne Gonzalez Rogers in the Epic v. Apple case, Apple's US anti-steering restrictions were struck down and Apple was ordered to stop charging any fee or commission on purchases made via external links, and this order remained in effect (under appeal) as of June 2025.",
+    "stance": "supports",
+    "stance_target": "US App Store commission on a growing share of transactions has been voided by a court",
+    "evidence_type": "legal",
+    "scope_conditions": "United States, Northern District of California, order in effect pending appeal as of mid-2025",
+    "quoted_support": "A judge in California found that Apple had purposely misled the court about its steering concessions in the United States and instructed it to immediately stop asking charging a fee or commission on for external downloads.",
+    "numbers": ["15% to 30% (Apple's normal commission range)"],
+    "entities": ["Apple", "Epic Games", "Judge Yvonne Gonzalez Rogers", "Amazon", "Spotify"],
+    "time_period": "April-June 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "apple-reveals-new-app-store-fees-to-avoid-eu-fine-of-500-million-euro"
+  },
+  {
+    "claim": "As a direct result of the US court order, Amazon's Kindle app and Spotify began directing US customers to external websites for purchases, bypassing Apple's commission entirely, while Apple continued to claim in the EU that it is owed a commission on off-app purchases despite the US ruling barring the practice.",
+    "stance": "supports",
+    "stance_target": "External payment/steering methods are already causing real-world commission bypass, not merely theoretical exposure",
+    "evidence_type": "empirical",
+    "scope_conditions": "United States, 2025",
+    "quoted_support": "In the U.S., Amazon's iPhone Kindle app now shows an orange \"Get Book\" button that links to Amazon.com.",
+    "numbers": [],
+    "entities": ["Amazon", "Spotify", "Apple"],
+    "time_period": "2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "apple-reveals-new-app-store-fees-to-avoid-eu-fine-of-500-million-euro"
+  }
+]

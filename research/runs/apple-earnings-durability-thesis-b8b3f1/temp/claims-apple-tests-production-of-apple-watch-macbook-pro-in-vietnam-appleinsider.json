@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "MacBook Pro production is harder to relocate to Vietnam than Apple Watch because MacBook assembly requires a larger, deeper supplier chain that does not yet exist in Vietnam, even though MacBook components have become more modularized.",
+    "stance": "supports",
+    "stance_target": "manufacturing diversification speed varies sharply by product's supply-chain depth, refining the blanket 'physically slow' claim",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "MacBook Pro vs. Apple Watch, Vietnam, as of Aug 2022, sourced from unnamed Nikkei Asia source",
+    "quoted_support": "The components for MacBooks have become more modularized than in the past, which makes it easier to produce the laptops outside of China. But how to make it cost-competitive is another challenge... The issue over the modular nature of the MacBook Pro is to do with how assembly still requires a large chain of suppliers and that doesn't yet exist within Vietnam.",
+    "numbers": [],
+    "entities": ["Apple", "MacBook Pro", "Vietnam", "Nikkei Asia"],
+    "time_period": "2022",
+    "region": "Vietnam",
+    "confidence": "low",
+    "source_note_id": "apple-tests-production-of-apple-watch-macbook-pro-in-vietnam-appleinsider"
+  },
+  {
+    "claim": "Apple Watch production in Vietnam (Luxshare, Foxconn test runs, Aug 2022) is 'further ahead' than MacBook Pro despite requiring extremely precise manufacturing, because its supplier chain is smaller/shallower.",
+    "stance": "supports",
+    "stance_target": "diversification speed is inversely related to supply-chain depth, not simply to precision requirements",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Apple Watch, Vietnam, test production stage only (not volume production), Aug 2022",
+    "quoted_support": "Consequently the Apple Watch is reported to be further ahead, with both Luxshare and Foxconn said to be in test production. Despite the smaller chain of suppliers required for the Apple Watch, the device is said to require extremely precise manufacturing.",
+    "numbers": [],
+    "entities": ["Apple Watch", "Luxshare", "Foxconn", "Vietnam"],
+    "time_period": "2022",
+    "region": "Vietnam",
+    "confidence": "low",
+    "source_note_id": "apple-tests-production-of-apple-watch-macbook-pro-in-vietnam-appleinsider"
+  }
+]

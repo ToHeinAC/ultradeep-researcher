@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Apple has for the first time explicitly acknowledged in a regulatory filing that global antitrust actions are eroding its services business, stating that transactions completed via alternative payment systems 'may be entirely ineligible for commission.'",
+    "stance": "supports",
+    "stance_target": "Apple's own admissions confirm App Store commission is genuinely contingent, not merely a bear-case narrative",
+    "evidence_type": "legal",
+    "scope_conditions": "Apple SEC filing referenced as of FY2026 Q3 reporting period (fetch original filing to confirm exact form/date)",
+    "quoted_support": "The company warned that transactions completed through alternative payment systems \"may be entirely ineligible for commission.\"",
+    "numbers": ["$100 billion+ (annual services revenue scale)"],
+    "entities": ["Apple", "Kevan Parekh"],
+    "time_period": "FY2026 Q3 (per article)",
+    "region": "Global",
+    "confidence": "medium",
+    "source_note_id": "apple-makes-rare-admission-of-regulatory-hit-as-app-store-commission-model-erode"
+  },
+  {
+    "claim": "Sensor Tower data shows US App Store consumer spending fell 6% year-over-year in Q2, versus 9% growth in the same period a year earlier, which Sensor Tower attributed to a 'significant impact' from the Epic v. Apple ruling.",
+    "stance": "supports",
+    "stance_target": "Court-driven steering changes are already reducing measured App Store consumer spending, not just commission take-rate",
+    "evidence_type": "statistical",
+    "scope_conditions": "United States, Q2 (year not stated precisely in aggregator article -- verify against primary Sensor Tower report)",
+    "quoted_support": "Sensor Tower explicitly noted that the US slowdown reflects a \"significant impact\" on App Store consumer spending from the ruling.",
+    "numbers": ["-6% YoY US spending (Q2)", "+9% YoY US spending (year earlier)", "+3% YoY global H1 spending", "+13% YoY global (year earlier)"],
+    "entities": ["Sensor Tower", "Apple", "Epic Games"],
+    "time_period": "Q2 / H1 2025 or 2026 (verify exact year against primary report)",
+    "region": "United States / Global",
+    "confidence": "medium",
+    "source_note_id": "apple-makes-rare-admission-of-regulatory-hit-as-app-store-commission-model-erode"
+  },
+  {
+    "claim": "Appfigures estimates Apple's US App Store commission revenue has contracted 18% year-to-date, with additional declines reported in Brazil and Japan following new local regulatory measures.",
+    "stance": "supports",
+    "stance_target": "Contingent-class (App Store commission) revenue is already shrinking in measurable, not just hypothetical, terms",
+    "evidence_type": "statistical",
+    "scope_conditions": "United States (primary figure); Brazil and Japan (directional, unquantified in this source)",
+    "quoted_support": "Estimates from Appfigures, another app data research firm, are even more sobering: Apple's US commission revenue has contracted 18% so far this year.",
+    "numbers": ["-18% YTD US commission revenue"],
+    "entities": ["Appfigures", "Apple"],
+    "time_period": "year-to-date (article date not fully specified -- verify against Appfigures original)",
+    "region": "United States, Brazil, Japan",
+    "confidence": "medium",
+    "source_note_id": "apple-makes-rare-admission-of-regulatory-hit-as-app-store-commission-model-erode"
+  },
+  {
+    "claim": "Apple's FY2026 Q3 services revenue reached a record $30.7 billion but missed Wall Street expectations, and CFO Kevan Parekh acknowledged that App Store rule changes have already impacted the segment, undercutting management's earlier attribution of softness mainly to currency effects.",
+    "stance": "supports",
+    "stance_target": "Apple's own management commentary corroborates a material, not speculative, earnings impact from regulatory-driven App Store changes",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q3 2026 earnings call",
+    "quoted_support": "Apple management has attempted to attribute some of the earnings pressure to external factors such as currency fluctuations, but Parekh's candid admission of regulatory impact makes that explanation appear insufficient.",
+    "numbers": ["$30.7 billion services revenue (FY2026 Q3, record but below expectations)"],
+    "entities": ["Apple", "Kevan Parekh", "UBS", "David Vogt", "Bank of America", "Wamsi Mohan"],
+    "time_period": "FY2026 Q3",
+    "region": "Global",
+    "confidence": "medium",
+    "source_note_id": "apple-makes-rare-admission-of-regulatory-hit-as-app-store-commission-model-erode"
+  },
+  {
+    "claim": "Washington Analysis's Nicholas Rodelli argues Apple's premium valuation rests on its services business and the App Store specifically, implying the market will need to reassess services-segment profitability as commission erosion continues.",
+    "stance": "supports",
+    "stance_target": "Contingent-class earnings compression has direct implications for Apple's valuation multiple, consistent with the durability-based framework",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "2025-2026 analyst commentary",
+    "quoted_support": "Apple's premium valuation rests on its services business, and the App Store is at the heart of that business. We believe the market will reassess the profitability of the services segment.",
+    "numbers": [],
+    "entities": ["Nicholas Rodelli", "Washington Analysis", "Apple"],
+    "time_period": "2025-2026",
+    "region": "Global",
+    "confidence": "medium",
+    "source_note_id": "apple-makes-rare-admission-of-regulatory-hit-as-app-store-commission-model-erode"
+  }
+]

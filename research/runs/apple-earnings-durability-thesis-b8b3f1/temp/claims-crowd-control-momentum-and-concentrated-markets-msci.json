@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "MSCI's crowding score measures stocks on valuation (P/E, P/B), short interest, momentum, liquidity, and residual volatility, both cross-sectionally versus peers and time-series versus the stock's own history; the derived crowding factor is momentum-neutralized, isolating a valuation mean-reversion signal.",
+    "stance": "neutral",
+    "stance_target": "how factor/security crowding is operationally measured",
+    "evidence_type": "empirical",
+    "scope_conditions": "MSCI Security Crowding Model and MSCI Global Equity Factor Trading Model, as of 2024",
+    "quoted_support": "the score measures stocks based on their valuation (price-to-earnings and/or price-to-book ratios), short interest, momentum, liquidity and residual volatility relative to other stocks (cross-sectional) and relative to their own history (time-series).",
+    "numbers": [],
+    "entities": ["MSCI", "Donald Sze", "Stuart Doole", "Anurag Kumar"],
+    "time_period": "as of 2024",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "crowd-control-momentum-and-concentrated-markets-msci"
+  },
+  {
+    "claim": "The MSCI crowding factor has generated persistently negative returns for MSCI ACWI IMI constituents from January 1997 to October 2024, with a global information ratio of -1.5 (annualized factor return of -0.9% to -1.2% per year across regions), in a near-monotonic decile relationship -- i.e., systematically identifying stocks that subsequently de-rate.",
+    "stance": "supports",
+    "stance_target": "crowded/high-valuation-momentum stocks carry a systematic de-rating risk (multiple compression) distinct from fundamentals",
+    "evidence_type": "empirical",
+    "scope_conditions": "MSCI ACWI Investable Market Index constituents, Jan 1997-Oct 2024; vendor-produced backtest (MSCI sells this model, interested party)",
+    "quoted_support": "the crowding factor has steadily generated negative returns for MSCI ACWI Investable Market Index (IMI) constituents since 1997... The information ratio (IR) globally is -1.5 between January 1997 and October 2024.",
+    "numbers": ["IR -1.5 (global)", "-0.8 to -1.5 (regional range)", "-0.9% to -1.2%/year"],
+    "entities": ["MSCI ACWI IMI"],
+    "time_period": "1997-2024",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "crowd-control-momentum-and-concentrated-markets-msci"
+  },
+  {
+    "claim": "The crowding-score signal is slow-moving (monthly cross-sectional serial correlation of exposure = 0.87) with predictive power on de-rating persisting materially into the second and third month, not just the immediate next month.",
+    "stance": "supports",
+    "stance_target": "crowding is a multi-month persistent state, not a one-period noise event, relevant to how long a crowding-driven multiple compression could take to play out",
+    "evidence_type": "empirical",
+    "scope_conditions": "MSCI Global Equity Factor Trading Model, Jan 1997-Oct 2024",
+    "quoted_support": "This relatively slow-moving signal has had predictive power not only in the next month, but also, materially, in the second and third months. ... The average monthly cross-sectional serial correlation of the exposure is 0.87.",
+    "numbers": ["0.87 serial correlation"],
+    "entities": [],
+    "time_period": "1997-2024",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "crowd-control-momentum-and-concentrated-markets-msci"
+  },
+  {
+    "claim": "Adding a time-series crowding-score constraint (portfolio crowding score below the market's) to a momentum strategy with a 3% tracking-error budget historically improved the strategy's risk/return outcomes by avoiding 'overbought' names within high-momentum quintiles.",
+    "stance": "neutral",
+    "stance_target": "practical portfolio construction techniques to mitigate crowding risk within a momentum strategy",
+    "evidence_type": "empirical",
+    "scope_conditions": "simulated monthly-rebalanced strategy, Jan 1999-Oct 2024, 100% annual turnover limit, MSCI EFMGEMTR model; vendor-produced",
+    "quoted_support": "this simple time-series approach using a crowding-score-based constraint has produced favorable risk/return outcomes because it helps ensure that stock selection within high-momentum quintiles avoids overbought stocks.",
+    "numbers": ["3% tracking-error limit", "100% turnover limit"],
+    "entities": [],
+    "time_period": "1999-2024",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "crowd-control-momentum-and-concentrated-markets-msci"
+  }
+]

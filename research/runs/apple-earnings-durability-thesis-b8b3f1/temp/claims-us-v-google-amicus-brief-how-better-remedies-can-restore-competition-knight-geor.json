@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Eight economists, legal experts, and technologists filed an amicus brief in the D.C. Circuit on August 4, 2026, supporting the DOJ and state plaintiffs' cross-appeal in United States v. Google, arguing the district court's remedy should be strengthened.",
+    "stance": "supports",
+    "stance_target": "the DOJ/states' cross-appeal seeking a stronger search-monopoly remedy",
+    "evidence_type": "legal",
+    "scope_conditions": "D.C. Circuit appeal of US v. Google search case, filed August 4, 2026",
+    "quoted_support": "eight leading economists, legal experts, and technologists filed an amicus brief in the D.C. Circuit supporting the Department of Justice and State plaintiffs' cross-appeal and urging the Court to strengthen the remedy in the landmark search monopolization case.",
+    "numbers": ["eight amici"],
+    "entities": ["DOJ", "State Attorneys General", "D.C. Circuit", "Google"],
+    "time_period": "August 4, 2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "us-v-google-amicus-brief-how-better-remedies-can-restore-competition-knight-geor"
+  },
+  {
+    "claim": "The amicus brief argues that the district court's remedy leaves Google's exclusionary strategy largely intact because Google can still pay for default placement on every device, so new entrants -- including AI companies -- cannot match Google's payments and cannot gain the distribution scale needed to compete, and the ordered data-sharing/syndication measures do not overcome this.",
+    "stance": "supports",
+    "stance_target": "insufficiency of Mehta's remedy absent a payment restriction",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "US v. Google appellate amicus brief, D.C. Circuit, filed Aug 2026",
+    "quoted_support": "Google's monopoly profits allow it to outbid any rival: As long as Google can continue paying for default placement on every device, new entrants – including AI companies – will not be able to match Google's payments... The current remedy leaves Google's exclusionary strategy largely intact: ...those measures cannot overcome the fact that competitors still lack meaningful default access to users if Google can continue purchasing the most valuable distribution channels.",
+    "numbers": [],
+    "entities": ["Google", "AI companies", "distribution partners"],
+    "time_period": "2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "us-v-google-amicus-brief-how-better-remedies-can-restore-competition-knight-geor"
+  },
+  {
+    "claim": "The D.C. Circuit appeal of United States v. Google LLC is docketed on CourtListener at docket ID 72179116 (recap document 01208875636).",
+    "stance": "neutral",
+    "stance_target": "docket location for tracking D.C. Circuit briefing schedule",
+    "evidence_type": "legal",
+    "scope_conditions": "D.C. Circuit, USA v. Google LLC appeal",
+    "quoted_support": "eight leading economists, legal experts, and technologists filed an [amicus brief](https://www.courtlistener.com/docket/72179116/01208875636/usa-v-google-llc/) in the D.C. Circuit",
+    "numbers": ["docket 72179116", "document 01208875636"],
+    "entities": ["D.C. Circuit", "USA v. Google LLC", "CourtListener"],
+    "time_period": "2026",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "us-v-google-amicus-brief-how-better-remedies-can-restore-competition-knight-geor"
+  }
+]

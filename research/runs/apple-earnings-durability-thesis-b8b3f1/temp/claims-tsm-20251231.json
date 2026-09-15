@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "TSMC's largest customer (identified by third-party industry reporting as Apple, though not named in the filing itself) accounted for a declining share of TSMC net revenue: 25% in 2023, 22% in 2024, and 19% in 2025.",
+    "stance": "refutes",
+    "stance_target": "Durability of Apple's uncontested anchor-customer leverage at TSMC (relevant to TSMC dependency and silicon-margin durability)",
+    "evidence_type": "legal",
+    "scope_conditions": "TSMC consolidated net revenue, FY2023-FY2025; customer not named by TSMC, identity inferred from third-party reporting",
+    "quoted_support": "Our largest customer in 2023, 2024 and 2025 accounted for 25%, 22% and 19% of our net revenue in the respective year.",
+    "numbers": ["25%", "22%", "19%"],
+    "entities": ["TSMC", "Apple"],
+    "time_period": "2023-2025",
+    "region": "Taiwan",
+    "confidence": "high",
+    "source_note_id": "tsm-20251231"
+  },
+  {
+    "claim": "TSMC's second-largest customer (identified by industry reporting as Nvidia) grew from 11% of net revenue in 2023 to 12% in 2024 to 17% in 2025 -- nearly closing the gap with the largest customer (19% vs 17% in 2025), corroborating the AI/HPC displacement of Apple's historical anchor-customer dominance.",
+    "stance": "refutes",
+    "stance_target": "Silicon ownership as a permanently durable, uncontested Apple advantage at the foundry level",
+    "evidence_type": "legal",
+    "scope_conditions": "TSMC consolidated net revenue, FY2023-FY2025",
+    "quoted_support": "Our second largest customer in 2023, 2024 and 2025 accounted for 11%, 12%, and 17% of our net revenue in the respective year.",
+    "numbers": ["11%", "12%", "17%"],
+    "entities": ["TSMC", "Nvidia"],
+    "time_period": "2023-2025",
+    "region": "Taiwan",
+    "confidence": "high",
+    "source_note_id": "tsm-20251231"
+  },
+  {
+    "claim": "TSMC's ten largest customers combined accounted for a rising share of net revenue: 70% (2023), 76% (2024), 78% (2025) -- meaning overall customer concentration at TSMC is increasing even as the single largest customer's individual share (Apple) falls, implying revenue is consolidating among a slightly larger set of hyperscaler/AI customers.",
+    "stance": "neutral",
+    "stance_target": "TSMC dependency / supply-chain concentration risk",
+    "evidence_type": "legal",
+    "scope_conditions": "TSMC consolidated net revenue, FY2023-FY2025",
+    "quoted_support": "our ten largest customers in 2023, 2024 and 2025 accounted for approximately, 70%, 76% and 78% of our net revenue in the respective year.",
+    "numbers": ["70%", "76%", "78%"],
+    "entities": ["TSMC"],
+    "time_period": "2023-2025",
+    "region": "Taiwan",
+    "confidence": "high",
+    "source_note_id": "tsm-20251231"
+  },
+  {
+    "claim": "TSMC's company-wide gross margin rose to 59.9% of net revenue in 2025 from 56.1% in 2024, reflecting TSMC's own strong and improving pricing power/profitability independent of any single customer, which is relevant context for assessing how much of Apple's silicon cost advantage is actually captured by Apple versus retained by TSMC as foundry margin.",
+    "stance": "neutral",
+    "stance_target": "Owning silicon is load-bearing for margin (foundry-side margin capture)",
+    "evidence_type": "statistical",
+    "scope_conditions": "TSMC consolidated financials, FY2024-FY2025",
+    "quoted_support": "In 2025, our gross margin increased to 59.9% of net revenue from 56.1% in 2024, mainly attributable to higher",
+    "numbers": ["59.9%", "56.1%"],
+    "entities": ["TSMC"],
+    "time_period": "2024-2025",
+    "region": "Taiwan",
+    "confidence": "high",
+    "source_note_id": "tsm-20251231"
+  },
+  {
+    "claim": "Wafer fabrication remains approximately 86% of TSMC's net revenue, confirming that TSMC's core economics (and therefore its bargaining leverage over Apple and other fabless customers) are driven by foundry capacity utilization and node mix rather than any single customer's design wins.",
+    "stance": "neutral",
+    "stance_target": "TSMC dependency / bargaining power context",
+    "evidence_type": "legal",
+    "scope_conditions": "TSMC revenue composition, most recent fiscal year disclosed",
+    "quoted_support": "The principal source of our revenue is wafer fabrication, which accounted for approximately 86% of our net revenue",
+    "numbers": ["86%"],
+    "entities": ["TSMC"],
+    "time_period": "2025",
+    "region": "Taiwan",
+    "confidence": "high",
+    "source_note_id": "tsm-20251231"
+  }
+]

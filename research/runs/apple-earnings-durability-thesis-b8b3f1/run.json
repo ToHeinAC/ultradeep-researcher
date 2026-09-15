@@ -1,0 +1,139 @@
+{
+  "manifest_version": 1,
+  "vault_tag": "apple-earnings-durability-thesis-b8b3f1",
+  "profile": "full",
+  "profile_steps": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16"
+  ],
+  "status": "done",
+  "started_at": "2026-09-12T15:52:39.047929+00:00",
+  "updated_at": "2026-09-15T19:30:54.098544+00:00",
+  "budget_usd": null,
+  "blocked_on": null,
+  "steps": {
+    "1": {
+      "status": "done",
+      "started_at": "2026-09-12T15:53:37.643740+00:00",
+      "finished_at": "2026-09-12T15:56:32.085371+00:00"
+    },
+    "2": {
+      "status": "done",
+      "started_at": "2026-09-12T15:56:32.183294+00:00",
+      "finished_at": "2026-09-13T06:31:03.245394+00:00"
+    },
+    "3": {
+      "status": "done",
+      "started_at": "2026-09-13T06:31:03.344876+00:00",
+      "finished_at": "2026-09-13T11:13:28.464114+00:00"
+    },
+    "4": {
+      "status": "done",
+      "started_at": "2026-09-13T11:13:28.563428+00:00",
+      "finished_at": "2026-09-13T11:22:25.867788+00:00"
+    },
+    "5": {
+      "status": "done",
+      "started_at": "2026-09-13T11:22:25.980193+00:00",
+      "finished_at": "2026-09-14T07:34:27.896722+00:00"
+    },
+    "6": {
+      "status": "done",
+      "started_at": "2026-09-14T07:34:27.994108+00:00",
+      "finished_at": "2026-09-14T08:09:11.246274+00:00"
+    },
+    "7": {
+      "status": "done",
+      "started_at": "2026-09-14T08:09:11.339680+00:00",
+      "finished_at": "2026-09-14T09:28:07.850885+00:00"
+    },
+    "8": {
+      "status": "done",
+      "started_at": "2026-09-14T09:28:07.945699+00:00",
+      "finished_at": "2026-09-14T14:01:57.019535+00:00"
+    },
+    "9": {
+      "status": "done",
+      "started_at": "2026-09-14T14:01:57.117347+00:00",
+      "finished_at": "2026-09-14T14:49:42.082164+00:00"
+    },
+    "10": {
+      "status": "done",
+      "started_at": "2026-09-14T14:51:26.199582+00:00",
+      "finished_at": "2026-09-14T16:59:15.270619+00:00"
+    },
+    "11": {
+      "status": "done",
+      "started_at": "2026-09-14T17:04:21.756160+00:00",
+      "finished_at": "2026-09-15T12:05:11.742572+00:00"
+    },
+    "12": {
+      "status": "done",
+      "started_at": "2026-09-15T12:05:18.986879+00:00",
+      "finished_at": "2026-09-15T12:13:27.692390+00:00"
+    },
+    "13": {
+      "status": "done",
+      "started_at": "2026-09-15T12:15:32.933044+00:00",
+      "finished_at": "2026-09-15T12:24:57.075803+00:00"
+    },
+    "14": {
+      "status": "done",
+      "started_at": "2026-09-15T12:25:06.964907+00:00",
+      "finished_at": "2026-09-15T12:42:15.564091+00:00"
+    },
+    "14.5": {
+      "status": "done",
+      "started_at": "2026-09-15T12:42:39.770733+00:00",
+      "finished_at": "2026-09-15T19:13:52.935349+00:00"
+    },
+    "15": {
+      "status": "done",
+      "finished_at": "2026-09-15T19:17:47.233358+00:00"
+    },
+    "16": {
+      "status": "done",
+      "finished_at": "2026-09-15T19:23:33.572856+00:00"
+    }
+  },
+  "chapters": {},
+  "spend": {
+    "estimated_usd": 0.0,
+    "sources_fetched": 0,
+    "notes_written": 0,
+    "agents_spawned": 0
+  },
+  "levers": {
+    "register": "analyze",
+    "inference_depth": "deep",
+    "domain_notes": "Sourcing is primary-document-first, not literature-first: Apple 10-K/10-Q filings via SEC EDGAR, court records from US v. Google (search remedies), US v. Apple, Epic v. Apple, and European Commission DMA decisions carry more weight than any analyst note. The query explicitly rejects the sell-side product-segment frame, so commentary organised that way is background at best. FRED supplies rate and macro series for the discount-rate and duration arguments; academic sources (OpenAlex, SSRN working papers) are the right route for passive-flow and quality-factor evidence, where peer-reviewed factor literature outranks practitioner assertion. Recency window: financial figures within the last four reported quarters, legal and regulatory developments within the last 18 months, factor and market-structure literature may be older where the mechanism is stable. Disclosed and court-surfaced figures outrank estimates; where Apple does not disclose a line separately (Google TAC, App Store commissions), state the estimation method and give a range rather than a false point estimate."
+  },
+  "verify": {
+    "passed": false,
+    "at": "2026-09-15T19:30:54.097888+00:00",
+    "failed_checks": [
+      "length-in-range"
+    ]
+  },
+  "overrides": [
+    {
+      "check": "length-in-range",
+      "reason": "Query (research/runs/apple-earnings-durability-thesis-b8b3f1/query.md) explicitly overrides the tier default in its own Ausgabe/output-requirements section: 'Length: whatever the evidence supports. No padding, no truncation.' This was correctly captured in scaffold.md line 97 at step 1 and followed faithfully through drafting. run finish's length-in-range check compares only against the static 'argumentative' tier default (5000-10000 words, full gear) and has no mechanism to read a query-level length override. The report is 13,916 words, fully cited (23.79 citations/1000 words, floor 9.0), passes every other verify check and all five lint rules (wrapper-report, locus-coverage, scaffold-prompt, patch-surgery, quote-integrity all 0 errors). Cutting ~2000+ words of verified, cited analysis to fit the generic tier default would directly violate the query's own explicit, capitalized instruction. Manifest status set to done by the orchestrator with this documented override rather than by `run finish` (which has no override flag).",
+      "overridden_at": "2026-09-15T19:31:00+00:00"
+    }
+  ]
+}

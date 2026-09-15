@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "JPMorgan analysts (Sept 2022 note) forecast Apple would move 5% of global iPhone 14 production to India by late 2022 and scale India's share to 25% of all iPhones by 2025 -- a roughly 2.5-year lead time to quintuple share from a 5% base.",
+    "stance": "supports",
+    "stance_target": "manufacturing diversification is physically slow, load-bearing capex-to-output lead-time figure for India iPhone assembly",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "iPhone (all models) production share, India only; forecast made in Sept 2022 targeting late 2022 and 2025",
+    "quoted_support": "Apple will move 5% of global iPhone 14 production to India by late 2022, and expand its manufacturing capacity in the country to produce 25% of all iPhones by 2025.",
+    "numbers": ["5% by late 2022", "25% by 2025", "~2.5 year lead time"],
+    "entities": ["Apple", "India", "JPMorgan", "iPhone 14"],
+    "time_period": "2022-2025 forecast window",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "apple-to-move-25-iphone-production-to-india-by-2025-20-ipad-and-apple-watch-to-v"
+  },
+  {
+    "claim": "Once an EMS vendor already has established production capability, catching up a brand-new iPhone model's India production to the China start date required only two to three months in 2022 -- a much shorter lag than the multi-year timelines needed to build NEW capacity or share from scratch.",
+    "stance": "neutral",
+    "stance_target": "distinguishes ramp-up-on-existing-base speed from new-capacity-build speed",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "iPhone 14/14 Plus non-Pro models only, India, 4Q22, existing EMS vendor relationship (not a new factory)",
+    "quoted_support": "Apple has requested that EMS vendors manufacture iPhone 14/14 Plus models in India in 4Q22, within two to three months of the start of production in Mainland China. The much shorter interval implies the increasing importance of India production.",
+    "numbers": ["2-3 months lag (existing capacity, new model)", "vs. 2.5 years (new capacity/share build)"],
+    "entities": ["Apple", "India", "JPMorgan", "iPhone 14"],
+    "time_period": "4Q22",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "apple-to-move-25-iphone-production-to-india-by-2025-20-ipad-and-apple-watch-to-v"
+  },
+  {
+    "claim": "Foxconn's Indian iPhone assembly operation had over 20,000 operators in 2022 versus 350,000 in China -- a roughly 17x labor-scale gap illustrating the distance from parity even after India's ramp had begun.",
+    "stance": "supports",
+    "stance_target": "manufacturing diversification is physically slow at scale, despite headline share-shift narratives",
+    "evidence_type": "statistical",
+    "scope_conditions": "Foxconn only, iPhone assembly workforce, 2022",
+    "quoted_support": "Foxconn currently has over 20,000 operators in its iPhone assembly business in India, compared to 350,000 of those in China, the analysts estimated.",
+    "numbers": ["20,000 operators (India)", "350,000 operators (China)", "~17x gap"],
+    "entities": ["Foxconn", "Apple", "India", "China"],
+    "time_period": "2022",
+    "region": "India, China",
+    "confidence": "medium",
+    "source_note_id": "apple-to-move-25-iphone-production-to-india-by-2025-20-ipad-and-apple-watch-to-v"
+  }
+]

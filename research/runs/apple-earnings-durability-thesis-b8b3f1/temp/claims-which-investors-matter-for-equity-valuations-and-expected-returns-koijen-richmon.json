@@ -1,0 +1,71 @@
+[
+  {
+    "claim": "Koijen, Richmond & Yogo's demand-system estimate finds that the shift in the wealth distribution across institutional investors from 2007.Q4 to 2016.Q4 (the active-to-passive transition) produced an economically significant counterfactual repricing of the AGGREGATE market of 14%, over a 9-year window.",
+    "stance": "supports",
+    "stance_target": "Passive/index flows mechanically support equity valuation levels independent of fundamentals",
+    "evidence_type": "empirical",
+    "scope_conditions": [
+      "aggregate cross-section of the largest 90% of US firms by market equity, pooled",
+      "not stock-level or Apple-specific",
+      "2007.Q4-2016.Q4 window, ~9 years"
+    ],
+    "quoted_support": "We ﬁnd an economically signiﬁcant\nestimate of 14%.",
+    "numbers": ["14%", "2007.Q4", "2016.Q4"],
+    "entities": ["Koijen", "Richmond", "Yogo", "NBER w27402"],
+    "time_period": "2007.Q4-2016.Q4",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "which-investors-matter-for-equity-valuations-and-expected-returns-koijen-richmon"
+  },
+  {
+    "claim": "The estimated demand system shows price elasticity of demand is low on average across institutional investor types and ranges from 0 to 1; even hedge funds -- the most price-elastic institutional investor type -- have a wealth-weighted price elasticity of only about 0.5.",
+    "stance": "supports",
+    "stance_target": "Equity markets are highly inelastic, so flows move prices far more than efficient-market models predict",
+    "evidence_type": "empirical",
+    "scope_conditions": [
+      "estimated by investor type/group, not by individual stock",
+      "US institutional holdings, 2000-2019 sample"
+    ],
+    "quoted_support": "The price elasticity of demand is low on average and varies from zero\nto one across investors. Even hedge funds, which are the most elastic among institutional",
+    "numbers": ["0", "1", "0.5"],
+    "entities": ["Koijen", "Richmond", "Yogo", "hedge funds"],
+    "time_period": "2000-2019",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "which-investors-matter-for-equity-valuations-and-expected-returns-koijen-richmon"
+  },
+  {
+    "claim": "The demand system is estimated pooling the largest 90% of US firms by market equity as a single cross-section (the remaining 10% is aggregated into one 'outside asset'); the paper does not estimate or report a firm-specific demand elasticity or price-impact multiplier for any individual company, including Apple.",
+    "stance": "neutral",
+    "stance_target": "The demand-system literature can support an Apple-specific passive-flow multiplier estimate",
+    "evidence_type": "empirical",
+    "scope_conditions": [
+      "methodology note: cross-section is pooled by investor type x firm characteristics, not by individual firm identity",
+      "largest 90% of US firms by market equity are the modeled 'inside assets'"
+    ],
+    "quoted_support": "We study the equity prices of the largest 90% of ﬁrms by market equity, which capture\nmost of the economic activity among publicly traded ﬁrms. In modeling the asset demand\nsystem in Sect",
+    "numbers": ["90%", "10%"],
+    "entities": ["Koijen", "Richmond", "Yogo"],
+    "time_period": "2019.Q4 sample description",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "which-investors-matter-for-equity-valuations-and-expected-returns-koijen-richmon"
+  },
+  {
+    "claim": "The decline in the aggregate institutional active share from 38.9% (2007.Q4) to 32.8% (2016.Q4) is decomposed into a -1.3 percentage-point contribution from investment strategies becoming more passive and a larger -4.8 percentage-point contribution from capital flowing from active to passive investors (i.e., changes in the wealth distribution, not changed behavior) -- meaning the mechanical/flow-driven component is roughly 3.7x the size of the behavioral component.",
+    "stance": "supports",
+    "stance_target": "Passive/index flows mechanically support equity valuation levels independent of fundamentals",
+    "evidence_type": "empirical",
+    "scope_conditions": [
+      "aggregate market, institutional investors present in both 2007.Q4 and 2016.Q4",
+      "US"
+    ],
+    "quoted_support": "We ﬁnd that the change in the aggregate active share is the sum of −1.3% for the\nﬁrst term and −4.8% for the second term.",
+    "numbers": ["38.9%", "32.8%", "-1.3%", "-4.8%"],
+    "entities": ["Koijen", "Richmond", "Yogo"],
+    "time_period": "2007.Q4-2016.Q4",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "which-investors-matter-for-equity-valuations-and-expected-returns-koijen-richmon"
+  }
+]

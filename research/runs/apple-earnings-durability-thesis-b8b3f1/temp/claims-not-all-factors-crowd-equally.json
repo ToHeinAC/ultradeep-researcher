@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "This paper (v1) was self-withdrawn by its author with the stated reason that empirical validation in Sections 5-7 is insufficient to support the paper's global-applicability claims; only the theoretical model (Section 3) is still defended by the author.",
+    "stance": "neutral",
+    "stance_target": "reliability/citability of this paper's empirical crowding and tail-risk findings",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "arXiv preprint 2512.11913, single author, q-fin.PM",
+    "quoted_support": "Withdrawal for major revision. Further analysis revealed that empirical validation in Sections 5-7 is insufficient to support the global applicability claims. The theoretical contributions remain valid. A revised version is in preparation.",
+    "numbers": [],
+    "entities": ["Chorok Lee", "KAIST", "arXiv"],
+    "time_period": "December 2025",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "not-all-factors-crowd-equally"
+  },
+  {
+    "claim": "Judgment-based factors (value/HML, quality/RMW, investment/CMA) show essentially no fit to any tested alpha-decay model (R-squared of 0.05, 0.05, and 0.01 respectively, 1995-2024), in sharp contrast to momentum (R^2=0.65 hyperbolic fit) and long-term reversal (R^2=0.30) -- the paper's proposed explanation is a 'mechanical vs judgment' taxonomy where mechanical/unambiguous signals crowd predictably and judgment-based signals (with multiple valid implementations) do not.",
+    "stance": "refutes",
+    "stance_target": "the assumption that quality-factor crowding follows the same predictable decay/crowding dynamics as momentum or other mechanical factors",
+    "evidence_type": "empirical",
+    "scope_conditions": "8 Fama-French factors, 1963-2024 (fit window 1995-2024), US equities; caveat: paper self-withdrawn for insufficient empirical validation",
+    "quoted_support": "judgment-based factors (HML, RMW, CMA) show poor fits across all models (R2 < 0.10)... Mechanical factors achieve mean R2 = 0.37; judgment factors achieve mean R2 = 0.04—an order of magnitude lower.",
+    "numbers": ["R2=0.65 (momentum)", "R2=0.30 (LT reversal)", "R2=0.05 (value)", "R2=0.05 (quality)", "R2=0.01 (investment)", "mean R2=0.37 mechanical vs 0.04 judgment"],
+    "entities": ["Fama-French factors", "HML", "RMW", "CMA", "momentum"],
+    "time_period": "1963-2024",
+    "region": "United States",
+    "confidence": "low",
+    "source_note_id": "not-all-factors-crowd-equally"
+  },
+  {
+    "claim": "Out-of-sample (2001-2024), crowded reversal factors show 1.65-1.84x higher crash probability than uncrowded states, while crowded momentum shows LOWER crash risk (0.38x, p=0.006) -- crowding predicts tail risk asymmetrically depending on whether the factor is trend-following (momentum, benign when crowded) or mean-reverting (reversal, dangerous when crowded), because trend-following crowding reinforces the prevailing trend while mean-reversion crowding bets against it.",
+    "stance": "refutes",
+    "stance_target": "an undifferentiated claim that 'crowding is dangerous' applied equally to all crowded factors/strategies including momentum-driven mega-cap quality names",
+    "evidence_type": "empirical",
+    "scope_conditions": "8 Fama-French factors, out-of-sample 2001-2024, US equities; caveat: paper self-withdrawn, this is exactly the type of empirical result (Sections 5-7) the author flagged as insufficiently validated",
+    "quoted_support": "crowded reversal factors show 1.7-1.8x higher crash probability... while crowded momentum shows lower crash risk (0.38x, p = 0.006)... Trend-following (momentum): Crowding confirms trend strength -> lower crash risk. Mean-reverting (reversal): Crowding bets against trend -> higher crash risk if trend continues.",
+    "numbers": ["1.65x", "1.84x", "0.38x", "p=0.006", "16.9% vs 9.2% (ST reversal crash probability)"],
+    "entities": ["momentum", "short-term reversal", "long-term reversal", "Barroso, Edelen and Karehnke (2022)"],
+    "time_period": "2001-2024",
+    "region": "United States",
+    "confidence": "low",
+    "source_note_id": "not-all-factors-crowd-equally"
+  },
+  {
+    "claim": "Crowding-based factor-timing trading strategies underperform a naive factor-momentum benchmark (Sharpe 0.22 vs 0.39, 2017-2025), and 7 of 8 tested factors were flagged as crowded by the model's real-time signal -- suggesting crowding information is efficiently priced into average returns even though it may still carry tail-risk information.",
+    "stance": "neutral",
+    "stance_target": "whether observable crowding metrics can be traded on directly for excess average returns",
+    "evidence_type": "empirical",
+    "scope_conditions": "8 Fama-French factors, 2017-2025 out-of-sample trading test; caveat: paper self-withdrawn",
+    "quoted_support": "Factor Momentum (0.39) outperforms both crowding-timed (0.22) and equal weight (0.17)... Our evidence is most consistent with H2—crowding is observable but efficiently priced.",
+    "numbers": ["Sharpe 0.39 (factor momentum)", "Sharpe 0.22 (crowding-timed)", "Sharpe 0.17 (equal weight)", "7 of 8 factors flagged crowded"],
+    "entities": [],
+    "time_period": "2017-2025",
+    "region": "United States",
+    "confidence": "low",
+    "source_note_id": "not-all-factors-crowd-equally"
+  },
+  {
+    "claim": "The over-prediction of momentum's remaining alpha post-2015 (model predicted 0.30, actual 0.15) correlates strongly with factor-ETF trading-volume growth (Pearson rho = -0.63, p<0.001, 2013-2024), consistent with ETF-driven democratization of factor investing accelerating crowding beyond historically calibrated rates.",
+    "stance": "supports",
+    "stance_target": "passive/ETF flows as an accelerant of factor crowding beyond fundamentals-driven equilibrium",
+    "evidence_type": "empirical",
+    "scope_conditions": "US factor ETFs, 2013-2024; caveat: paper self-withdrawn",
+    "quoted_support": "Finding: Pearson rho = -0.63 (p < 0.001). The negative correlation indicates that as ETF volume grows, the model increasingly over-predicts remaining alpha.",
+    "numbers": ["rho=-0.63", "p<0.001", "0.30 predicted vs 0.15 actual"],
+    "entities": ["factor ETFs"],
+    "time_period": "2013-2024",
+    "region": "United States",
+    "confidence": "low",
+    "source_note_id": "not-all-factors-crowd-equally"
+  }
+]

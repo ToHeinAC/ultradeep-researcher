@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "The European Commission's April 22, 2025 decision fined Apple EUR 500 million for non-compliance with the DMA's anti-steering obligation (Article 5(4)), and separately ordered Apple to remove the technical and commercial restrictions that prevented developers from steering users to alternatives to the App Store.",
+    "stance": "supports",
+    "stance_target": "App Store commission revenue is contingent on arrangements a regulator can void",
+    "evidence_type": "legal",
+    "scope_conditions": "European Union, DMA gatekeeper obligations, decision dated April 22, 2025",
+    "quoted_support": "Apple failed to meet its obligation to open its system to alternatives to the Apple App Store due to technical and commercial restrictions it imposed on developers. As such, in addition to the fine, the European Commission ordered Apple to remove the technical and commercial restrictions limiting developers from steering users to alternatives to the Apple App Store.",
+    "numbers": ["EUR 500 million (Apple fine)", "EUR 200 million (Meta fine)", "up to EUR 50 million/day threatened non-compliance penalty (per companion CNBC note)"],
+    "entities": ["European Commission", "Apple", "Meta", "DMA Article 5(4)"],
+    "time_period": "April 2025 decision",
+    "region": "European Union",
+    "confidence": "high",
+    "source_note_id": "european-commission-fines-apple-and-meta-for-non-compliance-with-the-dma"
+  },
+  {
+    "claim": "The regulator's remedy compels an ongoing business-model change (removal of steering restrictions), which is the economically material fact, not the one-time EUR 500 million fine itself.",
+    "stance": "supports",
+    "stance_target": "Distinguish the fine amount from the compelled business-model change",
+    "evidence_type": "legal",
+    "scope_conditions": "EU DMA enforcement, 2025",
+    "quoted_support": "in addition to the fine, the European Commission ordered Apple to remove the technical and commercial restrictions limiting developers from steering users to alternatives to the Apple App Store.",
+    "numbers": ["EUR 500 million"],
+    "entities": ["European Commission", "Apple"],
+    "time_period": "2025",
+    "region": "European Union",
+    "confidence": "high",
+    "source_note_id": "european-commission-fines-apple-and-meta-for-non-compliance-with-the-dma"
+  }
+]

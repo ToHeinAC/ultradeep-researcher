@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Apple's Services revenue growth of 12% in FQ3 2026 missed analyst estimates, and CNBC reports the miss was attributed to foreign exchange headwinds.",
+    "stance": "supports",
+    "stance_target": "bear case: Services momentum weakening",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q3 2026",
+    "quoted_support": "\"Apple's services division, which delivers hefty margins, continued its steady growth, posting a revenue increase of 12% during the quarter to over $30 billion, although it missed analyst estimates. Apple said the services performance was hurt by foreign exchange headwinds.\"",
+    "numbers": ["12% Services growth", "$30.74B Services revenue", "$31.22B/$31.36B analyst estimates"],
+    "entities": ["Apple", "Tim Cook"],
+    "time_period": "FY2026 Q3",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-aapl-q3-2026-earnings-report-live-updates"
+  },
+  {
+    "claim": "Apple's FQ4 2026 revenue guidance of 9-11% growth missed analyst expectations of 12%, and the stock fell more than 6% in extended trading despite an earnings beat.",
+    "stance": "supports",
+    "stance_target": "market is pricing in a genuine growth deceleration, not just noise",
+    "evidence_type": "empirical",
+    "scope_conditions": "July 30, 2026 earnings reaction",
+    "quoted_support": "\"Apple said revenue growth in the current quarter will be between 9% and 11%, missing analysts' expectations for expansion of 12%, according to LSEG.\"",
+    "numbers": ["9-11% guidance", "12% consensus estimate", ">6% stock decline after hours"],
+    "entities": ["Apple", "LSEG"],
+    "time_period": "July 30, 2026",
+    "region": "US market",
+    "confidence": "high",
+    "source_note_id": "apple-aapl-q3-2026-earnings-report-live-updates"
+  },
+  {
+    "claim": "Apple's headline gross margin of 50.06% (a record) in FQ3 2026 included roughly 2 percentage points of benefit from US tariff refunds following a Supreme Court ruling striking down certain emergency-powers tariffs; without rebates, margin was in line with estimates.",
+    "stance": "neutral",
+    "stance_target": "distinguishes durable margin from a one-time tariff-refund artifact",
+    "evidence_type": "empirical",
+    "scope_conditions": "FQ3 2026, US tariff litigation context",
+    "quoted_support": "\"Rebates from U.S. tariffs accounted for two percentage points of additional gross margin, bringing the total margin to a record 50.06%... Without the rebates, Apple's margin was about in line with estimates.\"",
+    "numbers": ["50.06% gross margin", "2 percentage points tariff-refund benefit", "11 cents/share EPS benefit"],
+    "entities": ["Apple", "US Supreme Court", "Trump administration tariffs"],
+    "time_period": "FY2026 Q3",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "apple-aapl-q3-2026-earnings-report-live-updates"
+  },
+  {
+    "claim": "Investors are increasingly favoring Apple's capital-expenditure-light AI strategy (licensing from Google, ~$11 billion annual capex) versus hyperscaler peers spending over $100 billion in capex, as a bull case for free cash flow durability.",
+    "stance": "refutes",
+    "stance_target": "bear case that Apple is falling behind on AI investment",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "2026 AI capex cycle comparison",
+    "quoted_support": "\"While Apple was initially bruised by many investors for not joining the LLM investment cycle, investors are coming around to Apple's industry-leading free cash flow,\" analysts at Baird wrote.",
+    "numbers": ["~$11 billion Apple FY2026 capex", "$3.4 billion Q3 capex", "$100+ billion hyperscaler peer capex"],
+    "entities": ["Apple", "Baird", "MoffettNathanson", "Google"],
+    "time_period": "2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "apple-aapl-q3-2026-earnings-report-live-updates"
+  }
+]

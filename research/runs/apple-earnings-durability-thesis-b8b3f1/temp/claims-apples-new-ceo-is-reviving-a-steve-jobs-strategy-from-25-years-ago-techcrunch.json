@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "New Apple CEO John Ternus explicitly declared the iPhone, not a new device category, as Apple's central AI-era platform in his first keynote as CEO on September 9, 2026.",
+    "stance": "supports",
+    "stance_target": "Apple's late-follower AI posture is a chosen capital-allocation strategy (bet on iPhone-centric on-device AI) rather than an admission of failure to build a new AI product",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple CEO keynote, September 9, 2026, first public strategy statement by Ternus as CEO",
+    "quoted_support": "\"There's no product in the world better designed to be your intelligent personal hub than iPhone,\" he said.",
+    "numbers": [],
+    "entities": ["John Ternus", "Apple", "iPhone"],
+    "time_period": "September 9, 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago-techcrunch"
+  },
+  {
+    "claim": "Ternus's iPhone-centric AI strategy explicitly contrasts with predecessor Tim Cook's approach, which repeatedly tried to convince Wall Street that Apple was more than just the iPhone.",
+    "stance": "supports",
+    "stance_target": "Leadership change at Apple corresponds with a strategic pivot in AI/product diversification messaging",
+    "evidence_type": "empirical",
+    "scope_conditions": "Comparison of Ternus (Sept 2026-) vs. Cook-era (pre-Sept 2026) Apple strategic messaging",
+    "quoted_support": "This contrasts with the approach taken by former CEO Tim Cook, who tried time and again to convince Wall Street that Apple was more than just the iPhone.",
+    "numbers": [],
+    "entities": ["John Ternus", "Tim Cook", "Apple", "Wall Street"],
+    "time_period": "2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago-techcrunch"
+  },
+  {
+    "claim": "Ternus defined the ideal AI-era personal hub as requiring a powerful processor, high-resolution cameras, persistent networking, and on-device AI -- attributes the iPhone already has -- rather than proposing new AI-native hardware.",
+    "stance": "supports",
+    "stance_target": "Apple's AI strategy is defined as incremental extension of existing hardware advantages (chosen capital allocation) rather than a rushed new-category product to compensate for lagging behind OpenAI/Google in generative AI",
+    "evidence_type": "empirical",
+    "scope_conditions": "Ternus keynote framing, September 2026",
+    "quoted_support": "\"If you were designing the ideal version of this hub from scratch, how would you do it?\" Ternus asked before listing the ingredients: a powerful processor, high-resolution cameras, persistent networking, and on-device AI.",
+    "numbers": [],
+    "entities": ["John Ternus", "Apple", "iPhone"],
+    "time_period": "September 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago-techcrunch"
+  },
+  {
+    "claim": "Pre-event press (Fortune, Axios) had explicitly questioned whether the smartphone era was ending and framed the Cook-to-Ternus transition as an existential AI strategy challenge for Apple.",
+    "stance": "refutes",
+    "stance_target": "Apple's iPhone-centric strategy is durable/well-founded (this is the bearish counter-narrative Ternus's keynote was rebutting)",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Pre-event commentary, April-May 2026",
+    "quoted_support": "\"The Tim Cook era is coming to a close with an existential challenge for Apple: figuring out what comes after the iPhone,\" said another article.",
+    "numbers": [],
+    "entities": ["Fortune", "Axios", "Tim Cook", "Apple"],
+    "time_period": "April-May 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago-techcrunch"
+  },
+  {
+    "claim": "TechCrunch draws a direct historical parallel between Ternus's 2026 iPhone-as-AI-hub framing and Steve Jobs's 2001 Macworld 'digital hub' strategy defending the Mac roughly ten months before the iPod launch, implying Apple may be sitting on an undisclosed new product.",
+    "stance": "neutral",
+    "stance_target": "Whether Apple's current iPhone-centric messaging is a durable end-state strategy or a holding pattern before a new product reveal",
+    "evidence_type": "historical",
+    "scope_conditions": "Historical analogy, 2001 vs 2026",
+    "quoted_support": "We don't know if Ternus is quietly sitting on an iPod-like product, one that will secure the iPhone's position as Apple's hub for years to come. But he is firmly rebutting the idea that the iPhone is past its prime.",
+    "numbers": [],
+    "entities": ["Steve Jobs", "John Ternus", "Apple", "Mac", "iPod", "iPhone"],
+    "time_period": "2001 and 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago-techcrunch"
+  }
+]

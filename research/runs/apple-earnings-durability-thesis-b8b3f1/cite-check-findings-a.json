@@ -1,0 +1,56 @@
+[
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "**Kurzantwort.** 19,7 % bis 28,3 % des Apple-Bruttogewinns von 195,3 Mrd. $ (FY2025) – 46,7 % bis 67,2 % des Services-Bruttogewinns – stammen aus zwei Strömen, deren Preis ein Gericht oder Regulator setzt oder neu setzen kann: der Google-Zahlung für die Standard-Suchplatzierung (Traffic Acquisition Cost, TAC) und den App-Store-Kommissionen [1, 3, 5].",
+    "cited_note_id": "aapl-20250927",
+    "correct_note_id": null,
+    "evidence": "The FY2025 10-K's actual 'Total gross margin' line is $195,201M (rounds to $195.2bn), not $195.3bn as stated; the same note shows this discrepancy again more precisely later in the report (see the 195,282/82,305 finding).",
+    "suggested_fix": "Correct 195,3 Mrd. $ to 195,2 Mrd. $ (or the exact $195,201M) to match the cited 10-K."
+  },
+  {
+    "verdict": "wrong-source",
+    "severity": "critical",
+    "sentence": "August 2026 ab, das Bezirksgericht setzt nun eine kostenbasierte Link-out-Gebühr von realistisch 0–15 % statt früher 27 % fest [10], und die US-Kommissionserlöse liegen seit Jahresbeginn 18 % im Minus [9].",
+    "cited_note_id": "apple-inc-v-epic-games-inc-25-1311-scotusblog",
+    "correct_note_id": "apple-proposes-commissions-of-up-to-15-for-off-app-store-purchases-in-the-us-9to",
+    "evidence": "The scotusblog docket note ([10]) is a bare proceedings timeline for the Supreme Court cert grant/stay; it never mentions a 27% or a 0-15% link-out commission rate. The 27% prior rate and Apple's 15%/10%/5% proposal are in the 9to5mac note (used elsewhere in the report as [50]), not in [10].",
+    "suggested_fix": "Cite apple-proposes-commissions-of-up-to-15-for-off-app-store-purchases-in-the-us-9to (and/or epic-games-wins-injunction for the 27% figure) alongside or instead of [10] for the fee-rate clause; keep [10] only for the Kagan stay-denial date."
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Alphabets offengelegte TAC stieg von FY2022 bis FY2025 um 6,6 % p. a., der Anstieg 2024→2025 überwiegend durch höhere Zahlungen an Distributionspartner [4].",
+    "cited_note_id": "goog-20251231",
+    "correct_note_id": null,
+    "evidence": "The cited FY2025 10-K note only tabulates TAC for 2024 ($54,900M) and 2025 ($59,926M); it contains no FY2022 TAC figure, so the note cannot support a FY2022-to-FY2025 CAGR of 6.6% p.a. It does support the 2024→2025 distribution-partner-payments explanation.",
+    "suggested_fix": "Cite an Alphabet FY2022 10-K (or FY2023 10-K showing 2022 comparatives) alongside [4] for the FY2022 anchor, or soften the claim to the supported 2024→2025 comparison only."
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Skaliert man den Anker mit dieser Rate und hält Apples Anteil konstant, ergibt sich ein Jahreslauf von 23–29 Mrd. $, zentral rund 26 Mrd. $. (Rechnung: Googles gesamte TAC fiel als Anteil an den Werbeerlösen von rund 22 % 2022 auf rund 20,3 % 2025, während der Dollarbetrag von rund 49,4 Mrd. $ auf rund 59,8 Mrd. $ stieg – die Rate komprimiert, während die Dollar wachsen [4].) Dass Apples Anteil an dieser Gesamtzahlung über die Zeit konstant bleibt, ist eine unbelegte Annahme dieses Berichts; eine aktualisierte, Apple-spezifische Aufschlüsselung wurde gezielt gesucht und nicht gefunden (geprüftes Fehlen) – das Restrisiko liegt in einer möglichen Anteilsverschiebung, nicht nur in der Gesamtwachstumsrate.",
+    "cited_note_id": "goog-20251231",
+    "correct_note_id": null,
+    "evidence": "The note confirms the 2025 figures (20.3% TAC rate, $59,926M ~ $59.8bn) but has no 2022 data at all, so the ~22% and ~$49.4bn 2022 anchor figures that the whole 23-29bn estimate is scaled from are not supported by this note.",
+    "suggested_fix": "Add a citation to an Alphabet FY2022 (or FY2023, which shows 2022 comparatives) 10-K for the 22%/$49.4bn 2022 baseline; [4] alone only covers the 2024-2025 half of the calculation."
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Basis ist der FY2025-Bruttogewinn: gesamt 195.282 Mio. $, Services 82.305 Mio. $, Products residual rund 113,0 Mrd. $ [1].",
+    "cited_note_id": "aapl-20250927",
+    "correct_note_id": null,
+    "evidence": "The FY2025 10-K's actual gross-margin table shows Total gross margin $195,201M (not $195,282M) and Services gross margin $82,314M (not $82,305M); Products gross margin is actually $112,887M, which the stated 'rund 113,0 Mrd.' rounds acceptably, but the two precise input figures it is computed from are both off from the filed 10-K numbers.",
+    "suggested_fix": "Correct to the filed figures: total $195,201M, Services $82,314M, Products $112,887M (residual)."
+  },
+  {
+    "verdict": "unsupported",
+    "severity": "major",
+    "sentence": "Die Anschlussberufung rügt eng und prozedural, das Bezirksgericht habe ein Zahlungsverbot abgelehnt, ohne zuvor festzustellen, ob ein Remedy ohne Verbot den Wettbewerb wirksam wiederherstellt [40]; das typische Ergebnis eines solchen Fehlers ist eine Zurückverweisung zur Nachholung der Feststellung, kein vom Berufungsgericht verhängtes Verbot (Inferenz aus der Rügeform).",
+    "cited_note_id": "doj-and-states-appeal-google-search-antitrust-remedies-ruling",
+    "correct_note_id": null,
+    "evidence": "The cited Search Engine Land article explicitly states the opposite of what is claimed: 'The DOJ and states haven't detailed their legal arguments. Court filings didn't specify which parts of the ruling they will challenge' (as of the Feb 4, 2026 filing). It gives no basis for the specific narrow/procedural theory (rejected payment ban without a prior competitive-restoration finding) attributed to it.",
+    "suggested_fix": "Either cite the actual DOJ/states opening appellate brief (once filed/available in the docket) for this specific procedural theory, or soften the sentence to note that the appeal's specific grounds were not yet public as of the notice of appeal."
+  }
+]

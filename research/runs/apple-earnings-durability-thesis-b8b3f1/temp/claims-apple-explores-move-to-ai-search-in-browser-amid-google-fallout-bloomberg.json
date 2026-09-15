@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Eddy Cue's May 2025 testimony that AI may make the iPhone unnecessary within a decade was given during the DOJ's search-monopoly remedies trial against Google (US v. Google), the same proceeding that threatens to void the ~$20 billion/year Google-Apple default search payment.",
+    "stance": "supports",
+    "stance_target": "A meaningful share of Apple's earnings (via Services revenue from the Google search deal) is directly contingent on an arrangement a court can void, and the same executive making that admission also flagged AI as an existential interface-relocation risk",
+    "evidence_type": "legal",
+    "scope_conditions": "US Justice Department v. Alphabet, testimony given May 7, 2025",
+    "quoted_support": "Eddy Cue, Apple's senior vice president of services, made the disclosure Wednesday during his testimony in the US Justice Department's lawsuit against Alphabet Inc. The heart of the dispute is the two companies' estimated $20 billion-a-year deal that makes Google the default offering for queries in Apple's browser.",
+    "numbers": ["$20 billion"],
+    "entities": ["Eddy Cue", "Apple", "Google", "Alphabet", "US Department of Justice"],
+    "time_period": "May 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "apple-explores-move-to-ai-search-in-browser-amid-google-fallout-bloomberg"
+  },
+  {
+    "claim": "Apple is 'actively looking at' revamping Safari to prioritize AI-powered search engines instead of Google, a shift explicitly linked by Apple's own SVP of Services to the potential court-ordered end of the Google default-search payment.",
+    "stance": "supports",
+    "stance_target": "Apple's own management treats the Google search deal as a voidable/at-risk earnings stream requiring contingency planning",
+    "evidence_type": "legal",
+    "scope_conditions": "May 2025, during ongoing antitrust remedies litigation",
+    "quoted_support": "Apple Inc. is “actively looking at” revamping the Safari web browser on its devices to focus on AI-powered search engines, a seismic shift for the industry hastened by the potential end of a longtime partnership with Google.",
+    "numbers": [],
+    "entities": ["Apple", "Safari", "Google"],
+    "time_period": "May 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "apple-explores-move-to-ai-search-in-browser-amid-google-fallout-bloomberg"
+  }
+]

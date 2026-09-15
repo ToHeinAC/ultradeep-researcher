@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Apple's India production has jumped four times since 2022, and one in every five iPhones sold worldwide is now made in India (20% global share), with the remaining 75% still made in China.",
+    "stance": "supports",
+    "stance_target": "manufacturing diversification is rapid, not physically slow",
+    "evidence_type": "empirical",
+    "scope_conditions": "global iPhone assembly, 2022-2026",
+    "quoted_support": "Apple's production in India has jumped up four times since 2022, such that one in every five iPhones sold in the world are made in India. The remaining 75% of Apple's iPhones are still manufactured in China.",
+    "numbers": ["4x increase since 2022", "20% India share", "75% China share"],
+    "entities": ["Apple", "India", "China"],
+    "time_period": "2022-2026",
+    "region": "India, China",
+    "confidence": "medium",
+    "source_note_id": "why-is-apple-moving-its-iphone-production-to-india-technology-magazine"
+  },
+  {
+    "claim": "India's February 2026 budget granted a five-year tax holiday exempting electronic manufacturers from additional taxes on machinery provided to local manufacturers, letting Apple offer expensive machines to Foxconn and Tata more cheaply.",
+    "stance": "supports",
+    "stance_target": "capex-to-output lead times can be shortened by favorable policy, undermining a purely 'physically slow' framing",
+    "evidence_type": "empirical",
+    "scope_conditions": "India government policy, February 2026",
+    "quoted_support": "India's February 2026 budget granted a big win to Apple's manufacturing goals, when it exempted electronic manufacturers from paying additional taxes for providing machinery to local manufacturers. This five year tax holiday means that Apple can now offer expensive machines to its contract manufacturers Foxconn and Tata.",
+    "numbers": ["5-year tax holiday"],
+    "entities": ["India government", "Apple", "Foxconn", "Tata"],
+    "time_period": "February 2026",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "why-is-apple-moving-its-iphone-production-to-india-technology-magazine"
+  },
+  {
+    "claim": "iPhone production in India remains more expensive than in China, with costs as high as 10% higher in some cases, according to Reuters; India's electronics supply chains have not yet hardened compared to China's.",
+    "stance": "refutes",
+    "stance_target": "assembly-share migration implies equivalent cost/value-chain parity with China",
+    "evidence_type": "empirical",
+    "scope_conditions": "India vs China iPhone assembly cost comparison, per Reuters, 2026",
+    "quoted_support": "The production of iPhones in India is still more expensive compared to China, with costs as high as 10% in some cases according to Reuters. Being a much more novel industry, Indian electronics supply chains are still growing and haven't yet hardened compared to China's.",
+    "numbers": ["up to 10% cost premium"],
+    "entities": ["Reuters", "India", "China"],
+    "time_period": "2026",
+    "region": "India, China",
+    "confidence": "medium",
+    "source_note_id": "why-is-apple-moving-its-iphone-production-to-india-technology-magazine"
+  },
+  {
+    "claim": "Cumulative iPhone exports assembled in India under the PLI scheme surpassed $50 billion in 2025.",
+    "stance": "supports",
+    "stance_target": "scale of India's export-oriented manufacturing build-out",
+    "evidence_type": "empirical",
+    "scope_conditions": "India PLI scheme, cumulative through 2025",
+    "quoted_support": "In 2025, Apple passed a huge milestone as cumulative exports of iPhones assembled in India under the government's Production Linked Incentive (PLI) scheme surpassed US$50bn.",
+    "numbers": ["$50 billion+ (cumulative PLI iPhone exports)"],
+    "entities": ["Apple", "India PLI scheme"],
+    "time_period": "cumulative through 2025",
+    "region": "India",
+    "confidence": "high",
+    "source_note_id": "why-is-apple-moving-its-iphone-production-to-india-technology-magazine"
+  },
+  {
+    "claim": "Apple has committed $50 million to a global Supplier Employee Development Fund and opened an Apple Education Hub in Bengaluru with Manipal Academy, training 25+ suppliers including Tata Electronics in Swift coding, robotics, automation and smart manufacturing.",
+    "stance": "supports",
+    "stance_target": "Apple is investing in India's manufacturing-ecosystem maturation beyond pure assembly capacity",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple corporate investment, India, 2026",
+    "quoted_support": "This is part of Apple's US$50m global Supplier Employee Development Fund... development courses will be offered to more than 25 of its suppliers including Tata Electronics.",
+    "numbers": ["$50 million fund", "25+ suppliers"],
+    "entities": ["Apple", "Manipal Academy of Higher Education", "Tata Electronics"],
+    "time_period": "2026",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "why-is-apple-moving-its-iphone-production-to-india-technology-magazine"
+  }
+]

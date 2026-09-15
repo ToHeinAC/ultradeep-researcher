@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "The widely-repeated market narrative (via Ben Thompson/Stratechery and the Dithering podcast) that Apple's Q2 2021 gross-margin jump (40% to 43% QoQ) was driven by the M1 chip transition is likely wrong; the actual driver was a services/hardware revenue mix shift.",
+    "stance": "refutes",
+    "stance_target": "Owning silicon is load-bearing for margin",
+    "evidence_type": "statistical",
+    "scope_conditions": "Apple fiscal Q2 2021 (calendar Q1 2021), company-wide gross margin",
+    "quoted_support": "Apple's gross margins jumped to 43% from 40% in the prior quarter. ... The Dithering crew hypothesized that the shift to the M1 was a big enough jump to move Apple's margins up by $3 billion. This is probably not the case.",
+    "numbers": ["40%", "43%", "$3 billion"],
+    "entities": ["Apple", "Ben Thompson", "Dithering podcast"],
+    "time_period": "Q2 FY2021",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "where-did-apples-margins-come-from-digits-to-dollars"
+  },
+  {
+    "claim": "In the same quarter, services revenue rose from 24% to 31% of Apple's gross profit while hardware fell from 76% to 69%; services margin rose from 68% to 70% while hardware margin rose only from 35% to 36% -- meaning the margin jump is explained mostly by mix shift toward high-margin services, not by silicon-driven hardware cost savings.",
+    "stance": "refutes",
+    "stance_target": "Owning silicon is load-bearing for margin",
+    "evidence_type": "statistical",
+    "scope_conditions": "Apple fiscal Q2 2021, hardware vs. services split (Apple-disclosed categories)",
+    "quoted_support": "Hardware margins did increase slightly, from 35% to 36%, but services margins increased by more, 68% to 70%. In the recent quarter services revenue went from 24% of gross profits to 31% of gross profits, while hardware decreased from 76% to 69%.",
+    "numbers": ["24%", "31%", "68%", "70%", "35%", "36%", "76%", "69%"],
+    "entities": ["Apple"],
+    "time_period": "Q2 FY2021",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "where-did-apples-margins-come-from-digits-to-dollars"
+  },
+  {
+    "claim": "Digits to Dollars models the M1 transition's per-unit gross margin gain on Mac hardware at roughly 8 percentage points, based on Apple paying ~$25/chip to TSMC versus an assumed ~$100/chip previously paid to Intel, on a ~$1500 MacBook with a $960 cost of goods.",
+    "stance": "supports",
+    "stance_target": "Owning silicon is load-bearing for margin (at the product level)",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Mac/MacBook only, author's own back-of-envelope model, explicitly caveated as containing 'a ton of simplifications and assumptions'",
+    "quoted_support": "Apple probably pays TSMC about $25 per chip ... So they are increasing gross margins by 8 points ($75 in savings/$960 BOM).",
+    "numbers": ["$25", "$100", "8 points", "$960", "$1500"],
+    "entities": ["Apple", "TSMC", "Intel"],
+    "time_period": "2021",
+    "region": "global",
+    "confidence": "low",
+    "source_note_id": "where-did-apples-margins-come-from-digits-to-dollars"
+  },
+  {
+    "claim": "Despite an 8-point per-unit margin benefit from M1, the company-wide gross margin contribution from the M1 transition in the quarter analyzed was only about 0.3 percentage points (roughly $300 million), because only a partial share of that quarter's ~5 million MacBook shipments (about 4 million) had already transitioned to M1 -- directly rebutting the claim that M1 was worth $3 billion in a single quarter.",
+    "stance": "refutes",
+    "stance_target": "Owning silicon is load-bearing for margin (company-wide, near-term)",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Single quarter (Q2 FY2021), Mac-only impact scaled to whole-company gross margin",
+    "quoted_support": "Apple probably sold about 5 million MacBooks last quarter, call it 4 million with the M1 ... which works out to $300 million in gross margin improvements, which means the shift to M1 contributed 0.3% (not 3%, 0.3%) of gross margin improvement in the quarter.",
+    "numbers": ["0.3%", "$300 million", "5 million", "4 million"],
+    "entities": ["Apple"],
+    "time_period": "Q2 FY2021",
+    "region": "global",
+    "confidence": "low",
+    "source_note_id": "where-did-apples-margins-come-from-digits-to-dollars"
+  },
+  {
+    "claim": "Apple no longer discloses unit shipment volumes, forcing all third-party silicon-margin models (including this one) to rely on estimated unit counts, a structural data-availability constraint.",
+    "stance": "neutral",
+    "stance_target": "Estimation-method caveat for Mac/iPhone margin figures",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple financial disclosure practice, ongoing since ~2018",
+    "quoted_support": "Apple no longer breaks out their unit volumes ... (this would be a lot more fun if they still disclosed unit shipments)",
+    "numbers": [],
+    "entities": ["Apple"],
+    "time_period": "2018-present",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "where-did-apples-margins-come-from-digits-to-dollars"
+  }
+]

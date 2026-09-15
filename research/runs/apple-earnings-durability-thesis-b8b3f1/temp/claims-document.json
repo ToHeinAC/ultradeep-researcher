@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Qualcomm's official Q3 FY2026 press release discloses QCT Handsets revenue of $5,086 million versus $6,328 million in the year-ago quarter, a 20% decline, and QCT Automotive revenue of $1,588 million versus $984 million, a 61% increase, marking 23 consecutive quarters of double-digit YoY automotive growth.",
+    "stance": "supports",
+    "stance_target": "Forward margin effect of in-house modems (primary confirmation of magnitude)",
+    "evidence_type": "statistical",
+    "scope_conditions": "Qualcomm fiscal Q3 2026 (quarter ended June 28, 2026), official 8-K exhibit press release",
+    "quoted_support": "Handsets $5,086 $6,328 (20%) ... Automotive 1,588 984 +61%",
+    "numbers": ["$5,086 million", "$6,328 million", "20%", "$1,588 million", "$984 million", "61%"],
+    "entities": ["Qualcomm"],
+    "time_period": "Q3 FY2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "document"
+  },
+  {
+    "claim": "Total QCT (chip) segment revenue fell 5% year over year to $8,504 million in Q3 FY2026 from $8,993 million, with combined QCT Automotive and IoT revenue growing 28% year over year.",
+    "stance": "neutral",
+    "stance_target": "Whether Qualcomm's non-Apple growth is offsetting Apple-driven handset decline",
+    "evidence_type": "statistical",
+    "scope_conditions": "Qualcomm fiscal Q3 2026",
+    "quoted_support": "Total QCT revenues $8,504 $8,993 (5%) ... Combined QCT Automotive and IoT Revenues Grew 28% Year-Over-Year",
+    "numbers": ["$8,504 million", "$8,993 million", "5%", "28%"],
+    "entities": ["Qualcomm"],
+    "time_period": "Q3 FY2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "document"
+  },
+  {
+    "claim": "Qualcomm CEO Cristiano Amon officially guided that non-handset revenue growth (including Data Center) will accelerate from 24% in fiscal 2026 to greater than 60% in fiscal 2027, with total non-handset revenues targeted at $40 billion by fiscal 2029 -- nearly double the target Qualcomm shared in November 2024 (approximately $22 billion).",
+    "stance": "neutral",
+    "stance_target": "Qualcomm's plan to offset lost Apple modem revenue (context for how completely and how fast Apple's savings become durable margin rather than being renegotiated away)",
+    "evidence_type": "empirical",
+    "scope_conditions": "Official Qualcomm guidance, Q3 FY2026 press release",
+    "quoted_support": "we expect year-over-year growth in non-handset revenues, including Data Center, to accelerate from 24% in fiscal 2026 to greater than 60% in fiscal 2027 -- a significant inflection point in the execution of our growth strategy... total non-handset revenues growing to $40 billion by fiscal 2029 -- nearly double the target we shared in November 2024.",
+    "numbers": ["24%", "60%", "$40 billion"],
+    "entities": ["Qualcomm", "Cristiano Amon"],
+    "time_period": "FY2026-FY2029",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "document"
+  },
+  {
+    "claim": "Qualcomm's own forward-looking-statements disclosure in its official earnings release lists dependence on a small number of customers selling premium-tier handsets, and customer vertical integration, as material risk factors -- corroborating, from the primary source itself, that Apple's in-house silicon strategy is treated by Qualcomm as a formally acknowledged financial risk, not just press speculation.",
+    "stance": "supports",
+    "stance_target": "Owning silicon is load-bearing for margin (validated from the displaced supplier's own primary disclosure)",
+    "evidence_type": "legal",
+    "scope_conditions": "Qualcomm Q3 FY2026 official press release risk-factor boilerplate",
+    "quoted_support": "our dependence on a small number of customers and licensees, and particularly from their sale of premium-tier handset devices; our customers vertically integrating",
+    "numbers": [],
+    "entities": ["Qualcomm", "Apple"],
+    "time_period": "as of Q3 FY2026 filing",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "document"
+  }
+]

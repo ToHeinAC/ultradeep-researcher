@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "In the June 2024 quarter, 17% of iPhone buyers previously owned an Android phone, the highest Android-switcher share CIRP had recorded in five years.",
+    "stance": "neutral",
+    "stance_target": "Magnitude of Android-to-iPhone switching over time",
+    "evidence_type": "statistical",
+    "scope_conditions": "US, June 2024 quarter",
+    "quoted_support": "In the June 2024 quarter, 17% of iPhone buyers previously owned an Android phone (Chart 1). This is a sharp increase from the June 2023 quarter, and the highest percentage of Android switcher iPhone buyers we've seen in the past five years.",
+    "numbers": ["17%"],
+    "entities": ["CIRP", "Android"],
+    "time_period": "June 2024 quarter",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "more-android-switchers-not-necessarily-good-news"
+  },
+  {
+    "claim": "CIRP argues a spike in Android switchers can be a troubling sign for Apple rather than good news, because it may correlate with weaker underlying iPhone sales and underperformance of the newest flagship models.",
+    "stance": "neutral",
+    "stance_target": "High switcher share cuts both ways: does not unambiguously indicate ecosystem strength",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "US, 2024 iPhone 15 cycle",
+    "quoted_support": "For Apple, watching iPhone sales, it may actually represent a troubling sign. ... We think the relatively high percent of Android owners among new iPhone buyers may help explain our recent finding that the newest iPhone 15 models haven't sold as well as comparable new models in past years as compared to cheaper, legacy models.",
+    "numbers": [],
+    "entities": ["CIRP", "iPhone 15"],
+    "time_period": "2024",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "more-android-switchers-not-necessarily-good-news"
+  }
+]

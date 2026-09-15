@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "A single-subject empirical migration case study found that DMA-style data portability compliance does not eliminate hardware-level lock-in when switching from iOS to Android.",
+    "stance": "supports",
+    "stance_target": "phone-level switching frictions persist despite DMA-mandated interoperability, so observed switching-rate data may understate true preference-based lock-in even where regulation exists",
+    "evidence_type": "anecdotal",
+    "scope_conditions": "Single researcher (n=1), Japan, early 2026; Apple's EU-driven DMA compliance changes also extended to Japan per the source",
+    "quoted_support": "During this process, 34 distinct friction or failure points were documented, including 11 cases requiring manual reconfiguration, 9 cases involving partial or failed data portability, and 6 instances of hardware-dependent constraints.",
+    "numbers": ["120 accounts/services migrated", "5 consecutive days", "25+ hours of active work", "34 friction points", "11 manual reconfigurations", "9 partial/failed portability cases", "6 hardware-dependent constraints"],
+    "entities": ["Apple", "Google", "DMA Article 6", "Suica", "iMessage", "Apple Keychain", "Apple Watch"],
+    "time_period": "early 2026",
+    "region": "Japan",
+    "confidence": "low",
+    "source_note_id": "the-exit-penalty-why-the-dmas-interoperability-rules-fail-the-reality-test-of-pl"
+  },
+  {
+    "claim": "Deregistering Suica (a transit/payment card) from Apple Pay requires physical possession of the original iPhone hardware, creating a procedural hardware lock-in even though data portability is nominally supported.",
+    "stance": "supports",
+    "stance_target": "hardware-level and procedural lock-ins persist beneath formal DMA data-portability compliance",
+    "evidence_type": "anecdotal",
+    "scope_conditions": "Japan; Apple Pay + Suica integration",
+    "quoted_support": "Despite Apple's public messaging about portability, deregistering Suica from Apple Pay requires physical access to the original iPhone hardware. This procedural requirement forces users to retain Apple devices as a condition for exit.",
+    "numbers": [],
+    "entities": ["Apple Pay", "Suica", "Apple"],
+    "time_period": "2026",
+    "region": "Japan",
+    "confidence": "medium",
+    "source_note_id": "the-exit-penalty-why-the-dmas-interoperability-rules-fail-the-reality-test-of-pl"
+  },
+  {
+    "claim": "iMessage conversation histories cannot be meaningfully exported or migrated when switching away from Apple's ecosystem, creating a data and social/network-effect lock-in not addressed by DMA data-portability rules.",
+    "stance": "supports",
+    "stance_target": "messaging/social lock-in is a durable non-price switching cost distinct from and larger than browser-level lock-in",
+    "evidence_type": "anecdotal",
+    "scope_conditions": "iOS-to-Android migration case study, Japan, 2026",
+    "quoted_support": "Apple's iMessage histories cannot be meaningfully exported or migrated, effectively stranding years of personal communication within Apple's ecosystem.",
+    "numbers": [],
+    "entities": ["Apple", "iMessage"],
+    "time_period": "2026",
+    "region": "Japan",
+    "confidence": "medium",
+    "source_note_id": "the-exit-penalty-why-the-dmas-interoperability-rules-fail-the-reality-test-of-pl"
+  },
+  {
+    "claim": "DMA Article 6 interoperability/data-portability obligations are structured to facilitate platform entry and daily use, but leave exit costs (procedural, hardware, identity-reconstruction) largely unaddressed -- a regulatory blind spot the author terms the 'exit penalty.'",
+    "stance": "supports",
+    "stance_target": "regulatory interoperability mandates like the DMA do not, by themselves, produce measurable phone-level switching because structural exit costs survive formal compliance",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Analysis of DMA Article 6 as applied via Apple's and Google's compliance implementations",
+    "quoted_support": "This asymmetry creates a regulatory blind spot. Platforms can comply with the letter of the law while embedding architectural and procedural exit barriers.",
+    "numbers": [],
+    "entities": ["DMA Article 6", "European Commission", "Apple", "Google"],
+    "time_period": "2024-2026",
+    "region": "EU (DMA scope, extended by Apple to Japan)",
+    "confidence": "medium",
+    "source_note_id": "the-exit-penalty-why-the-dmas-interoperability-rules-fail-the-reality-test-of-pl"
+  },
+  {
+    "claim": "The theoretical grounding for persistent exit costs under nominal interoperability draws on established switching-cost economics (Klemperer 1987; Farrell & Klemperer 2007) and an OECD 2021 report specifically analyzing switching costs in digital markets.",
+    "stance": "neutral",
+    "stance_target": "academic/policy basis for expecting persistent switching costs despite formal data-portability rules",
+    "evidence_type": "theoretical",
+    "scope_conditions": "General industrial-organization / platform-economics literature",
+    "quoted_support": "This experiment is informed by established theories of switching costs and platform lock-in in industrial organisation and platform economics, including Paul Klemperer's Markets with Consumer Switching Costs (1987), Farrell and Klemperer's Coordination and Lock-In... and the OECD report Switching Costs and Consumer Policy in Digital Markets (2021).",
+    "numbers": [],
+    "entities": ["Paul Klemperer", "Farrell", "OECD"],
+    "time_period": "1987-2021",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "the-exit-penalty-why-the-dmas-interoperability-rules-fail-the-reality-test-of-pl"
+  }
+]

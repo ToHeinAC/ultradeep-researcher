@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Apple itself states that for more than 90% of the billings and sales facilitated by the App Store ecosystem in 2025, developers paid no commission to Apple, out of a total ecosystem figure of over $1.4 trillion.",
+    "stance": "neutral",
+    "stance_target": "Basis of the widely-cited '90% commission-free' statistic",
+    "evidence_type": "empirical",
+    "scope_conditions": "Global App Store ecosystem, 2025, per Apple-commissioned Analysis Group study",
+    "quoted_support": "For more than 90 percent of the billings and sales facilitated by the App Store ecosystem, developers did not pay any commission to Apple.",
+    "numbers": ["$1.4 trillion total 2025 ecosystem billings/sales", ">90% commission-free"],
+    "entities": ["Apple", "Analysis Group", "Tim Cook"],
+    "time_period": "2025 (published June 2026)",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "app-store-ecosystem-reaches-14-trillion-as-developers-thrive-globally-apple"
+  },
+  {
+    "claim": "The $1.4 trillion ecosystem total splits into $1.1 trillion physical goods/services, $149 billion digital goods/services, and $151 billion in-app advertising -- only the $149 billion digital-goods slice is commissionable.",
+    "stance": "supports",
+    "stance_target": "Quantification of the true contingent (commissionable) revenue base versus gross ecosystem billings",
+    "evidence_type": "empirical",
+    "scope_conditions": "Global, 2025",
+    "quoted_support": "sales of physical goods and services accounted for $1.1 trillion... Developer billings and sales for digital goods and services totaled $149 billion... In-app advertising revenue... was $151 billion.",
+    "numbers": ["$1.1 trillion physical goods/services", "$149 billion digital goods/services", "$151 billion in-app advertising"],
+    "entities": ["Apple", "Analysis Group"],
+    "time_period": "2025",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "app-store-ecosystem-reaches-14-trillion-as-developers-thrive-globally-apple"
+  }
+]

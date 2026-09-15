@@ -1,0 +1,2382 @@
+{
+  "report": "/Users/tobiashein/dev/ai/langgraph/ultradeep-researcher/research/notes/final_report_apple-earnings-durability-thesis-b8b3f1.md",
+  "summary": {
+    "total": 205,
+    "supported_mechanical": 18,
+    "dangling": 18,
+    "needs_llm": 169
+  },
+  "sampled_for_llm": [
+    {
+      "sentence": "**Kurzantwort.** 19,7 % bis 28,3 % des Apple-Bruttogewinns von 195,3 Mrd. $ (FY2025) – 46,7 % bis 67,2 % des Services-Bruttogewinns – stammen aus zwei Strömen, deren Preis ein Gericht oder Regulator setzt oder neu setzen kann: der Google-Zahlung für die Standard-Suchplatzierung (Traffic Acquisition Cost, TAC) und den App-Store-Kommissionen [1, 3, 5].",
+      "note_id": "aapl-20250927",
+      "numbers": [
+        "19,7",
+        "28,3",
+        "195,3",
+        "2025",
+        "46,7",
+        "67,2",
+        "1,",
+        "3,",
+        "5"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "**Kurzantwort.** 19,7 % bis 28,3 % des Apple-Bruttogewinns von 195,3 Mrd. $ (FY2025) – 46,7 % bis 67,2 % des Services-Bruttogewinns – stammen aus zwei Strömen, deren Preis ein Gericht oder Regulator setzt oder neu setzen kann: der Google-Zahlung für die Standard-Suchplatzierung (Traffic Acquisition Cost, TAC) und den App-Store-Kommissionen [1, 3, 5].",
+      "note_id": "united-states-district-court-3",
+      "numbers": [
+        "19,7",
+        "28,3",
+        "195,3",
+        "2025",
+        "46,7",
+        "67,2",
+        "1,",
+        "3,",
+        "5"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "**Kurzantwort.** 19,7 % bis 28,3 % des Apple-Bruttogewinns von 195,3 Mrd. $ (FY2025) – 46,7 % bis 67,2 % des Services-Bruttogewinns – stammen aus zwei Strömen, deren Preis ein Gericht oder Regulator setzt oder neu setzen kann: der Google-Zahlung für die Standard-Suchplatzierung (Traffic Acquisition Cost, TAC) und den App-Store-Kommissionen [1, 3, 5].",
+      "note_id": "how-apple-makes-billions-from-the-app-storeand-why-90-of-sales-now-escape-its-co",
+      "numbers": [
+        "19,7",
+        "28,3",
+        "195,3",
+        "2025",
+        "46,7",
+        "67,2",
+        "1,",
+        "3,",
+        "5"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Das Dauerhaftigkeitsraster übersteht damit seinen Falsifikationstest: Differenziert angewendet senkt es den Headline-Multiplikator von 34,6x [7] um rund 1,5 bis 4 Punkte, zentral um 2,5 bis 3, auf Basis des operativen Ergebnisses um bis zu 5.",
+      "note_id": "apple-valuation-faces-scrutiny-as-services-growth-cools",
+      "numbers": [
+        "34,6",
+        "7",
+        "1,5",
+        "4",
+        "2,5",
+        "3,",
+        "5."
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "August 2026 ab, das Bezirksgericht setzt nun eine kostenbasierte Link-out-Gebühr von realistisch 0–15 % statt früher 27 % fest [10], und die US-Kommissionserlöse liegen seit Jahresbeginn 18 % im Minus [9].",
+      "note_id": "apple-inc-v-epic-games-inc-25-1311-scotusblog",
+      "numbers": [
+        "2026",
+        "0",
+        "15",
+        "27",
+        "10",
+        "18",
+        "9"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "August 2026 ab, das Bezirksgericht setzt nun eine kostenbasierte Link-out-Gebühr von realistisch 0–15 % statt früher 27 % fest [10], und die US-Kommissionserlöse liegen seit Jahresbeginn 18 % im Minus [9].",
+      "note_id": "apples-us-app-store-commission-revenue-down-18-this-year-macrumors",
+      "numbers": [
+        "2026",
+        "0",
+        "15",
+        "27",
+        "10",
+        "18",
+        "9"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Der größere unverdiente Teil der Prämie steht allerdings nicht in den Gerichtsakten: Löst man das Headline-KGV nach der Hardware auf, zahlt der Markt implizit rund 35–38x für zyklischen, preis- und speicherkosteninflationierten Hardware-Bruttogewinn, während die bereinigte Bruttomarge von 48 % auf geführte 46,5 % fällt [11].",
+      "note_id": "one-last-time-this-is-tim-final-transcript-of-apples-q3-2026-earnings-call-six-c",
+      "numbers": [
+        "35",
+        "38",
+        "48",
+        "46,5",
+        "11"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "FY2025 erzielte Apple 416.161 Mio. $ Umsatz, davon Services 109.158 Mio. $ (26,2 %) [1].",
+      "note_id": "aapl-20250927",
+      "numbers": [
+        "2025",
+        "416.161",
+        "109.158",
+        "26,2",
+        "1"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Services-Bruttomarge liegt beim Doppelten der Products-Marge, und die Schere öffnet sich: FY2023 70,8 % gegenüber 36,5 %, FY2025 75,4 % gegenüber 36,8 %, im dritten Fiskalquartal 2026 75,6 % gegenüber 40,1 % [12, 13, 14].",
+      "note_id": "aapl-20230930",
+      "numbers": [
+        "2023",
+        "70,8",
+        "36,5",
+        "2025",
+        "75,4",
+        "36,8",
+        "2026",
+        "75,6",
+        "40,1",
+        "12,",
+        "13,",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Services-Bruttomarge liegt beim Doppelten der Products-Marge, und die Schere öffnet sich: FY2023 70,8 % gegenüber 36,5 %, FY2025 75,4 % gegenüber 36,8 %, im dritten Fiskalquartal 2026 75,6 % gegenüber 40,1 % [12, 13, 14].",
+      "note_id": "aapl-20240928",
+      "numbers": [
+        "2023",
+        "70,8",
+        "36,5",
+        "2025",
+        "75,4",
+        "36,8",
+        "2026",
+        "75,6",
+        "40,1",
+        "12,",
+        "13,",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Services ist aber ein undifferenzierter Topf aus „advertising, AppleCare, cloud, digital content, payment and other services\" (Werbung, AppleCare, Cloud, digitale Inhalte, Zahlungs- und sonstige Dienste) [15].",
+      "note_id": "aapl-20220924",
+      "numbers": [
+        "15"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Weder die Google-Lizenzzahlung noch die App-Store-Kommissionen erscheinen in einem 10-K oder 10-Q der Jahre FY2022 bis FY2026 als eigene Zeile [1, 2].",
+      "note_id": "aapl-20250927",
+      "numbers": [
+        "10",
+        "10",
+        "2022",
+        "2026",
+        "1,",
+        "2"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Alphabets offengelegte TAC stieg von FY2022 bis FY2025 um 6,6 % p. a., der Anstieg 2024→2025 überwiegend durch höhere Zahlungen an Distributionspartner [4].",
+      "note_id": "goog-20251231",
+      "numbers": [
+        "2022",
+        "2025",
+        "6,6",
+        "2024",
+        "2025",
+        "4"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Skaliert man den Anker mit dieser Rate und hält Apples Anteil konstant, ergibt sich ein Jahreslauf von 23–29 Mrd. $, zentral rund 26 Mrd. $. (Rechnung: Googles gesamte TAC fiel als Anteil an den Werbeerlösen von rund 22 % 2022 auf rund 20,3 % 2025, während der Dollarbetrag von rund 49,4 Mrd. $ auf rund 59,8 Mrd. $ stieg – die Rate komprimiert, während die Dollar wachsen [4].) Dass Apples Anteil an dieser Gesamtzahlung über die Zeit konstant bleibt, ist eine unbelegte Annahme dieses Berichts; eine aktualisierte, Apple-spezifische Aufschlüsselung wurde gezielt gesucht und nicht gefunden (geprüftes Fehlen) – das Restrisiko liegt in einer möglichen Anteilsverschiebung, nicht nur in der Gesamtwachstumsrate.",
+      "note_id": "goog-20251231",
+      "numbers": [
+        "23",
+        "29",
+        "26",
+        "22",
+        "2022",
+        "20,3",
+        "2025,",
+        "49,4",
+        "59,8",
+        "4"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Morgan Stanleys Schätzung von über 25 Mrd. $ jährlich bei Margen über 95 % ist die einzige unabhängige Gegenprobe und damit eine Konvergenzprüfung, keine Bestätigung [16].",
+      "note_id": "how-the-google-antitrust-ruling-reshapes-search-ai-and-more",
+      "numbers": [
+        "25",
+        "95",
+        "16"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Da die Zahlung laut Gericht „at little to no cost to Apple\" (für Apple nahezu kostenlos) anfällt, ist eine Marge von 95–100 % vertretbar [3].",
+      "note_id": "united-states-district-court-3",
+      "numbers": [
+        "95",
+        "100",
+        "3"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Appfigures schätzt die Kommissionen für 2024 auf 27,39 Mrd. $ global und 10,1 Mrd. $ in den USA [5].",
+      "note_id": "how-apple-makes-billions-from-the-app-storeand-why-90-of-sales-now-escape-its-co",
+      "numbers": [
+        "2024",
+        "27,39",
+        "10,1",
+        "5"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Gegen Apples eigene, von Apple finanzierte Studie gerechnet – 131 Mrd. $ kommissionsfähige Digitalumsätze 2024, 149 Mrd. $ 2025 – ergibt das eine effektive Take-Rate von rund 21 %, konsistent mit dem Nebeneinander von 15-%- und 30-%-Sätzen [5, 6].",
+      "note_id": "how-apple-makes-billions-from-the-app-storeand-why-90-of-sales-now-escape-its-co",
+      "numbers": [
+        "131",
+        "2024,",
+        "149",
+        "2025",
+        "21",
+        "15",
+        "30",
+        "5,",
+        "6"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Gegen Apples eigene, von Apple finanzierte Studie gerechnet – 131 Mrd. $ kommissionsfähige Digitalumsätze 2024, 149 Mrd. $ 2025 – ergibt das eine effektive Take-Rate von rund 21 %, konsistent mit dem Nebeneinander von 15-%- und 30-%-Sätzen [5, 6].",
+      "note_id": "support-for-this-study-was-provided-by-apple",
+      "numbers": [
+        "131",
+        "2024,",
+        "149",
+        "2025",
+        "21",
+        "15",
+        "30",
+        "5,",
+        "6"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Als belegte Margenuntergrenze dient die Services-Bruttomarge von 75,4 % [1]; die Obergrenze von 85 % ist eine Annahme, höhere kursierende Werte sind weder gerichtlich festgestellt noch Bruttomargen.",
+      "note_id": "aapl-20250927",
+      "numbers": [
+        "75,4",
+        "1",
+        "85"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple; es ist eine *operative* Marge, nicht Bruttomarge, Apple bestritt die Berechnung, und weder das Bezirksgericht noch der Ninth Circuit übernahmen eine konkrete Prozentzahl – festgestellt wurden nur „supracompetitive operating margins\" ohne Beziffern [96, 97].",
+      "note_id": "apple-runs-app-store-with-78-profit-margin-according-to-court-testimony-9to5mac",
+      "numbers": [
+        "96,",
+        "97"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple; es ist eine *operative* Marge, nicht Bruttomarge, Apple bestritt die Berechnung, und weder das Bezirksgericht noch der Ninth Circuit übernahmen eine konkrete Prozentzahl – festgestellt wurden nur „supracompetitive operating margins\" ohne Beziffern [96, 97].",
+      "note_id": "united-states-district-court-4",
+      "numbers": [
+        "96,",
+        "97"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Basis ist der FY2025-Bruttogewinn: gesamt 195.282 Mio. $, Services 82.305 Mio. $, Products residual rund 113,0 Mrd. $ [1].",
+      "note_id": "aapl-20250927",
+      "numbers": [
+        "2025",
+        "195.282",
+        "82.305",
+        "113,0",
+        "1"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "September 2025 zugunsten der Zahlung entschieden; das Remedy – die gerichtlich verfügte Abhilfe – gilt sechs Jahre und verbietet nur Exklusivität [8].",
+      "note_id": "united-states-district-court-2",
+      "numbers": [
+        "2025",
+        "8"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Kommissionen erodieren dagegen in realisierten Zahlen [9].",
+      "note_id": "apples-us-app-store-commission-revenue-down-18-this-year-macrumors",
+      "numbers": [
+        "9"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Schnittstellenabhängige Erträge wie Suche und App-Discovery tragen zwei Risiken zugleich: Gerichte und eine mögliche KI-bedingte Verlagerung der Nutzeroberfläche, etwa über DMA-Artikel 6(7), der Drittanbieter-Assistenten Systemzugriff auf dem iPhone verschaffen kann [17, 18].",
+      "note_id": "the-eus-digital-markets-act-meets-the-mobile-os-round-two",
+      "numbers": [
+        "6",
+        "7",
+        "17,",
+        "18"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Schnittstellenabhängige Erträge wie Suche und App-Discovery tragen zwei Risiken zugleich: Gerichte und eine mögliche KI-bedingte Verlagerung der Nutzeroberfläche, etwa über DMA-Artikel 6(7), der Drittanbieter-Assistenten Systemzugriff auf dem iPhone verschaffen kann [17, 18].",
+      "note_id": "factsheet-how-the-dma-is-making-smartphones-better-interoperability-and-data-por",
+      "numbers": [
+        "6",
+        "7",
+        "17,",
+        "18"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "September 2026) [19].",
+      "note_id": "aapl-intrinsic-valuation-and-fundamental-analysis-apple-inc-alpha-spread",
+      "numbers": [
+        "2026",
+        "19"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Drei nicht modellierte Überlagerungen zeigen in dieselbe Richtung: KeyBancs Argument, „growth driven primarily by higher prices should command a lower valuation multiple than growth driven by expanding volumes\" („Wachstum, das vor allem aus höheren Preisen stammt, sollte einen niedrigeren Multiplikator erhalten als Wachstum aus steigenden Mengen\") [7]; nicht wiederkehrende Zollrückerstattungen im EPS-Nenner, allein 0,11 $ im dritten Quartal [14]; und die Unterzeichnung der operativen Exposition durch den Bruttogewinnansatz.",
+      "note_id": "apple-valuation-faces-scrutiny-as-services-growth-cools",
+      "numbers": [
+        "7",
+        "0,11",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Der beste Bull-Einwand: Die TAC war immer im Kurs, der Markt las das Remedy-Urteil als Sieg – Alphabet rund 8 bis 8,5 % im Plus, Apple +2,8 % –, ein Abschlag auf eine gerichtlich bestätigte Zahlung sei Doppelzählung [16].",
+      "note_id": "how-the-google-antitrust-ruling-reshapes-search-ai-and-more",
+      "numbers": [
+        "8",
+        "8,5",
+        "2,8",
+        "16"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Beide Parteigutachter sagten niedrigere Zahlungen voraus: Chipty für die Klägerseite („it is quite possible that in the remedial world payments will be lower\" – „es ist durchaus möglich, dass die Zahlungen in der Remedy-Welt niedriger ausfallen\") und, auf der Gegenseite, Googles Gutachter Murphy [8].",
+      "note_id": "united-states-district-court-2",
+      "numbers": [
+        "8"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Zeigen Gutachter gegnerischer Parteien in der *Richtung* niedrigerer Zahlungen übereinstimmend, stärkt das die Evidenz; ihre jeweiligen *Größenordnungen* bleiben strittig, und Chiptys eigene Schätzung eines Marktanteilsverlusts verwarf das Gericht an anderer Stelle derselben Entscheidung als „too speculative\" – die Übereinstimmung der Gutachter trägt also das Vorzeichen, nicht die Höhe [8].",
+      "note_id": "united-states-district-court-2",
+      "numbers": [
+        "8"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Sensor Tower meldet für das zweite Quartal 2026 US-Konsumausgaben von −6 % nach +9 % im Vorjahr [9]; global verlangsamte sich das Wachstum im ersten Halbjahr von 13 % auf 3 % [20].",
+      "note_id": "apples-us-app-store-commission-revenue-down-18-this-year-macrumors",
+      "numbers": [
+        "2026",
+        "6",
+        "9",
+        "9",
+        "13",
+        "3",
+        "20"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Der „faire\" Grundmultiple ist nicht beobachtbar; zerlegbar ist nur eine Prämie gegenüber einem Referenzwert – hier die rund 6,6 Punkte gegenüber dem Dreijahresdurchschnitt von 28x [7].",
+      "note_id": "apple-valuation-faces-scrutiny-as-services-growth-cools",
+      "numbers": [
+        "6,6",
+        "28",
+        "7"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Bouchaud leitet aus der Liquiditätstheorie ab, dass der Multiplikator in der Größenordnung eins liegt, mit der Volatilität steigt und mit dem täglich gehandelten Anteil der Marktkapitalisierung fällt; große, liquide Titel sollten deshalb einen kleineren Multiplikator haben, wobei die Kurve bei sehr großen Werten womöglich wieder leicht steigt [23].",
+      "note_id": "the-inelastic-market-hypothesis",
+      "numbers": [
+        "23"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "MSCI dokumentiert, dass Titel mit hohem Crowding-Score tendenziell teurer, riskanter und stärker gehandelt sind [25]; die Quant-Abwicklung im Sommer 2025 zeigt reale, schnelle Faktorbewegungen, nennt aber keine Einzeltitel [26].",
+      "note_id": "crowd-control-momentum-and-concentrated-markets-msci",
+      "numbers": [
+        "25",
+        "2025",
+        "26"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "MSCI dokumentiert, dass Titel mit hohem Crowding-Score tendenziell teurer, riskanter und stärker gehandelt sind [25]; die Quant-Abwicklung im Sommer 2025 zeigt reale, schnelle Faktorbewegungen, nennt aber keine Einzeltitel [26].",
+      "note_id": "unraveling-summer-2025s-quant-fund-wobble-msci",
+      "numbers": [
+        "25",
+        "2025",
+        "26"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die begutachtete Gegenposition findet sogar eine negative Beziehung zwischen Crowding-Proxys und erwartetem Crash-Risiko [27].",
+      "note_id": "crowding-and-tail-risk-in-momentum-returns-journal-of-financial-and-quantitative",
+      "numbers": [
+        "27"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "September 2026 lag die zehnjährige Treasury-Rendite bei 4,95 %, die reale bei 2,55 % [28, 29].",
+      "note_id": "market-yield-on-us-treasury-securities-at-10-year-constant-maturity-quoted-on-an",
+      "numbers": [
+        "2026",
+        "4,95",
+        "2,55",
+        "28,",
+        "29"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "September 2026 lag die zehnjährige Treasury-Rendite bei 4,95 %, die reale bei 2,55 % [28, 29].",
+      "note_id": "market-yield-on-us-treasury-securities-at-10-year-constant-maturity-quoted-on-2",
+      "numbers": [
+        "2026",
+        "4,95",
+        "2,55",
+        "28,",
+        "29"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Firmen mit hoher Ausschüttung, hoher Profitabilität und geringen Investitionen haben eine kurze Cashflow-Duration und reagieren schwächer auf Diskontsatzschocks; Apple passt in dieses Profil besser als ein wachstumsstarker Hyperscaler [30].",
+      "note_id": "duration-driven-returns",
+      "numbers": [
+        "30"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Gormsen und Lazarus zeigen zudem, dass „only pure discount-rate shocks transmit one-for-one to equity valuations\" („nur reine Diskontsatzschocks eins zu eins auf Aktienbewertungen durchschlagen\"), in den USA aber nur 35 % des Zinsrückgangs reines Diskontieren waren [31].",
+      "note_id": "interest-rates-and-equity-valuations-nber",
+      "numbers": [
+        "35",
+        "31"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple kaufte im FY2025 Aktien für 89,3 Mrd. $ zurück; die verwässerte Aktienzahl sank um 2,6 % [1].",
+      "note_id": "aapl-20250927",
+      "numbers": [
+        "2025",
+        "89,3",
+        "2,6",
+        "1"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "In den ersten neun Monaten FY2026 folgten 61,8 Mrd. $ bei rund −2 % Aktienzahl [2].",
+      "note_id": "aapl-20260627",
+      "numbers": [
+        "2026",
+        "61,8",
+        "2",
+        "2"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Im zweiten Quartal genehmigte der Board weitere 100 Mrd. $ und hob die Dividende um 4 % an [32]; zugleich strich Apple das Ziel „net cash neutral\" [33].",
+      "note_id": "apple-aapl-q2-2026-earnings-call-transcript-the-motley-fool",
+      "numbers": [
+        "100",
+        "4",
+        "32",
+        "33"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Bei rund 4,9 Bio. $ Marktwert entspricht das Rückkauftempo von FY2025 einer Rendite von rund 1,8 %, die Dividende von 1,08 $ je Aktie rund 0,3 % (eigene Rechnung) [19].",
+      "note_id": "aapl-intrinsic-valuation-and-fundamental-analysis-apple-inc-alpha-spread",
+      "numbers": [
+        "4,9",
+        "2025",
+        "1,8",
+        "1,08",
+        "0,3",
+        "19"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Einen Kursboden bilden Rückkäufe nicht: US-Industrieunternehmen kürzten sie von 448 Mrd. $ (2007) auf 128 Mrd. $ (2009), also um rund 70 %, während die Dividenden kaum sanken [34].",
+      "note_id": "borrowing-for-buybacks-not-unusual-apple-and-others-take-on-debt-to-fund-repurch",
+      "numbers": [
+        "448",
+        "2007",
+        "128",
+        "2009",
+        "70",
+        "34"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Im letzten Jahr dominierten die Fundamentaldaten: Das EPS stieg von 6,08 $ auf 7,46 $, die Gesamtrendite betrug 31,6 % [7].",
+      "note_id": "apple-valuation-faces-scrutiny-as-services-growth-cools",
+      "numbers": [
+        "6,08",
+        "7,46",
+        "31,6",
+        "7"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Dieses Wachstum enthielt Rückkäufe und Zollrückerstattungen, und für 2027 erwartet der Konsens nur noch einstelliges Umsatzwachstum [35].",
+      "note_id": "apple-aapl-q3-2026-earnings-report-live-updates",
+      "numbers": [
+        "2027",
+        "35"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Robeco führt die Renditen von US-Wachstumswerten 2015–2024 auf Gewinnwachstum *und* Multiple-Expansion zurück, nennt Apple unter den Treibern und warnt vor einer Multiple-Kontraktion, sobald der US-Gewinnzyklus seinen Höhepunkt erreicht [37].",
+      "note_id": "article-february-2024",
+      "numbers": [
+        "2015",
+        "2024",
+        "37"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Das macht ihn exklusiv.\") [3].",
+      "note_id": "united-states-district-court-3",
+      "numbers": [
+        "3"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "September 2025 die Zahlungen nicht: „So, for now, Google will be permitted to pay distributors for default placement.\" („Vorerst darf Google Distributoren für die Standardplatzierung bezahlen.\") [8].",
+      "note_id": "united-states-district-court-2",
+      "numbers": [
+        "2025",
+        "8"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Zugleich behielt sich das Gericht eine undatierte Wiederaufnahme vor, falls der Wettbewerb nicht wesentlich wiederhergestellt wird [8].",
+      "note_id": "united-states-district-court-2",
+      "numbers": [
+        "8"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "**Kein Boden durch alternative Bieter.** Microsoft bot Apple über 100 % des Bing-Umsatzes und sogar Bing selbst an; Cue sagte unter Eid: „I don't believe there's a price in the world that Microsoft could offer us.\" („Ich glaube nicht, dass es einen Preis auf der Welt gibt, den Microsoft uns bieten könnte.\") Googles interne „Alice in Wonderland\"-Analyse ergab, Microsoft müsse 122 % des Bing-Revenue-Shares zahlen, nur um Googles damalige 33,75 % zu erreichen [3].",
+      "note_id": "united-states-district-court-3",
+      "numbers": [
+        "100",
+        "122",
+        "33,75",
+        "3"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Auch das Remedy-Urteil erwartet, dass Distributoren weiterhin Google als primäre, wenn nicht einzige Standardsuchmaschine wählen [38].",
+      "note_id": "us-courts-remedies-not-enough-given-google-can-continue-to-pay-for-search-defaul",
+      "numbers": [
+        "38"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Februar 2026 konsolidiert [39, 40].",
+      "note_id": "usa-v-google-llc-26-5023-courtlistenercom",
+      "numbers": [
+        "2026",
+        "39,",
+        "40"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Februar 2026 konsolidiert [39, 40].",
+      "note_id": "doj-and-states-appeal-google-search-antitrust-remedies-ruling",
+      "numbers": [
+        "2026",
+        "39,",
+        "40"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "August 2026 einen Amicus-Schriftsatz *für Google* ein, während OpenAI und Microsoft auf der Gegenseite stehen [39].",
+      "note_id": "usa-v-google-llc-26-5023-courtlistenercom",
+      "numbers": [
+        "2026",
+        "39"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Anschlussberufung rügt eng und prozedural, das Bezirksgericht habe ein Zahlungsverbot abgelehnt, ohne zuvor festzustellen, ob ein Remedy ohne Verbot den Wettbewerb wirksam wiederherstellt [40]; das typische Ergebnis eines solchen Fehlers ist eine Zurückverweisung zur Nachholung der Feststellung, kein vom Berufungsgericht verhängtes Verbot (Inferenz aus der Rügeform).",
+      "note_id": "doj-and-states-appeal-google-search-antitrust-remedies-ruling",
+      "numbers": [
+        "40"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Das mittlere Design liegt als konkreter Vorschlag vor: „Pay for Half\" des Knight-Georgetown Institute begrenzt Zahlungen auf 50 % der Geräte je Produktlinie bei zufälliger Zuordnung und setzt einen Zahlungscap von 40 %, der im Zeitverlauf weiter gesenkt werden kann, falls kein Wettbewerb entsteht [41]; acht Ökonomen haben es per Amicus-Schriftsatz eingebracht [42].",
+      "note_id": "pay-for-half-a-better-remedy-for-google-search-knight-georgetown-institute",
+      "numbers": [
+        "50",
+        "40",
+        "41",
+        "42"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Das mittlere Design liegt als konkreter Vorschlag vor: „Pay for Half\" des Knight-Georgetown Institute begrenzt Zahlungen auf 50 % der Geräte je Produktlinie bei zufälliger Zuordnung und setzt einen Zahlungscap von 40 %, der im Zeitverlauf weiter gesenkt werden kann, falls kein Wettbewerb entsteht [41]; acht Ökonomen haben es per Amicus-Schriftsatz eingebracht [42].",
+      "note_id": "us-v-google-amicus-brief-how-better-remedies-can-restore-competition-knight-geor",
+      "numbers": [
+        "50",
+        "40",
+        "41",
+        "42"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "**Die KI-Überlagerung, kalibriert.** Cue sagte im Mai 2025 aus, die Google-Suchen in Safari seien erstmals gesunken: „That has never happened in 22 years\" („Das ist in 22 Jahren nie passiert\") [43].",
+      "note_id": "google-searches-in-apples-safari-fall-for-first-time-in-22-years",
+      "numbers": [
+        "2025",
+        "22",
+        "22",
+        "43"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Das Gericht wählte die kürzere Laufzeit ausdrücklich, weil technologischer Fortschritt und Produktdifferenzierung die Marktdynamik verändern würden, nicht ein zehnjähriges Gerichtsdekret [8].",
+      "note_id": "united-states-district-court-2",
+      "numbers": [
+        "8"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Aussage ist aber ein einzelner Datenpunkt aus einem Verfahren, in dem Cues „primary objective was to convince the judge that the search market is already so competitive that he should allow Google to continue paying it $20 billion a year\" („Hauptziel war, den Richter zu überzeugen, dass der Suchmarkt bereits so wettbewerbsintensiv ist, dass er Google weiter 20 Mrd. $ jährlich zahlen lassen sollte\") [44].",
+      "note_id": "stats-from-a-dying-web",
+      "numbers": [
+        "20",
+        "20",
+        "44"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Aggregiert widersprechen die Daten: Die Google-Suchen wuchsen 2024 um 21,6 %, Google verarbeitet 373-mal so viele Suchen wie ChatGPT [44], und Google meldete wachsende Anfragen von Apples Geräten und Plattformen [43].",
+      "note_id": "stats-from-a-dying-web",
+      "numbers": [
+        "2024",
+        "21,6",
+        "373",
+        "44",
+        "43"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Aggregiert widersprechen die Daten: Die Google-Suchen wuchsen 2024 um 21,6 %, Google verarbeitet 373-mal so viele Suchen wie ChatGPT [44], und Google meldete wachsende Anfragen von Apples Geräten und Plattformen [43].",
+      "note_id": "google-searches-in-apples-safari-fall-for-first-time-in-22-years",
+      "numbers": [
+        "2024",
+        "21,6",
+        "373",
+        "44",
+        "43"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die engere Aussage überlebt: Die TAC wird auf Safari-originierte Anfragen gezahlt, und diese können sinken, während Googles Gesamtsuche über die Google-App oder Chatbots wächst; Apple prüft laut Cue KI-Suchoptionen für Safari [45]. **Festlegung:** Gerichte sind der sicherere Mechanismus, die KI-Migration der potenziell schnellere, und beide treffen dieselben Dollar.",
+      "note_id": "apple-explores-move-to-ai-search-in-browser-amid-google-fallout-bloomberg",
+      "numbers": [
+        "45"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "April 2025 vorsätzliche Missachtung fest, verbot jede Gebühr und schrieb über die interne Entscheidung: „Cook chose poorly.\" („Cook hat schlecht entschieden.\") [46].",
+      "note_id": "epic-games-wins-injunction-against-apple-pdf-legal-remedy-injunction",
+      "numbers": [
+        "2025",
+        "46"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Dezember 2025 einstimmig und hielt fest, künftige Gebühren seien „limited and tied to the costs of any services Apple provides\" („begrenzt und an die Kosten der von Apple erbrachten Dienste gebunden\") [47].",
+      "note_id": "epic-games-ninth-circuit-win-affirming-civil-contempt-finding-cravath-swaine-moo",
+      "numbers": [
+        "2025",
+        "47"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Juni 2026 an, aber „limited to Question 1 presented by the petition\" („beschränkt auf Frage 1 der Petition\"), also auf den prozeduralen Maßstab für Civil Contempt [10]; Kommissions- und Steering-Regeln sind damit ausdrücklich nicht Gegenstand der Überprüfung [48].",
+      "note_id": "apple-inc-v-epic-games-inc-25-1311-scotusblog",
+      "numbers": [
+        "2026",
+        "1",
+        "1",
+        "10",
+        "48"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Juni 2026 an, aber „limited to Question 1 presented by the petition\" („beschränkt auf Frage 1 der Petition\"), also auf den prozeduralen Maßstab für Civil Contempt [10]; Kommissions- und Steering-Regeln sind damit ausdrücklich nicht Gegenstand der Überprüfung [48].",
+      "note_id": "the-supreme-court-took-apples-epic-appeal-but-only-on-one-narrow-question",
+      "numbers": [
+        "2026",
+        "1",
+        "1",
+        "10",
+        "48"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "August 2026 eine Aussetzung ab – die angemessene Kommission sei eine Tatsachenfrage, und Apple habe über fast fünf Jahre auf vielfältige Weise verzögert [49].",
+      "note_id": "apples-fight-over-commissions-for-linked-out-app-store-purchases-continues-in-fe",
+      "numbers": [
+        "2026",
+        "49"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "November 2026 [10], woraus sich eine Entscheidung frühestens um Juni 2027 ableiten lässt.",
+      "note_id": "apple-inc-v-epic-games-inc-25-1311-scotusblog",
+      "numbers": [
+        "2026",
+        "10",
+        "2027"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Im zurückverwiesenen Verfahren schlägt Apple 15 % (Standard), 10 % (Partnerprogramme, Verlängerungen) und 5 % (Small Business Program) vor; die Behauptung, Apple habe unter dem kostenbasierten Standard faktisch 0 % zugestanden, stammt von Epic, nicht von Apple [50].",
+      "note_id": "apple-proposes-commissions-of-up-to-15-for-off-app-store-purchases-in-the-us-9to",
+      "numbers": [
+        "15",
+        "10",
+        "5",
+        "0",
+        "50"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Erosion ist in den Zahlen sichtbar: Appfigures misst −18 % US-Kommissionserlöse seit Jahresbeginn 2026 [9], und Apples Filing warnt, alternative Zahlungen „may be entirely ineligible for commission\" („können gänzlich kommissionsunfähig sein\") [20].",
+      "note_id": "apples-us-app-store-commission-revenue-down-18-this-year-macrumors",
+      "numbers": [
+        "18",
+        "2026",
+        "9",
+        "20"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Gerichtlich festgestellt ist, dass Gaming-Apps rund 70 % der App-Store-Umsätze stellen [97] – Parekhs Attribution auf Mobile-Gaming-Schwäche trifft damit den größten Einzelposten der Kommissionsbasis, nicht einen beliebigen.",
+      "note_id": "united-states-district-court-4",
+      "numbers": [
+        "70",
+        "97"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Installationen gegenüber einem selbstgesetzten Ziel von 100 Mio., davon 5 Mio. in der EU allein an Apples Prüfschritten gescheitert [111]; Setapp Mobile stellte im Februar 2026 nach 17 Monaten den Betrieb ein, weil das Geschäftsmodell unter Apples Core-Technology-Gebühr nicht trug [112, 113]; und Apples eigene, von Apple finanzierte DMA-Studie zeigt, dass 91 % der Entwickler trotz durchschnittlich 10 Prozentpunkten Kommissionssenkung die Preise nicht senkten [98].",
+      "note_id": "app-store-economy-is-far-from-open-despite-efforts-by-epic-developers-and-regula",
+      "numbers": [
+        "100",
+        "5",
+        "111",
+        "2026",
+        "17",
+        "112,",
+        "113",
+        "91",
+        "10",
+        "98"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Installationen gegenüber einem selbstgesetzten Ziel von 100 Mio., davon 5 Mio. in der EU allein an Apples Prüfschritten gescheitert [111]; Setapp Mobile stellte im Februar 2026 nach 17 Monaten den Betrieb ein, weil das Geschäftsmodell unter Apples Core-Technology-Gebühr nicht trug [112, 113]; und Apples eigene, von Apple finanzierte DMA-Studie zeigt, dass 91 % der Entwickler trotz durchschnittlich 10 Prozentpunkten Kommissionssenkung die Preise nicht senkten [98].",
+      "note_id": "one-of-the-first-alternative-app-stores-in-the-eu-is-shutting-down-techcrunch",
+      "numbers": [
+        "100",
+        "5",
+        "111",
+        "2026",
+        "17",
+        "112,",
+        "113",
+        "91",
+        "10",
+        "98"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Installationen gegenüber einem selbstgesetzten Ziel von 100 Mio., davon 5 Mio. in der EU allein an Apples Prüfschritten gescheitert [111]; Setapp Mobile stellte im Februar 2026 nach 17 Monaten den Betrieb ein, weil das Geschäftsmodell unter Apples Core-Technology-Gebühr nicht trug [112, 113]; und Apples eigene, von Apple finanzierte DMA-Studie zeigt, dass 91 % der Entwickler trotz durchschnittlich 10 Prozentpunkten Kommissionssenkung die Preise nicht senkten [98].",
+      "note_id": "move-over-apple-meet-the-alternative-app-stores-available-in-the-eu-and-elsewher",
+      "numbers": [
+        "100",
+        "5",
+        "111",
+        "2026",
+        "17",
+        "112,",
+        "113",
+        "91",
+        "10",
+        "98"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Installationen gegenüber einem selbstgesetzten Ziel von 100 Mio., davon 5 Mio. in der EU allein an Apples Prüfschritten gescheitert [111]; Setapp Mobile stellte im Februar 2026 nach 17 Monaten den Betrieb ein, weil das Geschäftsmodell unter Apples Core-Technology-Gebühr nicht trug [112, 113]; und Apples eigene, von Apple finanzierte DMA-Studie zeigt, dass 91 % der Entwickler trotz durchschnittlich 10 Prozentpunkten Kommissionssenkung die Preise nicht senkten [98].",
+      "note_id": "what-happens-to",
+      "numbers": [
+        "100",
+        "5",
+        "111",
+        "2026",
+        "17",
+        "112,",
+        "113",
+        "91",
+        "10",
+        "98"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Europäische Kommission verhängte im April 2025 nach dem Digital Markets Act (DMA) 500 Mio. € wegen Verstoßes gegen die Anti-Steering-Pflicht aus Art. 5(4), ordnete die Beseitigung der Beschränkungen an und drohte Zwangsgelder bis zu 5 % des durchschnittlichen weltweiten Tagesumsatzes an [51].",
+      "note_id": "european-commission",
+      "numbers": [
+        "2025",
+        "500",
+        "5",
+        "4",
+        "5",
+        "51"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple antwortete mit einer „Core Technology Commission\" von 5 % auf digitale Käufe außerhalb des App Store [52]; die Kommission erließ dazu neue vorläufige Feststellungen [53].",
+      "note_id": "apple-reveals-new-app-store-fees-to-avoid-eu-fine-of-500-million-euro",
+      "numbers": [
+        "5",
+        "52",
+        "53"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple antwortete mit einer „Core Technology Commission\" von 5 % auf digitale Käufe außerhalb des App Store [52]; die Kommission erließ dazu neue vorläufige Feststellungen [53].",
+      "note_id": "commission-closes-investigation-into-apples-user-choice-obligations-and-issues-p",
+      "numbers": [
+        "5",
+        "52",
+        "53"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Das Muster wiederholt sich – 27 % Link-out-Gebühr, 5 % Core Technology Commission, jeweils Umetikettierung mit negativem Befund –, und das Contempt-Gericht hielt fest, ein Finanz-Vizepräsident habe unter Eid ausgesagt, was den zeitgleichen Geschäftsdokumenten widersprach [46].",
+      "note_id": "epic-games-wins-injunction-against-apple-pdf-legal-remedy-injunction",
+      "numbers": [
+        "27",
+        "5",
+        "46"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Juni 2025 den Antrag auf Klageabweisung; das Gericht akzeptierte behauptete US-Marktanteile von über 65 % bei Smartphones und über 70 % bei Performance-Smartphones, und zu den Vorwürfen gehört die Verweigerung von NFC-Hardwarezugang für plattformübergreifende Tap-to-Pay-Wallets [54].",
+      "note_id": "judge-allows-justice-departments-iphone-monopolization-suit-to-proceed-mintz",
+      "numbers": [
+        "2025",
+        "65",
+        "70",
+        "54"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Der Vorwurfskomplex reicht weiter: App-Store-Regeln und gezielte Beschränkungen plattformübergreifender Funktionalität – Super-Apps, Cloud-Gaming, Messaging, Smartwatches, Wallets – sollen laut Klage die Geräteabhängigkeit strukturell verstärken [104].",
+      "note_id": "doj-v-apple-monopolization-of-the-smartphone-aaf",
+      "numbers": [
+        "104"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Craig Federighi begründete die Siri-Verschiebung vom März 2025 technisch: „fundamentally, we found that the limitations of the V1 architecture weren't getting us to the quality level that we knew our customers needed and expected\" („im Grunde stellten wir fest, dass uns die Grenzen der V1-Architektur nicht auf das Qualitätsniveau brachten, das unsere Kunden brauchten und erwarteten\") [56].",
+      "note_id": "apple-reportedly-targets-spring-2026-for-launch-of-delayed-ai-siri-upgrade-but-i",
+      "numbers": [
+        "2025",
+        "1",
+        "1",
+        "56"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die im Juni 2024 vorgestellte Überarbeitung rutschte über rund 18 Monate von iOS 18 auf „Frühjahr 2026\" und im Februar 2026 weiter bis womöglich iOS 27 im September [57].",
+      "note_id": "apples-siri-revamp-reportedly-delayed-again-techcrunch",
+      "numbers": [
+        "2024",
+        "18",
+        "18",
+        "2026",
+        "2026",
+        "27",
+        "57"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Im Dezember 2025 zog sich KI-Chef Giannandrea zurück; ein früherer Gemini-Engineering-Leiter von Google folgte [58].",
+      "note_id": "apple-punted-on-ai-this-year-next-year-will-be-critical",
+      "numbers": [
+        "2025",
+        "58"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple zahlte 250 Mio. $ an Käufer, die iPhones in Erwartung des 2024 vorgeführten Siri gekauft hatten [59].",
+      "note_id": "we-tried-the-new-siri-beta-has-apple-finally-delivered-on-its-promises",
+      "numbers": [
+        "250",
+        "2024",
+        "59"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Der kumulierte KI-Aufwand 2020–2025 lag bei rund 20 Mrd. $ gegenüber 141–205 Mrd. $ bei jedem einzelnen Hyperscaler [60].",
+      "note_id": "725b-on-ai-where-big-tech-is-spending-in-2026",
+      "numbers": [
+        "2020",
+        "2025",
+        "20",
+        "141",
+        "205",
+        "60"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Ternus' Formel vom iPhone als „intelligent personal hub\" (intelligente persönliche Zentrale) stammt vom September 2026, also nach dem Gemini-Vertrag; sie ist retrospektive Rahmung, keine Ursprungsevidenz [61].",
+      "note_id": "apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone-techcrunch",
+      "numbers": [
+        "2026,",
+        "61"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Berichten zufolge orientiert sich Ternus dabei an einer fokussierten, iPhone-zentrierten Produktstrategie im Stil des frühen Steve Jobs, im Kontrast zu Cooks Formel „mehr als das iPhone“ [109].",
+      "note_id": "apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago-techcrunch",
+      "numbers": [
+        "109"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "September 2026 enthielt keine Strategieaussage; aus Ternus' Hardware-Laufbahn wird hier nichts abgeleitet [62].",
+      "note_id": "john-ternus-is-now-apples-ceo-macrumors",
+      "numbers": [
+        "2026",
+        "62"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple mietet Gemini für berichtete rund 1 Mrd. $ pro Jahr als nach eigener Prüfung leistungsfähigste Grundlage seiner Foundation Models [63], während die großen Hyperscaler für 2026 zusammen rund 725 Mrd. $ Capex planen [60] (eine niedrigere, parallel kursierende Zahl von rund 660 Mrd. $ ist mit dieser Summe nicht direkt vereinbar; dieser Bericht folgt durchgehend [60]) [108].",
+      "note_id": "googles-gemini-to-power-apples-ai-features-like-siri-techcrunch",
+      "numbers": [
+        "1",
+        "63",
+        "2026",
+        "725",
+        "60",
+        "660",
+        "60",
+        "108"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple mietet Gemini für berichtete rund 1 Mrd. $ pro Jahr als nach eigener Prüfung leistungsfähigste Grundlage seiner Foundation Models [63], während die großen Hyperscaler für 2026 zusammen rund 725 Mrd. $ Capex planen [60] (eine niedrigere, parallel kursierende Zahl von rund 660 Mrd. $ ist mit dieser Summe nicht direkt vereinbar; dieser Bericht folgt durchgehend [60]) [108].",
+      "note_id": "725b-on-ai-where-big-tech-is-spending-in-2026",
+      "numbers": [
+        "1",
+        "63",
+        "2026",
+        "725",
+        "60",
+        "660",
+        "60",
+        "108"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple mietet Gemini für berichtete rund 1 Mrd. $ pro Jahr als nach eigener Prüfung leistungsfähigste Grundlage seiner Foundation Models [63], während die großen Hyperscaler für 2026 zusammen rund 725 Mrd. $ Capex planen [60] (eine niedrigere, parallel kursierende Zahl von rund 660 Mrd. $ ist mit dieser Summe nicht direkt vereinbar; dieser Bericht folgt durchgehend [60]) [108].",
+      "note_id": "725b-on-ai-where-big-tech-is-spending-in-2026",
+      "numbers": [
+        "1",
+        "63",
+        "2026",
+        "725",
+        "60",
+        "660",
+        "60",
+        "108"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple mietet Gemini für berichtete rund 1 Mrd. $ pro Jahr als nach eigener Prüfung leistungsfähigste Grundlage seiner Foundation Models [63], während die großen Hyperscaler für 2026 zusammen rund 725 Mrd. $ Capex planen [60] (eine niedrigere, parallel kursierende Zahl von rund 660 Mrd. $ ist mit dieser Summe nicht direkt vereinbar; dieser Bericht folgt durchgehend [60]) [108].",
+      "note_id": "660b-capex-bill-triggers-900b-wipeout-why-apple-shares-outperform-amazon-and-goo",
+      "numbers": [
+        "1",
+        "63",
+        "2026",
+        "725",
+        "60",
+        "660",
+        "60",
+        "108"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Das Produkt besteht inzwischen den Qualitätstest: BGR nennt Siri AI nach monatelangem Test ausgesprochen nützlich [64], SlashGear sieht den neuen Siri praktisch gleichwertig mit der ursprünglichen Demo von 2024 [59].",
+      "note_id": "ios-27-review-ai-finally-takes-over-the-iphone",
+      "numbers": [
+        "64",
+        "2024",
+        "59"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Das Produkt besteht inzwischen den Qualitätstest: BGR nennt Siri AI nach monatelangem Test ausgesprochen nützlich [64], SlashGear sieht den neuen Siri praktisch gleichwertig mit der ursprünglichen Demo von 2024 [59].",
+      "note_id": "we-tried-the-new-siri-beta-has-apple-finally-delivered-on-its-promises",
+      "numbers": [
+        "64",
+        "2024",
+        "59"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Zweitens ist die Effizienz eine Wette auf fallende Inferenzpreise: Epoch AI misst Rückgänge um das 9- bis 900-Fache pro Jahr, betont aber, dass die schnellsten im letzten Jahr lagen und ihr Fortbestand offen ist [65]; Cook nannte die künftige Kostenbalance von Siri AI „a bit uncertain at the moment\" („im Moment etwas unsicher\") [11].",
+      "note_id": "llm-inference-prices-have-fallen-rapidly-but-unequally-across-tasks-epoch-ai",
+      "numbers": [
+        "9",
+        "900",
+        "65",
+        "11"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Zweitens ist die Effizienz eine Wette auf fallende Inferenzpreise: Epoch AI misst Rückgänge um das 9- bis 900-Fache pro Jahr, betont aber, dass die schnellsten im letzten Jahr lagen und ihr Fortbestand offen ist [65]; Cook nannte die künftige Kostenbalance von Siri AI „a bit uncertain at the moment\" („im Moment etwas unsicher\") [11].",
+      "note_id": "one-last-time-this-is-tim-final-transcript-of-apples-q3-2026-earnings-call-six-c",
+      "numbers": [
+        "9",
+        "900",
+        "65",
+        "11"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Komplexe Anfragen laufen zudem über Private Cloud Compute, Apples eigene Server-Inferenz, sodass die Kosten nicht vollständig in der Stückliste liegen [59].",
+      "note_id": "we-tried-the-new-siri-beta-has-apple-finally-delivered-on-its-promises",
+      "numbers": [
+        "59"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Das Gericht stellte fest: „The prospect of losing tens of billions in guaranteed revenue from Google—which presently come at little to no cost to Apple—disincentivizes Apple from launching its own search engine when it otherwise has built the capacity to do so.\" („Die Aussicht, Dutzende Milliarden an garantierten Google-Erlösen zu verlieren – die Apple derzeit nahezu nichts kosten –, hält Apple davon ab, eine eigene Suchmaschine zu starten, obwohl es die Kapazität dazu aufgebaut hat.\") [3]. **Inferenz, nicht Befund:** Aus dieser Feststellung und Federighis Eingeständnis folgt, dass die größte kontingente Einnahme plausibel zur Nachzüglerposition beigetragen hat.",
+      "note_id": "united-states-district-court-3",
+      "numbers": [
+        "3"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple wurde zwei Jahrzehnte dafür bezahlt, eine Fähigkeit nicht aufzubauen, die es heute vom selben Gegenpart zurückmietet – netto rund 23–29 Mrd. $ Zufluss gegen rund 1 Mrd. $ Abfluss, beide Beziehungen unter demselben Remedy-Regime [8].",
+      "note_id": "united-states-district-court-2",
+      "numbers": [
+        "23",
+        "29",
+        "1",
+        "8"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "OpenAI kaufte Jony Ives Gerätefirma io für 6,4 Mrd. $ [58]; das Gericht sah 2025 dennoch, „AI has unquestionably improved general search, but it has not yet fundamentally altered market dynamics.\" („KI hat die allgemeine Suche zweifellos verbessert, aber die Marktdynamik noch nicht grundlegend verändert.\") [38].",
+      "note_id": "apple-punted-on-ai-this-year-next-year-will-be-critical",
+      "numbers": [
+        "6,4",
+        "58",
+        "2025",
+        "38"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "OpenAI kaufte Jony Ives Gerätefirma io für 6,4 Mrd. $ [58]; das Gericht sah 2025 dennoch, „AI has unquestionably improved general search, but it has not yet fundamentally altered market dynamics.\" („KI hat die allgemeine Suche zweifellos verbessert, aber die Marktdynamik noch nicht grundlegend verändert.\") [38].",
+      "note_id": "us-courts-remedies-not-enough-given-google-can-continue-to-pay-for-search-defaul",
+      "numbers": [
+        "6,4",
+        "58",
+        "2025",
+        "38"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die stärkste Bull-Version eines KI-Superzyklus (Wedbush, JPMorgan) stützt sich darauf, dass rund zwei Drittel der Installationsbasis noch auf iOS 26 laufen, während fortgeschrittene Apple-Intelligence-Funktionen hardwareseitig gated sind – ein verzögerter, aber potenziell breiter Austauschimpuls [105].",
+      "note_id": "ios-27-and-the-iphone-upgrade-calculus-why-apples-ai-overhaul-could-unlock-a-new",
+      "numbers": [
+        "26",
+        "105"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Belegt ist dieser Superzyklus bislang nicht: Der Anteil der US-Käufer, die ein mindestens drei Jahre altes iPhone ersetzen, stieg von 24 % (2020) auf 42 % (2025) und fiel zuletzt auf 39 % [66], das mittlere Tauschalter stieg von 3,16 auf 3,84 Jahre [67].",
+      "note_id": "iphone-statistics-2026-revenue-market-share-and-the-replacement-cycle-axis-intel",
+      "numbers": [
+        "24",
+        "2020",
+        "42",
+        "2025",
+        "39",
+        "66",
+        "3,16",
+        "3,84",
+        "67"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Belegt ist dieser Superzyklus bislang nicht: Der Anteil der US-Käufer, die ein mindestens drei Jahre altes iPhone ersetzen, stieg von 24 % (2020) auf 42 % (2025) und fiel zuletzt auf 39 % [66], das mittlere Tauschalter stieg von 3,16 auf 3,84 Jahre [67].",
+      "note_id": "how-often-do-people-upgrade-their-phone-2026-statistics",
+      "numbers": [
+        "24",
+        "2020",
+        "42",
+        "2025",
+        "39",
+        "66",
+        "3,16",
+        "3,84",
+        "67"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Google-Zahlung ist eine Lizenzvereinbarung über Suchdistribution [3].",
+      "note_id": "united-states-district-court-3",
+      "numbers": [
+        "3"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Befürworter haben Material: B2B-Stablecoin-Zahlungen erreichten 2025 rund 226 Mrd. $ (+733 %) [68]; kartenfinanzierter Krypto-Konsum stieg von rund 100 Mio. $ auf rund 1,5 Mrd. $ pro Monat [69]; Visa und Mastercard blieben über drei Jahre hinter dem S&P 500 zurück [70].",
+      "note_id": "mastercard-and-visa-building-crypto-rails-what-card-network-integration-means-fo",
+      "numbers": [
+        "2",
+        "2025",
+        "226",
+        "733",
+        "68",
+        "100",
+        "1,5",
+        "69",
+        "500",
+        "70"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Befürworter haben Material: B2B-Stablecoin-Zahlungen erreichten 2025 rund 226 Mrd. $ (+733 %) [68]; kartenfinanzierter Krypto-Konsum stieg von rund 100 Mio. $ auf rund 1,5 Mrd. $ pro Monat [69]; Visa und Mastercard blieben über drei Jahre hinter dem S&P 500 zurück [70].",
+      "note_id": "stablecoin-cards-in-2026-insights4vc",
+      "numbers": [
+        "2",
+        "2025",
+        "226",
+        "733",
+        "68",
+        "100",
+        "1,5",
+        "69",
+        "500",
+        "70"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Befürworter haben Material: B2B-Stablecoin-Zahlungen erreichten 2025 rund 226 Mrd. $ (+733 %) [68]; kartenfinanzierter Krypto-Konsum stieg von rund 100 Mio. $ auf rund 1,5 Mrd. $ pro Monat [69]; Visa und Mastercard blieben über drei Jahre hinter dem S&P 500 zurück [70].",
+      "note_id": "why-stablecoins-havent-shaken-the-card-networks",
+      "numbers": [
+        "2",
+        "2025",
+        "226",
+        "733",
+        "68",
+        "100",
+        "1,5",
+        "69",
+        "500",
+        "70"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Es sind stablecoin-finanzierte Karten auf bestehenden Kartennetzen.\") [69].",
+      "note_id": "stablecoin-cards-in-2026-insights4vc",
+      "numbers": [
+        "69"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Visa trägt über 90 % des On-Chain-Kartenvolumens [69], Mastercard kaufte den Stablecoin-Infrastrukturanbieter BVNK für 1,8 Mrd. $ [68].",
+      "note_id": "stablecoin-cards-in-2026-insights4vc",
+      "numbers": [
+        "90",
+        "69",
+        "1,8",
+        "68"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Visa trägt über 90 % des On-Chain-Kartenvolumens [69], Mastercard kaufte den Stablecoin-Infrastrukturanbieter BVNK für 1,8 Mrd. $ [68].",
+      "note_id": "mastercard-and-visa-building-crypto-rails-what-card-network-integration-means-fo",
+      "numbers": [
+        "90",
+        "69",
+        "1,8",
+        "68"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Größenordnung entscheidet: Rund 18 Mrd. $ annualisierter Stablecoin-Kartenumsatz stehen rund 17 Bio. $ Visa- und 11 Bio. $ Mastercard-Volumen gegenüber [69, 71] – unter 0,1 %, auch auf dem kleineren Nenner von 23,7 Bio. $ aus einer Anbieterquelle (eigene Rechnung) [68].",
+      "note_id": "stablecoin-cards-in-2026-insights4vc",
+      "numbers": [
+        "18",
+        "17",
+        "11",
+        "69,",
+        "71",
+        "0,1",
+        "23,7",
+        "68"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Größenordnung entscheidet: Rund 18 Mrd. $ annualisierter Stablecoin-Kartenumsatz stehen rund 17 Bio. $ Visa- und 11 Bio. $ Mastercard-Volumen gegenüber [69, 71] – unter 0,1 %, auch auf dem kleineren Nenner von 23,7 Bio. $ aus einer Anbieterquelle (eigene Rechnung) [68].",
+      "note_id": "visa-and-mastercard-arent-buying-the-stablecoin-hype-for-everyday-payments",
+      "numbers": [
+        "18",
+        "17",
+        "11",
+        "69,",
+        "71",
+        "0,1",
+        "23,7",
+        "68"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Größenordnung entscheidet: Rund 18 Mrd. $ annualisierter Stablecoin-Kartenumsatz stehen rund 17 Bio. $ Visa- und 11 Bio. $ Mastercard-Volumen gegenüber [69, 71] – unter 0,1 %, auch auf dem kleineren Nenner von 23,7 Bio. $ aus einer Anbieterquelle (eigene Rechnung) [68].",
+      "note_id": "mastercard-and-visa-building-crypto-rails-what-card-network-integration-means-fo",
+      "numbers": [
+        "18",
+        "17",
+        "11",
+        "69,",
+        "71",
+        "0,1",
+        "23,7",
+        "68"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Visa-CEO Ryan McInerney: „So we don't see a lot of product market fit for stablecoin payments and consumer payments in digitally developed markets.\" („Wir sehen wenig Product-Market-Fit für Stablecoin-Zahlungen im Konsumentengeschäft digital entwickelter Märkte.\") Mastercard-CEO Michael Miebach nennt Stablecoins eine weitere Währung, die sein Netz unterstützen könne [71].",
+      "note_id": "visa-and-mastercard-arent-buying-the-stablecoin-hype-for-everyday-payments",
+      "numbers": [
+        "71"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Selbst Chainalysis, ein Anbieter mit kommerziellem Interesse am Adoptionsnarrativ, sieht Transaktionsparität mit den Kartennetzen erst zwischen 2031 und 2039 [72].",
+      "note_id": "stablecoin-utility-and-the-future-of-payments",
+      "numbers": [
+        "2031",
+        "2039",
+        "72"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die US-Kommissionserosion seit April 2025 ist in Abschnitt 4.3 beziffert; Brasilien und Japan zeigen nach neuen Regeln ebenfalls Rückgänge [9].",
+      "note_id": "apples-us-app-store-commission-revenue-down-18-this-year-macrumors",
+      "numbers": [
+        "2025",
+        "4.3",
+        "9"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Bei Apple Pay hat die EU mit iOS 26 den NFC-Controller für Zahlungs-Apps Dritter geöffnet [18], und in den USA ist derselbe Komplex Teil von US v.",
+      "note_id": "factsheet-how-the-dma-is-making-smartphones-better-interoperability-and-data-por",
+      "numbers": [
+        "26",
+        "18"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple [54].",
+      "note_id": "judge-allows-justice-departments-iphone-monopolization-suit-to-proceed-mintz",
+      "numbers": [
+        "54"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple weist die Apple-Pay-Erlöse nicht separat aus; ein Apple-Sprecher bestätigte das gegenüber Payments Dive im August 2024 ausdrücklich [101].",
+      "note_id": "apple-services-revenue-rises-with-boost-from-payments-payments-dive",
+      "numbers": [
+        "2024",
+        "101"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die einzige methodisch nachvollziehbare, primäre Schätzung stammt von Loup Ventures (Februar 2019): rund 988 Mio. $ für 2019, rund 4 Mrd. $ Prognose für 2023, auf Basis einer offengelegten Take-Rate von 0,15 % auf das Transaktionsvolumen, die Apple von kartenausgebenden Banken erhält – sieben Jahre alt, ohne belastbare Aktualisierung [99, 100].",
+      "note_id": "report-sees-plenty-of-upside-for-apple-with-one-of-its-services-offerings-phonea",
+      "numbers": [
+        "2019",
+        "988",
+        "2019,",
+        "4",
+        "2023,",
+        "0,15",
+        "99,",
+        "100"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die einzige methodisch nachvollziehbare, primäre Schätzung stammt von Loup Ventures (Februar 2019): rund 988 Mio. $ für 2019, rund 4 Mrd. $ Prognose für 2023, auf Basis einer offengelegten Take-Rate von 0,15 % auf das Transaktionsvolumen, die Apple von kartenausgebenden Banken erhält – sieben Jahre alt, ohne belastbare Aktualisierung [99, 100].",
+      "note_id": "pymnts-apple-pays-business-model-blues",
+      "numbers": [
+        "2019",
+        "988",
+        "2019,",
+        "4",
+        "2023,",
+        "0,15",
+        "99,",
+        "100"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Belastbarer für die Regulierungsthese ist ein datiertes Ereignis: 2024 öffnete Apple den NFC-Controller und den Secure-Element-Zugriff für Dritt-Wallets in der EU, Australien, Brasilien, Kanada, Japan, Neuseeland, UK und den USA und beendete damit die exklusive On-Device-Kontrolle, auf der ältere Erlösmodelle implizit aufbauten [101].",
+      "note_id": "apple-services-revenue-rises-with-boost-from-payments-payments-dive",
+      "numbers": [
+        "2024",
+        "101"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "CIRP misst 87 % iPhone-Loyalität im Märzquartal 2026 nach 84 % im Vorjahr [73].",
+      "note_id": "iphone-loyalty-rate-climbs-to-87-as-switching-to-android-slows-macrumors",
+      "numbers": [
+        "87",
+        "2026",
+        "84",
+        "73"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "In der SellCell-Umfrage wollen 96,4 % beim iPhone bleiben; 60,8 % nennen allgemeine Präferenz für Apple, nur 17,4 % ihre Investition ins Ökosystem – gemessen wird geäußerte Absicht, erhoben von einer Trade-in-Plattform [74].",
+      "note_id": "iphone-loyalty-hits-964-as-android-users-four-times-more-likely-to-switch-macrum",
+      "numbers": [
+        "96,4",
+        "60,8",
+        "17,4",
+        "74"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Auf Browserebene bestätigt das DMA-Experiment die Präferenzlesart: Die NBER-Studie zu Auswahlbildschirmen fand ab Monat 15 eine um 91 % höhere Firefox-Nutzung auf iOS und 13 % auf Android, wobei Safaris Verluste überwiegend an Chrome gingen; zwei Koautoren sind Mozilla-Mitarbeiter, und Mozillas eigene Angabe von 113 %/12 % war falsch [75].",
+      "note_id": "active-choice-interventions-at-scale-browser-defaults-under-the-digital-markets",
+      "numbers": [
+        "15",
+        "91",
+        "13",
+        "113",
+        "12",
+        "75"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Frühe Zuwächse zerfielen schnell [76].",
+      "note_id": "alternative-browsers-report-uplift-after-eus-dma-choice-screen-mandate-techcrunc",
+      "numbers": [
+        "76"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Ein Migrationsprotokoll aus Japan dokumentiert für einen Einzelfall rund 120 Konten, über 25 Stunden Arbeit und 34 Reibungspunkte, die trotz nomineller Portabilität bestehen [77].",
+      "note_id": "the-exit-penalty-why-the-dmas-interoperability-rules-fail-the-reality-test-of-pl",
+      "numbers": [
+        "120",
+        "25",
+        "34",
+        "77"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Nach Lam und Shankar halbiert sich der Einfluss des wahrgenommenen Werts auf die Markenloyalität über einen Technologiegenerationswechsel (Koeffizient 0,61 → 0,31) [78].",
+      "note_id": "asymmetries-in-the-effects-of-drivers-of-brand-loyalty-between-early-and",
+      "numbers": [
+        "0,61",
+        "0,31",
+        "78"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "DMA Art. 6(7) kann Drittanbieter-Assistenten OS-Zugriff verschaffen, ohne dass ein Gerät gewechselt wird [17], und die iOS-Loyalität sinkt messbar, wenn Käufer den Mobilfunkanbieter wechseln [79]. **Festlegung:** Der Lock-in ist strukturell für die zyklische Klasse und ein echtes Bull-Argument.",
+      "note_id": "the-eus-digital-markets-act-meets-the-mobile-os-round-two",
+      "numbers": [
+        "6",
+        "7",
+        "17",
+        "79"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "DMA Art. 6(7) kann Drittanbieter-Assistenten OS-Zugriff verschaffen, ohne dass ein Gerät gewechselt wird [17], und die iOS-Loyalität sinkt messbar, wenn Käufer den Mobilfunkanbieter wechseln [79]. **Festlegung:** Der Lock-in ist strukturell für die zyklische Klasse und ein echtes Bull-Argument.",
+      "note_id": "apple-loyalty-depends-on-carrier-loyalty",
+      "numbers": [
+        "6",
+        "7",
+        "17",
+        "79"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Im einzigen sauber kalenderkongruenten Quartal, Oktober bis Dezember 2025, wuchsen die Stückzahlen laut IDC jedoch nur um 4,9 % [81]; rechnerisch stammen rund 17,5 Punkte aus Preis und Mix (eigene Rechnung).",
+      "note_id": "idc-smartphone-shipments-up-23-in-q4-2025-apple-is-the-clear-winner-gsmarenacom",
+      "numbers": [
+        "2025,",
+        "4,9",
+        "81",
+        "17,5"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Im Kalenderquartal Q1 2026 meldet Counterpoint +5 % Stückzahl bei 21 % Marktanteil [82].",
+      "note_id": "apple-tops-smartphone-market-in-q1-as-overall-shipments-drop-9to5mac",
+      "numbers": [
+        "1",
+        "2026",
+        "5",
+        "21",
+        "82"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Für Q2 2026 liegt ein echter Messstreit vor – Counterpoint +3 %, IDC +15,3 % –, doch beide sehen Apple mit rund 20 % auf einem Rekordanteil in einem schrumpfenden Markt [83].",
+      "note_id": "apples-smartphone-shipment-share-hits-first-ever-20-for-a-q2-as-memory-crisis-sp",
+      "numbers": [
+        "2",
+        "2026",
+        "3",
+        "15,3",
+        "20",
+        "83"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "IDC erwartet für 2026 einen Rückgang der Smartphone-Auslieferungen um 16,7 %, bei iOS nur um 1,3 %, bei Android um 24,3 %, und einen iOS-Rekordanteil von 23,6 %; „consumers are starting to pay the AI bill\" („die Verbraucher beginnen, die KI-Rechnung zu bezahlen\") [84].",
+      "note_id": "idc-smartphone-shipments-to-drop-167-in-2026-as-memory-crisis-bites",
+      "numbers": [
+        "2026",
+        "16,7",
+        "1,3",
+        "24,3",
+        "23,6",
+        "84"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Apple verzichtete laut Counterpoint im zweiten Quartal als einziger großer Hersteller auf Preiserhöhungen, während Volumenanbieter wie Xiaomi 26,3 % verloren [83].",
+      "note_id": "apples-smartphone-shipment-share-hits-first-ever-20-for-a-q2-as-memory-crisis-sp",
+      "numbers": [
+        "26,3",
+        "83"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Bereinigt fiel die Marge auf rund 48 % und soll im Septemberquartal auf 46,5 % am Mittelpunkt fallen; laut CFO Parekh lassen sich „more than 100% of that\" („mehr als 100 % davon\") durch die Speicherkosten erklären, und Cook sprach von einer Jahrhundertflut bei den Speicherpreisen, wegen der Apple die Preise widerwillig erhöht habe [11].",
+      "note_id": "one-last-time-this-is-tim-final-transcript-of-apples-q3-2026-earnings-call-six-c",
+      "numbers": [
+        "48",
+        "46,5",
+        "100%",
+        "100",
+        "11"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Omdia erwartet eine Entspannung erst ab dem zweiten Halbjahr 2027 [83]. **Festlegung:** Das FY2026-Hardwarewachstum ist ein exogener Preiszyklus auf einem strukturell verlängerten Ersatzzyklus; die zyklische Klasse verdient derzeit eher einen Abschlag als den Headline-Multiple.",
+      "note_id": "apples-smartphone-shipment-share-hits-first-ever-20-for-a-q2-as-memory-crisis-sp",
+      "numbers": [
+        "2027",
+        "83",
+        "2026"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "**Statisch.** Mit s = [(1+g)(P₀+S₀) − (1+p)P₀]/S₀ − 1, P₀ = 307.003 Mio. $ und S₀ = 109.158 Mio. $ [1] gilt (eigene Rechnung):",
+      "note_id": "aapl-20250927",
+      "numbers": [
+        "1",
+        "1",
+        "1,",
+        "307.003",
+        "109.158",
+        "1"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Eine Delle von −4 % bis −6 % entspricht der iPhone-X-Delle (Gesamtumsatz −4,5 %/−5,1 %) und ist absorbierbar; die iPhone-6-Delle (−12,8 %/−14,6 %) wäre es nicht [85].",
+      "note_id": "apple-revenue-2012-2026-aapl-macrotrends",
+      "numbers": [
+        "4",
+        "6",
+        "4,5",
+        "5,1",
+        "6",
+        "12,8",
+        "14,6",
+        "85"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Zeitrisiken fallen zusammen: Das vierte Quartal ist mit 9–11 % Gesamtwachstum nach 16–17 % geführt, und die Guidance impliziert berichtetes Services-Wachstum knapp unter 10 %, teils wegen rund 2,5 Punkten Währungsgegenwind [11].",
+      "note_id": "one-last-time-this-is-tim-final-transcript-of-apples-q3-2026-earnings-call-six-c",
+      "numbers": [
+        "9",
+        "11",
+        "16",
+        "17",
+        "10",
+        "2,5",
+        "11"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "SemiAnalysis beziffert die jährlich vermiedenen Chipkäufe auf über 7 Mrd. $ – Intel rund 5 Mrd. $, Qualcomm rund 1,2 Mrd. $, Broadcom rund 0,7 Mrd. $ –, brutto und ohne Designkosten [86].",
+      "note_id": "apple-tsmc-the-partnership-that-built-modern-semiconductors",
+      "numbers": [
+        "7",
+        "5",
+        "1,2",
+        "0,7",
+        "86"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Digits to Dollars kommt auf rund 3,5 Mrd. $ oder 1,7 Prozentpunkte Bruttomarge und nach Designkosten auf rund 1 Mrd. $, mit dem ausdrücklichen Eingeständnis, einige der eigenen Zahlen lägen sicher weit daneben [87].",
+      "note_id": "apple-si-the-surprise-twist-its-not-about-money-digits-to-dollars",
+      "numbers": [
+        "3,5",
+        "1,7",
+        "1",
+        "87"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Beim Modem führt Qualcomm Apple als Kunden, der nur „thin modem\"-Produkte bezieht, und nennt die Vertikalisierung großer Kunden als Hauptrisiko [88]; der Apple-bezogene Umsatz soll vom September- zum Dezemberquartal 2026 um rund 50 % fallen, die Lizenzvereinbarung läuft bis März 2027 [89].",
+      "note_id": "qcom-20250928",
+      "numbers": [
+        "88",
+        "2026",
+        "50",
+        "2027",
+        "89"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Beim Modem führt Qualcomm Apple als Kunden, der nur „thin modem\"-Produkte bezieht, und nennt die Vertikalisierung großer Kunden als Hauptrisiko [88]; der Apple-bezogene Umsatz soll vom September- zum Dezemberquartal 2026 um rund 50 % fallen, die Lizenzvereinbarung läuft bis März 2027 [89].",
+      "note_id": "apples-c2-modem-arrives-faster-than-qualcomm-expected-slashing-revenue-by-half",
+      "numbers": [
+        "88",
+        "2026",
+        "50",
+        "2027",
+        "89"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Indiens Anteil an der weltweiten iPhone-Montage lag 2025 bei rund 23 % und soll 2026 auf 26–28 % steigen [90]; bis Ende 2026 will Apple die meisten in den USA verkauften iPhones in Indien fertigen, bei bis zu 10 % höheren Kosten [91].",
+      "note_id": "indias-share-in-global-iphone-assembly-projected-to-reach-28-in-2026",
+      "numbers": [
+        "2025",
+        "23",
+        "2026",
+        "26",
+        "28",
+        "90",
+        "2026",
+        "10",
+        "91"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Indiens Anteil an der weltweiten iPhone-Montage lag 2025 bei rund 23 % und soll 2026 auf 26–28 % steigen [90]; bis Ende 2026 will Apple die meisten in den USA verkauften iPhones in Indien fertigen, bei bis zu 10 % höheren Kosten [91].",
+      "note_id": "why-is-apple-moving-its-iphone-production-to-india-technology-magazine",
+      "numbers": [
+        "2025",
+        "23",
+        "2026",
+        "26",
+        "28",
+        "90",
+        "2026",
+        "10",
+        "91"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Die Fähigkeitsbasis bleibt langsam, aber nicht aus Bautempo-Gründen: Eine 30-Hektar-Fabrikhülle des Zulieferers Luxshare in Vietnam stand 2020 nach fünf Monaten, eine 70-Acre-Anlage 2023 nach 12 bis 24 Monaten [110] – Bauzeit ist nicht die bindende Restriktion.",
+      "note_id": "apple-holding-off-on-vietnam-iphone-assembly-over-workers-living-conditions-appl",
+      "numbers": [
+        "30",
+        "2020",
+        "70",
+        "2023",
+        "12",
+        "24",
+        "110"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Bindend ist der Aufbau einer mehrstufigen Zulieferbasis für komplexe Produkte: Vietnam liefert inzwischen rund 62–64 % der AirPods, und eine JPMorgan-Prognose von 2022 sah bis 2025 rund 20 % der iPads/Watches und 5 % der MacBooks vor – ausdrücklich ohne das iPhone [102, 103].",
+      "note_id": "apple-to-move-25-iphone-production-to-india-by-2025-20-ipad-and-apple-watch-to-v",
+      "numbers": [
+        "62",
+        "64",
+        "2022",
+        "2025",
+        "20",
+        "5",
+        "102,",
+        "103"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Bindend ist der Aufbau einer mehrstufigen Zulieferbasis für komplexe Produkte: Vietnam liefert inzwischen rund 62–64 % der AirPods, und eine JPMorgan-Prognose von 2022 sah bis 2025 rund 20 % der iPads/Watches und 5 % der MacBooks vor – ausdrücklich ohne das iPhone [102, 103].",
+      "note_id": "apples-production-strategy-in-vietnam",
+      "numbers": [
+        "62",
+        "64",
+        "2022",
+        "2025",
+        "20",
+        "5",
+        "102,",
+        "103"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Bei rund 15,8 Mrd. $ kumulierter Investition seit 2019 [103] hat Apple die iPhone-Endmontage nie nach Vietnam verlagert; 2020 lehnte Apple die Freigabe einer bereits fertig gebauten Luxshare-Anlage wegen unzureichender Arbeiterunterkünfte ab, nicht wegen fehlender Kapazität [110] – ein geprüftes Fehlen, das bis September 2026 fortbesteht.",
+      "note_id": "apples-production-strategy-in-vietnam",
+      "numbers": [
+        "15,8",
+        "2019",
+        "103",
+        "2020",
+        "110",
+        "2026"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Bei rund 15,8 Mrd. $ kumulierter Investition seit 2019 [103] hat Apple die iPhone-Endmontage nie nach Vietnam verlagert; 2020 lehnte Apple die Freigabe einer bereits fertig gebauten Luxshare-Anlage wegen unzureichender Arbeiterunterkünfte ab, nicht wegen fehlender Kapazität [110] – ein geprüftes Fehlen, das bis September 2026 fortbesteht.",
+      "note_id": "apple-holding-off-on-vietnam-iphone-assembly-over-workers-living-conditions-appl",
+      "numbers": [
+        "15,8",
+        "2019",
+        "103",
+        "2020",
+        "110",
+        "2026"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Der einzige bezifferte Kapazität-zu-Anteil-Zeitpfad im Datensatz – JPMorgans Indien-Prognose von 5 % auf 25 % iPhone-Anteil zwischen Ende 2022 und 2025 – impliziert rund 2,5 Jahre für eine Verfünffachung des Anteils [102].",
+      "note_id": "apple-to-move-25-iphone-production-to-india-by-2025-20-ipad-and-apple-watch-to-v",
+      "numbers": [
+        "5",
+        "25",
+        "2022",
+        "2025",
+        "2,5",
+        "102"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Chinas Wertschöpfung am iPhone ist klein – rund 7 % auf Landed-Cost-Basis (iPhone 16) bis rund 25 % auf Stücklistenbasis (iPhone X), mit unvereinbaren Nennern [93, 94] –, und die Montage kostet oft nur rund 10 $ je Gerät [95].",
+      "note_id": "misrepresentations-about-international-trade-the-case-of-apples-iphone-globalbus",
+      "numbers": [
+        "7",
+        "16",
+        "25",
+        "93,",
+        "94",
+        "10",
+        "95"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Chinas Wertschöpfung am iPhone ist klein – rund 7 % auf Landed-Cost-Basis (iPhone 16) bis rund 25 % auf Stücklistenbasis (iPhone X), mit unvereinbaren Nennern [93, 94] –, und die Montage kostet oft nur rund 10 $ je Gerät [95].",
+      "note_id": "how-the-iphone-widens-the-us-trade-deficit-with-china-the-case-of-the-iphone-x-c",
+      "numbers": [
+        "7",
+        "16",
+        "25",
+        "93,",
+        "94",
+        "10",
+        "95"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Chinas Wertschöpfung am iPhone ist klein – rund 7 % auf Landed-Cost-Basis (iPhone 16) bis rund 25 % auf Stücklistenbasis (iPhone X), mit unvereinbaren Nennern [93, 94] –, und die Montage kostet oft nur rund 10 $ je Gerät [95].",
+      "note_id": "apples-supply-chain-economic-and-geopolitical-implications-american-enterprise-i",
+      "numbers": [
+        "7",
+        "16",
+        "25",
+        "93,",
+        "94",
+        "10",
+        "95"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Zu trennen sind geografische Konzentration in China und chinesisches Eigentum; die geopolitische Exposition folgt der ersten [95].",
+      "note_id": "apples-supply-chain-economic-and-geopolitical-implications-american-enterprise-i",
+      "numbers": [
+        "95"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Greater China fiel von 72.559 Mio. $ (FY2023) auf 64.377 Mio. $ (FY2025) und wuchs dann im FY2026 in jedem Quartal um 22–38 %, teils durch einen stärkeren Renminbi [1, 14].",
+      "note_id": "aapl-20250927",
+      "numbers": [
+        "72.559",
+        "2023",
+        "64.377",
+        "2025",
+        "2026",
+        "22",
+        "38",
+        "1,",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Laut Goldman gewann Apple dort Anteile, weil es die Preise noch nicht erhöht hatte – ein Share-Gewinn auf Kosten der Marge [35].",
+      "note_id": "apple-aapl-q3-2026-earnings-report-live-updates",
+      "numbers": [
+        "35"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "TSMC Arizona stellt unter 5 % der Leading-Edge-Produktion und senkt die Abhängigkeit kaum vor 2028; Apples sinkender N2-Anteil fällt „not because Apple lost leverage, but because the node was built for a different customer\" („nicht, weil Apple Verhandlungsmacht verlor, sondern weil der Knoten für einen anderen Kunden gebaut wurde\") [86, 107]. **Festlegung:** Diversifizierung ist bei der Montage schnell, bei Fähigkeiten und Silizium langsam.",
+      "note_id": "apple-tsmc-the-partnership-that-built-modern-semiconductors",
+      "numbers": [
+        "5",
+        "2028",
+        "2",
+        "86,",
+        "107"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "TSMC Arizona stellt unter 5 % der Leading-Edge-Produktion und senkt die Abhängigkeit kaum vor 2028; Apples sinkender N2-Anteil fällt „not because Apple lost leverage, but because the node was built for a different customer\" („nicht, weil Apple Verhandlungsmacht verlor, sondern weil der Knoten für einen anderen Kunden gebaut wurde\") [86, 107]. **Festlegung:** Diversifizierung ist bei der Montage schnell, bei Fähigkeiten und Silizium langsam.",
+      "note_id": "tsm-20251231",
+      "numbers": [
+        "5",
+        "2028",
+        "2",
+        "86,",
+        "107"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "Wer Apple allein wegen der Gerichtsexposition um Größenordnungen niedriger bewertet sehen will, verwechselt Exposition mit erwartetem Verlust; eine gegenläufige Sell-Side-Stimme weist eine solche Herabstufung explizit zurück und hält die Ertragsbasis für intakt [106].",
+      "note_id": "opinion-wall-streets-new-apple-bear-case-is-dead-wrong-247-wall-st",
+      "numbers": [
+        "106"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    },
+    {
+      "sentence": "IDC erwartet erhöhte Speicherpreise bis mindestens 2028, und das iPhone Duo mit einem ASP über 2.550 $ kann den Preiszyklus verlängern, verschiebt den Mix aber weiter von der Menge zum Preis [84].",
+      "note_id": "idc-smartphone-shipments-to-drop-167-in-2026-as-memory-crisis-bites",
+      "numbers": [
+        "2028,",
+        "2.550",
+        "84"
+      ],
+      "strong": true,
+      "verdict": "needs-llm"
+    }
+  ],
+  "dangling": [
+    {
+      "sentence": "Die Services-Bruttomarge liegt beim Doppelten der Products-Marge, und die Schere öffnet sich: FY2023 70,8 % gegenüber 36,5 %, FY2025 75,4 % gegenüber 36,8 %, im dritten Fiskalquartal 2026 75,6 % gegenüber 40,1 % [12, 13, 14].",
+      "note_id": null,
+      "numbers": [
+        "2023",
+        "70,8",
+        "36,5",
+        "2025",
+        "75,4",
+        "36,8",
+        "2026",
+        "75,6",
+        "40,1",
+        "12,",
+        "13,",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "**Vorbehalt auf Ergebnisebene (Inferenz).** In den ersten neun Monaten FY2026 lag das operative Ergebnis bei 122.432 Mio. $, 68,5 % des Bruttogewinns von 178.782 Mio. $ [14]. Überträgt man diese Relation auf FY2025 und rechnet die Betriebsaufwendungen den nicht exponierten Klassen zu – plausibel, weil TAC und Kommissionen kaum F&E oder Vertrieb binden –, entfallen 29–41 % des operativen Ergebnisses auf die beiden Ströme.",
+      "note_id": null,
+      "numbers": [
+        "2026",
+        "122.432",
+        "68,5",
+        "178.782",
+        "14",
+        "2025",
+        "29",
+        "41"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Drei nicht modellierte Überlagerungen zeigen in dieselbe Richtung: KeyBancs Argument, „growth driven primarily by higher prices should command a lower valuation multiple than growth driven by expanding volumes\" („Wachstum, das vor allem aus höheren Preisen stammt, sollte einen niedrigeren Multiplikator erhalten als Wachstum aus steigenden Mengen\") [7]; nicht wiederkehrende Zollrückerstattungen im EPS-Nenner, allein 0,11 $ im dritten Quartal [14]; und die Unterzeichnung der operativen Exposition durch den Bruttogewinnansatz.",
+      "note_id": null,
+      "numbers": [
+        "7",
+        "0,11",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Gabaix und Koijen schätzen, dass 1 $ Nettozufluss den Marktwert des Gesamtmarkts um etwa 5 $ hebt, mit einer Spanne von 3–8 $ [21].",
+      "note_id": null,
+      "numbers": [
+        "1",
+        "5",
+        "3",
+        "8",
+        "21"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Koijen, Richmond und Yogo beziffern die Neubewertung des Aggregats durch die Verschiebung von aktiv zu passiv 2007–2016 auf 14 %; ihr Nachfragesystem hält die Preiselastizität je Investor aber über alle gehaltenen Titel konstant und kann per Konstruktion keinen firmenspezifischen Multiplikator erzeugen [22].",
+      "note_id": null,
+      "numbers": [
+        "2007",
+        "2016",
+        "14",
+        "22"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Easley und Koautoren zeigen, dass die wirklich passiven Tracker nur 8 % der ETFs stellen, aber 42 % des ETF-Vermögens halten – genau jene Vehikel, in denen Apple mit voller Indexgewichtung sitzt [24].",
+      "note_id": null,
+      "numbers": [
+        "8",
+        "42",
+        "24"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Im zweiten Quartal genehmigte der Board weitere 100 Mrd. $ und hob die Dividende um 4 % an [32]; zugleich strich Apple das Ziel „net cash neutral\" [33].",
+      "note_id": null,
+      "numbers": [
+        "100",
+        "4",
+        "32",
+        "33"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Ferreira und Santa-Clara finden zwar eine Rückkehr der Multiples zur Norm, aber eine sehr langsame, die zeitweise fast zehn Jahre dauert [36].",
+      "note_id": null,
+      "numbers": [
+        "36"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Die Investitionen in Sachanlagen sanken über neun Monate FY2026 von 9.473 Mio. $ auf 6.799 Mio. $ [14].",
+      "note_id": null,
+      "numbers": [
+        "2026",
+        "9.473",
+        "6.799",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Das FY2026 wirkt wie ein Superzyklus: Der iPhone-Umsatz stieg im ersten Fiskalquartal um 23,3 %, im zweiten und dritten um je 21,7 % [80, 32, 14].",
+      "note_id": null,
+      "numbers": [
+        "2026",
+        "23,3",
+        "21,7",
+        "80,",
+        "32,",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Das FY2026 wirkt wie ein Superzyklus: Der iPhone-Umsatz stieg im ersten Fiskalquartal um 23,3 %, im zweiten und dritten um je 21,7 % [80, 32, 14].",
+      "note_id": null,
+      "numbers": [
+        "2026",
+        "23,3",
+        "21,7",
+        "80,",
+        "32,",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Das FY2026 wirkt wie ein Superzyklus: Der iPhone-Umsatz stieg im ersten Fiskalquartal um 23,3 %, im zweiten und dritten um je 21,7 % [80, 32, 14].",
+      "note_id": null,
+      "numbers": [
+        "2026",
+        "23,3",
+        "21,7",
+        "80,",
+        "32,",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Februar 2026 zu IEEPA-Zöllen, die konstruktionsbedingt nicht wiederkehren [14, 2].",
+      "note_id": null,
+      "numbers": [
+        "2026",
+        "14,",
+        "2"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Services wuchs im FY2026 um 13,9 %, 16,3 % und 12,1 % [80, 32, 14].",
+      "note_id": null,
+      "numbers": [
+        "2026",
+        "13,9",
+        "16,3",
+        "12,1",
+        "80,",
+        "32,",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Services wuchs im FY2026 um 13,9 %, 16,3 % und 12,1 % [80, 32, 14].",
+      "note_id": null,
+      "numbers": [
+        "2026",
+        "13,9",
+        "16,3",
+        "12,1",
+        "80,",
+        "32,",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Services wuchs im FY2026 um 13,9 %, 16,3 % und 12,1 % [80, 32, 14].",
+      "note_id": null,
+      "numbers": [
+        "2026",
+        "13,9",
+        "16,3",
+        "12,1",
+        "80,",
+        "32,",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Greater China fiel von 72.559 Mio. $ (FY2023) auf 64.377 Mio. $ (FY2025) und wuchs dann im FY2026 in jedem Quartal um 22–38 %, teils durch einen stärkeren Renminbi [1, 14].",
+      "note_id": null,
+      "numbers": [
+        "72.559",
+        "2023",
+        "64.377",
+        "2025",
+        "2026",
+        "22",
+        "38",
+        "1,",
+        "14"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    },
+    {
+      "sentence": "Die stärkste Bull-Version: Loyalität von 87–96 % sichert eine installierte Basis von über 2,5 Mrd. aktiven Geräten [80]; der Speicherschock macht Apple zum relativen Gewinner; die TAC ist rechtlich gesichert; das KI-Capex-Risiko bleibt Apple erspart; rund 2 % Rückkauf pro Jahr treiben das EPS; und die Prämie entstand gegen hohe Realrenditen, bei kurzer Cashflow-Duration und starkem Free Cash Flow.",
+      "note_id": null,
+      "numbers": [
+        "87",
+        "96",
+        "2,5",
+        "80",
+        "2"
+      ],
+      "strong": true,
+      "verdict": "dangling"
+    }
+  ]
+}

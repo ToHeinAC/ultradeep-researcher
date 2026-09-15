@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Growth firms are high-duration assets and value firms are low-duration assets, analogous to long-term versus short-term bonds, because growth firms' cash flows are weighted further into the future.",
+    "stance": "supports",
+    "stance_target": "Apple's rate sensitivity depends on where its cash flows are weighted in time (duration), not on 'growth stock' labeling alone",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Dynamic asset-pricing model calibrated to US aggregate stock market data",
+    "quoted_support": "Analogous to long-term bonds, growth firms are high-duration assets while value firms are low-duration assets.",
+    "numbers": [],
+    "entities": ["Martin Lettau", "Jessica Wachter", "Journal of Finance"],
+    "time_period": "calibrated to historical US market data through early 2000s",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "why-is-longhorizon-equity-less-risky-a-durationbased-explanation-of-the-value-pr"
+  },
+  {
+    "claim": "The model reproduces a value premium of 5.1% versus 4.9% observed empirically, and a CAPM alpha on the value-minus-growth strategy of 6.0% versus 5.6% empirically, while extreme value portfolios have LOWER standard deviation and market beta than extreme growth portfolios.",
+    "stance": "neutral",
+    "stance_target": "value premium as compensation for discount-rate/duration risk rather than traditional risk measures",
+    "evidence_type": "theoretical",
+    "scope_conditions": "Simulated data from calibrated model, portfolios formed by sorting on book-to-market",
+    "quoted_support": "The value premium ... is 5.1% in the model compared with 4.9% in the data when portfolios are formed by sorting on book-to-market. Moreover, the CAPM alpha on the value-minus-growth strategy is 6.0% in the model, compared with 5.6% in the data.",
+    "numbers": ["5.1%", "4.9%", "6.0%", "5.6%"],
+    "entities": ["CAPM", "book-to-market"],
+    "time_period": null,
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "why-is-longhorizon-equity-less-risky-a-durationbased-explanation-of-the-value-pr"
+  },
+  {
+    "claim": "Empirically, growth stocks have measurably higher cash-flow duration than value stocks, and this duration difference contributes to growth stocks' higher betas (per Dechow, Sloan & Soliman 2004, cited by Lettau & Wachter).",
+    "stance": "supports",
+    "stance_target": "equity duration is empirically measurable and differs materially across growth/value",
+    "evidence_type": "empirical",
+    "scope_conditions": "US equities, cash-flow duration measured via Dechow-Sloan-Soliman methodology",
+    "quoted_support": "Dechow, Sloan, and Soliman (2004) measure cash flow duration of value and growth portfolios; they find that empirically, growth stocks have higher duration than value stocks and that this contributes to their higher betas.",
+    "numbers": [],
+    "entities": ["Dechow", "Sloan", "Soliman"],
+    "time_period": "2004 study",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "why-is-longhorizon-equity-less-risky-a-durationbased-explanation-of-the-value-pr"
+  },
+  {
+    "claim": "Growth stocks have higher betas with respect to discount-rate news specifically (not just cash-flow news), consistent with the duration interpretation, per Campbell & Vuolteenaho (2004) cited by Lettau & Wachter.",
+    "stance": "supports",
+    "stance_target": "long-duration equities are measurably more sensitive to discount-rate shocks",
+    "evidence_type": "empirical",
+    "scope_conditions": "US equities, return decomposition into cash-flow news and discount-rate news",
+    "quoted_support": "They show that growth stocks have higher betas with respect to discount rate news than do value stocks, consistent with the view that growth stocks are high-duration assets.",
+    "numbers": [],
+    "entities": ["Campbell", "Vuolteenaho"],
+    "time_period": "2004 study",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "why-is-longhorizon-equity-less-risky-a-durationbased-explanation-of-the-value-pr"
+  },
+  {
+    "claim": "Within the model, the sensitivity of an asset's price to a discount-rate shock is non-monotonic in the maturity of its cash flow claim: it becomes more negative up to roughly a 10-year maturity, then partially reverses because rising exposure to expected-dividend-growth news offsets the pure duration effect.",
+    "stance": "refutes",
+    "stance_target": "a naive assumption that discount-rate sensitivity rises monotonically and without bound as cash-flow horizon lengthens",
+    "evidence_type": "theoretical",
+    "scope_conditions": "model-internal decomposition of zero-coupon equity claims by maturity n",
+    "quoted_support": "It is not surprising that (n) initially decreases in maturity. This is the duration effect... More curious is the fact that (n) rises after a maturity of 10 years. This is because the duration effect is countered by the increase in B(n).",
+    "numbers": ["10 years"],
+    "entities": ["zero-coupon equity"],
+    "time_period": null,
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "why-is-longhorizon-equity-less-risky-a-durationbased-explanation-of-the-value-pr"
+  }
+]

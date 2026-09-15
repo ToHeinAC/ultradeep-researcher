@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "CIRP measured iPhone loyalty (share of buyers who already owned an iPhone) at 87% for the March 2026 quarter, up from 84% in the same quarter a year earlier.",
+    "stance": "supports",
+    "stance_target": "Ecosystem lock-in is structural (strong-form, phone-level)",
+    "evidence_type": "statistical",
+    "scope_conditions": "US iPhone buyer panel, Q1 2026 vs Q1 2025",
+    "quoted_support": "CIRP putting iPhone loyalty at 87% for the first quarter of 2026 ... That puts loyalty three percentage points above the same quarter a year earlier, when 14% of buyers switched from Android and the overall loyalty figure sat at 84%.",
+    "numbers": ["87%", "84%", "3 percentage points"],
+    "entities": ["CIRP", "Apple", "Android"],
+    "time_period": "Q1 2026 vs Q1 2025",
+    "region": "US (implied, not stated explicitly)",
+    "confidence": "high",
+    "source_note_id": "iphone-loyalty-rate-climbs-to-87-as-switching-to-android-slows-macrumors"
+  },
+  {
+    "claim": "Android-to-iPhone switching has held in an 11%-15% band across CIRP's recently tracked quarters, a much narrower pool than in the iPhone's early carrier-expansion years.",
+    "stance": "neutral",
+    "stance_target": "Magnitude and stability of the switcher pool feeding iPhone installed-base growth",
+    "evidence_type": "statistical",
+    "scope_conditions": "US, recent quarters (approx. 2024-2026)",
+    "quoted_support": "Across the periods it measured recently, the share of buyers coming from Android has held in a fairly narrow 11% to 15% band, a much smaller pool of switchers than in the iPhone's early years, when Apple was still expanding beyond AT&T to other U.S. carriers.",
+    "numbers": ["11%", "15%", "12%", "14%", "13%", "85%"],
+    "entities": ["CIRP", "Android", "AT&T"],
+    "time_period": "2024-2026",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "iphone-loyalty-rate-climbs-to-87-as-switching-to-android-slows-macrumors"
+  },
+  {
+    "claim": "CIRP's loyalty methodology asks iPhone buyers what device they owned immediately before their purchase; the article does not disclose panel sample size and gives no EU or international breakdown, indicating this is a US-only consumer panel.",
+    "stance": "neutral",
+    "stance_target": "AUDITED ABSENCE: no phone-level switching evidence from EU/DMA markets",
+    "evidence_type": "empirical",
+    "scope_conditions": "Methodology description only; no geographic disaggregation provided",
+    "quoted_support": "The firm has been tracking this movement for years by asking iPhone buyers what device they owned right before their purchase, among other questions about how they shop.",
+    "numbers": [],
+    "entities": ["CIRP"],
+    "time_period": "ongoing quarterly survey",
+    "region": "US (no EU data present)",
+    "confidence": "medium",
+    "source_note_id": "iphone-loyalty-rate-climbs-to-87-as-switching-to-android-slows-macrumors"
+  },
+  {
+    "claim": "High and rising iPhone loyalty implies a near-saturated US installed base, since only a small and stable share of buyers switch platforms each year.",
+    "stance": "neutral",
+    "stance_target": "Installed-base saturation vs. structural lock-in (dual reading)",
+    "evidence_type": "empirical",
+    "scope_conditions": "US smartphone market",
+    "quoted_support": "CIRP's numbers suggest the bulk of smartphone owners settled on a platform long ago, and only a small slice change sides each year.",
+    "numbers": [],
+    "entities": ["CIRP"],
+    "time_period": "2026",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "iphone-loyalty-rate-climbs-to-87-as-switching-to-android-slows-macrumors"
+  }
+]

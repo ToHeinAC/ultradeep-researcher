@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Q1 FY2026 was Apple's largest-ever quarter at $143,756M total net sales (+16% YoY), driven by iPhone revenue of $85,269M (+23.3% YoY, an all-time record), while Services revenue growth of 13.9% YoY was the slowest of the three FY2026 quarters reported.",
+    "stance": "supports",
+    "stance_target": "Services growth is decelerating even as the iPhone 17 supercycle accelerates hardware growth, raising the required forward Services CAGR to hold total growth flat once the iPhone cycle normalizes",
+    "evidence_type": "statistical",
+    "scope_conditions": "Q1 FY2026, three months ended December 27, 2025, vs Q1 FY2025 comparative",
+    "quoted_support": "iPhone had its best-ever quarter driven by unprecedented demand, with all-time records across every geographic segment, and Services also achieved an all-time revenue record, up 14 percent from a year ago.",
+    "numbers": ["total net sales $143,756M", "+16% YoY", "iPhone revenue $85,269M", "+23.3% YoY", "Services revenue $30,013M", "+13.9% YoY"],
+    "entities": ["Apple Inc.", "iPhone", "Services"],
+    "time_period": "Q1 FY2026 (three months ended December 27, 2025)",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "aapl-8k-q1fy2026"
+  },
+  {
+    "claim": "Apple's installed base of active devices exceeded 2.5 billion units as of Q1 FY2026, per CEO Tim Cook, the disclosed proxy for the size of the annuity-like Services revenue base.",
+    "stance": "neutral",
+    "stance_target": "Ecosystem lock-in scale as the structural foundation for annuity-like Services revenue durability",
+    "evidence_type": "empirical",
+    "scope_conditions": "As stated by Apple management, December 2025 quarter; company does not disclose device count in the financial statements themselves, only in prose commentary",
+    "quoted_support": "our installed base now has more than 2.5 billion active devices, which is a testament to incredible customer satisfaction for the very best products and services in the world",
+    "numbers": ["installed base >2.5 billion active devices"],
+    "entities": ["Apple Inc.", "installed base"],
+    "time_period": "As of Q1 FY2026 (December 27, 2025)",
+    "region": "Global",
+    "confidence": "medium",
+    "source_note_id": "aapl-8k-q1fy2026"
+  },
+  {
+    "claim": "Greater China revenue surged 37.9% YoY to $25,526M in Q1 FY2026, the sharpest of the three FY2026 China growth prints, on top of a weak prior-year base.",
+    "stance": "refutes",
+    "stance_target": "A persistent structural decline thesis for Apple's China revenue",
+    "evidence_type": "empirical",
+    "scope_conditions": "Q1 FY2026 only; single-quarter rebound against an easy comparison",
+    "quoted_support": "Greater China 25,526 / 18,513 (three months ended December 27, 2025 / December 28, 2024)",
+    "numbers": ["Greater China revenue $25,526M", "+37.9% YoY"],
+    "entities": ["Apple Inc.", "Greater China"],
+    "time_period": "Q1 FY2026",
+    "region": "Greater China",
+    "confidence": "medium",
+    "source_note_id": "aapl-8k-q1fy2026"
+  },
+  {
+    "claim": "Apple returned almost $32 billion to shareholders in Q1 FY2026 alone (dividends plus buybacks) against $53.9 billion of operating cash flow generated that quarter, a shareholder-return payout ratio of roughly 59% of operating cash flow.",
+    "stance": "supports",
+    "stance_target": "Shareholder returns (buybacks/dividends) are a first-order, quantifiable component of the 2-5y total return identity, not a residual",
+    "evidence_type": "empirical",
+    "scope_conditions": "Q1 FY2026 (three months ended December 27, 2025)",
+    "quoted_support": "These exceptionally strong results generated nearly $54 billion in operating cash flow, allowing us to return almost $32 billion to shareholders.",
+    "numbers": ["operating cash flow ~$54B (reported $53,925M)", "shareholder returns ~$32B", "payout ratio ~59% of OCF", "buybacks $24,701M", "dividends $3,921M"],
+    "entities": ["Apple Inc.", "shareholders"],
+    "time_period": "Q1 FY2026",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "aapl-8k-q1fy2026"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Gabaix and Koijen estimate, via an instrumental-variables strategy, that $1 of net flow into the equity market raises aggregate market value by about $5, with estimates ranging from $3 to $8.",
+    "stance": "supports",
+    "stance_target": "Passive/index flows mechanically support equity valuation levels independent of fundamentals",
+    "evidence_type": "empirical",
+    "scope_conditions": ["aggregate US equity market", "not stock-level", "long-run price impact of flows"],
+    "quoted_support": "an instrumental variables strategy, that the market’s aggregate value goes up by about $5 (our estimates are between $3 and $8, and we will use $5 for simplicity in the theory and discussion)",
+    "numbers": ["$5", "$3", "$8"],
+    "entities": ["Gabaix", "Koijen", "inelastic markets hypothesis"],
+    "time_period": "multi-decade panel",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "in-search-of-the-origins-of-financial-fluctuations-the-inelastic-markets-hypothe"
+  },
+  {
+    "claim": "The implied aggregate price elasticity of demand for stocks is very low: a 5% rise in the market price reduces demand by only about 1%, and standard rational models would predict a price impact roughly 100 times smaller than measured.",
+    "stance": "supports",
+    "stance_target": "Equity markets are highly inelastic, so flows move prices far more than efficient-market models predict",
+    "evidence_type": "empirical",
+    "scope_conditions": ["aggregate market portfolio", "comparison against rational benchmark models"],
+    "quoted_support": "by 5%, demand falls by only 1%, so that the price elasticity is 0",
+    "numbers": ["5%", "1%", "100 times"],
+    "entities": ["Gabaix", "Koijen"],
+    "time_period": "multi-decade panel",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "in-search-of-the-origins-of-financial-fluctuations-the-inelastic-markets-hypothe"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Over the 2015-2024 decade, US equity total returns were driven by both the highest earnings growth AND the largest P/E multiple expansion among major regions/styles, concentrated in big tech names including Apple, Microsoft and Nvidia.",
+    "stance": "supports",
+    "stance_target": "multiple change is a large, non-trivial component of mega-cap total return, not just fundamentals",
+    "evidence_type": "empirical",
+    "scope_conditions": "MSCI country/style indices, 2015-2024 (10-year, annualized), not horizon-specific to 2-5y",
+    "quoted_support": "Fueled by strong earnings growth and amplified by significant multiple expansion, companies such as Apple, Microsoft, and Nvidia have become central to market performance.",
+    "numbers": ["10-year window: 2015-2024"],
+    "entities": ["Apple", "Microsoft", "Nvidia", "MSCI USA", "Robeco", "David Blitz"],
+    "time_period": "2015-2024",
+    "region": "USA vs. global",
+    "confidence": "medium",
+    "source_note_id": "article-february-2024"
+  },
+  {
+    "claim": "Valuation multiples tend to mean-revert over long horizons, implying US growth-stock multiple expansion of the past decade could reverse if the earnings cycle peaks.",
+    "stance": "supports",
+    "stance_target": "multiple change is durable risk exposure for long-duration holders, not a one-way tailwind",
+    "evidence_type": "theoretical",
+    "scope_conditions": "qualitative claim, no explicit half-life or horizon given",
+    "quoted_support": "History suggests that dividends and earnings growth are the main driver of long-term stock returns and that valuation multiples tend to mean-revert... if the US earnings cycle peaks, US stocks could face multiple contraction.",
+    "numbers": [],
+    "entities": ["US equities", "US growth stocks"],
+    "time_period": "unspecified / long-term",
+    "region": "USA",
+    "confidence": "low",
+    "source_note_id": "article-february-2024"
+  },
+  {
+    "claim": "Small-cap and low-volatility stocks delivered earnings growth comparable to or exceeding US growth stocks over 2015-2024 but lagged in total return purely because their P/E multiples stayed flat, isolating the multiple-expansion component as the swing factor in relative performance.",
+    "stance": "supports",
+    "stance_target": "multiple change, not fundamentals, explains cross-sectional dispersion in mega-cap-era equity returns",
+    "evidence_type": "empirical",
+    "scope_conditions": "MSCI Small Cap and MinVol indices vs MSCI USA Growth, 2015-2024",
+    "quoted_support": "small-cap and low volatility stocks delivered solid earnings growth but lagged due to stagnant valuations",
+    "numbers": [],
+    "entities": ["MSCI Small Cap World/USA/EUR", "MSCI MinVol World/USA/EUR"],
+    "time_period": "2015-2024",
+    "region": "Global, USA, Europe",
+    "confidence": "medium",
+    "source_note_id": "article-february-2024"
+  }
+]

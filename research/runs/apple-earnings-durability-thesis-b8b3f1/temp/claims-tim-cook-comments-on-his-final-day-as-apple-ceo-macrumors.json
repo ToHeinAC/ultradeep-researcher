@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "Tim Cook's full farewell memo to Apple employees, obtained by 9to5Mac, is exclusively cultural and emotional in register, with no forward-looking statement on AI strategy, services strategy, hardware roadmap, or capital allocation.",
+    "stance": "neutral",
+    "stance_target": "AUDITED ABSENCE: no stated AI/product strategy content in the primary CEO-transition communications",
+    "evidence_type": "empirical",
+    "scope_conditions": "Cook's memo, Aug 31 2026",
+    "quoted_support": "This place is proof that culture triumphs over everything. We share a belief that what we build matters, and that we have both the opportunity and the responsibility to leave the world better than we found it. ... As you know, I am not leaving Apple. But I am stepping away from a role that I have loved deeply.",
+    "numbers": [],
+    "entities": ["Tim Cook", "Apple"],
+    "time_period": "Aug 31 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "tim-cook-comments-on-his-final-day-as-apple-ceo-macrumors"
+  },
+  {
+    "claim": "Cook explicitly frames the handover as a transfer of function, not departure, praising Ternus's product-building capability specifically: 'few people understand what it takes to build products that change the world the way John does.'",
+    "stance": "supports",
+    "stance_target": "Continuity framing of the transition; Ternus's mandate is framed around product/hardware execution, not a stated AI pivot",
+    "evidence_type": "empirical",
+    "scope_conditions": "Cook's farewell memo, Aug 31 2026",
+    "quoted_support": "I will miss leading you and being with you for every step, even as I take enormous comfort in handing the helm to someone as brilliant and wonderful and capable as John. Few people understand what it takes to build products that change the world the way John does and I could not be more excited for his leadership.",
+    "numbers": [],
+    "entities": ["Tim Cook", "John Ternus"],
+    "time_period": "Aug 31 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "tim-cook-comments-on-his-final-day-as-apple-ceo-macrumors"
+  }
+]

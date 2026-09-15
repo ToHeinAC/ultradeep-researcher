@@ -1,0 +1,119 @@
+[
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "**Kurzantwort.** 19,7 % bis 28,3 % des Apple-Bruttogewinns von 195,3 Mrd. $ (FY2025) – 46,7 % bis 67,2 % des Services-Bruttogewinns – stammen aus zwei Strömen, deren Preis ein Gericht oder Regulator setzt oder neu setzen kann: der Google-Zahlung für die Standard-Suchplatzierung (Traffic Acquisition Cost, TAC) und den App-Store-Kommissionen [1, 3, 5].",
+    "cited_note_id": "aapl-20250927",
+    "correct_note_id": null,
+    "evidence": "The FY2025 10-K's actual 'Total gross margin' line is $195,201M (rounds to $195.2bn), not $195.3bn as stated; the same note shows this discrepancy again more precisely later in the report (see the 195,282/82,305 finding).",
+    "suggested_fix": "Correct 195,3 Mrd. $ to 195,2 Mrd. $ (or the exact $195,201M) to match the cited 10-K."
+  },
+  {
+    "verdict": "wrong-source",
+    "severity": "critical",
+    "sentence": "August 2026 ab, das Bezirksgericht setzt nun eine kostenbasierte Link-out-Gebühr von realistisch 0–15 % statt früher 27 % fest [10], und die US-Kommissionserlöse liegen seit Jahresbeginn 18 % im Minus [9].",
+    "cited_note_id": "apple-inc-v-epic-games-inc-25-1311-scotusblog",
+    "correct_note_id": "apple-proposes-commissions-of-up-to-15-for-off-app-store-purchases-in-the-us-9to",
+    "evidence": "The scotusblog docket note ([10]) is a bare proceedings timeline for the Supreme Court cert grant/stay; it never mentions a 27% or a 0-15% link-out commission rate. The 27% prior rate and Apple's 15%/10%/5% proposal are in the 9to5mac note (used elsewhere in the report as [50]), not in [10].",
+    "suggested_fix": "Cite apple-proposes-commissions-of-up-to-15-for-off-app-store-purchases-in-the-us-9to (and/or epic-games-wins-injunction for the 27% figure) alongside or instead of [10] for the fee-rate clause; keep [10] only for the Kagan stay-denial date."
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Alphabets offengelegte TAC stieg von FY2022 bis FY2025 um 6,6 % p. a., der Anstieg 2024→2025 überwiegend durch höhere Zahlungen an Distributionspartner [4].",
+    "cited_note_id": "goog-20251231",
+    "correct_note_id": null,
+    "evidence": "The cited FY2025 10-K note only tabulates TAC for 2024 ($54,900M) and 2025 ($59,926M); it contains no FY2022 TAC figure, so the note cannot support a FY2022-to-FY2025 CAGR of 6.6% p.a. It does support the 2024→2025 distribution-partner-payments explanation.",
+    "suggested_fix": "Cite an Alphabet FY2022 10-K (or FY2023 10-K showing 2022 comparatives) alongside [4] for the FY2022 anchor, or soften the claim to the supported 2024→2025 comparison only."
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Skaliert man den Anker mit dieser Rate und hält Apples Anteil konstant, ergibt sich ein Jahreslauf von 23–29 Mrd. $, zentral rund 26 Mrd. $. (Rechnung: Googles gesamte TAC fiel als Anteil an den Werbeerlösen von rund 22 % 2022 auf rund 20,3 % 2025, während der Dollarbetrag von rund 49,4 Mrd. $ auf rund 59,8 Mrd. $ stieg – die Rate komprimiert, während die Dollar wachsen [4].) Dass Apples Anteil an dieser Gesamtzahlung über die Zeit konstant bleibt, ist eine unbelegte Annahme dieses Berichts; eine aktualisierte, Apple-spezifische Aufschlüsselung wurde gezielt gesucht und nicht gefunden (geprüftes Fehlen) – das Restrisiko liegt in einer möglichen Anteilsverschiebung, nicht nur in der Gesamtwachstumsrate.",
+    "cited_note_id": "goog-20251231",
+    "correct_note_id": null,
+    "evidence": "The note confirms the 2025 figures (20.3% TAC rate, $59,926M ~ $59.8bn) but has no 2022 data at all, so the ~22% and ~$49.4bn 2022 anchor figures that the whole 23-29bn estimate is scaled from are not supported by this note.",
+    "suggested_fix": "Add a citation to an Alphabet FY2022 (or FY2023, which shows 2022 comparatives) 10-K for the 22%/$49.4bn 2022 baseline; [4] alone only covers the 2024-2025 half of the calculation."
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Basis ist der FY2025-Bruttogewinn: gesamt 195.282 Mio. $, Services 82.305 Mio. $, Products residual rund 113,0 Mrd. $ [1].",
+    "cited_note_id": "aapl-20250927",
+    "correct_note_id": null,
+    "evidence": "The FY2025 10-K's actual gross-margin table shows Total gross margin $195,201M (not $195,282M) and Services gross margin $82,314M (not $82,305M); Products gross margin is actually $112,887M, which the stated 'rund 113,0 Mrd.' rounds acceptably, but the two precise input figures it is computed from are both off from the filed 10-K numbers.",
+    "suggested_fix": "Correct to the filed figures: total $195,201M, Services $82,314M, Products $112,887M (residual)."
+  },
+  {
+    "verdict": "unsupported",
+    "severity": "major",
+    "sentence": "Die Anschlussberufung rügt eng und prozedural, das Bezirksgericht habe ein Zahlungsverbot abgelehnt, ohne zuvor festzustellen, ob ein Remedy ohne Verbot den Wettbewerb wirksam wiederherstellt [40]; das typische Ergebnis eines solchen Fehlers ist eine Zurückverweisung zur Nachholung der Feststellung, kein vom Berufungsgericht verhängtes Verbot (Inferenz aus der Rügeform).",
+    "cited_note_id": "doj-and-states-appeal-google-search-antitrust-remedies-ruling",
+    "correct_note_id": null,
+    "evidence": "The cited Search Engine Land article explicitly states the opposite of what is claimed: 'The DOJ and states haven't detailed their legal arguments. Court filings didn't specify which parts of the ruling they will challenge' (as of the Feb 4, 2026 filing). It gives no basis for the specific narrow/procedural theory (rejected payment ban without a prior competitive-restoration finding) attributed to it.",
+    "suggested_fix": "Either cite the actual DOJ/states opening appellate brief (once filed/available in the docket) for this specific procedural theory, or soften the sentence to note that the appeal's specific grounds were not yet public as of the notice of appeal."
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "critical",
+    "sentence": "Apple wurde zwei Jahrzehnte dafür bezahlt, eine Fähigkeit nicht aufzubauen, die es heute vom selben Gegenpart zurückmietet – netto rund 23–29 Mrd. $ Zufluss gegen rund 1 Mrd. $ Abfluss, beide Beziehungen unter demselben Remedy-Regime [8].",
+    "cited_note_id": "united-states-district-court-2",
+    "correct_note_id": null,
+    "evidence": "The cited remedies opinion (Doc. 1436) states only the court's $20B (2022) Apple payment finding; the 23–29 Mrd. $ range is the report's own CAGR-scaled extrapolation (done elsewhere in the report using [3]+[4], per the vault's interim-report-google-tac-magnitude-repricing note), not a figure in this document. The document also never discusses the ~$1B/yr Gemini-for-Siri licensing payment, and the claim that both money flows fall 'unter demselben Remedy-Regime' is contradicted by vault note googles-gemini-to-power-apples-ai-features-like-siri-techcrunch, which explicitly flags the Gemini-for-Siri deal as 'commercial, not directly threatened by the remedies order' — a separate flow from the search-default TAC that the remedies opinion governs.",
+    "suggested_fix": "Cite [3]+[4] (or the interim report's own-calculation framing) for the 23–29 Mrd. $ figure instead of [8] alone, cite the Gemini TechCrunch note for the ~1 Mrd. $ outflow, and soften or remove the 'unter demselben Remedy-Regime' claim, which the sources do not support and one source contradicts."
+  },
+  {
+    "verdict": "wrong-source",
+    "severity": "critical",
+    "sentence": "Belastbarer für die Regulierungsthese ist ein datiertes Ereignis: 2024 öffnete Apple den NFC-Controller und den Secure-Element-Zugriff für Dritt-Wallets in der EU, Australien, Brasilien, Kanada, Japan, Neuseeland, UK und den USA und beendete damit die exklusive On-Device-Kontrolle, auf der ältere Erlösmodelle implizit aufbauten [101].",
+    "cited_note_id": "apple-services-revenue-rises-with-boost-from-payments-payments-dive",
+    "correct_note_id": "apple-pay-statistics-by-revenue-users-security-and-facts-2025",
+    "evidence": "The cited note (Payments Dive, Aug 2024 earnings-call reporting) says nothing about NFC/secure-element access being opened to third-party wallets; it only confirms Apple doesn't disclose Apple Pay revenue. The exact eight-country 2024 NFC/secure-element opening claim is verbatim in vault note apple-pay-statistics-by-revenue-users-security-and-facts-2025 ('For the EU, Australia, Brazil, Canada, Japan, New Zealand, the UK, and the U.S., Apple released NFC and secure element APIs to third-party developers in 2024...'), which is not currently cited anywhere in the report.",
+    "suggested_fix": "Swap citation [101] for apple-pay-statistics-by-revenue-users-security-and-facts-2025 (add it to the Sources list with a new bracket number)."
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "critical",
+    "sentence": "Die Fähigkeitsbasis bleibt langsam, aber nicht aus Bautempo-Gründen: Eine 30-Hektar-Fabrikhülle des Zulieferers Luxshare in Vietnam stand 2020 nach fünf Monaten, eine 70-Acre-Anlage 2023 nach 12 bis 24 Monaten [110] – Bauzeit ist nicht die bindende Restriktion.",
+    "cited_note_id": "apple-holding-off-on-vietnam-iphone-assembly-over-workers-living-conditions-appl",
+    "correct_note_id": "apple-supplier-luxshare-to-invest-additional-us330-million-in-vietnam-plant-as-s",
+    "evidence": "The cited note (AppleInsider, 2020) only supports the first clause (30-hectare Bac Giang shell built in 5 months, 2020). It contains no '70-acre' facility, no '2023' date, and no '12 to 24 months' figure. That second clause is verbatim in vault note apple-supplier-luxshare-to-invest-additional-us330-million-in-vietnam-plant-as-s (SCMP, Nov 2023): 'a plot of over 70 acres and is expected to be completed in 12 to 24 months.'",
+    "suggested_fix": "Add a second citation to apple-supplier-luxshare-to-invest-additional-us330-million-in-vietnam-plant-as-s for the 70-acre/2023/12–24-month clause."
+  },
+  {
+    "verdict": "wrong-source",
+    "severity": "critical",
+    "sentence": "Bindend ist der Aufbau einer mehrstufigen Zulieferbasis für komplexe Produkte: Vietnam liefert inzwischen rund 62–64 % der AirPods, und eine JPMorgan-Prognose von 2022 sah bis 2025 rund 20 % der iPads/Watches und 5 % der MacBooks vor – ausdrücklich ohne das iPhone [102, 103].",
+    "cited_note_id": "apple-to-move-25-iphone-production-to-india-by-2025-20-ipad-and-apple-watch-to-v",
+    "correct_note_id": "sag-vietnam-led-global-apple-airpods-manufacturing-in-q1-2026-while-india-contin",
+    "evidence": "[102] and [103] both only carry the 2022 JPMorgan forecast (20% iPad/Watch, 5% MacBook, 65% AirPods by 2025) — they do not state a current 62–64% AirPods figure. The 62–64% current-state number is verbatim in vault note sag-vietnam-led-global-apple-airpods-manufacturing-in-q1-2026-while-india-contin ('Vietnam 62% [Q1 2026]... rose from 51% (2024) to 64% (2025) then dipped to 62% (Q1 2026)'), which is not cited here.",
+    "suggested_fix": "Add sag-vietnam-led-global-apple-airpods-manufacturing-in-q1-2026-while-india-contin as the citation for the 'rund 62–64% der AirPods' clause; keep [102, 103] for the JPMorgan forecast clause."
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Wer Apple allein wegen der Gerichtsexposition um Größenordnungen niedriger bewertet sehen will, verwechselt Exposition mit erwartetem Verlust; eine gegenläufige Sell-Side-Stimme weist eine solche Herabstufung explizit zurück und hält die Ertragsbasis für intakt [106].",
+    "cited_note_id": "opinion-wall-streets-new-apple-bear-case-is-dead-wrong-247-wall-st",
+    "correct_note_id": null,
+    "evidence": "The cited note rebuts Jefferies' Aug 2026 downgrade, which was based on memory-cost margin fears and a rumored glass-iPhone-redesign cancellation — not on court/legal exposure. The note never discusses a valuation discount tied to 'Gerichtsexposition' (litigation risk), so the sentence's framing of the rebuttal as specifically refuting a court-exposure-driven downgrade is not what this source shows, even though it does generally defend Apple's earnings base against a bearish downgrade.",
+    "suggested_fix": "Reword to say the rebutted downgrade was about memory-cost margin/redesign fears, not court exposure, or find/cite a source that specifically rebuts a litigation-driven valuation discount."
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Die im Juni 2024 vorgestellte Überarbeitung rutschte über rund 18 Monate von iOS 18 auf „Frühjahr 2026\" und im Februar 2026 weiter bis womöglich iOS 27 im September [57].",
+    "cited_note_id": "apples-siri-revamp-reportedly-delayed-again-techcrunch",
+    "correct_note_id": "apple-reportedly-targets-spring-2026-for-launch-of-delayed-ai-siri-upgrade-but-i",
+    "evidence": "The cited note (TechCrunch, Feb 11 2026) confirms the June 2024 unveiling and the Feb 2026 slip to May/iOS 27 September, but never mentions 'iOS 18' as the original target. That detail ('AI-powered Siri was supposed to launch as part of iOS 18') is stated in a different, already-cited vault note (apple-reportedly-targets-spring-2026-for-launch-of-delayed-ai-siri-upgrade-but-i, used elsewhere as [56]).",
+    "suggested_fix": "Add [56] alongside [57] for the 'von iOS 18' clause, since that note (not [57]) states the iOS 18 origin."
+  },
+  {
+    "verdict": "partially-supported",
+    "severity": "major",
+    "sentence": "Frühe Zuwächse zerfielen schnell [76].",
+    "cited_note_id": "alternative-browsers-report-uplift-after-eus-dma-choice-screen-mandate-techcrunc",
+    "correct_note_id": null,
+    "evidence": "The cited note is a snapshot one month after DMA choice screens began; most browsers it documents (Aloha, Vivaldi, Brave) still show rising uplift figures. Only Opera's growth rate is shown decelerating (from an initial +164% spike to +39%) within that same short window — a single, partial example, not the general 'early gains decayed quickly' pattern the sentence asserts as an established finding.",
+    "suggested_fix": "Narrow the claim to Opera specifically, or cite a later-dated source that tracks decay of the uplift over a longer window."
+  }
+]

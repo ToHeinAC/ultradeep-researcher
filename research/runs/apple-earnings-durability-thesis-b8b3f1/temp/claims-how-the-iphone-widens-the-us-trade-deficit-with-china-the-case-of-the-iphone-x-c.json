@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Chinese firms' value-added contribution to an iPhone rose from $6.50 (assembly-only, iPhone 3G, 2009) to $104 out of a $409.25 BOM (25.4%, iPhone X, 2017), reflecting expansion beyond assembly into component supply, but China still captures only 10.4% of the iPhone X's $1,000 retail value.",
+    "stance": "supports",
+    "stance_target": "China's role in Apple's value chain has moved beyond pure assembly toward genuine (if still minority) component value-added",
+    "evidence_type": "empirical",
+    "scope_conditions": "iPhone 3G (2009) vs iPhone X (2017) teardown-based value-added analysis",
+    "quoted_support": "The bill of materials of the iPhone X is estimated at $409.25, of which the Chinese firms jointly contribute $104, about 25.4%. Chinese value-added in the iPhone X is dramatically higher than the $6.5 captured in the iPhone 3G... the Chinese firms together gain 10.4% of the total value added of every iPhone X sold on the global market.",
+    "numbers": ["$6.50 (iPhone 3G China value-add)", "$104 / $409.25 = 25.4% (iPhone X China value-add share of BOM)", "10.4% of $1,000 retail price"],
+    "entities": ["Yuqing Xing", "Apple", "China", "GRIPS"],
+    "time_period": "2009-2017",
+    "region": "China",
+    "confidence": "high",
+    "source_note_id": "how-the-iphone-widens-the-us-trade-deficit-with-china-the-case-of-the-iphone-x-c"
+  },
+  {
+    "claim": "Using value-added rather than gross export value, the US-China bilateral trade deficit attributable to a single iPhone X is $104, not the $332.75 implied by gross export accounting, because gross accounting misattributes Korean, Japanese and other countries' component value (over 45% of the BOM) entirely to China.",
+    "stance": "refutes",
+    "stance_target": "Gross bilateral trade statistics accurately represent the true US-China trade imbalance attributable to iPhone imports",
+    "evidence_type": "statistical",
+    "scope_conditions": "iPhone X, 2017-2018 US import volumes",
+    "quoted_support": "In terms of value-added, the US deficit with China for the import of one iPhone X is only $104, less than one-third of the figure based on gross value... For every iPhone X imported by the US, current trade statistics mistakenly add $228.75 to its trade deficit with China... gross-value trade statistics overstated the US-China iPhone-related deficit by an estimated $9.65 billion in 2018, about 2.3% of the total bilateral deficit.",
+    "numbers": ["$104 value-added deficit per unit", "$332.75 gross deficit per unit", "42.2 million units (2017 US iPhone sales)", "$9.65 billion overstatement (2018)"],
+    "entities": ["Yuqing Xing", "Apple", "China", "South Korea", "Japan"],
+    "time_period": "2017-2018",
+    "region": "United States, China",
+    "confidence": "high",
+    "source_note_id": "how-the-iphone-widens-the-us-trade-deficit-with-china-the-case-of-the-iphone-x-c"
+  },
+  {
+    "claim": "Because so much of the iPhone's value-added is non-Chinese, yuan depreciation cannot meaningfully offset US tariffs on iPhones -- a 25% tariff on the iPhone X would require an 'unthinkable' 400% yuan depreciation to fully offset, versus 43.4% for the average Chinese export bundle with lower foreign value-added share.",
+    "stance": "supports",
+    "stance_target": "Currency-based tariff mitigation is structurally ineffective for high-foreign-value-added products like the iPhone",
+    "evidence_type": "theoretical",
+    "scope_conditions": "US-China tariff and exchange-rate scenario analysis, 2018-2019",
+    "quoted_support": "an unthinkable 400% depreciation of the yuan is necessary to eliminate the negative impact of the same tariff levied on the iPhone X... a 43.4% depreciation of the yuan is required to completely cancel the negative impact of a 25% punitive tariff on all Chinese exports to the US.",
+    "numbers": ["400% required yuan depreciation (iPhone X, 25% tariff)", "43.4% required yuan depreciation (average Chinese export, 25% tariff)", "33.9% average foreign value-added share of Chinese exports"],
+    "entities": ["Yuqing Xing", "China", "yuan", "Trump administration"],
+    "time_period": "2018-2019",
+    "region": "China, United States",
+    "confidence": "medium",
+    "source_note_id": "how-the-iphone-widens-the-us-trade-deficit-with-china-the-case-of-the-iphone-x-c"
+  },
+  {
+    "claim": "By mid-2019, Apple had already asked major suppliers to evaluate shifting 15-30% of production capacity from China to Southeast Asia, showing diversification planning began years before the 2025 tariff escalation.",
+    "stance": "neutral",
+    "stance_target": "Timeline for how long Apple's manufacturing diversification has actually been in planning versus execution",
+    "evidence_type": "empirical",
+    "scope_conditions": "Reported June 2019, citing Nikkei Asian Review",
+    "quoted_support": "Apple has asked its major suppliers to evaluate the cost implications of shifting 15-30% of their production capacity from China to Southeast Asia (Li and Cheng 2019).",
+    "numbers": ["15-30% capacity shift under evaluation (2019)"],
+    "entities": ["Apple", "China", "Southeast Asia", "Nikkei Asian Review"],
+    "time_period": "2019",
+    "region": "China, Southeast Asia",
+    "confidence": "medium",
+    "source_note_id": "how-the-iphone-widens-the-us-trade-deficit-with-china-the-case-of-the-iphone-x-c"
+  }
+]

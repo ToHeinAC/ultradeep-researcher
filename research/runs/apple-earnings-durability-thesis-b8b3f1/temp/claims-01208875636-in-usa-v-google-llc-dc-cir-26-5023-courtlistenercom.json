@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "The district court found Google maintained its search monopoly by paying 'tens of billions of dollars per year for exclusive placement' on both Android and Apple handsets, foreclosing significant competition, yet the remedies decision allowed Google to continue making these payments.",
+    "stance": "supports",
+    "stance_target": "the magnitude of Google's default-placement payments as the core anticompetitive mechanism",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google, D.C. Circuit appeal, amicus brief filed Aug 4, 2026",
+    "quoted_support": "As the District Court found, Google has maintained a monopoly in general search by paying tens of billions of dollars per year for exclusive placement, foreclosing any significant potential (or actual) competitor in the market. However, in its remedies decision, the District Court decided to allow Google to continue to make such payments.",
+    "numbers": ["tens of billions of dollars per year"],
+    "entities": ["Google", "Apple", "Android"],
+    "time_period": "2026 appeal / underlying Aug 2024 liability finding",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "01208875636-in-usa-v-google-llc-dc-cir-26-5023-courtlistenercom"
+  },
+  {
+    "claim": "DOJ and state enforcers advocated at trial/remedies stage for a complete ban on Google's default-placement payments; economists' amicus brief argues this or an equivalent capped-payment remedy is necessary because Google's monopoly profit structurally exceeds any rival's ability to pay for distribution.",
+    "stance": "supports",
+    "stance_target": "DOJ/states' specific appellate ask of a full payment ban",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google D.C. Circuit cross-appeal, DOJ/state Attorneys General requested relief",
+    "quoted_support": "The complete payment ban advocated for by government enforcers would accomplish this. But there are likely a number of such remedies that would also do so.",
+    "numbers": [],
+    "entities": ["DOJ", "state Attorneys General", "Google"],
+    "time_period": "2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "01208875636-in-usa-v-google-llc-dc-cir-26-5023-courtlistenercom"
+  },
+  {
+    "claim": "As of August 4, 2026 (date of this amicus filing), oral argument in the consolidated D.C. Circuit appeal (26-5023, 26-5047, 26-5049) had not yet been scheduled.",
+    "stance": "neutral",
+    "stance_target": "appellate timeline / oral argument scheduling status",
+    "evidence_type": "legal",
+    "scope_conditions": "D.C. Circuit, USCA Case #26-5023, as of Aug 4, 2026 filing",
+    "quoted_support": "ORAL ARGUMENT NOT YET SCHEDULED",
+    "numbers": [],
+    "entities": ["D.C. Circuit"],
+    "time_period": "August 2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "01208875636-in-usa-v-google-llc-dc-cir-26-5023-courtlistenercom"
+  },
+  {
+    "claim": "The full 'Pay for Half' economic analysis paper was published June 26, 2026 by the Tobin Center for Economic Policy at Yale, authored by Alissa Cooper, Jacques Cremer, Amelia Fletcher, Paul Heidhues, Nick Jacobson, Gene Kimmelman, Margaret O'Grady, and Fiona Scott Morton.",
+    "stance": "neutral",
+    "stance_target": "provenance and authorship of the underlying economic remedy proposal",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Tobin Center for Economic Policy, Yale University, published June 26, 2026",
+    "quoted_support": "Alissa Cooper, Jacques Cremer, Amelia Fletcher, Paul Heidhues, Nick Jacobson, Gene Kimmelman, Margaret O'Grady, Fiona Scott Morton, Pay for Half: A Better Remedy for Google Search (June 26, 2026) Tobin Center for Economic Policy",
+    "numbers": [],
+    "entities": ["Alissa Cooper", "Jacques Cremer", "Amelia Fletcher", "Paul Heidhues", "Nick Jacobson", "Gene Kimmelman", "Margaret O'Grady", "Fiona Scott Morton", "Tobin Center for Economic Policy", "Yale University"],
+    "time_period": "June 2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "01208875636-in-usa-v-google-llc-dc-cir-26-5023-courtlistenercom"
+  }
+]

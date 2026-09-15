@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "The Analysis Group study was funded by Apple ('Support for this study was provided by Apple'), though the authors state the conclusions are exclusively their own -- an important disclosure for weighing the study's framing of the '90% commission-free' statistic.",
+    "stance": "neutral",
+    "stance_target": "Independence and reliability of the Analysis Group ecosystem study",
+    "evidence_type": "empirical",
+    "scope_conditions": "Study published June 2026, covering calendar year 2025",
+    "quoted_support": "Support for this study was provided by Apple. The conclusions and opinions expressed are exclusively those of the authors.",
+    "numbers": [],
+    "entities": ["Apple", "Analysis Group", "Jessica Burley", "Juliette Caminade", "Markus von Wartburg"],
+    "time_period": "2025 (published June 2026)",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "support-for-this-study-was-provided-by-apple"
+  },
+  {
+    "claim": "Apple does not collect commission on digital purchases initiated outside apps, on physical goods/services purchased through apps, or on in-app ad revenue -- meaning the vast majority of the $1.4 trillion 'ecosystem' figure was never part of Apple's commissionable base regardless of any regulatory action, and citing the 90%-commission-free statistic as evidence of regulatory-driven erosion is a category error.",
+    "stance": "refutes",
+    "stance_target": "The 90%-commission-free statistic demonstrates recent regulatory erosion of Apple's contingent App Store commission revenue",
+    "evidence_type": "empirical",
+    "scope_conditions": "Global App Store ecosystem methodology, 2025 study",
+    "quoted_support": "Apple does not collect a commission on purchases of digital goods and services that are initiated outside of apps..., on purchases of physical goods and services through apps..., or on in-app ad revenue.",
+    "numbers": ["$149 billion true commissionable digital goods/services base (2025)"],
+    "entities": ["Apple", "Analysis Group"],
+    "time_period": "2025",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "support-for-this-study-was-provided-by-apple"
+  },
+  {
+    "claim": "The Analysis Group study series has retroactively updated prior years' per-category figures for accuracy in each new edition, so year-over-year comparisons of the App Store ecosystem across different editions of this same study series should be treated cautiously rather than as a consistent time series.",
+    "stance": "neutral",
+    "stance_target": "Reliability of citing this study series for multi-year trend analysis",
+    "evidence_type": "empirical",
+    "scope_conditions": "Analysis Group App Store ecosystem study series, 2019-2025 editions",
+    "quoted_support": "Due to retroactive changes made to third-party data sources, some numbers in this report have been updated for accuracy and may differ from previous studies.",
+    "numbers": [],
+    "entities": ["Analysis Group"],
+    "time_period": "2019-2025",
+    "region": "Global",
+    "confidence": "medium",
+    "source_note_id": "support-for-this-study-was-provided-by-apple"
+  }
+]

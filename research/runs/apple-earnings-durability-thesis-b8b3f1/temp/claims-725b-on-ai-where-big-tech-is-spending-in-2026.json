@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "The four largest hyperscalers (Amazon, Microsoft, Google, Meta) plan to spend roughly $725 billion on AI infrastructure capex in 2026, up about 77% from approximately $410 billion in 2025.",
+    "stance": "neutral",
+    "stance_target": "Verifying the orchestrator's cited hyperscaler capex figures",
+    "evidence_type": "statistical",
+    "scope_conditions": "calendar 2026 guidance through Q2 2026 earnings",
+    "quoted_support": "The four largest hyperscalers plan to spend roughly $725 billion on AI infrastructure in 2026 — up about 77% from ~$410B in 2025.",
+    "numbers": ["$725 billion", "77%", "$410 billion"],
+    "entities": ["Amazon", "Microsoft", "Alphabet", "Meta"],
+    "time_period": "2025-2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "725b-on-ai-where-big-tech-is-spending-in-2026"
+  },
+  {
+    "claim": "Apple's cumulative tracked AI spend (infrastructure plus M&A, investments, structured deals, and talent) from 2020-2025 was only $20 billion, versus Amazon $205B, Google $190B, Microsoft $149B and Meta $141B over the same period — roughly an order of magnitude smaller than any hyperscaler peer.",
+    "stance": "supports",
+    "stance_target": "Apple's AI underinvestment relative to hyperscalers is not a recent phenomenon but a sustained multi-year pattern, weakening a pure 'strategic optionality' reading and consistent with either late-mover patience or chronic underinvestment",
+    "evidence_type": "statistical",
+    "scope_conditions": "2020-2025 cumulative",
+    "quoted_support": "Amazon $205B | Google $190B | Microsoft $149B | Meta $141B | ... Apple $20B ... 5-yr CAGR 45% ... Strategy: On-Device / Stealth",
+    "numbers": ["$20 billion", "$205 billion", "$190 billion", "$149 billion", "$141 billion", "45%"],
+    "entities": ["Apple", "Amazon", "Google", "Microsoft", "Meta"],
+    "time_period": "2020-2025",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "725b-on-ai-where-big-tech-is-spending-in-2026"
+  },
+  {
+    "claim": "Apple's 2026 AI-related capex figure of $15-25 billion in this tracker is explicitly labeled an estimate ('Estimated AI data center buildout'), not a company-disclosed figure, unlike the hyperscaler numbers which are sourced to earnings calls and guidance.",
+    "stance": "neutral",
+    "stance_target": "Provenance quality of Apple capex figures circulating in secondary commentary",
+    "evidence_type": "empirical",
+    "scope_conditions": "as of August 2026 tracker update",
+    "quoted_support": "Apple | $15-25B | Estimated AI data center buildout",
+    "numbers": ["$15-25 billion"],
+    "entities": ["Apple"],
+    "time_period": "2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "725b-on-ai-where-big-tech-is-spending-in-2026"
+  },
+  {
+    "claim": "Nvidia captures roughly 40% of hyperscaler AI capex, making it the primary financial beneficiary of the buildout that Apple is deliberately not participating in at scale.",
+    "stance": "neutral",
+    "stance_target": "Where hyperscaler AI capex dollars actually flow, relevant to assessing whether Apple's abstention is costly optionality or missed value capture",
+    "evidence_type": "statistical",
+    "scope_conditions": "2026 tracker estimate",
+    "quoted_support": "Nvidia remains the primary beneficiary — its H200, B200, and GB200 GPUs power most AI training and inference at every major hyperscaler, capturing roughly 40% of hyperscaler capex.",
+    "numbers": ["40%"],
+    "entities": ["Nvidia"],
+    "time_period": "2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "725b-on-ai-where-big-tech-is-spending-in-2026"
+  },
+  {
+    "claim": "The $500 billion Stargate project (OpenAI, SoftBank, Oracle joint venture) sits on top of hyperscaler budgets, pushing total 2026 sector AI infrastructure investment above $1 trillion when combined with hyperscaler capex.",
+    "stance": "neutral",
+    "stance_target": "Total scale of the AI infrastructure buildout Apple is not participating in",
+    "evidence_type": "empirical",
+    "scope_conditions": "announced early 2025, deployed over 4-5 years",
+    "quoted_support": "Stargate is a joint venture between OpenAI, SoftBank, and Oracle to build a $500B AI data center network across the United States — on top of the hyperscaler budgets tracked above.",
+    "numbers": ["$500 billion", "$1 trillion"],
+    "entities": ["OpenAI", "SoftBank", "Oracle", "Stargate"],
+    "time_period": "2025-2030",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "725b-on-ai-where-big-tech-is-spending-in-2026"
+  }
+]

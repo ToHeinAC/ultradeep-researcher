@@ -1,0 +1,18 @@
+{
+  "preflight_summary": "9 time_periods checked against note bodies for exact period markers. 8 verified present: FY2025/FY2024/FY2023 10-Ks, Q3 and Q2 FY2026 10-Qs, US v. Google remedies opinion (Doc. 1436) plus D.C. Circuit appeal docket 26-5023, EU DMA Article 5(4) decision, Epic v. Apple contempt order. 1 missing: any PRIMARY document for US v. Apple (DOJ).",
+  "gaps": [
+    {
+      "id": "pp-1",
+      "type": "period-pinned-primary",
+      "target_position": "US v. Apple (D.N.J. 2:24-cv-04055) primary record: the DOJ complaint and the June 30 2025 opinion denying Apple's motion to dismiss — surviving claims, monopoly-power pleading findings, and remedies sought",
+      "search_queries": [
+        "site:justice.gov United States v. Apple complaint smartphone monopolization March 2024 PDF",
+        "courtlistener United States v. Apple 2:24-cv-04055 opinion motion to dismiss June 30 2025",
+        "United States v. Apple Inc D.N.J. 24-cv-04055 opinion denying motion to dismiss text"
+      ],
+      "source_type": "primary-filing",
+      "priority": "critical",
+      "rationale": "The decomposition names 'DOJ complaint and subsequent motions' as a period-pinned primary source. The vault holds only secondary coverage (Mintz law-firm analysis, AAF primer, 9to5Mac). The D.N.J. opinion is queued as browser-lane escalation #9 (law.justia.com Cloudflare challenge), so try justice.gov and CourtListener instead. Substance is covered secondarily (65%/70% share pleading, surviving NFC tap-to-pay claim), so this is a verification gap for the regulatory-exposure section rather than a numeric-precision gap — but the draft should be able to cite the primary record for the claims it makes about DOJ v. Apple's remedies and its threat to Apple Pay exclusivity."
+    }
+  ]
+}

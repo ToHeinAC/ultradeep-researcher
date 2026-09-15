@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "The nominal 10-year US Treasury constant-maturity yield (DGS10) stood at 4.95% as of 2026-09-10, up from 4.78% on 2026-09-04 -- a roughly 17-basis-point rise within about one week.",
+    "stance": "neutral",
+    "stance_target": "the current rate environment pinned with dates, as required for the discount-rate-sensitivity analysis",
+    "evidence_type": "statistical",
+    "scope_conditions": "US Treasury market, daily observations, not seasonally adjusted",
+    "quoted_support": "2026-09-10: 4.95 | Percent, Not Seasonally Adjusted | Daily",
+    "numbers": ["4.95%", "4.83%", "4.80%", "4.78%"],
+    "entities": ["Federal Reserve Board", "DGS10", "H.15 Selected Interest Rates"],
+    "time_period": "2026-09-04 to 2026-09-10",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "market-yield-on-us-treasury-securities-at-10-year-constant-maturity-quoted-on-an"
+  }
+]

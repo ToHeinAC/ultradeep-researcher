@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "The long (higher-CAPM-alpha) legs of the value, profitability, investment, low-risk, and payout equity risk factors all share the common economic feature of investing in firms with SHORT cash-flow duration -- specifically firms with high book-to-market, high operating profitability, low asset growth, low market beta, and HIGH payout ratio.",
+    "stance": "supports",
+    "stance_target": "the analytical point that a mega-cap with a high payout ratio (like Apple) should be classified as relatively short-duration, not long-duration, within this asset-pricing framework",
+    "evidence_type": "empirical",
+    "scope_conditions": "US and global equities, 1929-2019 (dividend/growth data) and 1990-2019 (broad sample)",
+    "quoted_support": "We find that the risk factors invest in firms that have a short cash-flow duration... firms with low investment and high payout ratios... invest only sparsely in future projects, [so] they also imply that these firms will have low growth and thus a short cash-flow duration.",
+    "numbers": [],
+    "entities": ["Niels Joachim Gormsen", "Eben Lazarus", "Journal of Finance"],
+    "time_period": "1929-2019",
+    "region": "US / global",
+    "confidence": "high",
+    "source_note_id": "duration-driven-returns"
+  },
+  {
+    "claim": "Using single-stock dividend futures (dividend strips) from 2010-2019, the CAPM alpha on an individual firm's cash-flow claim decreases smoothly with the claim's maturity -- from approximately 8% per year for a 1-year claim to approximately 4% per year for a 4-year claim -- and this maturity-alpha relationship is nearly identical for value and growth firms alike.",
+    "stance": "supports",
+    "stance_target": "the duration/rate-sensitivity premium attaches to the maturity of a specific cash-flow claim, not to a firm's growth/value label -- meaning firms that return cash sooner (via buybacks) hold a genuinely different risk profile than their headline growth narrative might suggest",
+    "evidence_type": "empirical",
+    "scope_conditions": "US single-stock dividend futures, 2010-2019",
+    "quoted_support": "the alphas start at around 8% per year for the one-year claim and decrease to around 4% for the four-year claim. Moreover, for each maturity, the risk-adjusted returns are almost the same for both legs of the risk factors... for instance, the three-year claim on a value firm has the same risk-adjusted return as the three-year claim on a growth firm.",
+    "numbers": ["8%/year (1-year claim)", "4%/year (4-year claim)"],
+    "entities": ["dividend strips", "single-stock dividend futures"],
+    "time_period": "2010-2019",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "duration-driven-returns"
+  },
+  {
+    "claim": "High-profit firms have short cash-flow duration because they have large profits today relative to the present value of future profits, paralleling the logic that high-payout, low-investment firms also have short duration.",
+    "stance": "supports",
+    "stance_target": "profitability and payout are both markers of short effective duration",
+    "evidence_type": "theoretical",
+    "scope_conditions": "general firm cash-flow accounting logic underlying the factor construction",
+    "quoted_support": "high-profit firms have short duration because they have large profits today relative to the value of future profits.",
+    "numbers": [],
+    "entities": [],
+    "time_period": null,
+    "region": null,
+    "confidence": "medium",
+    "source_note_id": "duration-driven-returns"
+  }
+]

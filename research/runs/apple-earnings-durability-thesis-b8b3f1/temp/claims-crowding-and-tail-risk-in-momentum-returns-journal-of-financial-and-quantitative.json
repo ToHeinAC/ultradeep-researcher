@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "Barroso, Edelen & Karehnke's crowding model for momentum predicts tail risk only when arbitrageurs ignore feedback effects; when arbitrageurs rationally condition on feedback, crowding does not generate tail risk. Empirically, using institutional-holdings-based crowding proxies, they find a NEGATIVE relation between crowding and expected crash risk, casting theoretical and empirical doubt on crowding as a stand-alone source of tail risk.",
+    "stance": "refutes",
+    "stance_target": "the general claim that factor/stock crowding mechanically produces higher crash risk",
+    "evidence_type": "empirical",
+    "scope_conditions": "US equities, momentum strategy, peer-reviewed JFQA 2022 (published online 2021)",
+    "quoted_support": "crowding does not generate tail risk when arbitrageurs rationally condition on feedback. Consistent with rational demands, our empirical analysis generally finds a negative relation between crowding proxies constructed from institutional holdings and expected crash risk. Thus our analysis casts both theoretical and empirical doubt on crowding as a stand-alone source of tail risk.",
+    "numbers": [],
+    "entities": ["Pedro Barroso", "Roger M. Edelen", "Paul Karehnke", "Journal of Financial and Quantitative Analysis"],
+    "time_period": "published 2021/2022",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "crowding-and-tail-risk-in-momentum-returns-journal-of-financial-and-quantitative"
+  }
+]

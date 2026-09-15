@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Jefferies downgraded Apple from Hold to Underperform (PT $263.66) on August 10, 2026, citing rising memory costs and reports the all-glass iPhone redesign was cancelled; the second leg was contradicted within 24 hours by a Bloomberg report saying the redesign remains on track for 2027.",
+    "stance": "refutes",
+    "stance_target": "bear case built on the all-glass iPhone cancellation narrative",
+    "evidence_type": "empirical",
+    "scope_conditions": "August 2026, Jefferies analyst call vs Bloomberg reporting",
+    "quoted_support": "\"A Bloomberg report on August 11 says Apple's glass-centric iPhone Pro redesign remains on track for the 2027 20th anniversary. That directly contradicts the cancellation narrative Jefferies used to justify slashing its target.\"",
+    "numbers": ["$263.66 Jefferies price target"],
+    "entities": ["Jefferies", "Apple", "Bloomberg"],
+    "time_period": "August 10-11, 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "opinion-wall-streets-new-apple-bear-case-is-dead-wrong-247-wall-st"
+  },
+  {
+    "claim": "Apple's operating income grew 26.57% YoY in FQ3 2026, outpacing 16.4% revenue growth, indicating margin leverage rather than compression despite memory cost inflation.",
+    "stance": "refutes",
+    "stance_target": "bear case that memory costs are compressing Apple's margins",
+    "evidence_type": "empirical",
+    "scope_conditions": "FQ3 2026",
+    "quoted_support": "\"Operating income expanded 26.57% year over year, outpacing revenue growth. That is margin leverage, not compression.\"",
+    "numbers": ["26.57% operating income growth", "16.4% revenue growth", "$109.42B revenue", "EPS $2.02 vs $1.89 consensus"],
+    "entities": ["Apple"],
+    "time_period": "FY2026 Q3",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "opinion-wall-streets-new-apple-bear-case-is-dead-wrong-247-wall-st"
+  },
+  {
+    "claim": "Supply-chain analyst Ming-Chi Kuo argues the memory-cost 'panic' is overstated because Apple plans processor production months in advance, making any acute shock scenario unlikely.",
+    "stance": "refutes",
+    "stance_target": "bear case that memory-cost inflation poses an acute margin risk",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "2026 memory/DRAM supply environment",
+    "quoted_support": "\"Tight memory supply is real,\" yet Apple plans processor production months in advance, making any shock scenario unlikely.",
+    "numbers": ["gross margin 46.91%", "operating margin 31.97% (per this source)"],
+    "entities": ["Ming-Chi Kuo", "Apple"],
+    "time_period": "August 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "opinion-wall-streets-new-apple-bear-case-is-dead-wrong-247-wall-st"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Apple collects a 15 basis point (0.15%) fee from card-issuing banks -- not from merchants or consumers -- each time that bank's card is used via Apple Pay; this is the core mechanism by which Apple Pay generates revenue for Apple.",
+    "stance": "neutral",
+    "stance_target": "mechanism of Apple Pay revenue generation",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "US market at Apple Pay's October 2014 launch; per-transaction issuer fee model",
+    "quoted_support": "That toll booth collects a small toll, 15 basis points (0.15 percent or 15 cents on a $100 transaction), from the issuer each and every time their card is used at a merchant.",
+    "numbers": ["15 basis points", "0.15%", "$0.15 per $100 transaction"],
+    "entities": ["Apple", "Apple Pay", "card-issuing banks"],
+    "time_period": "2015 (launch era)",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "pymnts-apple-pays-business-model-blues"
+  },
+  {
+    "claim": "Piper Jaffray's 2015 low-end estimate forecast Apple's issuer-fee revenue from Apple Pay at $118 million in 2015, rising to $310 million in 2016; Nomura's high-end estimate projected $1.6 billion in revenue by 2017.",
+    "stance": "neutral",
+    "stance_target": "size of early Apple Pay revenue",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Earliest available named-analyst estimates, 2015 vintage",
+    "quoted_support": "Piper Jaffray's low-end estimate forecasts that this fee will bring in $118 million in revenue in 2015, increasing to $310 million in 2016. On the high end, Nomura's equity analysts estimated it could account for $1.6 billion in revenue by 2017.",
+    "numbers": ["$118 million (2015 low)", "$310 million (2016 low)", "$1.6 billion (2017 high)"],
+    "entities": ["Apple", "Apple Pay", "Piper Jaffray", "Nomura"],
+    "time_period": "2015-2017",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "pymnts-apple-pays-business-model-blues"
+  },
+  {
+    "claim": "Apple Pay's issuer-fee revenue model is structurally dependent on interchange fee levels set by regulators; the EU's March 2015 vote to cap interchange at 0.3% (credit) and 0.2% (debit) left issuers with too little revenue to share a meaningful cut with Apple, and Chinese UnionPay-affiliated banks were resisting Apple's 15bps ask as excessive -- both illustrating that a regulator capping or a counterparty withholding interchange revenue can directly zero out this Apple revenue stream outside the US.",
+    "stance": "supports",
+    "stance_target": "Apple Pay revenue is contingent on arrangements a regulator can void or squeeze",
+    "evidence_type": "empirical",
+    "scope_conditions": "EU interchange fee regulation (2015 cap); China UnionPay bank negotiations (2015)",
+    "quoted_support": "European regulators did get their way and in March voted overwhelmingly to cap interchange fees. By a 621-to-26 vote, the move officially codified a deal... to set the caps at 0.2 percent for debit and 0.3 percent for credit transactions... it is certainly not going to be good for Apple's hopes of getting European issuers to hand over any part of those fees.",
+    "numbers": ["EU cap: 0.3% credit, 0.2% debit", "621-to-26 vote"],
+    "entities": ["Apple", "Apple Pay", "European Commission", "Margrethe Vestager", "UnionPay", "Chinese banks"],
+    "time_period": "2015",
+    "region": "EU, China",
+    "confidence": "high",
+    "source_note_id": "pymnts-apple-pays-business-model-blues"
+  },
+  {
+    "claim": "Apple Pay's business model was originally premised primarily on driving iPhone hardware sales/upgrades rather than direct payments revenue; of Apple's $182.8 billion in fiscal 2014 revenue, only about $15 billion (roughly 8%) came from App Store sales, illustrating how small services-adjacent revenue streams were relative to hardware at the time Apple Pay launched.",
+    "stance": "neutral",
+    "stance_target": "relative size of Apple's services vs hardware revenue at Apple Pay launch",
+    "evidence_type": "statistical",
+    "scope_conditions": "Apple fiscal year 2014",
+    "quoted_support": "Of the $182.8 billion in revenue that Apple booked last year, only $15 billion came via the sale of apps... app store revenue is roughly 8 percent of the total.",
+    "numbers": ["$182.8 billion total FY2014 revenue", "$15 billion App Store revenue", "~8% of total"],
+    "entities": ["Apple", "App Store"],
+    "time_period": "FY2014",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "pymnts-apple-pays-business-model-blues"
+  }
+]

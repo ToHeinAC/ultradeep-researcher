@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "In the six months ending March 2026, only 68% of Android switchers who bought a new iPhone chose a current flagship model (iPhone 17/17 Air/17 Pro/17 Pro Max), versus 80% of legacy iPhone owners upgrading.",
+    "stance": "neutral",
+    "stance_target": "ASP and upgrade-cycle implications of a growing switcher cohort",
+    "evidence_type": "statistical",
+    "scope_conditions": "US, six months ending March 2026",
+    "quoted_support": "In the six-month period ending in March 2026, 68% of Android switchers bought one of the new flagship iPhone 17 models: 17, 17 Air, 17 Pro, or 17 Pro Max (Chart 1). In comparison, 80% of legacy iPhone owners who bought a new iPhone chose one of those models.",
+    "numbers": ["68%", "80%"],
+    "entities": ["CIRP", "iPhone 17", "iPhone 17 Air", "iPhone 17 Pro", "iPhone 17 Pro Max"],
+    "time_period": "October 2025-March 2026",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "cirp-first-time-iphone-buyers-dont-feel-the-need-to-buy-the-latest-greatest-mode"
+  },
+  {
+    "claim": "Around 12% of iPhone buyers in the same six-month window came from Android, consistent with the 11-15% band reported elsewhere by CIRP.",
+    "stance": "supports",
+    "stance_target": "Stability of the Android-to-iPhone switcher pool",
+    "evidence_type": "statistical",
+    "scope_conditions": "US, six months ending March 2026",
+    "quoted_support": "Last week Consumer Intelligence Research Partners (CIRP) updated its switching (and loyalty) analysis to show around 12% of iPhone buyers came from the Android operating system.",
+    "numbers": ["12%"],
+    "entities": ["CIRP"],
+    "time_period": "October 2025-March 2026",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "cirp-first-time-iphone-buyers-dont-feel-the-need-to-buy-the-latest-greatest-mode"
+  },
+  {
+    "claim": "First-time/switcher iPhone buyers under-index on flagship models because baseline iOS functionality (iMessage, FaceTime) satisfies their needs, without requiring the newest hardware.",
+    "stance": "neutral",
+    "stance_target": "Mechanism behind lower ASP mix among switchers",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "US",
+    "quoted_support": "They don't feel the need or perhaps fully understand the appeal of the newest, leading-edge iPhone models. Just getting iMessage and FaceTime is enough.",
+    "numbers": [],
+    "entities": ["CIRP"],
+    "time_period": "2026",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "cirp-first-time-iphone-buyers-dont-feel-the-need-to-buy-the-latest-greatest-mode"
+  }
+]

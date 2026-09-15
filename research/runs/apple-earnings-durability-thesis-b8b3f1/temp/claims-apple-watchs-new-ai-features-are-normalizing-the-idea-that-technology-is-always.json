@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "TechCrunch's analysis raises the explicit question of whether Apple built always-listening Apple Watch AI features from genuine consumer demand or out of competitive fear that OpenAI or another company would launch a competing AI hardware device first.",
+    "stance": "refutes",
+    "stance_target": "Apple's AI feature launches (specifically ambient-listening Watch features) are purely proactive, chosen capital-allocation bets rather than reactive/defensive moves against competitors",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Apple Watch Series 12/Ultra 4 AI features, September 2026",
+    "quoted_support": "It also raises the question of whether consumers actually want this technology, or if Apple forged ahead in this area because it was afraid that another company, such as OpenAI, would soon introduce a competitive AI device of its own.",
+    "numbers": [],
+    "entities": ["Apple", "OpenAI", "Apple Watch"],
+    "time_period": "September 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always"
+  },
+  {
+    "claim": "Apple's new Live Rewind and Siri Recap features process live ambient audio on the Apple Watch, transcribing/summarizing conversations, but Apple states it does not store or access raw audio, does not identify speakers, and encrypts transcripts/recaps end-to-end.",
+    "stance": "neutral",
+    "stance_target": "Apple's privacy-preserving implementation of ambient AI features versus competitors",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Watch Series 12/Ultra 4, launched September 9, 2026",
+    "quoted_support": "Apple points out that it does not create or store audio recordings and that the raw audio isn't accessible, even to Apple. It also doesn't identify or attribute the speakers, and it protects the generated transcripts and recaps with end-to-end encryption.",
+    "numbers": [],
+    "entities": ["Apple", "Apple Watch", "Siri Recap", "Live Rewind"],
+    "time_period": "September 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always"
+  },
+  {
+    "claim": "Apple's ambient-listening watch transcripts create legal ambiguity around recording consent, contrasted with competitors Plaud (which advises users to obtain legally required consent) and Amazon Bee (whose terms shift compliance responsibility, including for minors' data, onto the user).",
+    "stance": "neutral",
+    "stance_target": "Comparative legal/consent posture of ambient AI recording devices across the industry",
+    "evidence_type": "legal",
+    "scope_conditions": "US consent law varies by state; comparison among Apple, Plaud, Amazon Bee AI wearables, 2026",
+    "quoted_support": "AI device maker Plaud, for instance, advises customers to obtain legally required consent before recording. Amazon Bee's terms of service remind users that they're solely responsible for complying with the law around minors' data privacy, not Amazon.",
+    "numbers": [],
+    "entities": ["Apple", "Plaud", "Amazon Bee"],
+    "time_period": "2026",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always"
+  },
+  {
+    "claim": "Apple's 'Siri Recap' watch feature is opt-in and context-scoped (e.g., only during work hours) rather than always-on by default, unlike some competing AI wearables.",
+    "stance": "supports",
+    "stance_target": "Apple differentiates its AI feature rollout via privacy-by-default design choices, a distinct strategic posture from move-fast AI competitors",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Watch Siri Recap feature, September 2026",
+    "quoted_support": "Apple notes that Siri Recap doesn't default to always being on like some other AI wearables are. Instead, you can choose when it's enabled, like only at work or only during the day.",
+    "numbers": [],
+    "entities": ["Apple", "Siri Recap", "Apple Watch"],
+    "time_period": "September 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "As of Feb 11, 2026, Apple's AI-powered Siri overhaul (originally targeted for iOS 26.4 in March 2026) is slipping further, with some features postponed to the May iOS update or as late as iOS 27 in September 2026, due to internal testing problems.",
+    "stance": "supports",
+    "stance_target": "Apple's AI position is REVEALED (execution failure), not CHOSEN patience",
+    "evidence_type": "empirical",
+    "scope_conditions": "reported Feb 11, 2026, sourced to Bloomberg's Mark Gurman",
+    "quoted_support": "While the new Siri was expected to launch with the upcoming iOS 26.4 update in March, now, the changes are expected to roll out more slowly over time, reportedly postponing some features until the May iOS update, or even until the release of iOS 27 in September.",
+    "numbers": [],
+    "entities": ["Apple", "Siri", "Mark Gurman", "Bloomberg"],
+    "time_period": "February 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apples-siri-revamp-reportedly-delayed-again-techcrunch"
+  },
+  {
+    "claim": "Apple's revamped Siri will be powered by Google Gemini rather than an Apple-built foundation model.",
+    "stance": "supports",
+    "stance_target": "Apple is renting rather than building frontier AI capability (build-vs-buy evidence for the reader's prior)",
+    "evidence_type": "empirical",
+    "scope_conditions": "confirmed by Jan 2026 reporting, effective for the delayed Siri release",
+    "quoted_support": "you would be able to just talk to Siri, which will be powered by Google Gemini.",
+    "numbers": [],
+    "entities": ["Apple", "Siri", "Google Gemini"],
+    "time_period": "2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apples-siri-revamp-reportedly-delayed-again-techcrunch"
+  },
+  {
+    "claim": "The Siri AI overhaul has been continuously pushed back over roughly a year and a half since its original 2024 unveiling as Apple Intelligence.",
+    "stance": "supports",
+    "stance_target": "Repeated slippage is evidence of execution inability, not strategic patience",
+    "evidence_type": "empirical",
+    "scope_conditions": "June 2024 to February 2026",
+    "quoted_support": "Apple has been promising a new-and-improved, cutting-edge, AI-powered Siri since it first unveiled Apple Intelligence in 2024. Over about a year and a half since then, the release date for this new era of Siri has been continuously pushed back.",
+    "numbers": [],
+    "entities": ["Apple", "Siri"],
+    "time_period": "June 2024 – February 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apples-siri-revamp-reportedly-delayed-again-techcrunch"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Loup Ventures estimated in February 2019 that Apple Pay would generate $988 million in revenue for Apple in calendar year 2019, growing to $4 billion by calendar year 2023.",
+    "stance": "neutral",
+    "stance_target": "size of Apple's Apple Pay revenue",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Global Apple Pay revenue; Loup Ventures' 2019 forecast model, calendar-year basis (does not align with Apple's fiscal year)",
+    "quoted_support": "Loup Ventures expects Apple Pay to generate $988 million in revenue for Apple during calendar year 2019, reaching $4 billion by 2023.",
+    "numbers": ["$988 million (2019)", "$4 billion (2023 forecast)"],
+    "entities": ["Apple", "Apple Pay", "Loup Ventures", "Gene Munster"],
+    "time_period": "2019-2023",
+    "region": "Global",
+    "confidence": "medium",
+    "source_note_id": "report-sees-plenty-of-upside-for-apple-with-one-of-its-services-offerings-phonea"
+  },
+  {
+    "claim": "Loup Ventures' Apple Pay revenue model is built on a 0.15% take rate Apple earns from issuing banks on the value of each Apple Pay transaction, applied to Loup's own tracked estimate of Apple Pay penetration and transaction volume.",
+    "stance": "neutral",
+    "stance_target": "methodology underlying Apple Pay revenue estimates",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "US-centric interchange-sharing arrangement; methodology as of 2019",
+    "quoted_support": "The report also notes that Apple could earn .20% of the value of each Apple Card transaction. That compares to the .15% Apple earns from the value of each Apple Pay transaction.",
+    "numbers": ["0.15% take rate (Apple Pay)", "0.20% take rate (Apple Card)"],
+    "entities": ["Apple", "Apple Pay", "Apple Card", "Goldman Sachs", "Loup Ventures"],
+    "time_period": "2019",
+    "region": "Primarily US",
+    "confidence": "high",
+    "source_note_id": "report-sees-plenty-of-upside-for-apple-with-one-of-its-services-offerings-phonea"
+  },
+  {
+    "claim": "Loup Ventures separately estimated the newly launched Apple Card would add $1.4 billion in high-margin revenue by 2023, contributing 0.4% to Apple's 2023 gross revenue and 1.8% to bottom line by that year.",
+    "stance": "neutral",
+    "stance_target": "size of Apple Card revenue relative to total Apple revenue",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "2019 forecast for 2023; Apple Card in partnership with Goldman Sachs",
+    "quoted_support": "The firm expects the Apple Card to start slowly, but by 2023 the card should generate $1.4 billion in revenue... this will be \"high margin\" revenue. As such, the Apple Card would add .4% to Apple's 2023 gross, and 1.8% to the firm's bottom line by that year.",
+    "numbers": ["$1.4 billion (2023 forecast)", "0.4% of 2023 gross revenue", "1.8% of bottom line"],
+    "entities": ["Apple", "Apple Card", "Goldman Sachs", "Loup Ventures"],
+    "time_period": "2019-2023",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "report-sees-plenty-of-upside-for-apple-with-one-of-its-services-offerings-phonea"
+  },
+  {
+    "claim": "As of Q4 2018, 43% of the roughly 900 million active iPhones worldwide had Apple Pay enabled, representing 383 million global Apple Pay users, up 135% year-over-year; only 12% of these users were in the US despite the US holding 21% of active iPhones, reflecting faster international adoption via public transit integration.",
+    "stance": "neutral",
+    "stance_target": "geographic distribution of Apple Pay adoption",
+    "evidence_type": "statistical",
+    "scope_conditions": "Q4 calendar 2018 snapshot",
+    "quoted_support": "There are now 383 million Apple Pay users globally, according to Loup Ventures' calculations, up 21% from the third calendar quarter of 2018, and 135% higher year-over-year... only 12% of Apple Pay users are in the U.S.",
+    "numbers": ["43% of 900 million active iPhones", "383 million global users", "135% YoY growth", "12% of users in US vs 21% of iPhones in US"],
+    "entities": ["Apple", "Apple Pay", "Loup Ventures"],
+    "time_period": "Q4 2018",
+    "region": "Global, US vs. international split",
+    "confidence": "medium",
+    "source_note_id": "report-sees-plenty-of-upside-for-apple-with-one-of-its-services-offerings-phonea"
+  },
+  {
+    "claim": "No credible, methodologically transparent analyst estimate of Apple Pay revenue newer than Loup Ventures' February 2019 note (forecasting only to 2023) could be located via targeted web search of eMarketer, PYMNTS Intelligence, Bernstein, Wolfe Research, Above Avalon, and Loup Ventures' own more recent output.",
+    "stance": "neutral",
+    "stance_target": "availability of current third-party Apple Pay revenue estimates",
+    "evidence_type": "empirical",
+    "scope_conditions": "Search conducted September 2026 across named research firms; absence noted per run directive on auditing absences",
+    "quoted_support": "N/A - this is a documented search-absence finding, not a quote from a single source.",
+    "numbers": [],
+    "entities": ["Loup Ventures", "eMarketer", "PYMNTS Intelligence", "Bernstein", "Wolfe Research", "Above Avalon"],
+    "time_period": "2019-2026",
+    "region": "Global",
+    "confidence": "medium",
+    "source_note_id": "report-sees-plenty-of-upside-for-apple-with-one-of-its-services-offerings-phonea"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Judge Amit Mehta's September 2025 remedy opinion identified Google's multi-billion-dollar default-placement payments to distribution partners (Apple, Samsung, Mozilla, and others) as the central anticompetitive conduct in the search monopoly case, but declined to ban those payments.",
+    "stance": "neutral",
+    "stance_target": "scope and limits of Judge Mehta's September 2025 remedy order regarding default-payment bans",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google, D.D.C., remedy opinion issued September 2025",
+    "quoted_support": "At the heart of that monopoly are Google's multi-billion-dollar payments to distribution partners – Apple, Samsung, Mozilla, and others – to lock in Google search as the default... Yet despite identifying these payments as the central anticompetitive conduct, Judge Mehta declined to ban them in his remedy opinion issued in September 2025.",
+    "numbers": [],
+    "entities": ["Judge Amit Mehta", "Google", "Apple", "Samsung", "Mozilla"],
+    "time_period": "September 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "pay-for-half-a-better-remedy-for-google-search-knight-georgetown-institute"
+  },
+  {
+    "claim": "Mehta allowed Google to continue paying distribution partners for default search placement subject only to minimal restrictions, citing concerns about windfall profits to Google, harm to channel partners, and consumer disruption from an outright ban.",
+    "stance": "neutral",
+    "stance_target": "rationale for not banning default-placement payments",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google remedy opinion, September 2025",
+    "quoted_support": "Concerned about windfall profits to Google, harm to channel partners, and consumer disruption, he allowed Google to continue paying for default placement subject only to minimal restrictions.",
+    "numbers": [],
+    "entities": ["Judge Amit Mehta", "Google"],
+    "time_period": "September 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "pay-for-half-a-better-remedy-for-google-search-knight-georgetown-institute"
+  },
+  {
+    "claim": "Mehta's remedy opinion already contemplates the possibility of revisiting a payment ban, which the pending appeal could bring back into play.",
+    "stance": "supports",
+    "stance_target": "appellate posture leaving open a future payment ban",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google, appeal pending as of the KGI commentary's publication",
+    "quoted_support": "The case is now on appeal, and the judge's remedy opinion already contemplates the possibility of revisiting the idea of a payment ban.",
+    "numbers": [],
+    "entities": ["Judge Amit Mehta", "Google", "DOJ"],
+    "time_period": "2026 (appeal pending)",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "pay-for-half-a-better-remedy-for-google-search-knight-georgetown-institute"
+  },
+  {
+    "claim": "The 'Pay for Half' proposal (Yale Tobin Center / KGI-affiliated economists) recommends capping, not banning, Google's default-placement payments via a 50% device-level market-share cap, a payment cap suggested at 40% of per-device search revenue (reducible over time), and random device assignment within the capped share.",
+    "stance": "supports",
+    "stance_target": "an alternative, implementable remedy design for the appellate remand short of an outright payment ban",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "proposed remedy for the ongoing US v. Google appeal, applicable to distribution partners' product lines",
+    "quoted_support": "Market share cap: Limit the proportion of devices for which Google can share search revenue to no more than 50% of the devices within any of a distribution partner's product lines... Payment cap: ...We suggest a 40% payment cap to start, which can be reduced over time if competition does not emerge... Random assignment: Require that any share of a product line for which Google does enter a contract for payments be assigned randomly to devices.",
+    "numbers": ["50% market-share cap", "40% starting payment cap"],
+    "entities": ["Google", "Apple", "Samsung", "Mozilla", "Knight-Georgetown Institute", "Yale Tobin Center"],
+    "time_period": "2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "pay-for-half-a-better-remedy-for-google-search-knight-georgetown-institute"
+  },
+  {
+    "claim": "A companion KGI amicus brief, 'US v. Google Amicus Brief: How Better Remedies Can Restore Competition,' was filed/published August 11, 2026, authored by eight economists, legal experts, and technologists arguing existing remedies leave the search market largely unchanged.",
+    "stance": "neutral",
+    "stance_target": "existence and framing of a companion appellate-stage amicus brief",
+    "evidence_type": "legal",
+    "scope_conditions": "US v. Google appeal, KGI publication dated August 11, 2026",
+    "quoted_support": "The appeals in the United States v. Google search case hinge on a fundamental question: do the District Court's remedies address the anticompetitive conduct that maintained Google's search monopoly, or do they leave the market largely unchanged? Eight leading economists, legal experts, and technologists argue in an amicus brief that better remedies exist to help restore meaningful competition.",
+    "numbers": ["eight authors"],
+    "entities": ["Knight-Georgetown Institute"],
+    "time_period": "August 2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "pay-for-half-a-better-remedy-for-google-search-knight-georgetown-institute"
+  }
+]

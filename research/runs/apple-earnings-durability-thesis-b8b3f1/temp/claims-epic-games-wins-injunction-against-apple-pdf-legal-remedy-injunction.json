@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "The N.D. California court found, after the original 2021 trial, that Apple's 30% App Store commission 'allowed it to reap supracompetitive operating margins' and was not tied to the value of Apple's intellectual property, making it anticompetitive.",
+    "stance": "supports",
+    "stance_target": "App Store commission revenue reflects monopoly rent rather than a fair value-for-service exchange, supporting durability discounting of that revenue stream",
+    "evidence_type": "legal",
+    "scope_conditions": "Epic Games, Inc. v. Apple Inc., No. 4:20-cv-05640-YGR, N.D. Cal., original 2021 trial findings reaffirmed April 30, 2025",
+    "quoted_support": "One, after trial, the Court found that Apple's 30 percent commission 'allowed it to reap supracompetitive operating margins' and was not tied to the value of its intellectual property, and thus, was anticompetitive.",
+    "numbers": ["30 percent commission rate"],
+    "entities": ["Apple Inc.", "Epic Games Inc.", "N.D. California District Court"],
+    "time_period": "2021 trial finding, reaffirmed 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "epic-games-wins-injunction-against-apple-pdf-legal-remedy-injunction"
+  },
+  {
+    "claim": "In response to the 2021 injunction, Apple imposed a new 27% commission on off-app (linked-out) purchases where it had previously charged nothing, extended for seven days after a consumer clicked out, plus 'scare screens' and non-clickable static URLs designed to suppress usage of external payment links -- conduct the court found was done 'solely to maintain its revenue stream' and in direct defiance of the injunction.",
+    "stance": "supports",
+    "stance_target": "Apple's commercial behavior demonstrates the App Store commission stream is actively defended even under direct court order, making it a genuinely contested, not merely theoretically contested, revenue source",
+    "evidence_type": "legal",
+    "scope_conditions": "Apple's compliance response to the 2021 injunction, disclosed in the April 30, 2025 contempt order",
+    "quoted_support": "Apple's response: charge a 27 percent commission (again tied to nothing) on off-app purchases, where it had previously charged nothing, and extend the commission for a period of seven days after the consumer linked-out of the app. Apple's goal: maintain its anticompetitive revenue stream.",
+    "numbers": ["27 percent commission on off-app purchases", "seven-day extension window"],
+    "entities": ["Apple Inc."],
+    "time_period": "2024 (post-injunction compliance period) through April 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "epic-games-wins-injunction-against-apple-pdf-legal-remedy-injunction"
+  },
+  {
+    "claim": "The court found by clear-and-convincing evidence that Apple willfully violated the 2021 injunction, that Apple VP of Finance Alex Roman lied under oath about Apple's internal decision-making process, and that CFO Luca Maestri's finance team persuaded CEO Tim Cook to override then-SVP Phil Schiller's recommendation to comply with the injunction in good faith.",
+    "stance": "supports",
+    "stance_target": "Apple's own senior finance leadership actively prioritized defending commission revenue over injunction compliance, evidencing how load-bearing this revenue is to internal decision-making",
+    "evidence_type": "legal",
+    "scope_conditions": "N.D. California contempt proceedings, evidentiary hearings 2024-2025",
+    "quoted_support": "To hide the truth, Vice-President of Finance, Alex Roman, outright lied under oath. Internally, Phillip Schiller had advocated that Apple comply with the Injunction, but Tim Cook ignored Schiller and instead allowed Chief Financial Officer Luca Maestri and his finance team to convince him otherwise. Cook chose poorly.",
+    "numbers": [],
+    "entities": ["Apple Inc.", "Alex Roman", "Luca Maestri", "Tim Cook", "Phillip Schiller", "Epic Games Inc."],
+    "time_period": "2024-2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "epic-games-wins-injunction-against-apple-pdf-legal-remedy-injunction"
+  },
+  {
+    "claim": "Effective immediately upon the April 30, 2025 order, Apple was enjoined from imposing any commission or fee on off-app (linked-out) purchases and from otherwise impeding developer-to-consumer communication about alternative purchase options -- a court-ordered, immediate (not phased-in) elimination of commission revenue on that specific purchase flow.",
+    "stance": "supports",
+    "stance_target": "court-compelled remedies on App Store commission can be immediate and severe, contrasting with the multi-year timetables typical of DMA/DOJ regulatory processes",
+    "evidence_type": "legal",
+    "scope_conditions": "Epic Games v. Apple, effective April 30, 2025",
+    "quoted_support": "Effective immediately Apple will no longer impede developers' ability to communicate with users nor will they levy or impose a new commission on off-app purchases.",
+    "numbers": [],
+    "entities": ["Apple Inc.", "Epic Games Inc."],
+    "time_period": "effective April 30, 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "epic-games-wins-injunction-against-apple-pdf-legal-remedy-injunction"
+  },
+  {
+    "claim": "The court referred the matter to the United States Attorney for the Northern District of California to investigate whether criminal contempt proceedings against Apple are appropriate, indicating personal legal exposure risk for Apple executives beyond corporate monetary remedies.",
+    "stance": "neutral",
+    "stance_target": "legal exposure on App Store commission enforcement extends to potential criminal referral, an unusually severe posture for corporate antitrust compliance disputes",
+    "evidence_type": "legal",
+    "scope_conditions": "Epic Games v. Apple, April 30, 2025 order",
+    "quoted_support": "The Court refers the matter to the United States Attorney for the Northern District of California to investigate whether criminal contempt proceedings are appropriate.",
+    "numbers": [],
+    "entities": ["Apple Inc.", "U.S. Attorney for the Northern District of California"],
+    "time_period": "as of April 30, 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "epic-games-wins-injunction-against-apple-pdf-legal-remedy-injunction"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Apple is reportedly paying Google approximately $1 billion annually for access to Gemini AI technology to power the new Siri, under a multi-year, non-exclusive partnership.",
+    "stance": "supports",
+    "stance_target": "Apple is renting rather than building frontier AI capability -- direct evidence for the reader's 'buy capability once inference commoditises' prior, quantified",
+    "evidence_type": "empirical",
+    "scope_conditions": "deal confirmed January 12, 2026; price citation from November 2025 reporting, unconfirmed by either company",
+    "quoted_support": "previous reports indicate Apple could be paying Google around $1 billion for access to its AI technology... The multi-year partnership will involve Apple using Google's Gemini models and cloud technology for future Apple foundational models. The deal is not exclusive, per a source familiar with the matter.",
+    "numbers": ["$1 billion"],
+    "entities": ["Apple", "Google", "Gemini"],
+    "time_period": "January 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "googles-gemini-to-power-apples-ai-features-like-siri-techcrunch"
+  },
+  {
+    "claim": "Between 2021 and 2022, Google paid Apple approximately $38 billion in total to secure default search engine placement -- the exact revenue stream at the center of US v. Google antitrust litigation.",
+    "stance": "supports",
+    "stance_target": "A specific, court-documented, multi-billion-dollar Apple revenue stream is directly tied to an arrangement found illegal by a federal court",
+    "evidence_type": "legal",
+    "scope_conditions": "2021-2022 payments; ruling August 2024",
+    "quoted_support": "In August 2024, a federal judge ruled that Google acted illegally to maintain a monopoly in online search by paying companies like Apple to present its search engine as the default on its devices and web browsers. Between 2021 and 2022, Google paid Apple about $38 billion to secure default search placements.",
+    "numbers": ["$38 billion"],
+    "entities": ["Google", "Apple", "US federal court"],
+    "time_period": "2021-2022 payments; August 2024 ruling",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "googles-gemini-to-power-apples-ai-features-like-siri-techcrunch"
+  },
+  {
+    "claim": "In December 2025, Judge Amit Mehta's final remedies order in US v. Google bans Google from entering exclusive default search agreements 'unless the agreement terminates no more than one year after the date it is entered' -- directly limiting the duration and exclusivity of the Apple-Google search deal within the 2-5 year investment holding window.",
+    "stance": "supports",
+    "stance_target": "A meaningful share of Apple's earnings is now legally constrained by a specific, dated remedies order that a reasonable investor must price into a 2-5 year holding view",
+    "evidence_type": "legal",
+    "scope_conditions": "final remedies issued December 2025, US v. Google search-monopoly case",
+    "quoted_support": "In December 2025, Judge Amit Mehta issued his final remedies on the case, which include banning Google from entering into exclusive, default agreements like the one it had with Apple 'unless the agreement terminates no more than one year after the date it is entered.'",
+    "numbers": ["one year"],
+    "entities": ["Judge Amit Mehta", "Google", "Apple", "US v. Google"],
+    "time_period": "December 2025",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "googles-gemini-to-power-apples-ai-features-like-siri-techcrunch"
+  }
+]

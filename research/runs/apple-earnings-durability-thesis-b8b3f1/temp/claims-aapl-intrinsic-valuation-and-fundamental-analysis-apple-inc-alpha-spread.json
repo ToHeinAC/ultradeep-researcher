@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Alpha Spread's base-case intrinsic value for Apple ($224.17) implies the stock is 33% overvalued relative to the market price ($332.61 as of Sept 11, 2026), derived as an equal blend of a DCF value ($227.25) and a multiples-based value ($221.09).",
+    "stance": "supports",
+    "stance_target": "bear case / valuation-premium-unearned view",
+    "evidence_type": "statistical",
+    "scope_conditions": "as of September 11, 2026",
+    "quoted_support": "\"The intrinsic value for Apple Inc (AAPL) under the Base Case is 224.17 USD. Compared with the current market price of 332.61 USD, the stock appears Overvalued by 33%. Intrinsic value calculated as an equal blend of DCF $227.25 and Multiples $221.09.\"",
+    "numbers": ["$224.17 base-case intrinsic value", "$332.61 market price", "33% overvaluation", "$227.25 DCF value", "$221.09 multiples-based value", "$4.9T market cap"],
+    "entities": ["Apple", "Alpha Spread"],
+    "time_period": "September 11, 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "aapl-intrinsic-valuation-and-fundamental-analysis-apple-inc-alpha-spread"
+  },
+  {
+    "claim": "A structured bear thesis holds that Apple's Services growth faces a monetization ceiling because it depends on active-device growth and is exposed to 'increasingly aggressive regulatory scrutiny' — app-store fees, antitrust cases, and potential mandated third-party app distribution — that could force changes to App Store economics or payment routing.",
+    "stance": "supports",
+    "stance_target": "contingent/regulatory-exposed share of Services earnings is a named structural risk, independent of any single ruling",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "Apple Services segment, ongoing global regulatory environment as of 2026",
+    "quoted_support": "\"Services growth could hit a monetization ceiling inside the ecosystem: While Services... have higher margins, their expansion depends on continued active-device growth and increasingly aggressive regulatory scrutiny (app-store fees, antitrust cases, and potential mandated third-party app distribution). If regulators force changes to App Store economics or third-party payment routing, or if user engagement plateaus, Services revenue growth and margin contribution could fall short of expectations.\"",
+    "numbers": [],
+    "entities": ["Apple", "App Store", "regulators (unspecified antitrust bodies)"],
+    "time_period": "2026, forward-looking",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "aapl-intrinsic-valuation-and-fundamental-analysis-apple-inc-alpha-spread"
+  },
+  {
+    "claim": "Wall Street analysts' average 1-year price target for Apple is $339.15 (range $217.15 to $420), implying only ~2% upside from the $332.61 price as of the valuation date, a materially narrower spread than the DCF-implied 33% overvaluation.",
+    "stance": "neutral",
+    "stance_target": "shows sell-side consensus is far less bearish than the quant DCF/multiples model",
+    "evidence_type": "statistical",
+    "scope_conditions": "September 2026",
+    "quoted_support": "\"According to Wall Street analysts, the average 1-year price target for is 339.15 USD with a low forecast of 217.15 USD and a high forecast of 420 USD.\"",
+    "numbers": ["$339.15 average price target", "$217.15 low target", "$420 high target", "2% implied upside"],
+    "entities": ["Apple", "Wall Street analysts"],
+    "time_period": "September 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "aapl-intrinsic-valuation-and-fundamental-analysis-apple-inc-alpha-spread"
+  }
+]

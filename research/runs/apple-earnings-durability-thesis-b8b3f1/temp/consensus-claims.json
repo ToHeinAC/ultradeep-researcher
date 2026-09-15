@@ -1,0 +1,305 @@
+{
+  "method": "Independent consensus requires the sum of independence scores >= 3.0 across sources, counting each syndication/derivative cluster as ONE voice (hyperresearch sources independence + redundancy-audit.md). Apple's own filings count as ONE issuer voice regardless of how many periods agree, and court opinions as ONE judicial voice. Audited disclosures and operative court findings are therefore listed separately as ground_truth: they are authoritative and may be asserted directly, but they are not multi-source consensus.",
+  "ground_truth": [
+    {
+      "claim": "Apple's Services gross margin is roughly double its Products gross margin, and the gap has widened: FY2023 70.8% vs 36.5%; FY2024 73.9% vs 37.2%; FY2025 75.4% vs 36.8%; Q3 FY2026 75.6% vs 40.1%.",
+      "basis": "Audited 10-K/10-Q/8-K filings (single issuer)",
+      "sources": [
+        "aapl-20230930",
+        "aapl-20240928",
+        "aapl-20250927",
+        "aapl-8k-q3fy2026"
+      ],
+      "assert_as": "fact"
+    },
+    {
+      "claim": "Apple does not separately disclose Google search-placement licensing revenue or App Store commission revenue; both are embedded in the aggregate Services net sales line.",
+      "basis": "Audited absence verified across FY2022-FY2025 10-Ks and FY2026 10-Qs",
+      "sources": [
+        "aapl-20250927",
+        "aapl-20260627",
+        "aapl-20220924"
+      ],
+      "assert_as": "fact"
+    },
+    {
+      "claim": "FY2025 net sales were $416,161M, of which Services $109,158M (26.2%).",
+      "basis": "Audited FY2025 10-K",
+      "sources": [
+        "aapl-20250927"
+      ],
+      "assert_as": "fact"
+    },
+    {
+      "claim": "Google paid Apple approximately $20 billion in 2022 (worldwide) for default search placement, per trial testimony credited by the court.",
+      "basis": "US v. Google liability opinion (Doc. 1033), reaffirmed in remedies opinion (Doc. 1436)",
+      "sources": [
+        "united-states-district-court-3",
+        "united-states-district-court"
+      ],
+      "assert_as": "court finding; state that it is a 2022 worldwide figure"
+    },
+    {
+      "claim": "The US v. Google remedy permits Google to continue paying Apple for default placement, bars exclusive distribution deals, limits agreements to one-year terms, and runs for six years total.",
+      "basis": "US v. Google remedies opinion, Doc. 1436, Sept 2 2025; verified end-to-end by source-analysis",
+      "sources": [
+        "united-states-district-court",
+        "source-analysis-us-v-google-remedies-opinion-doc-1436-sept-2-2025"
+      ],
+      "assert_as": "court finding; note DOJ and Google have both appealed (notices filed Feb 3 2026)"
+    },
+    {
+      "claim": "Since April 30 2025 Apple has been enjoined from charging any commission on US link-out purchases; the court found Apple wilfully violated the 2021 injunction.",
+      "basis": "Epic v. Apple contempt order; confirmed in Apple 10-K; independent press confirmation of no fee collected since",
+      "sources": [
+        "aapl-20250927",
+        "apple-inc-v-epic-games-inc-25-1311-scotusblog",
+        "apples-us-app-store-commission-revenue-down-18-this-year-macrumors",
+        "epic-games-wins-injunction-against-apple-pdf-legal-remedy-injunction",
+        "interim-report-appstore-commission-magnitude-margin-and-scotus-reversal"
+      ],
+      "assert_as": "court finding. CORRECTED: SCOTUS granted cert June 30 2026 (No. 25-1311) on Question 1 only — the civil-contempt procedural standard — explicitly excluding the commission/steering merits. Apple's application to stay the district-court remand (26A194) received a 24-hour administrative stay on Aug 12 2026 and was DENIED by Justice Kagan on Aug 13 2026, so the remand to set a link-out commission rate proceeds unstayed. An earlier version of this entry wrongly said district proceedings were stayed."
+    },
+    {
+      "claim": "The European Commission fined Apple EUR 500 million in April 2025 for breaching DMA Article 5(4) steering obligations and ordered the restrictions removed.",
+      "basis": "European Commission decision",
+      "sources": [
+        "european-commission",
+        "commission-finds-apple-and-meta-in-breach-of-the-digital-markets-act-digital-mar"
+      ],
+      "assert_as": "regulatory finding; the compelled business-model change, not the fine, is the material fact"
+    },
+    {
+      "claim": "Q3 FY2026 gross margin of 50.1% included ~2pp of tariff refunds; ex-refund margin was 48.0% and is guided to a 46.5% ex-refund midpoint in Q4, with memory costs explaining more than 100% of the decline.",
+      "basis": "CFO statements on the Q3 FY2026 earnings call (management commentary)",
+      "sources": [
+        "one-last-time-this-is-tim-final-transcript-of-apples-q3-2026-earnings-call-six-c"
+      ],
+      "assert_as": "management guidance; label as such"
+    },
+    {
+      "claim": "The tariff refunds originate from a Feb 20 2026 Supreme Court ruling striking down certain IEEPA tariffs.",
+      "basis": "Apple Q3 FY2026 10-Q",
+      "sources": [
+        "aapl-20260627",
+        "apple-aapl-q2-2026-earnings-call-transcript-the-motley-fool"
+      ],
+      "assert_as": "fact"
+    },
+    {
+      "claim": "R&D rose ~32-34% YoY in each FY2026 quarter, explicitly including AI investment, while capital expenditure on property, plant and equipment fell YoY in each quarter.",
+      "basis": "Audited FY2026 10-Qs",
+      "sources": [
+        "aapl-20251227",
+        "aapl-20260328",
+        "aapl-20260627"
+      ],
+      "assert_as": "fact"
+    },
+    {
+      "claim": "Apple repurchased ~$61.8B of stock in the first nine months of FY2026, reducing weighted-average diluted shares ~2% YoY; the board authorised an additional $100B in Q2 FY2026.",
+      "basis": "Audited 10-Q and 8-K",
+      "sources": [
+        "aapl-20260627",
+        "aapl-8k-q2fy2026"
+      ],
+      "assert_as": "fact"
+    },
+    {
+      "claim": "Greater China net sales fell from $72,559M (FY2023) to $64,377M (FY2025), then grew 22-38% YoY in each FY2026 quarter, partly on a favourable renminbi.",
+      "basis": "Audited filings",
+      "sources": [
+        "aapl-20250927",
+        "aapl-20260627",
+        "aapl-8k-q1fy2026"
+      ],
+      "assert_as": "fact; carry both halves"
+    },
+    {
+      "claim": "Tim Cook stepped down as CEO on Aug 31 2026; John Ternus (SVP Hardware Engineering) became CEO Sept 1 2026; Cook became executive chairman. No strategy change was announced.",
+      "basis": "Apple announcement and multiple independent reports; audited absence of any stated strategy pivot",
+      "sources": [
+        "apple-ceo-tim-cook-is-stepping-down-john-ternus-set-to-replace-him-abc-news",
+        "john-ternus-is-now-apples-ceo-macrumors"
+      ],
+      "assert_as": "fact; do not infer strategy from Ternus's background"
+    }
+  ],
+  "independent_consensus": [
+    {
+      "claim": "Stablecoins are not displacing card networks in developed-market consumer retail payments within a 2-5 year horizon; their adoption is concentrated in B2B, cross-border and trading, and incumbents are absorbing them as a settlement layer.",
+      "independent_voices": [
+        "Visa (CEO McInerny)",
+        "Mastercard (CEO Miebach)",
+        "Third Bridge expert network",
+        "Chainalysis (2031-2039 parity projection)",
+        "insights4vc"
+      ],
+      "independence_score_estimate": 4.0,
+      "caveat": "Several voices are interested parties (card networks; stablecoin industry). Agreement across OPPOSING interests (incumbents and challengers) strengthens rather than weakens the consensus.",
+      "sources": [
+        "visa-and-mastercard-arent-buying-the-stablecoin-hype-for-everyday-payments",
+        "why-stablecoins-havent-shaken-the-card-networks",
+        "stablecoin-utility-and-the-future-of-payments",
+        "stablecoin-cards-in-2026-insights4vc",
+        "mastercard-and-visa-building-crypto-rails-what-card-network-integration-means-fo"
+      ]
+    },
+    {
+      "claim": "Apple's Siri AI overhaul, unveiled June 2024, has been delayed repeatedly, with features pushed into 2026 and parts to iOS 27.",
+      "independent_voices": [
+        "Apple SVP Federighi (first-party)",
+        "Bloomberg",
+        "CNBC",
+        "TechCrunch"
+      ],
+      "independence_score_estimate": 3.5,
+      "sources": [
+        "apple-reportedly-targets-spring-2026-for-launch-of-delayed-ai-siri-upgrade-but-i",
+        "apple-punted-on-ai-this-year-next-year-will-be-critical",
+        "apples-siri-revamp-reportedly-delayed-again-techcrunch"
+      ]
+    },
+    {
+      "claim": "Apple's AI capital expenditure is a small fraction of the major hyperscalers' — on the order of a few percent of their combined spend — and this gap is sustained over multiple years, not recent.",
+      "independent_voices": [
+        "TradingKey",
+        "valueaddvc tracker",
+        "CNBC",
+        "Apple 10-Qs (capex lines)"
+      ],
+      "independence_score_estimate": 3.0,
+      "caveat": "Treat exact percentages (e.g. 2.2%) as estimates; the direction and order of magnitude are consensus.",
+      "sources": [
+        "660b-capex-bill-triggers-900b-wipeout-why-apple-shares-outperform-amazon-and-goo",
+        "725b-on-ai-where-big-tech-is-spending-in-2026",
+        "apple-punted-on-ai-this-year-next-year-will-be-critical",
+        "aapl-20260627"
+      ]
+    },
+    {
+      "claim": "Final iPhone assembly is shifting from China to India rapidly — India's share of global iPhone assembly roughly 20-23% in 2025 and rising.",
+      "independent_voices": [
+        "Smart Analytics Global",
+        "Bloomberg (via Gulf News)",
+        "AEI (assembly-location dataset)",
+        "Reuters (via Technology Magazine)"
+      ],
+      "independence_score_estimate": 3.0,
+      "sources": [
+        "indias-share-in-global-iphone-assembly-projected-to-reach-28-in-2026",
+        "apple-india-shift-22-billion-iphone-production-diversifies-from-china",
+        "apples-supply-chain-economic-and-geopolitical-implications-american-enterprise-i",
+        "why-is-apple-moving-its-iphone-production-to-india-technology-magazine"
+      ]
+    },
+    {
+      "claim": "Despite assembly moving, much of the component supply chain and manufacturing capability remains China-anchored, making India assembly costlier and value-chain diversification slow.",
+      "independent_voices": [
+        "AEI",
+        "Reuters",
+        "analysts cited by National Herald",
+        "industry reporting on component imports"
+      ],
+      "independence_score_estimate": 3.0,
+      "sources": [
+        "apples-supply-chain-economic-and-geopolitical-implications-american-enterprise-i",
+        "why-is-apple-moving-its-iphone-production-to-india-technology-magazine",
+        "indias-share-in-global-iphone-assembly-projected-to-reach-28-in-2026",
+        "iphone-manufacturing-grows-in-india-as-supply-chains-diversify"
+      ]
+    },
+    {
+      "claim": "China's captured value-added in an iPhone is a minority of the device's value, far below what gross trade statistics imply — estimates range from ~7% (landed-cost basis, iPhone 16) to ~25% (BOM basis, iPhone X).",
+      "independent_voices": [
+        "Xing (peer-reviewed, Frontiers of Economics in China 2020)",
+        "Contractor (Rutgers)",
+        "AEI (~$10 per device assembly cost)"
+      ],
+      "independence_score_estimate": 3.0,
+      "caveat": "The estimates use different denominators; report the range, never pair a numerator from one with a denominator from another.",
+      "sources": [
+        "how-the-iphone-widens-the-us-trade-deficit-with-china-the-case-of-the-iphone-x-c",
+        "misrepresentations-about-international-trade-the-case-of-apples-iphone-globalbus",
+        "apples-supply-chain-economic-and-geopolitical-implications-american-enterprise-i"
+      ]
+    },
+    {
+      "claim": "Memory/DRAM cost inflation is a material margin headwind for smartphone makers including Apple in 2026.",
+      "independent_voices": [
+        "Apple management (Cook, Parekh)",
+        "IDC (DRAM shortage driving record ASPs and a 13.9% shipment decline)",
+        "Jefferies",
+        "iPhone 16 component teardown (TD Cowen)"
+      ],
+      "independence_score_estimate": 3.5,
+      "caveat": "Existence is consensus; MAGNITUDE and persistence are contested (Kuo argues overstated).",
+      "sources": [
+        "one-last-time-this-is-tim-final-transcript-of-apples-q3-2026-earnings-call-six-c",
+        "iphone-statistics-2026-revenue-market-share-and-the-replacement-cycle-axis-intel",
+        "opinion-wall-streets-new-apple-bear-case-is-dead-wrong-247-wall-st",
+        "iphone-16-series-teardown-shows-increased-costs-in-certain-components"
+      ]
+    },
+    {
+      "claim": "Firms with high payout, high profitability and low investment have short cash-flow duration, and duration measurably conditions sensitivity to discount-rate shocks.",
+      "independent_voices": [
+        "Gormsen & Lazarus (JF 2023)",
+        "Dechow, Erhard, Sloan & Soliman (JAR 2021)",
+        "Lettau & Wachter (JF 2007)"
+      ],
+      "independence_score_estimate": 3.0,
+      "sources": [
+        "duration-driven-returns",
+        "doi-1011111475-679x12348",
+        "why-is-longhorizon-equity-less-risky-a-durationbased-explanation-of-the-value-pr"
+      ]
+    },
+    {
+      "claim": "The iPhone replacement cycle lengthened materially between 2020 and 2025.",
+      "independent_voices": [
+        "Assurant trade-in data",
+        "CIRP buyer survey",
+        "Counterpoint global cycle data"
+      ],
+      "independence_score_estimate": 3.0,
+      "caveat": "Exact cycle length is definition-dependent (2.84y vs 3.84y); a recent plateau is visible. Assert the lengthening, not a point figure.",
+      "sources": [
+        "how-often-do-people-upgrade-their-phone-2026-statistics",
+        "how-long-do-people-keep-iphones-2026-upgrade-data",
+        "iphone-statistics-2026-revenue-market-share-and-the-replacement-cycle-axis-intel"
+      ]
+    },
+    {
+      "claim": "Flows move equity prices far more than efficient-market models predict (the multiplier is of order unity, not near zero).",
+      "independent_voices": [
+        "Gabaix & Koijen",
+        "Bouchaud (reinterpretation agrees on order of magnitude)",
+        "Koijen et al. demand-system work"
+      ],
+      "independence_score_estimate": 2.5,
+      "caveat": "BELOW threshold (2.5). Magnitude, mechanism and stock-level applicability are contested — see contradiction cluster passive-flow-multiplier-magnitude. Do NOT assert confidently; present as well-supported but contested.",
+      "sources": [
+        "in-search-of-the-origins-of-financial-fluctuations-the-inelastic-markets-hypothe",
+        "the-inelastic-market-hypothesis"
+      ]
+    }
+  ],
+  "not_consensus_despite_appearances": [
+    {
+      "claim": "Choice screens under the DMA produced large browser switching ('113% more Firefox users').",
+      "why": "Single upstream study (NBER w35112) restated by an interested party (Mozilla), which misreported the figures. The study's own numbers are 91% (iOS) and 13% (Android), gains decayed, and Safari's losses went mostly to Chrome."
+    },
+    {
+      "claim": "Apple receives >$25B/yr from Google at 95% margins.",
+      "why": "Single Morgan Stanley estimate restated in two notes. Use the court's ~$20B (2022) as the anchor."
+    },
+    {
+      "claim": "Apple is a crowded factor holding.",
+      "why": "Audited absence: no source names Apple or the Magnificent 7 in crowding or unwind metrics."
+    }
+  ],
+  "corrections_log": [
+    "2026-09-14: link-out ground_truth corrected — SCOTUS stay application 26A194 DENIED Aug 13 2026 (primary: SCOTUSblog docket); remand not stayed."
+  ]
+}

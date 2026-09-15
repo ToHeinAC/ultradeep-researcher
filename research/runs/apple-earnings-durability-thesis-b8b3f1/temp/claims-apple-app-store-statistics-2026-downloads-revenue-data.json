@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Despite the DMA requiring Apple to permit alternative app stores in the EU since March 2024, EU alternative-marketplace adoption remains below 3% as of 2025, indicating structural (multi-store) DMA remedies have had far less practical effect than anti-steering/external-payment-link remedies.",
+    "stance": "refutes",
+    "stance_target": "DMA structural remedies (competing app stores) meaningfully erode Apple's commission base in the near term",
+    "evidence_type": "statistical",
+    "scope_conditions": "European Union, 2025",
+    "quoted_support": "Despite the DMA requiring Apple to allow alternative app stores in the EU since March 2024, EU alternative marketplace adoption rates remain below 3% as of 2025.",
+    "numbers": ["<3% EU alternative marketplace adoption (2025)"],
+    "entities": ["Apple", "European Commission", "DMA"],
+    "time_period": "March 2024-2025",
+    "region": "European Union",
+    "confidence": "low",
+    "source_note_id": "apple-app-store-statistics-2026-downloads-revenue-data"
+  },
+  {
+    "claim": "Per Apple's own November 2025 analysis, 88% of EU developers pay no Apple commission at all and 75% are enrolled in the Small Business Program with reduced (15%) rates -- a self-reported figure suggesting the commissionable developer base in the EU is already concentrated in a minority of larger developers.",
+    "stance": "neutral",
+    "stance_target": "Concentration of commissionable revenue among a small share of developers",
+    "evidence_type": "empirical",
+    "scope_conditions": "European Union, per Apple self-report, November 2025",
+    "quoted_support": "88% of EU developers pay no Apple commission at all, and 75% are enrolled in the Small Business Program with reduced rates, per Apple's own November 2025 analysis.",
+    "numbers": ["88% of EU developers pay no commission", "75% enrolled in Small Business Program (15% rate)"],
+    "entities": ["Apple"],
+    "time_period": "November 2025",
+    "region": "European Union",
+    "confidence": "low",
+    "source_note_id": "apple-app-store-statistics-2026-downloads-revenue-data"
+  },
+  {
+    "claim": "Following the April 2025 Epic v. Apple contempt ruling, US developers can link to external payments at 0% Apple commission -- the first time no-commission external linking has been available on iOS in the US -- while consumer spending on iOS overall reached $117.6 billion in 2025 (+13.6% YoY).",
+    "stance": "supports",
+    "stance_target": "A real, already-implemented court-ordered channel exists in the US for commission-free digital purchases",
+    "evidence_type": "empirical",
+    "scope_conditions": "United States, effective 2025",
+    "quoted_support": "Following the April 2025 contempt ruling in Epic v. Apple, US developers can link to external payments at 0% Apple commission -- the first time no-commission external linking has been available on iOS in the US.",
+    "numbers": ["$117.6 billion iOS consumer spending 2025", "+13.6% YoY", "0% commission on qualifying US external links"],
+    "entities": ["Apple", "Epic Games"],
+    "time_period": "2025",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "apple-app-store-statistics-2026-downloads-revenue-data"
+  }
+]

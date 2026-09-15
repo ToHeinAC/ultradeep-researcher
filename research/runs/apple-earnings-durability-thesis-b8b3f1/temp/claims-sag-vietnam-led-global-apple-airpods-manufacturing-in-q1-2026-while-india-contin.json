@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Vietnam's share of global Apple AirPods TWS assembly rose from 51% in 2024 to 64% in 2025, then eased to 62% in Q1 2026 as India gained share.",
+    "stance": "neutral",
+    "stance_target": "speed of manufacturing diversification away from China",
+    "evidence_type": "statistical",
+    "scope_conditions": "AirPods TWS product category only, country-level assembly share",
+    "quoted_support": "In 2025, Vietnam's share of global AirPods manufacturing increased from 51% in 2024 to 64% in 2025. However, in Q1 2026, the country lost some share to India manufacturing.",
+    "numbers": ["51% (2024)", "64% (2025)", "62% (Q1 2026)"],
+    "entities": ["Apple", "Vietnam", "AirPods", "Luxshare ICT", "Goertek"],
+    "time_period": "2024-Q1 2026",
+    "region": "Vietnam",
+    "confidence": "medium",
+    "source_note_id": "sag-vietnam-led-global-apple-airpods-manufacturing-in-q1-2026-while-india-contin"
+  },
+  {
+    "claim": "China's share of global AirPods assembly fell from 49% in 2024 to 35% in 2025 and 34% in Q1 2026, even as China retains dominance in AirPods component/rare-earth supply (dysprosium, neodymium magnets).",
+    "stance": "supports",
+    "stance_target": "manufacturing diversification away from China is real but component-level dependence persists",
+    "evidence_type": "statistical",
+    "scope_conditions": "AirPods TWS assembly share; China retains upstream component dominance",
+    "quoted_support": "China's assembly share declined from 49% in 2024 to 35% in 2025 and further to 34% in Q1 2026... The country still continues to dominate in terms of component ecosystem and rare earth material supply.",
+    "numbers": ["49% (2024)", "35% (2025)", "34% (Q1 2026)"],
+    "entities": ["Apple", "China", "AirPods", "dysprosium", "neodymium"],
+    "time_period": "2024-Q1 2026",
+    "region": "China",
+    "confidence": "medium",
+    "source_note_id": "sag-vietnam-led-global-apple-airpods-manufacturing-in-q1-2026-while-india-contin"
+  },
+  {
+    "claim": "India's share of global AirPods assembly grew from 1% in 2025 to 4% in Q1 2026, run through Foxconn Hyderabad with limited assembly lines but expanding.",
+    "stance": "neutral",
+    "stance_target": "India diversification pace",
+    "evidence_type": "statistical",
+    "scope_conditions": "AirPods only, early-stage India ramp",
+    "quoted_support": "Apple AirPods TWS manufacturing in India reached 4% of global shipments in Q1 2026, up from 1% in 2025... Foxconn Hyderabad remains the key manufacturing partner with limited assembly lines.",
+    "numbers": ["1% (2025)", "4% (Q1 2026)"],
+    "entities": ["Apple", "India", "Foxconn Hyderabad", "Telangana Government"],
+    "time_period": "2025-Q1 2026",
+    "region": "India",
+    "confidence": "medium",
+    "source_note_id": "sag-vietnam-led-global-apple-airpods-manufacturing-in-q1-2026-while-india-contin"
+  }
+]

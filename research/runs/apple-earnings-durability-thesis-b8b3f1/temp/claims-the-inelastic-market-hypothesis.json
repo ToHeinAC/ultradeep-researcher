@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Bouchaud's Liquidity Theory reinterpretation agrees the flow multiplier is of order unity rather than near zero — confirming markets are far less elastic than efficient-market models imply — but attributes this to price-impact/liquidity dynamics rather than inelastic investor demand.",
+    "stance": "neutral",
+    "stance_target": "Mechanism behind the inelastic-markets flow multiplier (inelastic demand vs liquidity price impact)",
+    "evidence_type": "theoretical",
+    "scope_conditions": ["reinterpretation of Gabaix-Koijen", "agrees on order of magnitude, disputes mechanism"],
+    "quoted_support": "Our central result is that M is of order unity, as found by GK, and increases with the volatility",
+    "numbers": ["M of order unity"],
+    "entities": ["Bouchaud", "Gabaix", "Koijen", "Liquidity Theory"],
+    "time_period": "",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "the-inelastic-market-hypothesis"
+  },
+  {
+    "claim": "At a roughly monthly horizon the Liquidity Theory yields a multiplier near 1, materially lower than Gabaix-Koijen's working figure of 5, and the multiplier is not meaningful at horizons much shorter than the market's memory time.",
+    "stance": "refutes",
+    "stance_target": "Gabaix-Koijen's aggregate multiplier of ~5 applies directly to horizon-specific valuation effects",
+    "evidence_type": "theoretical",
+    "scope_conditions": ["horizon-dependent", "Tm of about 20 trading days"],
+    "quoted_support": "So choosing Tm = 20 (corresponding to a month of trading) seems reasonable and yields M ≈1,",
+    "numbers": ["M ≈1", "Tm = 20", "5"],
+    "entities": ["Bouchaud", "Gabaix", "Koijen"],
+    "time_period": "",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "the-inelastic-market-hypothesis"
+  },
+  {
+    "claim": "The Liquidity Theory predicts the flow multiplier varies across stocks in proportion to volatility divided by trading volume, so highly liquid, high-volume stocks should have relatively smaller multipliers — implying flow-driven valuation support is weaker for the most heavily traded mega-caps than the aggregate estimate suggests.",
+    "stance": "refutes",
+    "stance_target": "Passive flows support the valuation of the most liquid mega-caps (such as Apple) as strongly as the aggregate-market multiplier implies",
+    "evidence_type": "theoretical",
+    "scope_conditions": ["stock-level cross-section", "model prediction, not a direct Apple estimate"],
+    "quoted_support": "we predict that the multiplier M is proportional to σ1M/V1",
+    "numbers": [],
+    "entities": ["Bouchaud", "Liquidity Theory"],
+    "time_period": "",
+    "region": "",
+    "confidence": "medium",
+    "source_note_id": "the-inelastic-market-hypothesis"
+  }
+]

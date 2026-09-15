@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "During the 2007-09 financial crisis, US industrial companies cut back repurchases sharply but continued to pay dividends, with dividend payout ratios largely unaffected by the crisis; dividends and repurchases both rebounded strongly by 2010.",
+    "stance": "supports",
+    "stance_target": "the query's claim that buybacks are pro-cyclical and shrink when cash flow weakens, while dividends are sticky",
+    "evidence_type": "empirical",
+    "scope_conditions": "US industrial firms, 2007-2010",
+    "quoted_support": "During the crisis industrials cut back repurchases sharply but continued to pay dividends, with payout ratios largely unaffected by the crisis. Dividends and repurchases rebound strongly in 2010.",
+    "numbers": [],
+    "entities": ["Floyd", "Li", "Skinner", "US industrials"],
+    "time_period": "2007-2010",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "payout-policy-through-the-financial-crisis"
+  },
+  {
+    "claim": "In 2007, at the peak of the pre-crisis payout boom, US industrial firms as a group paid out 90% of aggregate earnings via combined dividends and repurchases.",
+    "stance": "neutral",
+    "stance_target": "sustainability of aggregate payout levels prior to a downturn",
+    "evidence_type": "empirical",
+    "scope_conditions": "US industrial firms, 2007",
+    "quoted_support": "This trend fueled the explosive growth of payouts through 2007, when industrials paid out 90% of aggregate earnings.",
+    "numbers": ["90%"],
+    "entities": ["US industrials"],
+    "time_period": "2007",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "payout-policy-through-the-financial-crisis"
+  },
+  {
+    "claim": "Unlike industrials, US financial firms cut back dividends aggressively as the 2007-09 crisis took hold, despite an initial reluctance to cut dividends even among TARP-recipient banks -- financials' dividend behavior during the crisis was less resilient than industrials'.",
+    "stance": "neutral",
+    "stance_target": "whether dividend stickiness through downturns generalizes across sectors (it does not for financials)",
+    "evidence_type": "empirical",
+    "scope_conditions": "US financial firms including TARP recipients, 2007-2009",
+    "quoted_support": "Financials cut back dividends aggressively as the crisis takes hold, although they too evidence a reluctance to cut dividends at the beginning of the crisis, including for the TARP banks.",
+    "numbers": [],
+    "entities": ["TARP banks", "US financials"],
+    "time_period": "2007-2009",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "payout-policy-through-the-financial-crisis"
+  },
+  {
+    "claim": "The authors find no evidence that the 2003 Tax Relief Act (which eliminated the tax disadvantage of dividends relative to capital gains) shifted the mix of payouts toward dividends; if anything the mix shifted further toward repurchases, and payout ratios did not rise -- inconsistent with taxes having a first-order effect on payout policy.",
+    "stance": "refutes",
+    "stance_target": "tax-based explanations for dividend versus repurchase choice",
+    "evidence_type": "empirical",
+    "scope_conditions": "US firms, post-2003",
+    "quoted_support": "In the years after the Tax Relief Act there is no evidence of a shift in the mix of dividends and repurchases towards dividends—if anything, the reverse is true. Nor is there evidence of an increase in dividend payout ratios.",
+    "numbers": [],
+    "entities": ["Tax Relief Act of 2003"],
+    "time_period": "post-2003",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "payout-policy-through-the-financial-crisis"
+  }
+]

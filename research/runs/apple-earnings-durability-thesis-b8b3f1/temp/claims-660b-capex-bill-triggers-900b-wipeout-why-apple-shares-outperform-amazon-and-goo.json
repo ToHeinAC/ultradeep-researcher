@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Combined 2026 capex guidance from Amazon, Google, Microsoft and Meta reached about $660 billion, up from $410 billion in 2025 and $245 billion in 2024, per TradingKey's framing (note: figure basis appears to differ from the $725B figure reported elsewhere; treat as a lower-confidence secondary aggregation).",
+    "stance": "neutral",
+    "stance_target": "Verifying the reader's cited $725B/$410B/77% capex figures",
+    "evidence_type": "statistical",
+    "scope_conditions": "as reported early February 2026, low-authority secondary source",
+    "quoted_support": "Meta along with the three aforementioned companies, is projected to reach a combined 2026 capital expenditure of $660 billion—significantly higher than $410 billion in 2025 and $245 billion in 2024, and even exceeding Israel's GDP.",
+    "numbers": ["$660 billion", "$410 billion", "$245 billion"],
+    "entities": ["Amazon", "Google", "Microsoft", "Meta"],
+    "time_period": "2024-2026",
+    "region": "global",
+    "confidence": "low",
+    "source_note_id": "660b-capex-bill-triggers-900b-wipeout-why-apple-shares-outperform-amazon-and-goo"
+  },
+  {
+    "claim": "Following early February 2026 earnings, Amazon, Google and Microsoft lost a combined ~$900 billion in market value in one week over AI capex/ROI concerns, while Apple shares rose ~7% on the same window due to its comparatively minimal capex.",
+    "stance": "supports",
+    "stance_target": "Markets are currently rewarding Apple's capital discipline over hyperscaler capex intensity — relevant to the 2-5 year holding thesis",
+    "evidence_type": "empirical",
+    "scope_conditions": "week of early February 2026",
+    "quoted_support": "Over the past week, Amazon, ... Google ... and Microsoft ... all experienced varying degrees of investor sell-offs after their earnings reports, with a total of $900 billion in market value wiped out... Apple ... had recently fallen out of favor, having risen nearly 7% since the release of its earnings report on January 29.",
+    "numbers": ["$900 billion", "7%", "12%", "$430 billion"],
+    "entities": ["Amazon", "Google", "Microsoft", "Apple"],
+    "time_period": "February 2026",
+    "region": "United States",
+    "confidence": "medium",
+    "source_note_id": "660b-capex-bill-triggers-900b-wipeout-why-apple-shares-outperform-amazon-and-goo"
+  },
+  {
+    "claim": "Apple's Q4 2025 capex fell 17% quarter-over-quarter to $2.4 billion, with full-year 2025 capex of approximately $12 billion and 2026 guidance of approximately $14 billion — described as 'less than one-tenth of Google's.'",
+    "stance": "neutral",
+    "stance_target": "Precise scale of Apple capex versus Google",
+    "evidence_type": "statistical",
+    "scope_conditions": "Q4 2025 and FY2025/2026",
+    "quoted_support": "Apple's capital expenditures for Q4 2025 dropped 17% to just $2.4 billion, totaling approximately $12 billion for the full year; its 2026 capex forecast is only about $14 billion, less than one-tenth of Google's.",
+    "numbers": ["17%", "$2.4 billion", "$12 billion", "$14 billion"],
+    "entities": ["Apple", "Google"],
+    "time_period": "Q4 2025 / FY2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "660b-capex-bill-triggers-900b-wipeout-why-apple-shares-outperform-amazon-and-goo"
+  },
+  {
+    "claim": "Analysts (AllianceBernstein, Wells Fargo, Deutsche Bank) describe a market-sentiment shift in early 2026 from rewarding AI capex growth to demanding demonstrable ROI, favoring companies like Apple that show capital discipline.",
+    "stance": "neutral",
+    "stance_target": "Whether current market reward for Apple's low-capex stance is durable evidence for a 2-5 year thesis, or a short-term sentiment swing",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "February 2026",
+    "quoted_support": "Chris Maxey ... stated that companies can no longer be rewarded by the market for merely beating estimates by 1% to 2% and increasing capital expenditures. They must demonstrate accelerating growth and exceed targets by a significant margin.",
+    "numbers": [],
+    "entities": ["Chris Maxey", "Wealthspire", "Darrell Cronk", "Wells Fargo", "Deutsche Bank"],
+    "time_period": "February 2026",
+    "region": "global",
+    "confidence": "low",
+    "source_note_id": "660b-capex-bill-triggers-900b-wipeout-why-apple-shares-outperform-amazon-and-goo"
+  }
+]

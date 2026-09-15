@@ -1,0 +1,99 @@
+{
+  "sub_questions": [
+    "What fraction of Apple's earnings falls into each durability class (annuity-like / cyclical / contingent / binary)? Quantify with ranges and state the estimation method where disclosure is absent.",
+    "Google TAC: what remedy can a court actually compel, on what timetable, and what would the arrangement be worth under each plausible remedy design?",
+    "Is late-follower status in AI currently an advantage — capital-allocation efficiency versus the risk that AI relocates the user interface away from the device?",
+    "Are Apple Pay and App Store commissions genuinely exposed to near-term disruption from crypto/AI payment rails, with adoption evidence and a 2-5 year timetable?",
+    "How much of Apple's valuation multiple is earned versus passive-flow and quality-factor artefact?",
+    "Is ecosystem lock-in structural, or switching-cost inertia that regulation can unwind, using EU DMA markets as the natural experiment?",
+    "What services CAGR is required to hold total growth flat as hardware matures, and is that rate historically plausible?",
+    "Over 2-5 years specifically, does multiple change dominate fundamental change for mega-caps?",
+    "Does an AI-driven upgrade supercycle plausibly reset the iPhone replacement cycle, or is cycle lengthening structural?",
+    "How much of Apple's gross margin is attributable to owning silicon, versus competitors buying merchant silicon?",
+    "Falsification test: does the durability-decomposed blended multiple diverge materially from the headline P/E? If not, the frame adds nothing and the conventional view stands.",
+    "What is Apple's supply-chain and geopolitical exposure (China demand and manufacturing, India/Vietnam diversification, tariffs) over the 2-5 year window?",
+    "What regulatory and legal exposure exists beyond Google TAC (DOJ antitrust, EU DMA, App Store rulings), and what is each worth in earnings terms?",
+    "How much do buybacks and capital returns contribute to 2-5 year total return, and is that contribution durable given its pro-cyclical nature?",
+    "How sensitive is Apple's valuation to discount-rate changes given the duration of its cash flows?"
+  ],
+  "entities": [
+    {"name": "Apple Inc. (AAPL)", "type": "company", "required_fields": ["earnings by durability class", "valuation multiple", "gross margin", "capital returns"]},
+    {"name": "Google / Alphabet", "type": "company", "required_fields": ["TAC payment to Apple", "remedy exposure", "alternative bidders"]},
+    {"name": "Google TAC (search-placement fee)", "type": "revenue-line", "required_fields": ["magnitude", "margin character", "legal status", "remedy scenarios"]},
+    {"name": "App Store commissions", "type": "revenue-line", "required_fields": ["magnitude", "regulatory attack surface", "DMA and Epic effects"]},
+    {"name": "Apple Pay", "type": "product", "required_fields": ["revenue contribution", "disruption exposure"]},
+    {"name": "Apple Intelligence / AI strategy", "type": "product", "required_fields": ["capex", "execution", "late-follower thesis"]},
+    {"name": "Apple Silicon", "type": "technology", "required_fields": ["margin attribution", "differentiation"]},
+    {"name": "iPhone", "type": "product", "required_fields": ["units", "ASP", "replacement cycle"]},
+    {"name": "Services segment", "type": "segment", "required_fields": ["growth rate", "composition", "required CAGR"]},
+    {"name": "EU Digital Markets Act (DMA)", "type": "regulation", "required_fields": ["compliance obligations", "natural-experiment evidence"]},
+    {"name": "DOJ antitrust actions (US v. Apple; US v. Google)", "type": "litigation", "required_fields": ["remedy design", "timetable"]},
+    {"name": "Epic v. Apple", "type": "litigation", "required_fields": ["injunction effects on commissions"]},
+    {"name": "China", "type": "geography", "required_fields": ["demand exposure", "manufacturing exposure"]},
+    {"name": "India / Vietnam", "type": "geography", "required_fields": ["diversification capacity", "capex-to-output lead times"]},
+    {"name": "Crypto / AI payment rails", "type": "category", "required_fields": ["adoption evidence", "2-5y timetable"]},
+    {"name": "Annuity-like earnings", "type": "durability-class", "required_fields": ["contents", "share of earnings", "valuation treatment"]},
+    {"name": "Cyclical earnings", "type": "durability-class", "required_fields": ["contents", "share of earnings", "valuation treatment"]},
+    {"name": "Contingent earnings", "type": "durability-class", "required_fields": ["contents", "share of earnings", "valuation treatment"]},
+    {"name": "Binary earnings", "type": "durability-class", "required_fields": ["contents", "share of earnings", "valuation treatment"]}
+  ],
+  "required_formats": [
+    "Earnings decomposition table by durability class, with quantified ranges and the estimation method stated wherever Apple does not disclose the line separately",
+    "Multiple decomposition presented as a range with stated method, not a point estimate",
+    "Explicit list of binary events with magnitude and timing",
+    "Required-services-CAGR calculation showing what services growth must deliver to hold total growth flat as hardware matures",
+    "Falsification test result: durability-implied blended multiple versus headline P/E",
+    "Barrier classification table (real barrier versus convention) where methodology is contested"
+  ],
+  "required_sections": [
+    "Verdict section committing to a position on whether the headline multiple is misleading"
+  ],
+  "required_section_headings": [
+    "## 1. Ertragsdekomposition nach Dauerhaftigkeitsklassen",
+    "## 2. Falsifikationstest: impliziter Blended Multiple vs. Headline-P/E",
+    "## 3. Dekomposition des Bewertungsmultiplikators: verdient vs. Flow-Artefakt",
+    "## 4. Binäre und kontingente Ereignisse: Google TAC, App Store, DMA",
+    "## 5. Prüfung der Leserannahme I — Late-Follower-Status als Vorteil in der KI",
+    "## 6. Prüfung der Leserannahme II — Disruption des Zahlungsgeschäfts",
+    "## 7. Ökosystem-Lock-in, Lieferkette und geopolitische Exposition",
+    "## 8. Verdikt für den 2–5-Jahres-Horizont"
+  ],
+  "time_horizons": [
+    "2-5 years forward (2026-2031)",
+    "trailing 3-5 fiscal years for trend establishment"
+  ],
+  "time_periods": [
+    {"period": "FY 2025", "type": "fiscal-year", "primary_source": "Form 10-K for the fiscal year ended late September 2025", "issuer": "Apple Inc."},
+    {"period": "FY 2024", "type": "fiscal-year", "primary_source": "Form 10-K for the fiscal year ended late September 2024", "issuer": "Apple Inc."},
+    {"period": "FY 2023", "type": "fiscal-year", "primary_source": "Form 10-K for the fiscal year ended late September 2023 (trend baseline)", "issuer": "Apple Inc."},
+    {"period": "Q3 FY 2026", "type": "fiscal-quarter", "primary_source": "Most recent Form 10-Q, quarter ended approximately June 2026", "issuer": "Apple Inc."},
+    {"period": "Q2 FY 2026", "type": "fiscal-quarter", "primary_source": "Form 10-Q, quarter ended approximately March 2026", "issuer": "Apple Inc."},
+    {"period": "US v. Google search remedies phase", "type": "event-anchored", "primary_source": "District court remedies opinion and any subsequent appellate filings", "issuer": "US District Court for the District of Columbia / DOJ"},
+    {"period": "US v. Apple antitrust complaint and docket", "type": "event-anchored", "primary_source": "DOJ complaint and subsequent motions", "issuer": "US Department of Justice"},
+    {"period": "EU DMA compliance period, March 2024 onward", "type": "event-anchored", "primary_source": "European Commission DMA compliance decisions, specification proceedings and non-compliance findings concerning Apple", "issuer": "European Commission"},
+    {"period": "Epic v. Apple injunction and contempt proceedings", "type": "event-anchored", "primary_source": "Court orders governing anti-steering and external purchase links", "issuer": "US District Court for the Northern District of California"}
+  ],
+  "scope_conditions": [
+    "Equity-holder perspective over a 2-5 year holding horizon; no trade is attached and no buy/sell/hold recommendation is produced",
+    "Primary sources (10-K/10-Q filings, court records, regulatory documents) weighted over analyst commentary",
+    "Price targets and quarterly earnings estimates are out of scope",
+    "Peer-multiple comparison is explicitly rejected as a valuation anchor: it imports another company's durability mix",
+    "Personalised investment advice is out of scope",
+    "The Google search-placement fee (TAC) must be analysed strictly separately from Apple's payments business; conflating them is a named failure condition",
+    "Where credible sources disagree the report must adjudicate and commit, with reasoning; an even-handed survey is a failed report",
+    "Report body written in German; sources read in any language; quotations translated with the English original alongside"
+  ],
+  "pipeline_tier": "full",
+  "response_format": "argumentative",
+  "citation_style": "inline",
+  "levers": {
+    "register": "analyze",
+    "register_confidence": "high",
+    "domain_notes": "Sourcing is primary-document-first, not literature-first: Apple 10-K/10-Q filings via SEC EDGAR, court records from US v. Google (search remedies), US v. Apple, Epic v. Apple, and European Commission DMA decisions carry more weight than any analyst note. The query explicitly rejects the sell-side product-segment frame, so commentary organised that way is background at best. FRED supplies rate and macro series for the discount-rate and duration arguments; academic sources (OpenAlex, SSRN working papers) are the right route for passive-flow and quality-factor evidence, where peer-reviewed factor literature outranks practitioner assertion. Recency window: financial figures within the last four reported quarters, legal and regulatory developments within the last 18 months, factor and market-structure literature may be older where the mechanism is stable. Disclosed and court-surfaced figures outrank estimates; where Apple does not disclose a line separately (Google TAC, App Store commissions), state the estimation method and give a range rather than a false point estimate.",
+    "inference_depth": "deep",
+    "rationale": {
+      "register": "The query asks which of the bull and bear cases the evidence actually favours and demands explicit adjudication of contested points — evaluation-shaped. It stops short of advocate because it forbids a buy/sell/hold recommendation and attaches no course of action.",
+      "inference_depth": "The central question requires inference over absences: Apple deliberately does not disclose Google TAC or App Store commission revenue separately, so the durability decomposition must be reconstructed from court-surfaced discovery figures, regulatory filings and gray literature. That is the defining condition for deep."
+    }
+  }
+}

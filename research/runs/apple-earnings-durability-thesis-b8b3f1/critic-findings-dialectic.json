@@ -1,0 +1,89 @@
+{
+  "critic_type": "dialectic",
+  "findings": [
+    {
+      "severity": "critical",
+      "location": "Abschnitt 2.2 / 2.3, nach der Tabelle mit den differenzierten Abschlaegen - 'Das Raster uebersteht die Falsifikation ueber die gesamte Spanne; die Abweichung ist material, aber kleiner als im pauschalen Test.'",
+      "issue": "The draft declares its own falsification test PASSED without engaging the strongest objection to that verdict: the 1.5-4.1 multiple-point adjustment is no larger than the uncertainty band of its own inputs (commission revenue is a vendor estimate spanning 22-31 Mrd. $, TAC a modeled band of 21.9-29.0 Mrd. $, the 85 % margin ceiling an admitted assumption, and every haircut a 'gekennzeichnete Annahme'). The brief's own test says: if the differentiated multiple does not diverge MATERIALLY from the headline P/E, the frame adds nothing. A reader must be able to argue that the frame failed its own test because the signal sits inside the estimation error.",
+      "evidence": "interim-report-appstore-commission-magnitude-margin-and-scotus-reversal (revenue bounded only by two commercial estimators; margin figure contested); corpus-critic-gaps.json cc-1 and cc-5 (TAC constant-share assumption and vendor-only commission figures flagged as the load-bearing unverified inputs); query.md 'Cheapest prototype test' paragraph.",
+      "recommendation": "Insert a short counter-paragraph right after the differentiated-haircut table stating the objection explicitly - the adjustment is of the same order as the input uncertainty - and then adjudicate it. The defensible answer is already in the draft: the frame's value is the sign-consistency across the whole low/central/high grid plus the qualitative label inversion (1.4) and the inverse hardware test (2.3), neither of which depends on the exact dollar bands. Commit; do not hedge."
+    },
+    {
+      "severity": "critical",
+      "location": "Abschnitt 2.3 'Der inverse Test: Was zahlt der Markt fuer Hardware?' - 'Das Headline-KGV bewertet zyklische Hardware-Ertraege mindestens so dauerhaft wie den Konzerndurchschnitt.'",
+      "issue": "The inverse test, which carries the draft's headline verdict about the larger unearned part of the premium, rests on the unstated premise that the four durability classes are SEPARABLE streams each able to carry a stand-alone multiple. The strongest bull framing is joint production: hardware gross profit is the price of acquiring and holding the installed base that generates the annuity, TAC and commissions, so valuing the hardware slice at a stand-alone cyclical multiple double-counts the asset the services multiple already capitalises. The draft never names this alternative framing, although section 7.1 supplies its mechanism.",
+      "evidence": "interim-report-lockin-durability-preference-vs-ai-interface (loyalty as the asset underneath interface-dependent revenue); comparisons.md Tensions 1 and 3 (hardware and the services cushion treated as coupled); query.md Phase-3 table, whose per-class valuation treatment is itself the assumption under test.",
+      "recommendation": "Add 3-5 sentences in 2.3 naming the joint-production objection (Hardware-Bruttogewinn as the price of the installed base on which the rents are collected; a separate cyclical multiple would double-count) and rule on it. Supported rebuttal: joint production would justify one blended multiple only if the joint output were durable, but the rent layer is exactly the part being repriced - so the objection strengthens rather than rescues the conclusion. Keep the verdict, earn it."
+    },
+    {
+      "severity": "major",
+      "location": "Abschnitt 1.2, Absatz 'App-Store-Kommissionen: nur Anbieterschaetzungen' - 'die Obergrenze von 85 % ist eine Annahme, hoehere kursierende Werte sind weder gerichtlich festgestellt noch Bruttomargen'",
+      "issue": "The draft dismisses the widely circulated 78 % / 79.6 % App Store margin figure without naming it or its provenance, and the dismissal overstates: those figures ARE court testimony (Epic's expert Ned Barnes, FY2018-2019, Epic v. Apple trial), although the court declined to adopt them and they are operating, not gross, margins. Readers who have met the '78 % App Store margin' headline get no way to reconcile it with the draft's 75.4-85 % band.",
+      "evidence": "apple-runs-app-store-with-78-profit-margin-according-to-court-testimony-9to5mac; interim-report-appstore-commission-magnitude-margin-and-scotus-reversal (instruction: cite Barnes 78-79.6 % only as a labelled, contested, stale operating-margin upper reference the court declined to adopt; never use ~90 %).",
+      "recommendation": "Replace the vague dismissal with a named, sourced one: state the Barnes 78-79.6 % figures, their year, that they are an adversary expert's OPERATING margin from litigation testimony which the court did not adopt as fact, and that they are therefore carried as a labelled upper reference rather than a model input. Keep 75.4 % as evidenced floor and 85 % as labelled assumption."
+    },
+    {
+      "severity": "major",
+      "location": "Abschnitt 4.3, Festlegung 'Die Erosion ist in der Richtung dauerhaft' - und die Zeile 'robust (In-App-Checkout bleibt)' in der Tabelle 8.1",
+      "issue": "The strongest counter-datum bounding commission erosion - EU alternative-marketplace/alternative-payment adoption below 3 % since March 2024 despite being legally permitted - is in the corpus and is named by the App Store investigator as the load-bearing point for demand-side stickiness, yet it appears nowhere in the draft. Demand-side robustness is instead asserted from a nominal App Store revenue record, which section 2.4 itself debunks. The 30-60 % haircut is left unbounded from below by the one piece of evidence that bounds erosion SPEED.",
+      "evidence": "interim-report-appstore-commission-magnitude-margin-and-scotus-reversal ('EU adoption <3% since March 2024 ... bounds the SPEED of erosion but does not reverse its DIRECTION'); comparisons.md Tension 2.",
+      "recommendation": "Insert the <3 % EU adoption figure with its provenance into 4.3 as the explicit bound on erosion speed, and use it to justify why the haircut stops at 30-60 % rather than approaching 100 %. Mirror it in the 8.1 table row so the 'robust' claim is evidenced rather than asserted."
+    },
+    {
+      "severity": "major",
+      "location": "Abschnitt 2.4 'Die staerkste Gegenrede' - 'Zeigen Gutachter gegnerischer Parteien in dieselbe Richtung, ist das die staerkste Evidenz unterhalb realer Vertragsdaten.'",
+      "issue": "The draft elevates Chipty's testimony to the strongest evidence short of real contract data without disclosing that the same court, in the same opinion, expressly declined to credit her quantitative remedy analysis: Judge Mehta found the 31 % share-shift exercise 'too speculative and not grounded in realistic assumptions about market behavior' (footnote 11). A bull reader would reach for exactly this line; omitting the court's credibility assessment of the draft's own expert is selective use of the primary record.",
+      "evidence": "united-states-district-court (US v. Google, D.D.C. Doc. 1436, remedies opinion, n.11).",
+      "recommendation": "Add a clause acknowledging the court rejected Chipty's share-shift quantification as too speculative, then distinguish it: what was rejected is the share-shift MAGNITUDE, not her directional statement about payment levels, and the convergence argument rests on the direction Google's own expert Murphy shared. Keep the commitment, soften the 'staerkste Evidenz' phrasing accordingly."
+    },
+    {
+      "severity": "major",
+      "location": "Abschnitt 3.2 - 'Easley und Koautoren zeigen, dass die wirklich passiven Tracker nur 8 % der ETFs stellen, aber 42 % des ETF-Vermoegens halten'",
+      "issue": "The draft cites only the half of Easley et al. that supports its exposure claim. The paper's headline finding runs the other way: 84 % of US equity ETFs by count are 'Very Active' (92 % including 'Moderately Active') and active-in-function ETFs hold 58 % of aggregate ETF assets - i.e. most nominally passive AUM is not a mechanically price-insensitive bloc. Presenting only the 8 %/42 % tail turns a caution against the inference into support for it.",
+      "evidence": "interim-report-passive-flow-apple-specific-magnitude (Easley paragraph: 'this paper attacks the premise that passive AUM is a homogeneous, mechanically price-insensitive pool ... the paper's own logic cuts two ways'); the-active-world-of-passive-investing note.",
+      "recommendation": "Add one sentence giving the paper's other side (majority of ETFs and 58 % of ETF assets are active in function), then state why the 8 %/42 % tail is nonetheless the slice relevant to Apple (near-universal inclusion at full index weight in exactly those cap-weighted vehicles) and label that as inference from the paper's taxonomy, not a stated Apple finding."
+    },
+    {
+      "severity": "major",
+      "location": "Abschnitt 3.1 - 'hier die rund 6,6 Punkte gegenueber dem Dreijahresdurchschnitt von 28x [7]'",
+      "issue": "Section 2.1 disqualifies source [7] ('eine sekundaere Marktquelle, deren Services-Wachstumsangabe dem Filing widerspricht; das Argument darf nicht an der exakten 28 haengen'), yet section 3 builds a whole component table denominated in points of that same 6.6-point premium, and 3.5's return identity uses 28x as the normalisation target. The draft's own caveat is the strongest objection to section 3, and section 3 never answers it.",
+      "evidence": "Internal: draft 2.1 vs. 3.1 / 3.3 table vs. 3.5 'Normalisierung' row; apple-valuation-faces-scrutiny-as-services-growth-cools.",
+      "recommendation": "Insert a sentence at the start of 3.1 carrying the 2.1 caveat forward: the 28x reference is a weak anchor, so the decomposition claims only the relative sizes and signs of the components (flows small, rate tailwind zero, residual dominant), and a plus/minus two-point error in the anchor moves the residual row without changing the ranking."
+    },
+    {
+      "severity": "major",
+      "location": "Abschnitt 5.3 'Heutige Oekonomie: Kapitalstruktur-Substitution, keine Zurueckhaltung' bzw. Bull-Case in 8.2",
+      "issue": "Reader prior I is tested against internal evidence (capex, R&D, inference prices) but never against its strongest external evidence: the market repriced the capex trade in early 2026 - roughly $900B of combined market cap wiped from MSFT/AMZN/GOOGL on capex guidance while Apple rose ~7 % after its Jan 29 2026 print and reclaimed the #2 market-cap spot, with Apple 2026 capex guided near $14B against $660-725B for the hyperscalers. That is the priced-in version of the reader's argument and a report that refutes the prior 'rueckwaerts' owes it an answer.",
+      "evidence": "660b-capex-bill-triggers-900b-wipeout-why-apple-shares-outperform-amazon-and-goo (tagged low-authority, utility 11; capex totals conflict with the $725B figure used at [60] - flag the discrepancy rather than reconcile silently).",
+      "recommendation": "Add 2-3 sentences in 5.3 or the 8.2 bull steel-man acknowledging the market-verdict version of the prior, with an explicit authority caveat (low-authority secondary source; inconsistent capex totals). Then answer it in the draft's own terms: a one-cycle relative repricing is a sentiment fact, not evidence about the durability of a rented-capability position, and it does not touch the three conditions named in 5.5."
+    },
+    {
+      "severity": "major",
+      "location": "Abschnitt 1.2 - 'Skaliert man den Anker mit dieser Rate und haelt Apples Anteil konstant ...'",
+      "issue": "The constant-share assumption is the single most load-bearing unverified input in the whole quantitative chain (it sets 11-15 % of gross profit) and the corpus names it as the #1 thing that could overturn the headline number. The draft states the assumption but does not disclose that it is unverifiable (Alphabet publishes no partner-level TAC split), what was searched to test it, or the direction of the residual risk (Samsung/Mozilla renegotiations could have shifted Apple's share down). Under the deep-inference directive a derived claim of this weight needs stated provenance and a stated audited absence.",
+      "evidence": "corpus-critic-gaps.json cc-1 ('explicitly unverifiable and ... the #1 thing that would change the position'); comparisons.md Step-8 adjustment, Tension 2 ('Audited absence: Alphabet does not disclose the dollar split ... no second independent current estimate exists beyond Morgan Stanley's').",
+      "recommendation": "Add a sentence naming the audited absence: Alphabet discloses no partner-level TAC split (searched in the FY2025 10-K MD&A and adversarially for renegotiation evidence; none found), the adversarial check instead found distribution-partner TAC growing faster than blended TAC so the 23-29 Mrd. $ band is if anything conservative - and state that a fall in Apple's share is the one currently unfalsifiable way the headline 19.7-28.3 % could be overstated."
+    },
+    {
+      "severity": "major",
+      "location": "Abschnitt 4.3 - 'Realistisch liegt die Spanne bei 0-15 % gegenueber frueher 27 %'",
+      "issue": "The draft treats the cost-based remand rate as bounded at 0-15 % without engaging the bull reading of the Ninth Circuit's own standard: a fee 'tied to the costs of any services Apple provides' is not the same as a near-zero fee, and no corpus source estimates what Apple's real payment/IAP/review infrastructure costs would imply. The lower bound therefore silently imports Epic's characterisation as the plausible floor, one sentence after correctly attributing the 0 % claim to Epic.",
+      "evidence": "corpus-critic-gaps.json cc-4 ('no source in the corpus yet estimates what a cost-based fee under the Ninth Circuit's own standard would actually be'); interim-report-appstore-commission-magnitude-margin-and-scotus-reversal; apple-proposes-commissions-of-up-to-15-for-off-app-store-purchases-in-the-us-9to.",
+      "recommendation": "State the audited absence - no source estimates the cost-based rate Apple's actual service costs would support (searched: analyst cost-of-service estimates, Ninth Circuit standard commentary, developer payment-processing cost data) - and acknowledge that a genuine cost pass-through could land materially above zero. Then keep the commitment: the DIRECTION is settled because even Apple's own ask halves the prior rate."
+    },
+    {
+      "severity": "minor",
+      "location": "Abschnitt 6.3 - 'ihr Interchange-Anteil ist klein relativ zu Services, sodass eine Gebuehrenkompression ohne Netzverdraengung kaum ins Gewicht fiele (Inferenz)'",
+      "issue": "This inference's only provenance marker is the word '(Inferenz)'. Under the deep-inference directive an inference must name the sourced claims it derives from and an asserted absence must state what was searched. Neither happens, yet this sentence disposes of the Apple Pay half of reader prior II.",
+      "evidence": "Run directives (deep inference: flag inference without provenance discipline); aapl-20250927 / aapl-20260627 (Services reported as one bucket including 'payment and other services').",
+      "recommendation": "Name the derivation: Apple discloses no Apple Pay revenue anywhere in the FY2022-FY2026 filings (audited absence, searched across 10-K/10-Q segment and Services disclosure), so the size claim is derived from Services being one bucket in which TAC and commissions alone account for roughly half the gross profit, leaving a bounded residual for interchange."
+    },
+    {
+      "severity": "minor",
+      "location": "Abschnitt 4.4 - 'Das Muster wiederholt sich - 27 % Link-out-Gebuehr, 5 % Core Technology Commission, jeweils Umetikettierung mit negativem Befund' und der 30-60 %-Abschlag in 2.2",
+      "issue": "The relabelling pattern is presented as uniformly losing, ignoring the offsetting reading available in the draft's own facts: the 5 % Core Technology Commission is in force and collecting while only preliminary findings exist against it, and each relabelling cycle buys years of continued monetisation before an adverse ruling. Nor does the draft consider re-monetisation through non-commission channels (App Store advertising sits inside the very Services residual the draft treats as unaffected). The haircut assumes zero substitution without saying so.",
+      "evidence": "commission-closes-investigation-into-apples-user-choice-obligations-and-issues-p (preliminary findings, not a final prohibition); apple-reveals-new-app-store-fees-to-avoid-eu-fine-of-500-million-euro (CTC in force); draft 1.3 (Werbung sits in the annuity residual).",
+      "recommendation": "Add a clause acknowledging that relabelling has bought Apple multi-year monetisation runway and that the model assumes no offsetting re-monetisation (advertising, tiered fees), then hold the commitment by noting no corpus source quantifies such an offset (audited absence) - it is a stated open risk to the haircut, not a reason to shrink it."
+    }
+  ]
+}

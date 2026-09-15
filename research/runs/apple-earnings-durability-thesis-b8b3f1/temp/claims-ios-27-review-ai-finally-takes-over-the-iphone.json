@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "A BGR reviewer explicitly frames iOS 27's Gemini-powered Siri as evidence Apple is a late follower in AI, stating it is 'odd to be celebrating the efforts of a trillion-dollar company that is only now catching up with the demand for AI' and that 'Apple took its sweet time getting here.'",
+    "stance": "supports",
+    "stance_target": "Apple's AI posture reflects a revealed execution/timing failure rather than a purely deliberate strategic choice, in the eyes of tech reviewers",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "iOS 27 review published Sept 11, 2026, days before Sept 14 public release",
+    "quoted_support": "it's also somewhat odd to be celebrating the efforts of a trillion-dollar company that is only now catching up with the demand for AI. Even though I'd consider Apple Intelligence one of the best applications of AI on the market, Apple took its sweet time getting here.",
+    "numbers": [],
+    "entities": ["Apple", "iOS 27", "Apple Intelligence"],
+    "time_period": "September 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "ios-27-review-ai-finally-takes-over-the-iphone"
+  },
+  {
+    "claim": "The reviewer explicitly credits Google's Gemini for the quality leap in the new Siri, writing 'there's no shame in asking Google for help -- I just wish Apple had done so sooner,' confirming the new Siri is built on Google Gemini rather than an Apple-developed foundation model.",
+    "stance": "supports",
+    "stance_target": "Apple's AI strategy involves outsourcing the core generative model layer (to Google Gemini) while retaining hardware/OS/privacy integration as its differentiator",
+    "evidence_type": "empirical",
+    "scope_conditions": "iOS 27, Siri AI backend, 2026",
+    "quoted_support": "there's no shame in asking Google for help — I just wish Apple had done so sooner.",
+    "numbers": [],
+    "entities": ["Apple", "Google", "Gemini", "Siri"],
+    "time_period": "2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "ios-27-review-ai-finally-takes-over-the-iphone"
+  },
+  {
+    "claim": "The new Siri AI features achieved a 9-out-of-10 success rate finding specific personal messages, documents, or podcast links during real-world hands-on testing across multiple countries.",
+    "stance": "refutes",
+    "stance_target": "Apple's delayed AI assistant fails to deliver functional quality once shipped",
+    "evidence_type": "empirical",
+    "scope_conditions": "iOS 27 on iPhone 17 Pro Max, tested across China, France, Hungary, Germany, 2026",
+    "quoted_support": "Nine out of 10 times, Siri was able to help me find a very specific message, document, podcast link, or even something I didn't fully remember.",
+    "numbers": ["9 out of 10"],
+    "entities": ["Siri", "Apple", "iOS 27"],
+    "time_period": "2026",
+    "region": "global (tested in China, France, Hungary, Germany)",
+    "confidence": "medium",
+    "source_note_id": "ios-27-review-ai-finally-takes-over-the-iphone"
+  },
+  {
+    "claim": "The new Siri AI features in iOS 27 are excluded for users with a European Apple Account, indicating a regulatory-driven geographic carve-out to the AI rollout.",
+    "stance": "neutral",
+    "stance_target": "Regulatory (EU) constraints shape the pace and completeness of Apple's AI rollout independent of Apple's own strategic choices",
+    "evidence_type": "empirical",
+    "scope_conditions": "iOS 27 global rollout, September 2026, EU Apple Accounts excluded",
+    "quoted_support": "Rolling out to users globally in iOS 27 – except for those with a European Apple Account – the new Siri AI seems to be everything the company envisioned and, perhaps, a little bit more.",
+    "numbers": [],
+    "entities": ["Apple", "iOS 27", "European Union"],
+    "time_period": "September 2026",
+    "region": "European Union (excluded)",
+    "confidence": "high",
+    "source_note_id": "ios-27-review-ai-finally-takes-over-the-iphone"
+  },
+  {
+    "claim": "Outside of the new Siri/Apple Intelligence features, iOS 27 is characterized as 'fundamentally a minor upgrade' with no notable new features for Apple Music, mostly unchanged apps, and previously-promised features like single-tap password updates still not shipped.",
+    "stance": "neutral",
+    "stance_target": "Scope and priority of Apple's engineering resources -- concentrated on AI/Siri delivery at the expense of broader OS feature velocity",
+    "evidence_type": "empirical",
+    "scope_conditions": "iOS 27, September 2026",
+    "quoted_support": "Besides the full adoption of AI, iOS 27 is fundamentally a minor upgrade. There are no notable new features for Apple Music, most of Apple's apps look the same, and highly-anticipated additions, like the ability to update passwords with a single tap, aren't ready yet.",
+    "numbers": [],
+    "entities": ["Apple", "iOS 27"],
+    "time_period": "September 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "ios-27-review-ai-finally-takes-over-the-iphone"
+  }
+]

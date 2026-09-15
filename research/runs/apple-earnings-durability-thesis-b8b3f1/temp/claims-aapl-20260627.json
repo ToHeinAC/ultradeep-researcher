@@ -1,0 +1,299 @@
+[
+  {
+    "claim": "Services revenue grew 12% YoY in Q3 FY2026 and 14% YoY over the first nine months of FY2026, decelerating from the growth pace implied in the FY2025 comparison quarters.",
+    "stance": "neutral",
+    "stance_target": "Services growth deceleration through FY2026",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q3 2026 (quarter ended June 27, 2026) and nine months ended June 27, 2026",
+    "quoted_support": "Services | 30,739 | 27,423 | 91,728 | 80,408",
+    "numbers": [
+      "Q3 FY26 Services $30,739M",
+      "Q3 FY25 Services $27,423M",
+      "9mo FY26 Services $91,728M",
+      "9mo FY25 Services $80,408M",
+      "Q3 YoY +12.1%",
+      "9mo YoY +14.1%"
+    ],
+    "entities": [
+      "Apple",
+      "Services segment"
+    ],
+    "time_period": "FY2026 Q3 / 9 months",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "iPhone revenue grew 22% YoY in Q3 FY2026 to $54,252M, well above the 12% Services growth in the same quarter, reflecting a hardware-led rather than services-led growth quarter.",
+    "stance": "refutes",
+    "stance_target": "Services is the primary growth driver as hardware matures",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q3 2026",
+    "quoted_support": "iPhone\u00ae | 54,252 | 44,582 | 196,515 | 160,561",
+    "numbers": [
+      "Q3 FY26 iPhone $54,252M",
+      "Q3 FY25 iPhone $44,582M",
+      "+21.7% YoY",
+      "9mo FY26 iPhone $196,515M vs $160,561M PY, +22.4%"
+    ],
+    "entities": [
+      "Apple",
+      "iPhone"
+    ],
+    "time_period": "FY2026 Q3",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "Products gross margin percentage rose to 40.1% in Q3 FY2026 from 34.5% in Q3 FY2025, aided by product mix and tariff refunds but partially offset by higher component costs including memory.",
+    "stance": "neutral",
+    "stance_target": "Component/memory cost pressure on gross margin",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q3 2026 vs Q3 FY2025",
+    "quoted_support": "Products gross margin and gross margin percentage increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to a different mix of products and tariff refunds, partially offset by higher costs, including memory.",
+    "numbers": [
+      "Products GM% Q3FY26 40.1%",
+      "Products GM% Q3FY25 34.5%",
+      "Products GM% 9moFY26 39.9%",
+      "Products GM% 9moFY25 36.9%",
+      "Total GM% Q3FY26 50.1%",
+      "Total GM% Q3FY25 46.5%"
+    ],
+    "entities": [
+      "Apple",
+      "Products segment",
+      "memory components"
+    ],
+    "time_period": "FY2026 Q3 / 9 months",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "Services gross margin percentage was flat YoY at 75.6% in Q3 FY2026, confirming Services as the high, stable-margin durable earnings class versus volatile Products margin.",
+    "stance": "supports",
+    "stance_target": "Annuity-like services earnings deserve a higher multiple than cyclical hardware",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q3 2026",
+    "quoted_support": "Services gross margin percentage was flat during the third quarter of 2026 compared to the third quarter of 2025.",
+    "numbers": [
+      "Services GM% Q3FY26 75.6%",
+      "Services GM% Q3FY25 75.6%",
+      "Services GM% 9moFY26 76.3%",
+      "Services GM% 9moFY25 75.5%"
+    ],
+    "entities": [
+      "Apple",
+      "Services segment"
+    ],
+    "time_period": "FY2026 Q3 / 9 months",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "Greater China net sales grew 22% YoY in Q3 FY2026 ($18,816M) and 30% YoY over nine months ($64,839M), driven primarily by iPhone and a favorable renminbi, reversing the multi-year China-weakness narrative embedded in the FY2022 baseline mix.",
+    "stance": "refutes",
+    "stance_target": "Greater China is a structurally declining/weakening region for Apple",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q3 2026 and nine months ended June 27, 2026",
+    "quoted_support": "Greater China net sales increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to higher net sales of iPhone. The strength in the renminbi relative to the U.S. dollar had a favorable year-over-year impact on Greater China net sales during the third quarter and first nine months of 2026.",
+    "numbers": [
+      "Greater China Q3FY26 $18,816M (+22% YoY)",
+      "Greater China 9moFY26 $64,839M (+30% YoY)",
+      "Greater China Q3FY25 $15,369M",
+      "Greater China 9moFY25 $49,884M"
+    ],
+    "entities": [
+      "Apple",
+      "Greater China",
+      "iPhone",
+      "renminbi"
+    ],
+    "time_period": "FY2026 Q3 / 9 months",
+    "region": "Greater China",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "Apple repurchased $61.8 billion / 215 million shares over the first nine months of FY2026, reducing weighted-average diluted shares outstanding from 15,051,726 thousand (9mo FY2025) to 14,750,302 thousand (9mo FY2026), a roughly 2% YoY reduction mechanically boosting EPS without revenue growth.",
+    "stance": "supports",
+    "stance_target": "Buybacks raise EPS with no revenue growth, by shrinking the denominator",
+    "evidence_type": "empirical",
+    "scope_conditions": "Nine months ended June 27, 2026",
+    "quoted_support": "During the nine months ended June 27, 2026, the Company repurchased 215 million shares of its common stock for $61.8 billion.",
+    "numbers": [
+      "$61.8B buybacks 9mo FY26",
+      "215M shares repurchased",
+      "diluted shares 9moFY26 14,750,302K",
+      "diluted shares 9moFY25 15,051,726K",
+      "-2.0% YoY share count"
+    ],
+    "entities": [
+      "Apple",
+      "share buyback program"
+    ],
+    "time_period": "FY2026 9 months",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "The Ninth Circuit Court (Dec 11, 2025) upheld the 2025 Epic injunction in part but modified it to allow Apple to require size/form/placement parity for external purchase links and to charge some commission on link-out purchases; Apple then petitioned the Supreme Court, which on June 30, 2026 granted certiorari on the civil contempt legal standard and stayed District Court proceedings.",
+    "stance": "neutral",
+    "stance_target": "App Store commission durability is a contingent/regulatorily-void-able earnings class",
+    "evidence_type": "legal",
+    "scope_conditions": "Epic Games, Inc. v. Apple Inc., N.D. Cal. / Ninth Circuit / U.S. Supreme Court, through June 30, 2026",
+    "quoted_support": "On May 21, 2026, the Company filed a petition seeking Supreme Court review of the Ninth Circuit Court's opinion. On June 30, 2026, the Supreme Court granted the Company's petition to review the applicable legal standard for civil contempt. The Company is seeking a stay of the California District Court proceedings pending the Supreme Court's decision on the question under review.",
+    "numbers": [
+      "2021 Injunction",
+      "2025 Injunction (April 30, 2025)",
+      "Ninth Circuit order Dec 11, 2025",
+      "cert petition May 21, 2026",
+      "cert granted June 30, 2026"
+    ],
+    "entities": [
+      "Apple",
+      "Epic Games",
+      "Ninth Circuit Court",
+      "U.S. Supreme Court",
+      "California District Court"
+    ],
+    "time_period": "2021-2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "The EU Commission's DMA Article 6(4) investigation remains open with a final adverse determination exposing Apple to fines up to 10% of annual worldwide net sales, on top of the already-imposed and appealed EUR500 million Article 5(4) fine.",
+    "stance": "neutral",
+    "stance_target": "Regulatory tail risk to App Store commission and steering restrictions",
+    "evidence_type": "legal",
+    "scope_conditions": "European Union, Digital Markets Act, as of Q3 FY2026 filing (filed ~August 2026)",
+    "quoted_support": "If the Commission makes a final determination in the Article 6(4) Investigation that there has been a violation, it can issue a cease and desist order and may impose fines up to 10% of the Company's annual worldwide net sales.",
+    "numbers": [
+      "EUR500 million Article 5(4) fine (April 23, 2025)",
+      "up to 10% of annual worldwide net sales for Article 6(4) violation"
+    ],
+    "entities": [
+      "Apple",
+      "European Commission",
+      "Digital Markets Act"
+    ],
+    "time_period": "March 2024 - August 2026",
+    "region": "European Union",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "Google search-placement licensing revenue remains subject to the September 2, 2025 D.C. District Court remedies order in U.S. v. Google, which is under appeal by BOTH the DOJ and Google; a DOJ-favorable reversal on appeal could impose remedies 'prohibiting Google from offering the Company commercial terms for search distribution,' which the filing itself states 'could materially adversely affect the Company's ability to earn revenue from such licensing arrangements.'",
+    "stance": "supports",
+    "stance_target": "Google TAC is a binary, probability-weighted (not multiplied) earnings stream, not an annuity",
+    "evidence_type": "legal",
+    "scope_conditions": "United States v. Google LLC, D.C. District Court, as of Apple's Q3 FY2026 10-Q",
+    "quoted_support": "A reversal of the order on appeal could result in imposition of certain remedies initially proposed by the DOJ, such as those prohibiting Google from offering the Company commercial terms for search distribution. If implemented, these remedies could materially adversely affect the Company's ability to earn revenue from such licensing arrangements.",
+    "numbers": [
+      "Google antitrust liability finding August 5, 2024",
+      "remedies order September 2, 2025"
+    ],
+    "entities": [
+      "Apple",
+      "Google",
+      "DOJ",
+      "D.C. District Court"
+    ],
+    "time_period": "August 2024 - August 2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "Apple does not separately disclose the dollar value of Google search-placement (TAC) revenue or App Store commission revenue anywhere in its Q3 FY2026 10-Q; Services revenue is disclosed only as a single aggregate line item.",
+    "stance": "neutral",
+    "stance_target": "Audited absence: Google TAC and App Store commissions are not separately disclosed by Apple",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Q3 FY2026 10-Q, searched for 'Google', 'search', 'commission', 'App Store' revenue breakouts and found only risk-factor/legal-proceeding qualitative language, no dollar figures",
+    "quoted_support": "Services | 30,739 | 27,423 | 91,728 | 80,408",
+    "numbers": [
+      "Services aggregate only, no TAC or commission subline"
+    ],
+    "entities": [
+      "Apple",
+      "Google",
+      "App Store",
+      "Services segment"
+    ],
+    "time_period": "FY2026 Q3",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "R&D expense grew 32% YoY in Q3 FY2026 to $11,729M, explicitly attributed by Apple to 'higher infrastructure-related costs, including investments in artificial intelligence,' while capital expenditure on property, plant and equipment over the same nine months FELL YoY from $9,473M to $6,799M, indicating AI investment is flowing through opex (leased/cloud compute, headcount) rather than owned-capex buildout.",
+    "stance": "supports",
+    "stance_target": "Apple's AI posture is deliberate capital discipline, not under-investment nor a hyperscaler-style capex arms race",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple fiscal Q3 2026 and nine months ended June 27, 2026",
+    "quoted_support": "Research and development (\"R&D\") expense increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to higher infrastructure-related costs, including investments in artificial intelligence, and headcount-related expenses.",
+    "numbers": [
+      "R&D Q3FY26 $11,729M vs Q3FY25 $8,866M (+32.3%)",
+      "R&D 9moFY26 $34,035M vs 9moFY25 $25,684M (+32.5%)",
+      "Capex 9moFY26 $6,799M vs 9moFY25 $9,473M (-28.2%)"
+    ],
+    "entities": [
+      "Apple",
+      "R&D",
+      "capital expenditure",
+      "artificial intelligence"
+    ],
+    "time_period": "FY2026 Q3 / 9 months",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "Apple's Q3 FY2026 tariff-refund gross-margin benefit originates directly from a February 20, 2026 U.S. Supreme Court ruling striking down certain tariffs imposed under the International Emergency Economic Powers Act of 1977; Apple has applied for refunds via CBP processes and recognizes refunds received as a reduction of products cost of sales -- but the 10-Q simultaneously discloses that new tariffs are already being imposed under different statutory authority (Section 301 of the Trade Act of 1974, and a pending Section 232 semiconductor-sector investigation), meaning the same judicial/executive-branch tariff dynamic that created this margin tailwind is a live, two-sided source of margin volatility going forward.",
+    "stance": "supports",
+    "stance_target": "Apple's earnings quality/durability is directly exposed to court and executive-branch tariff actions that can be voided or reimposed -- the tariff-refund margin benefit is not organic and is explicitly described by Apple as uncertain and dependent on future government action",
+    "evidence_type": "legal",
+    "scope_conditions": "Apple fiscal Q3 2026 10-Q, tariff disclosures as of filing date (~July 31, 2026)",
+    "quoted_support": "Separately, on February 20, 2026, the U.S. Supreme Court (\"Supreme Court\") issued a ruling striking down certain tariffs previously imposed under the International Emergency Economic Powers Act of 1977. The Company has applied for a refund of tariffs paid, following the processes established by U.S. Customs and Border Protection, and has recognized any refunds received as a reduction of products cost of sales. Various modifications to U.S. tariffs have been announced, including the recent imposition of tariffs under Section 301 of the Trade Act of 1974, and further changes could be made in the future, which may include additional measures under the Section 232 semiconductor sector investigation, additional sector-based tariffs, further actions under Section 301, or other measures.",
+    "numbers": [
+      "SCOTUS ruling Feb 20, 2026",
+      "IEEPA tariffs struck down",
+      "refunds recognized as COGS reduction"
+    ],
+    "entities": [
+      "Apple",
+      "U.S. Supreme Court",
+      "IEEPA",
+      "U.S. Customs and Border Protection",
+      "Section 301",
+      "Section 232"
+    ],
+    "time_period": "February-July 2026",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  },
+  {
+    "claim": "Apple's Q3 FY2026 10-Q contains NO reference to 'App Store business model changes' as a driver of Services growth deceleration -- that specific causal explanation, given by CFO Kevan Parekh on the July 30, 2026 earnings call, does not appear anywhere in the filed 10-Q text (confirmed by full-text search), which instead frames App Store-related items purely as ongoing legal-proceeding/risk-factor disclosures (Epic injunction, EU DMA).",
+    "stance": "supports",
+    "stance_target": "A load-bearing causal admission about regulatory-driven Services deceleration was made orally on the earnings call and is absent from the audited/filed disclosure document -- illustrating a gap between what management says drives results and what is formally disclosed",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Q3 FY2026 10-Q, full-text searched for the phrases 'App Store business model' and 'business model change' -- zero matches; contrast with the July 30, 2026 earnings call transcript where Kevan Parekh states results were affected because 'we also made some changes to the App Store business model in certain countries'",
+    "quoted_support": "The Company distributes third-party applications through the App Store... in the U.S., the Company has implemented changes to how developers communicate with consumers within apps on the U.S. storefront of the iOS and iPadOS App Store regarding alternative purchasing mechanisms. The Company is also currently subject to a court order in the U.S. preventing it from imposing any commission or fee on certain purchases that consumers make.",
+    "numbers": [],
+    "entities": [
+      "Apple",
+      "App Store",
+      "Kevan Parekh",
+      "SEC 10-Q"
+    ],
+    "time_period": "FY2026 Q3",
+    "region": "United States and other countries",
+    "confidence": "high",
+    "source_note_id": "aapl-20260627"
+  }
+]

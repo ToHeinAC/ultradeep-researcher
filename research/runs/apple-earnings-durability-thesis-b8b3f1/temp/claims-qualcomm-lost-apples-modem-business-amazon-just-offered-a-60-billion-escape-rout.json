@@ -1,0 +1,72 @@
+[
+  {
+    "claim": "Qualcomm confirmed on its Q3 FY2026 call that its share of upcoming iPhone launches will be 'materially lower' than the prior 20% estimate, with Apple product revenue expected to fall roughly 50% from the September to December quarter -- corroborating the Tech Times report from an independent outlet.",
+    "stance": "supports",
+    "stance_target": "Forward margin effect of in-house modems (scale, corroborated across sources)",
+    "evidence_type": "empirical",
+    "scope_conditions": "Qualcomm Q3 FY2026 earnings call",
+    "quoted_support": "management said its share of upcoming iPhone launches would be 'materially lower' than the prior 20% estimate, with Apple product revenue expected to fall roughly 50% from the September-to-December quarter.",
+    "numbers": ["20%", "50%"],
+    "entities": ["Apple", "Qualcomm"],
+    "time_period": "Q3-Q4 FY2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "qualcomm-lost-apples-modem-business-amazon-just-offered-a-60-billion-escape-rout"
+  },
+  {
+    "claim": "Qualcomm's Amazon AI data-center silicon collaboration (announced Sep 8, 2026) involves warrants that could be worth up to approximately $4 billion IF commercial milestones are met -- explicitly a performance-contingent ceiling, distinct from cash paid or booked revenue, meaning the '$60 billion' headline figure in the source's own title materially overstates confirmed value.",
+    "stance": "neutral",
+    "stance_target": "Qualcomm's ability to replace lost Apple modem revenue (context for competitive dynamics, not directly Apple's margin)",
+    "evidence_type": "empirical",
+    "scope_conditions": "Qualcomm-Amazon deal announced Sep 8, 2026; contingent on undisclosed milestones",
+    "quoted_support": "warrants issued to Amazon could be worth about $4 billion if commercial milestones are reached. That number is a performance-contingent ceiling, distinct from cash paid or revenue booked.",
+    "numbers": ["$4 billion"],
+    "entities": ["Qualcomm", "Amazon"],
+    "time_period": "September 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "qualcomm-lost-apples-modem-business-amazon-just-offered-a-60-billion-escape-rout"
+  },
+  {
+    "claim": "Qualcomm's initial hyperscaler/data-center silicon ramp carries 'significantly lower' margins than its baseline business, trimming QCT weighted-average gross margin by 1.5-2 percentage points, against a consolidated Qualcomm gross margin of approximately 55.4%.",
+    "stance": "neutral",
+    "stance_target": "Whether displaced-supplier revenue is retained as margin or competed away (illustrative of margin dynamics in adjacent chip markets)",
+    "evidence_type": "statistical",
+    "scope_conditions": "Qualcomm Q3 FY2026 guidance",
+    "quoted_support": "Amon told analysts the initial data center ramp will be 'significantly lower' margin than baseline, trimming QCT weighted-average gross margin by 1.5 to 2%. Qualcomm's consolidated gross margin sits near 55.4% today.",
+    "numbers": ["1.5%", "2%", "55.4%"],
+    "entities": ["Qualcomm"],
+    "time_period": "FY2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "qualcomm-lost-apples-modem-business-amazon-just-offered-a-60-billion-escape-rout"
+  },
+  {
+    "claim": "Analyst sentiment on Qualcomm's ability to replace lost Apple revenue is skeptical: 27 of 30 recent EPS revisions for Qualcomm's fiscal 2027 were downward versus only 3 upward, indicating the market does not yet believe the automotive/data-center offset fully closes the Apple-modem revenue gap.",
+    "stance": "supports",
+    "stance_target": "Scale and market credibility of the Qualcomm-side revenue displacement",
+    "evidence_type": "statistical",
+    "scope_conditions": "Trailing 30 days as of Sep 12, 2026",
+    "quoted_support": "Analyst estimate revisions tell the near-term story: 27 downward EPS revisions for fiscal 2027 against three upward in the trailing 30 days.",
+    "numbers": ["27", "3"],
+    "entities": ["Qualcomm"],
+    "time_period": "trailing 30 days to Sep 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "qualcomm-lost-apples-modem-business-amazon-just-offered-a-60-billion-escape-rout"
+  },
+  {
+    "claim": "The custom AI silicon market Qualcomm is entering to replace Apple revenue is already dense with entrenched competitors: Nvidia dominates training, Broadcom and Marvell already ship custom ASICs and optics to hyperscalers at volume, and AMD is scaling its MI-series accelerators -- meaning Qualcomm's data-center pivot faces its own competitive erosion risk.",
+    "stance": "neutral",
+    "stance_target": "Whether merchant/adjacent silicon competitors are closing gaps (analogous competitive dynamic, not Apple-specific)",
+    "evidence_type": "empirical",
+    "scope_conditions": "AI/data-center silicon market, 2026",
+    "quoted_support": "Competition is dense. NVIDIA dominates training, Broadcom and Marvell already ship custom ASICs and optics to hyperscalers at volume, and AMD is scaling MI-series accelerators.",
+    "numbers": [],
+    "entities": ["Nvidia", "Broadcom", "Marvell", "AMD", "Qualcomm"],
+    "time_period": "2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "qualcomm-lost-apples-modem-business-amazon-just-offered-a-60-billion-escape-rout"
+  }
+]

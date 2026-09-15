@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "Apple's official newsroom announcement states the CEO transition was approved by the Board of Directors and is the result of a 'thoughtful, long-term succession planning process,' corroborating the FT's Nov 2025 report of months of prior internal deliberation.",
+    "stance": "neutral",
+    "stance_target": "Planned continuity vs. reactive/crisis-driven change",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple newsroom announcement, April 20 2026",
+    "quoted_support": "Apple says that the transition was approved by the Board of Directors and is the result of a \"thoughtful, long-term succession planning process.\"",
+    "numbers": [],
+    "entities": ["Apple", "Board of Directors"],
+    "time_period": "April 20 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-ceo-tim-cook-stepping-down-john-ternus-taking-over-macrumors"
+  },
+  {
+    "claim": "As part of the same governance restructuring, current board chair Arthur Levinson becomes lead independent director -- Cook as executive chairman does not also hold the lead-independent-director role.",
+    "stance": "neutral",
+    "stance_target": "Board governance independence safeguards accompanying the transition",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Inc. board restructuring, announced April 20 2026",
+    "quoted_support": "The current board chair, Arthur Levinson, will become the lead independent director on the board.",
+    "numbers": [],
+    "entities": ["Arthur Levinson", "Apple", "Tim Cook"],
+    "time_period": "April 20 2026 onward",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-ceo-tim-cook-stepping-down-john-ternus-taking-over-macrumors"
+  },
+  {
+    "claim": "Neither Cook's nor Ternus's official transition statements contain any AI or product-strategy content; both statements are framed around values, culture, and continuity rather than strategic direction.",
+    "stance": "neutral",
+    "stance_target": "AUDITED ABSENCE: succession announcement contains no stated AI/hardware/services strategy pivot",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple newsroom announcement, April 20 2026",
+    "quoted_support": "I promise to lead with the values and vision that have come to define this special place for half a century.",
+    "numbers": [],
+    "entities": ["John Ternus", "Tim Cook", "Apple"],
+    "time_period": "April 20 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "apple-ceo-tim-cook-stepping-down-john-ternus-taking-over-macrumors"
+  }
+]

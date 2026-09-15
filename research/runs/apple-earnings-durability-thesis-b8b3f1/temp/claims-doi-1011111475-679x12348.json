@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Implied equity duration is computed via the Dechow-Sloan-Soliman (2004) algorithm: a weighted-average time-to-cash-flow formula analogous to bond duration, using a 15-year finite forecast horizon, a 12% discount rate, and cash flows imputed from the clean-surplus relation (CF = Earnings - change in book equity).",
+    "stance": "neutral",
+    "stance_target": "how equity duration is defined and empirically measured (Q A.1)",
+    "evidence_type": "theoretical",
+    "scope_conditions": "standard implementation following Dechow, Sloan & Soliman (2004) and Weber (2018)",
+    "quoted_support": "Duration = [sum t=1 to T] t*CFt/(1+r)^t / ME0 + [(T + (1+r)/r) * (ME0 - sum CFt/(1+r)^t)] / ME0. Following Weber [2018], we use a finite forecast horizon (T) of 15 years and a discount rate (r) of 12%.",
+    "numbers": ["T=15 years", "r=12%"],
+    "entities": ["Dechow", "Sloan", "Soliman", "Weber 2018"],
+    "time_period": null,
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "doi-1011111475-679x12348"
+  },
+  {
+    "claim": "Calibration benchmarks under the implied-equity-duration formula: a pure terminal-growth (all-value-in-perpetuity) firm has a duration of 24.33 years at a 12% discount rate (32.67 years under end-2019 parameters with 0% terminal growth); a no-growth level-perpetuity firm has a duration of 9.33 years at 12% (17.67 years under end-2019 parameters).",
+    "stance": "neutral",
+    "stance_target": "typical duration values / reference points for growth versus mature (value-like) firms (Q A.1)",
+    "evidence_type": "theoretical",
+    "scope_conditions": "model calibration cases",
+    "quoted_support": "With T = 15 and r = 12%, the resulting duration is 24.33 years... With r = 12%, the duration of the level perpetuity is 9.33 years... the duration of the terminal perpetuity is 32.67 years and the duration of a level annuity is 17.67 years.",
+    "numbers": ["24.33 years", "9.33 years", "32.67 years", "17.67 years"],
+    "entities": [],
+    "time_period": "end-2019 parameters",
+    "region": null,
+    "confidence": "high",
+    "source_note_id": "doi-1011111475-679x12348"
+  },
+  {
+    "claim": "As of December 31, 2019, General Motors (a mature, negative-growth, high-book-to-market firm) had an implied equity duration of 17.14 years, while Tesla (a high-growth, low-book-to-market firm) had an implied equity duration of 31.97 years -- concrete real-world examples of the low- versus high-duration range for large-cap equities.",
+    "stance": "supports",
+    "stance_target": "the query's analytical point that mature, high-payout/lower-growth firms have measurably shorter equity duration than growth firms, giving a concrete numeric range",
+    "evidence_type": "empirical",
+    "scope_conditions": "US automobile-industry firms, December 31, 2019, using the Dechow-Sloan-Soliman/Weber algorithm",
+    "quoted_support": "GM's implied equity duration is only 17.14 years... Tesla's implied equity duration is 31.97 years, which is close to 32.67 years, the duration in the special case in which all cash flows are realized in the terminal perpetuity.",
+    "numbers": ["17.14 years (GM)", "31.97 years (Tesla)"],
+    "entities": ["General Motors", "Tesla"],
+    "time_period": "December 31, 2019",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "doi-1011111475-679x12348"
+  },
+  {
+    "claim": "Implied equity duration has a strong POSITIVE relation to US equity returns and analyst forecast revisions during the onset of the March 2020 COVID-19 shutdown -- low-duration stocks fell more -- and the underperformance of 'value' stocks in this episode is a rational consequence of their lower duration, not an anomaly.",
+    "stance": "supports",
+    "stance_target": "equity duration is a measurable, priced determinant of sensitivity to shocks concentrated in near-term cash flows (a cash-flow-timing analogue to the discount-rate-sensitivity argument)",
+    "evidence_type": "empirical",
+    "scope_conditions": "US equities, March 2020 COVID-19 shutdown onset",
+    "quoted_support": "We show that implied equity duration has a strong positive relation to U.S. equity returns and analyst forecast revisions during the onset of the 2020 COVID-19 shutdown. Our analysis also demonstrates that the underperformance of 'value' stocks during this period is a rational response to their lower durations.",
+    "numbers": [],
+    "entities": ["value stocks", "COVID-19"],
+    "time_period": "March 2020",
+    "region": "United States",
+    "confidence": "high",
+    "source_note_id": "doi-1011111475-679x12348"
+  }
+]

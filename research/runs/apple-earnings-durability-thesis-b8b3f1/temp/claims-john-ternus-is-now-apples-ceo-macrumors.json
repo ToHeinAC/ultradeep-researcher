@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "John Ternus officially became Apple's CEO on Sept 1, 2026, and Apple's official leadership page reflected the change the same day.",
+    "stance": "neutral",
+    "stance_target": "Exact effective date of CEO transition",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Inc., Sept 1 2026",
+    "quoted_support": "Apple's former hardware engineering chief John Ternus officially became CEO of the company today, with the change now reflected on Apple's leadership page.",
+    "numbers": [],
+    "entities": ["John Ternus", "Apple"],
+    "time_period": "Sept 1 2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "john-ternus-is-now-apples-ceo-macrumors"
+  },
+  {
+    "claim": "Ternus's full Apple career timeline: joined 2001, VP Hardware Engineering 2013, SVP Hardware Engineering 2021, CEO 2026 -- a 25-year internal promotion path entirely within hardware engineering.",
+    "stance": "supports",
+    "stance_target": "A hardware-engineering-background CEO is directly relevant to the late-follower-in-AI prior",
+    "evidence_type": "empirical",
+    "scope_conditions": "Apple Inc.",
+    "quoted_support": "Ternus joined Apple in 2001, became a vice president of hardware engineering in 2013, and became senior vice president of hardware engineering in 2021.",
+    "numbers": ["2001", "2013", "2021"],
+    "entities": ["John Ternus", "Apple"],
+    "time_period": "2001-2026",
+    "region": "global",
+    "confidence": "high",
+    "source_note_id": "john-ternus-is-now-apples-ceo-macrumors"
+  },
+  {
+    "claim": "Ternus's first public act as CEO was teasing a product launch event (the Sept 9, 2026 iPhone Duo/iPhone 18 event), not announcing a strategic pivot -- his first memo to employees contained no reported strategy specifics.",
+    "stance": "neutral",
+    "stance_target": "Whether the CEO transition signals continuity or strategic discontinuity",
+    "evidence_type": "empirical",
+    "scope_conditions": "Sept 1-9 2026",
+    "quoted_support": "In his first memo to Apple employees as CEO today, John Ternus teased a \"huge launch next week that's going to be phenomenal.\"",
+    "numbers": [],
+    "entities": ["John Ternus", "Apple"],
+    "time_period": "Sept 2026",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "john-ternus-is-now-apples-ceo-macrumors"
+  }
+]

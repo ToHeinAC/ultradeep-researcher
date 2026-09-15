@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "No European Commission report, academic study, or named market-analytics firm (Sensor Tower, Appfigures, Analysis Group) has published a measured adoption rate (percentage or count of EU iPhone users) for third-party iOS app marketplaces under the DMA, despite the alternative-marketplace mandate having been in effect since March 2024.",
+    "stance": "neutral",
+    "stance_target": "existence of an authoritative EU alternative-marketplace adoption-rate figure",
+    "evidence_type": "empirical",
+    "scope_conditions": "exhaustive web search across EC decisions, Apple's own commissioned study, TechCrunch catalog articles, and analyst-firm searches, as of September 2026",
+    "quoted_support": "No official (European Commission), academic, or named-analyst-firm figure exists, as of this search (September 2026), giving the percentage or absolute count of EU iPhone users who have adopted an alternative iOS app marketplace.",
+    "numbers": [],
+    "entities": ["European Commission", "Sensor Tower", "Appfigures", "Analysis Group", "Apple"],
+    "time_period": "March 2024-September 2026",
+    "region": "European Union",
+    "confidence": "medium",
+    "source_note_id": "audited-absence-no-published-eu-alternative-ios-marketplace-adoption-rate"
+  },
+  {
+    "claim": "Given that both Apple and Epic Games have adversarial incentives to publish an EU alternative-marketplace adoption figure favorable to their respective positions and neither has done so nearly two years after the DMA mandate took effect, the most defensible inference is that actual adoption is low enough that no interested party finds a precise figure advantageous to disclose.",
+    "stance": "supports",
+    "stance_target": "EU alternative-marketplace-driven App Store commission erosion should be treated as slow/bounded over a 2-5 year holding horizon, not a step-function threat",
+    "evidence_type": "expert-opinion",
+    "scope_conditions": "inferential argument constructed from the audited absence plus proxy data (Epic install figures, Setapp Mobile exit), not a disclosed rate",
+    "quoted_support": "if EU regulators, Apple (adversarially incentivized to show DMA \"isn't working\"), and Epic (adversarially incentivized to show Apple is blocking adoption) all lack or withhold a clean adoption-rate figure nearly two years after the DMA's alternative-marketplace mandate took effect... the most defensible inference is that adoption has been low enough that no party finds a hard percentage worth publishing.",
+    "numbers": [],
+    "entities": ["Apple", "Epic Games", "European Commission"],
+    "time_period": "March 2024-September 2026",
+    "region": "European Union",
+    "confidence": "low",
+    "source_note_id": "audited-absence-no-published-eu-alternative-ios-marketplace-adoption-rate"
+  }
+]

@@ -1,0 +1,362 @@
+{
+  "vault_tag": "apple-earnings-durability-thesis-b8b3f1",
+  "total_source_budget": 40,
+  "dedup_notes": "11 analyst proposals merged to 6. Both analysts independently prioritised the TAC and App Store figures. Size and legal-path questions for each contingent revenue stream were merged so one investigator owns everything that determines that stream's value. b's falsification-test-sizing locus was split across the TAC and App Store loci; the orchestrator computes the falsification test from their two deliverables after step 5. a's strong-form DMA switching locus was folded into b's preference-vs-interface locus as a sub-deliverable, since the absence is already confirmed once. FY2026 hardware-regime and required-services-CAGR merged as one calculation.",
+  "falsification_test_dependency": "Loci 1 and 2 must return defended RANGES (not point estimates) for TAC magnitude/rate path and for commission revenue/margin. The orchestrator recomputes the durability decomposition and blended-multiple divergence from those ranges before drafting.",
+  "inference_depth_review": "Kept at 'deep'. The corpus confirms the load-bearing questions are underdetermined by clearly-published sources: TAC and commission revenue are undisclosed and must be reconstructed from court records; the SCOTUS question presented and the appellate posture require docket-level sources.",
+  "loci": [
+    {
+      "name": "google-tac-magnitude-repricing-and-appellate-tail",
+      "flavor": "dialectical",
+      "merged_from": [
+        "a:tac-current-magnitude-and-repricing-path",
+        "b:google-tac-appellate-tail-risk",
+        "b:falsification-test-sizing-sensitivity (TAC half)"
+      ],
+      "one_line": "What is Google TAC worth to Apple NOW, how fast does the court's non-exclusive annual-rebidding remedy compress its rate, and how fat is the appellate tail toward a payment ban inside the 2-5 year window?",
+      "importance": 10,
+      "uncertainty": 7,
+      "disagreement": 8,
+      "decision_impact": 10,
+      "rationale": "The only authoritative TAC figure is the court's ~$20B, explicitly 2022 and worldwide, set against FY2025 financials; the sole current estimate (Morgan Stanley >$25B at 95%+ margins) is one analyst of unclear geography. Both parties' experts agree price compresses under the remedy but no source quantifies speed or magnitude. The contradiction graph reclassified TAC as a repriceable annuity with 'two small binary tails' that are unquantified and undated; the only corpus note on the bilateral appeal (notices Feb 3 2026) lacks docket detail. TAC is ~10% of total and ~24% of Services gross profit, so this single number moves the falsification test more than any other.",
+      "deliverable": "(1) Defended RANGE for current annual TAC to Apple, with year, geography and method for each bound. (2) A rate-path range under non-exclusive annual rebidding over 2026-2031. (3) Appellate posture: who appealed what, grounds, briefing/argument timetable, and an evidence-based view of reversal-toward-ban likelihood — with the liability theory (exclusivity, not payment) weighed explicitly. Commit to a position.",
+      "corpus_evidence": [
+        "united-states-district-court",
+        "united-states-district-court-3",
+        "source-analysis-us-v-google-remedies-opinion-doc-1436-sept-2-2025",
+        "source-analysis-us-v-google-liability-opinion-doc-1033-apple-isa-economics-and-a",
+        "how-the-google-antitrust-ruling-reshapes-search-ai-and-more",
+        "aapl-20250927",
+        "aapl-20260627",
+        "doj-and-states-appeal-google-search-antitrust-remedies-ruling",
+        "us-courts-remedies-not-enough-given-google-can-continue-to-pay-for-search-defaul"
+      ],
+      "opposing_positions": [
+        {
+          "position": "The appeal is unlikely to overturn payment permission: liability attached to the ISA's de facto exclusivity, not the payment mechanism itself; the court cited the pre-2005 non-exclusive default arrangement as a lawful less-restrictive counterfactual, so the remedies outcome was foreshadowed by the liability theory rather than being a lenient accident an appellate court is likely to reverse.",
+          "sources": [
+            "source-analysis-us-v-google-liability-opinion-doc-1033-apple-isa-economics-and-a",
+            "source-analysis-us-v-google-remedies-opinion-doc-1436-sept-2-2025"
+          ]
+        },
+        {
+          "position": "The tail is wider than 'small': DOJ (not only Google) appealed specifically because it considers the remedy too weak, its underlying ask (a full payment ban) is still on the table at the appellate level, Apple's own audited risk factors single out a DOJ-favourable reversal as a material adverse risk across three straight quarters, and the corpus itself records this posture only in a single low-authority press note with no docket detail -- an audited absence on exactly the question that determines the tail's true probability.",
+          "sources": [
+            "doj-and-states-appeal-google-search-antitrust-remedies-ruling",
+            "aapl-20260627",
+            "us-courts-remedies-not-enough-given-google-can-continue-to-pay-for-search-defaul"
+          ]
+        }
+      ],
+      "suggested_searches": [
+        "Alphabet 10-K traffic acquisition costs 2024 2025 breakdown distribution partners",
+        "Apple Google search deal current annual payment estimate 2025 2026 analyst",
+        "Google Apple ISA revenue share percentage 2024 2025 redacted unredacted",
+        "US v Google remedies appeal DC Circuit briefing schedule 2026 timing",
+        "Bernstein Wells Fargo JPMorgan Apple Google TAC estimate 2026",
+        "DOJ v. Google D.C. Circuit appeal briefing schedule 2026 remedies",
+        "DOJ opening brief Google search remedies appeal grounds",
+        "D.C. Circuit antitrust remedy reversal rate appellate precedent Microsoft AT&T",
+        "Google appeal liability finding search default D.C. Circuit oral argument date"
+      ],
+      "suggested_starting_urls": [
+        "https://www.courtlistener.com/docket/?q=United+States+v.+Google+search+remedies+1436",
+        "https://abc.xyz/investor/ (Alphabet 10-K — Traffic Acquisition Costs disclosure)",
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044 (Alphabet 10-K filings, TAC line item)",
+        "https://www.cadc.uscourts.gov/",
+        "https://www.pacermonitor.com/",
+        "https://www.courtlistener.com/"
+      ],
+      "composite_score": 35,
+      "source_budget": 12
+    },
+    {
+      "name": "appstore-commission-magnitude-margin-and-scotus-reversal",
+      "flavor": "dialectical",
+      "merged_from": [
+        "a:appstore-commission-magnitude-and-margin",
+        "b:scotus-epic-contempt-cert-mechanism-reversal",
+        "b:falsification-test-sizing-sensitivity (commission half)"
+      ],
+      "one_line": "What are App Store commission revenue and margin on court-surfaced evidence rather than one commercial estimator, and could the Supreme Court's review of the Epic contempt standard REVERSE the erosion now visible in reported numbers?",
+      "importance": 9,
+      "uncertainty": 8,
+      "disagreement": 7,
+      "decision_impact": 10,
+      "rationale": "Every commission-revenue figure traces to one estimator (Appfigures), restated across outlets. The ~90% margin used in the orchestrator's sizing is an explicit assumption with no evidence; the 2021 Epic trial disclosed App Store financials in findings of fact and those are absent from the corpus. Separately, SCOTUS granted cert June 30 2026 on the civil-contempt standard, staying district proceedings, but no note states the question presented or what follows if Apple wins — erosion could reverse, not merely pause. This locus supplies the second of the two numbers that carry the falsification test.",
+      "deliverable": "(1) Defended RANGE for global and US commission revenue, preferring court-surfaced figures (2021 Epic findings of fact) over commercial estimates. (2) An EVIDENCED commission margin range to replace the orchestrator's ~90% assumption. (3) The exact SCOTUS question presented, argument timing, and the commercial consequence of each outcome for US link-out commission. Commit to a position on whether erosion is durable.",
+      "corpus_evidence": [
+        "how-apple-makes-billions-from-the-app-storeand-why-90-of-sales-now-escape-its-co",
+        "apples-us-app-store-commission-revenue-down-18-this-year-macrumors",
+        "apple-makes-rare-admission-of-regulatory-hit-as-app-store-commission-model-erode",
+        "epic-games-wins-injunction-against-apple-pdf-legal-remedy-injunction",
+        "support-for-this-study-was-provided-by-apple",
+        "aapl-20260627"
+      ],
+      "opposing_positions": [
+        {
+          "position": "Commission erosion via steering is a realized, structural fact already visible in reported revenue (US commission revenue -18% YTD per Appfigures) and confirmed obliquely by Apple's own CFO -- the erosion should be modeled forward as continuing, with SCOTUS review as a minor procedural overhang.",
+          "sources": [
+            "apples-us-app-store-commission-revenue-down-18-this-year-macrumors",
+            "apple-makes-rare-admission-of-regulatory-hit-as-app-store-commission-model-erode"
+          ]
+        },
+        {
+          "position": "SCOTUS granted cert specifically on the civil-contempt STANDARD used to hold Apple in contempt -- if the Court narrows or rejects that standard, the injunction's legal foundation (not merely its enforcement mechanics) could be undermined, which would let Apple reinstate a commission on external-link purchases and reverse the erosion the graph currently treats as a settled direction.",
+          "sources": [
+            "epic-games-wins-injunction-against-apple-pdf-legal-remedy-injunction",
+            "aapl-20260627"
+          ]
+        }
+      ],
+      "suggested_searches": [
+        "Epic v Apple 2021 findings of fact App Store operating margin percentage trial exhibit",
+        "Apple App Store segment financial data trial testimony Maestri Schmalensee 2021",
+        "Sensor Tower Business of Apps App Store global commission revenue estimate 2024 2025",
+        "Apple App Store commission revenue court disclosed internal document DOJ v Apple",
+        "Epic Games v Apple Supreme Court cert question presented civil contempt standard 2026",
+        "SCOTUS Apple Epic contempt appeal oral argument date 2026",
+        "civil contempt standard antitrust injunction Supreme Court review implications",
+        "Apple external link commission reinstatement pending Supreme Court ruling"
+      ],
+      "suggested_starting_urls": [
+        "https://www.courtlistener.com/docket/17242600/epic-games-inc-v-apple-inc/ (2021 trial findings of fact and conclusions of law)",
+        "https://www.theverge.com/2021/5/3/22417647/epic-apple-trial-app-store-financial-data (App Store segment financials disclosed at trial)",
+        "https://www.supremecourt.gov/docket/docket.aspx",
+        "https://www.scotusblog.com/"
+      ],
+      "composite_score": 34,
+      "source_budget": 11
+    },
+    {
+      "name": "ai-late-follower-chosen-vs-revealed",
+      "flavor": "dialectical",
+      "merged_from": [
+        "a:ai-late-follower-chosen-vs-revealed"
+      ],
+      "one_line": "Reader prior 1: is Apple's late-follower AI posture a chosen capital-allocation advantage, or a revealed execution failure now being managed capital-efficiently after the fact?",
+      "importance": 8,
+      "uncertainty": 6,
+      "disagreement": 7,
+      "decision_impact": 7,
+      "rationale": "This is the contradiction graph's own top dialectical candidate (cluster ai-late-follower-chosen-vs-revealed, rank 4, decision_relevance high), and it maps directly onto the query's mandated reader-prior test #1. The corpus contains a first-party admission that cuts against the 'chosen' framing: Craig Federighi stated the March 2025 Siri delay was caused by the V1 architecture failing to meet the quality bar, 'not a strategic choice' (apples-siri-revamp-reportedly-delayed-again-techcrunch), against ~18 months of repeated slippage (apple-reportedly-targets-spring-2026-for-launch-of-delayed-ai-siri-upgrade-but-i) and a cumulative 2020-2025 AI spend gap of ~$20B vs $141-205B for the hyperscalers (725b-on-ai-where-big-tech-is-spending-in-2026). Set against this: capex fell 19-28% YoY every FY2026 quarter while R&D rose 32-34%, explicitly tied to AI (aapl-20260627, aapl-20260328, aapl-20251227), a falling inference-cost curve (llm-inference-prices-have-fallen-rapidly-but-unequally-across-tasks-epoch-ai), and a market that rewarded Apple's restraint during the Feb 2026 hyperscaler capex selloff (660b-capex-bill-triggers-900b-wipeout-why-apple-shares-outperform-amazon-and-goo). The orchestrator's own synthesis calls this 'the strongest candidate for a dialectical locus' and proposes a split verdict (origin revealed, current management capital-efficient) — but that verdict was reached without depth investigation and needs testing against what has actually happened since (iOS 27 Siri launch reception, any post-Q3-FY26 capex/R&D data, and whether the market read of the Feb 2026 selloff holds up).",
+      "deliverable": "A committed verdict on the reader's prior that separates ORIGIN (chosen vs revealed) from CURRENT ECONOMICS (is renting capability capital-efficient now), grounded in Federighi's first-party statement, the FY2026 capex/R&D lines, the Gemini rental terms, and the persistence (not just the level) of inference-cost decline. Address whether the Sept 2026 iOS 27 Siri launch changes the picture.",
+      "corpus_evidence": [
+        "apples-siri-revamp-reportedly-delayed-again-techcrunch",
+        "apple-reportedly-targets-spring-2026-for-launch-of-delayed-ai-siri-upgrade-but-i",
+        "725b-on-ai-where-big-tech-is-spending-in-2026",
+        "aapl-20260627",
+        "aapl-20260328",
+        "aapl-20251227",
+        "llm-inference-prices-have-fallen-rapidly-but-unequally-across-tasks-epoch-ai",
+        "660b-capex-bill-triggers-900b-wipeout-why-apple-shares-outperform-amazon-and-goo",
+        "united-states-district-court",
+        "googles-gemini-to-power-apples-ai-features-like-siri-techcrunch"
+      ],
+      "opposing_positions": [
+        {
+          "position": "Chosen: deliberate capital discipline, renting capability (Gemini-powered Siri, ~$1B/yr) as inference costs collapse; capex fell 19-28% YoY every FY2026 quarter even as R&D rose ~33%, and markets rewarded the restraint when hyperscalers lost ~$900B in a week over AI capex ROI concerns.",
+          "sources": [
+            "aapl-20260627",
+            "aapl-20260328",
+            "aapl-20251227",
+            "googles-gemini-to-power-apples-ai-features-like-siri-techcrunch",
+            "llm-inference-prices-have-fallen-rapidly-but-unequally-across-tasks-epoch-ai",
+            "660b-capex-bill-triggers-900b-wipeout-why-apple-shares-outperform-amazon-and-goo"
+          ]
+        },
+        {
+          "position": "Revealed: Federighi stated on the record the Siri delay was a failure to meet Apple's own quality bar, 'not a strategic choice'; the overhaul has slipped ~18 months across three announced dates, and Apple's cumulative 2020-2025 AI spend (~$20B) trails every hyperscaler by an order of magnitude in a pattern predating any 'wait for commoditisation' rationale.",
+          "sources": [
+            "apples-siri-revamp-reportedly-delayed-again-techcrunch",
+            "apple-reportedly-targets-spring-2026-for-launch-of-delayed-ai-siri-upgrade-but-i",
+            "725b-on-ai-where-big-tech-is-spending-in-2026",
+            "united-states-district-court"
+          ]
+        }
+      ],
+      "suggested_searches": [
+        "Siri iOS 27 launch September 2026 reviews reception",
+        "Apple Intelligence adoption usage data 2026",
+        "Apple AI strategy analyst reaction after Ternus CEO transition",
+        "Apple capex R&D Q4 FY2026 guidance AI investment"
+      ],
+      "suggested_starting_urls": [
+        "https://www.apple.com/newsroom/ (Siri / Apple Intelligence iOS 27 launch coverage, Sept 2026)",
+        "https://www.bloomberg.com/technology (post-Q3-FY26 Apple AI strategy coverage)"
+      ],
+      "composite_score": 28,
+      "source_budget": 6
+    },
+    {
+      "name": "lockin-durability-preference-vs-ai-interface",
+      "flavor": "dialectical",
+      "merged_from": [
+        "b:preference-lockin-vs-ai-interface-relocation",
+        "a:lockin-eu-dma-phone-switching-strong-form"
+      ],
+      "one_line": "Is Apple's preference-based retention durable if AI relocates the primary interface away from the phone — and does any strong-form (phone-level) switching evidence from DMA markets exist to test it?",
+      "importance": 7,
+      "uncertainty": 7,
+      "disagreement": 6,
+      "decision_impact": 7,
+      "rationale": "The contradiction graph resolved two clusters independently and they may conflict: retention is 'structural via preference' (more robust to interoperability mandates), while interface relocation is 'a long-horizon tail'. Preference is preference for the CURRENT interface; if AI moves daily interaction off the device, the moat may not transfer. The CEO transition's audited absence of any stated strategy adds uncertainty. Meanwhile the brief's own natural experiment tests only browser switching; phone-level switching in DMA markets is an audited absence that the deep-inference directive says to push on once more before accepting.",
+      "deliverable": "(1) A final search for strong-form EU phone-switching evidence since March 2024; if none exists, record the absence with what was searched. (2) Evidence on whether brand preference transfers across interface/device shifts. (3) A committed view on whether the annuity class's durability depends on the interface staying fixed within 2-5 years.",
+      "corpus_evidence": [
+        "iphone-loyalty-hits-964-as-android-users-four-times-more-likely-to-switch-macrum",
+        "apple-punted-on-ai-this-year-next-year-will-be-critical",
+        "apple-explores-move-to-ai-search-in-browser-amid-google-fallout-bloomberg",
+        "john-ternus-is-now-apples-ceo-macrumors",
+        "active-choice-interventions-at-scale-browser-defaults-under-the-digital-markets",
+        "factsheet-how-the-dma-is-making-smartphones-better-interoperability-and-data-por",
+        "iphone-loyalty-rate-climbs-to-87-as-switching-to-android-slows-macrumors",
+        "apple-loyalty-depends-on-carrier-loyalty"
+      ],
+      "opposing_positions": [
+        {
+          "position": "Retention is driven by general brand preference (60.8%) far more than ecosystem-investment switching cost (17.4%), which makes it MORE resistant to DMA-style interoperability mandates than cost-based lock-in would be -- preference is the more durable moat.",
+          "sources": [
+            "iphone-loyalty-hits-964-as-android-users-four-times-more-likely-to-switch-macrum"
+          ]
+        },
+        {
+          "position": "Preference is measured against the CURRENT smartphone interface and cannot be assumed to transfer to a new one; Eddy Cue testified under oath that AI is moving fast enough that users may not need an iPhone within a decade, OpenAI acquired Jony Ive's device startup explicitly to build a post-smartphone interface, and the corpus confirms an audited absence of any stated AI/interface strategy from Apple's new hardware-engineer CEO -- so the durability of 'preference' as an asset class depends on an interface-continuity assumption the evidence does not actually establish for the 2-5 year window.",
+          "sources": [
+            "apple-punted-on-ai-this-year-next-year-will-be-critical",
+            "apple-explores-move-to-ai-search-in-browser-amid-google-fallout-bloomberg",
+            "john-ternus-is-now-apples-ceo-macrumors"
+          ]
+        }
+      ],
+      "suggested_searches": [
+        "Apple AI agent interface strategy 2026 Ternus product roadmap",
+        "smartphone interface relocation AI companion device adoption 2026 evidence",
+        "OpenAI io device post-smartphone timeline 2-5 years",
+        "does brand preference loyalty transfer across device categories consumer electronics research",
+        "EU smartphone OS switching rate iPhone Android since Digital Markets Act 2024",
+        "eSIM transfer adoption data EU DMA interoperability 2025 2026",
+        "European Commission DMA impact report smartphone switching statistics",
+        "Counterpoint Research Kantar EU iPhone loyalty switching post DMA"
+      ],
+      "suggested_starting_urls": [
+        "https://www.theverge.com/apple",
+        "https://www.bloomberg.com/technology",
+        "https://digital-markets-act.ec.europa.eu/ (European Commission DMA compliance reports)",
+        "https://www.counterpointresearch.com/ (EU smartphone OS switching data)"
+      ],
+      "composite_score": 27,
+      "source_budget": 5
+    },
+    {
+      "name": "hardware-regime-and-required-services-cagr",
+      "flavor": "synthesis",
+      "merged_from": [
+        "a:required-services-cagr-vs-hardware-reversal",
+        "b:fy2026-hardware-outgrowth-anomaly-vs-regime-change"
+      ],
+      "one_line": "Is FY2026's hardware-led growth a one-cycle anomaly or a regime change — and what services CAGR is required to hold total growth flat once hardware normalises?",
+      "importance": 7,
+      "uncertainty": 6,
+      "disagreement": 5,
+      "decision_impact": 6,
+      "rationale": "Research question 7 and a mandated minimum component require this calculation; it has not been computed. The query's premise ('as hardware matures') is inverted by FY2026 (Products +16.9% vs Services +14.1% nine-month), yet the replacement cycle lengthened through 2025 and no note decomposes iPhone growth into units versus ASP. FY2026 strength may be iPhone 17, a weak comparison base, a favourable renminbi and price increases — KeyBanc argues price-driven growth deserves a lower multiple.",
+      "deliverable": "(1) A units-versus-ASP decomposition of FY2026 iPhone growth using third-party unit estimates, labelled as estimates. (2) Historical decay of prior iPhone supercycles (iPhone 6, iPhone X, iPhone 12) in the following 4-8 quarters. (3) The required-services-CAGR calculation under an explicit hardware-normalisation assumption, with the method shown.",
+      "corpus_evidence": [
+        "aapl-20250927",
+        "aapl-8k-q1fy2026",
+        "aapl-8k-q2fy2026",
+        "aapl-8k-q3fy2026",
+        "aapl-20260627",
+        "apple-revenue-2012-2026-aapl-macrotrends",
+        "aapl-intrinsic-valuation-and-fundamental-analysis-apple-inc-alpha-spread",
+        "iphone-statistics-2026-revenue-market-share-and-the-replacement-cycle-axis-intel",
+        "cirp-first-time-iphone-buyers-dont-feel-the-need-to-buy-the-latest-greatest-mode"
+      ],
+      "opposing_positions": [],
+      "suggested_searches": [
+        "iPhone 17 unit sales estimate 2026 Counterpoint IDC third-party shipment data",
+        "iPhone 6 iPhone X supercycle revenue growth decay following quarters historical",
+        "iPhone average selling price ASP trend 2025 2026 price increase impact",
+        "Apple iPhone unit shipments third party estimate since 2018 disclosure discontinued",
+        "Apple Services segment weight gross profit contribution FY2025 FY2026 model",
+        "Apple hardware growth deceleration forecast analyst 2027 2028",
+        "Apple installed base 2.5 billion devices services attach rate estimate"
+      ],
+      "suggested_starting_urls": [
+        "https://www.counterpointresearch.com/",
+        "https://www.idc.com/promo/smartphone-market-share"
+      ],
+      "composite_score": 24,
+      "source_budget": 3
+    },
+    {
+      "name": "passive-flow-apple-specific-magnitude",
+      "flavor": "technical",
+      "merged_from": [
+        "a:passive-flow-apple-specific-magnitude"
+      ],
+      "one_line": "What does the demand-system literature imply specifically for how much of APPLE's multiple is passive-flow or ownership-structure artefact, rather than the generic aggregate-market multiplier?",
+      "importance": 6,
+      "uncertainty": 7,
+      "disagreement": 6,
+      "decision_impact": 4,
+      "rationale": "The contradiction graph's passive-flow cluster (rank 14) already shows a genuine theoretical fight — Gabaix & Koijen's ~$5-per-$1-of-flow aggregate multiplier (in-search-of-the-origins-of-financial-fluctuations-the-inelastic-markets-hypothe) versus Bouchaud's horizon- and volume-dependent reinterpretation implying a SMALLER multiplier for a high-volume stock like Apple (the-inelastic-market-hypothesis) — but 'neither provides an Apple-specific estimate' (evidence_quality_delta). Worse, the orchestrator's own notes flag that three passive-flow papers fetched into the vault (inferential-theory-for-granular-instrumental-variables-in-high-dimensions, the-active-world-of-passive-investing-easley-michayluk-ohara-putnins, which-investors-matter-for-equity-valuations-and-expected-returns-koijen-richmon) were killed by an API limit before any claims were extracted — they are tagged needs-claim-extraction and their bodies have never been read for this research question, despite being squarely about which investor types move mega-cap valuations. This is the single required input the query names explicitly (research question 5, required format 'multiple decomposition ... range with stated method') that the width sweep could not finish.",
+      "deliverable": "(1) Read and extract claims from the three unprocessed passive-flow papers in the vault (tagged needs-claim-extraction) — this is mostly READING, not fetching. (2) Reconcile Gabaix-Koijen's aggregate ~$5 multiplier with Bouchaud's prediction that high-volume stocks have smaller multipliers. (3) A range, with method, for the passive-flow contribution to Apple's multiple — or an explicit statement that the literature cannot support an Apple-specific number.",
+      "corpus_evidence": [
+        "inferential-theory-for-granular-instrumental-variables-in-high-dimensions",
+        "the-active-world-of-passive-investing-easley-michayluk-ohara-putnins",
+        "which-investors-matter-for-equity-valuations-and-expected-returns-koijen-richmon",
+        "in-search-of-the-origins-of-financial-fluctuations-the-inelastic-markets-hypothe",
+        "the-inelastic-market-hypothesis"
+      ],
+      "opposing_positions": [],
+      "suggested_searches": [
+        "Koijen Richmond Van Nieuwerburgh which investors matter Apple mega-cap index ownership share",
+        "Apple S&P 500 index fund passive ownership percentage 2025 2026",
+        "granular instrumental variables Apple demand elasticity estimate",
+        "quality factor premium mega-cap valuation Apple AQR GMO estimate"
+      ],
+      "suggested_starting_urls": [],
+      "composite_score": 23,
+      "source_budget": 3
+    }
+  ],
+  "skip_loci": [
+    {
+      "slug": "factor-crowding-tail-risk",
+      "reason": "Contradiction graph rank 19, decision_relevance explicitly 'low'. Evidence is already assessed as thin and contested (MSCI counted as one interested voice; the peer-reviewed JFQA paper is abstract-only; the arXiv preprint is self-withdrawn), and the orchestrator's own audited-absence check found 'no source names Apple or the Magnificent 7 in crowding or unwind metrics.' The proposed resolution — present as an unproven contributor, not a quantified share — is already the right, honest conclusion; further depth reading is unlikely to produce an Apple-specific number where none of the underlying literature attempts one."
+    },
+    {
+      "slug": "silicon-margin-contribution",
+      "reason": "Contradiction graph rank 15 is already well resolved: the ~7x disagreement between SemiAnalysis and Digits to Dollars is explained as methodological (gross displacement vs net-of-R&D-and-foundry-cost), not factual, and both sides converge on the same qualitative conclusion (silicon is load-bearing for pricing power/ASP, not COGS margin). A depth investigator would mostly re-confirm an already-reconciled split rather than move the verdict."
+    },
+    {
+      "slug": "manufacturing-diversification-speed",
+      "reason": "Rank 11 is resolved with a defended range already in the corpus (China value-added ~7% landed-cost basis to ~25% BOM basis) and a clear split verdict (assembly fast, capability/value-added slow and consolidating into China, per AEI). This is refinement, not an open fight; the query's supply-chain angle is better served by the two loci above than by re-litigating an already-well-evidenced split."
+    },
+    {
+      "slug": "replacement-cycle-ai-supercycle",
+      "reason": "Rank 17 is well-covered (5 independent sources) with a resolved verdict — cycle lengthened through 2025, may have plateaued, no evidence of an AI-driven reset — and reconciled against strong FY26 iPhone revenue via ASP/price effects. Chosen instead: the required-services-CAGR locus, which uses this same evidence but pushes it toward the query's mandated calculation rather than re-testing an already-settled dialectic."
+    },
+    {
+      "slug": "greater-china-demand-decline-vs-reversal",
+      "reason": "Rank 12, decision_relevance 'medium'. Both sides are Apple's own audited filings with 'no quality delta' and the proposed resolution ('two-year decline, then currency-assisted decelerating reversal') is not contested — it is a factual sequence, not an unresolved dialectic. Not load-bearing enough relative to the six loci selected above."
+    },
+    {
+      "slug": "silicon-tsmc-concentration-risk",
+      "reason": "Cluster silicon-moat-durability-tsmc (rank 16) already resolves this cleanly from primary TSMC/Qualcomm filings with a quantified, undisputed concentration trend (Apple's TSMC revenue share 25%->22%->19%, Nvidia 11%->12%->17%) and the orchestrator explicitly assigns it to the supply-chain section as a new, uncontested finding. There is no live dialectical tension to adjudicate -- both sides in that cluster measure different, compatible things (design capability broadening vs. foundry priority eroding). Deeper investigation would add detail, not change the verdict."
+    },
+    {
+      "slug": "factor-crowding-magnitude",
+      "reason": "Cluster factor-crowding-tail-risk is explicitly ranked decision_relevance: low, and consensus-claims.json records an audited absence -- no source in the corpus names Apple or the Magnificent 7 in any crowding or unwind metric. The redundancy audit independently confirms the evidence base is only 2 independent voices and flags it as thin but already correctly labeled 'unproven contributor, not quantified share'. Sinking a depth-investigator budget here is unlikely to surface an Apple-specific number, since the entire literature is aggregate-level; this is a resourcing decision, not evidence I found resolving it."
+    },
+    {
+      "slug": "buyback-price-floor-durability",
+      "reason": "The graph and orchestrator notes already settle this with strong aggregate evidence (Floyd/Li/Skinner JFE 2015 via Chicago Booth Review: repurchases fell 70% in 2008-09 while dividends held) plus an Apple-specific historical example (2013 debt-funded buyback to avoid repatriation tax). The brief's own 'arbitrary' verdict is confirmed, not contested, by any source in the corpus -- I found no dissenting claim anywhere in the vault that buybacks act as a reliable floor. Not a genuine fight."
+    },
+    {
+      "slug": "rate-duration-sensitivity-magnitude",
+      "reason": "Cluster rate-sensitivity-duration (rank 18) is resolved by peer-reviewed, mutually reinforcing evidence (Gormsen & Lazarus JF 2023; Dechow et al. JAR 2021; Lettau & Wachter) that converges rather than conflicts: both sides agree duration matters, disagreeing only on which proxy (raw yield vs. pure-discounting component) transmits it, and the more recent paper is the more precise decomposition. This is an already-adjudicated methodological refinement, not an open fight likely to reverse the report's verdict that Apple is comparatively short-duration."
+    }
+  ]
+}

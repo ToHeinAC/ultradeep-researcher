@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "In Q2 FY2026, Apple's board authorized an ADDITIONAL $100 billion share repurchase program on top of existing authorization, alongside a 4% dividend increase to $0.27/share.",
+    "stance": "supports",
+    "stance_target": "Shareholder returns (buybacks) remain a first-order lever for total return independent of fundamental growth, per the 2-5y total-return decomposition identity",
+    "evidence_type": "empirical",
+    "scope_conditions": "Announced with Q2 FY2026 results (quarter ended March 28, 2026)",
+    "quoted_support": "The board of directors has also authorized an additional program to repurchase up to $100 billion of the Company's common stock.",
+    "numbers": ["$100 billion new buyback authorization", "$0.27/share dividend, +4%"],
+    "entities": ["Apple Inc.", "board of directors"],
+    "time_period": "Q2 FY2026 (quarter ended March 28, 2026)",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "aapl-8k-q2fy2026"
+  },
+  {
+    "claim": "Q2 FY2026 iPhone revenue grew 21.7% YoY to $56,994M, a March-quarter record, explicitly attributed by Apple to 'extraordinary demand for the iPhone 17 lineup', while Services grew a slower 16.3% YoY to $30,976M.",
+    "stance": "neutral",
+    "stance_target": "Whether an AI-driven or design-driven iPhone upgrade supercycle can plausibly reset the replacement cycle",
+    "evidence_type": "empirical",
+    "scope_conditions": "Q2 FY2026 only, single data point of a broader multi-quarter cycle",
+    "quoted_support": "iPhone achieved a March quarter revenue record, fueled by such extraordinary demand for the iPhone 17 lineup.",
+    "numbers": ["iPhone revenue $56,994M", "+21.7% YoY", "Services revenue $30,976M", "+16.3% YoY"],
+    "entities": ["Apple Inc.", "iPhone 17"],
+    "time_period": "Q2 FY2026 (quarter ended March 28, 2026)",
+    "region": "Global",
+    "confidence": "high",
+    "source_note_id": "aapl-8k-q2fy2026"
+  },
+  {
+    "claim": "Greater China revenue accelerated to $20,497M in Q2 FY2026, up 28.1% YoY, the second consecutive quarter of >20% China growth in FY2026.",
+    "stance": "refutes",
+    "stance_target": "Structural, ongoing China revenue decline as a base-case bear thesis",
+    "evidence_type": "empirical",
+    "scope_conditions": "FY2026 Q2 only",
+    "quoted_support": "Greater China 20,497 / 16,002 (three months ended March 28, 2026 / March 29, 2025)",
+    "numbers": ["Greater China revenue $20,497M", "+28.1% YoY"],
+    "entities": ["Apple Inc.", "Greater China"],
+    "time_period": "Q2 FY2026",
+    "region": "Greater China",
+    "confidence": "medium",
+    "source_note_id": "aapl-8k-q2fy2026"
+  },
+  {
+    "claim": "Apple's Q2 FY2026 Services gross margin (76.7%) is roughly double the Products gross margin (38.7%), consistent across all three FY2026 quarters observed.",
+    "stance": "supports",
+    "stance_target": "Services deserves a materially higher multiple than Products on a durability/profitability basis",
+    "evidence_type": "empirical",
+    "scope_conditions": "Q2 FY2026, three months ended March 28, 2026",
+    "quoted_support": "Services 30,976 / Cost of sales Services 7,224; Products 80,208 / Cost of sales Products 49,179",
+    "numbers": ["Services GM 76.7%", "Products GM 38.7%"],
+    "entities": ["Apple Inc.", "Services", "Products"],
+    "time_period": "Q2 FY2026",
+    "region": "Global consolidated",
+    "confidence": "high",
+    "source_note_id": "aapl-8k-q2fy2026"
+  }
+]

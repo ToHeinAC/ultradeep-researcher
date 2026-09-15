@@ -1,0 +1,30 @@
+[
+  {
+    "claim": "The base 256GB iPhone 16's bill of materials (BOM) is estimated at $416 per TD Cowen teardown analysis, $21 higher than the iPhone 15's $395 BOM, while the 256GB iPhone 16 Pro Max's total production cost (components + packaging + assembly) is $485, up $32 from the prior-generation Pro Max.",
+    "stance": "neutral",
+    "stance_target": "Magnitude and method of independent iPhone 16 BOM/cost estimates",
+    "evidence_type": "empirical",
+    "scope_conditions": "iPhone 16 series, 256GB variants, teardown estimate as of October 2024",
+    "quoted_support": "the total cost of producing a 256GB iPhone 16 Pro Max, including components, packaging, and assembly, is about US$485, US$32 higher than the US$453 production cost of the iPhone 15 Pro Max. The bill of materials (BOM) for the 256GB base model iPhone 16 is US$416, US$21 more than the US$395 for the iPhone 15.",
+    "numbers": ["$416 base iPhone 16 BOM", "$395 base iPhone 15 BOM", "$485 iPhone 16 Pro Max total cost", "$453 iPhone 15 Pro Max total cost"],
+    "entities": ["Apple", "TD Cowen", "AppleInsider"],
+    "time_period": "2024",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "iphone-16-series-teardown-shows-increased-costs-in-certain-components"
+  },
+  {
+    "claim": "The estimated gross margin on a 256GB iPhone 16 Pro Max fell to 59.5% ($714 profit on $1,199 retail) from 62.2% for the equivalent iPhone 15 Pro Max, implying Apple absorbed rising component costs (display, camera module, memory) into margin rather than raising the Pro Max's retail price at launch.",
+    "stance": "supports",
+    "stance_target": "Apple's hardware margins are sensitive to component-cost inflation (camera, display, memory) even before broader tariff or DRAM-crisis dynamics of 2026",
+    "evidence_type": "statistical",
+    "scope_conditions": "256GB iPhone 16 Pro Max vs iPhone 15 Pro Max, 2024",
+    "quoted_support": "the estimated gross profit is US$714, resulting in a gross margin of 59.5%. By comparison, the iPhone 15 Pro Max had a gross profit of US$746 and a gross margin of 62.2%. This shows that Apple is sacrificing some of its profit to keep the retail prices the same in the face of rising production costs.",
+    "numbers": ["59.5% Pro Max gross margin (iPhone 16)", "62.2% Pro Max gross margin (iPhone 15)", "$714 gross profit", "$1,199 retail price"],
+    "entities": ["Apple", "TD Cowen"],
+    "time_period": "2024",
+    "region": "global",
+    "confidence": "medium",
+    "source_note_id": "iphone-16-series-teardown-shows-increased-costs-in-certain-components"
+  }
+]

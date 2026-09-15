@@ -1,0 +1,58 @@
+[
+  {
+    "claim": "Approximately three-quarters of US iPhone sales go through mobile carriers, giving carrier store staff influence over both model choice and platform choice.",
+    "stance": "refutes",
+    "stance_target": "Ecosystem lock-in is structural, not switching-cost/contractual inertia",
+    "evidence_type": "statistical",
+    "scope_conditions": "US iPhone sales channel mix",
+    "quoted_support": "With about three-quarters of US iPhone sales going through carriers, Apple relies heavily on AT&T, Verizon, T-Mobile, and the rest for initial sales and follow-up service. Carriers control the sales transaction, where store staff can influence choice of model, and even whether a customer remains with iPhone or switches to Android.",
+    "numbers": ["~75%"],
+    "entities": ["AT&T", "Verizon", "T-Mobile", "CIRP", "Apple"],
+    "time_period": "not dated precisely (article published Aug 27 2025)",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "apple-loyalty-depends-on-carrier-loyalty"
+  },
+  {
+    "claim": "iOS loyalty declines measurably among iPhone owners who switch mobile carriers, compared to iPhone owners who keep the same carrier.",
+    "stance": "refutes",
+    "stance_target": "Ecosystem lock-in is structural, not switching-cost/contractual inertia",
+    "evidence_type": "statistical",
+    "scope_conditions": "US, CIRP quarterly buyer survey, all smartphone buyers",
+    "quoted_support": "Loyalty to iOS declines when an iPhone owner moves to a new mobile phone company. ... The loyalty rate was lower for iPhone users who changed mobile carriers.",
+    "numbers": [],
+    "entities": ["CIRP"],
+    "time_period": "twelve months ending June 2025",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "apple-loyalty-depends-on-carrier-loyalty"
+  },
+  {
+    "claim": "About one-quarter of all smartphone buyers (across brands) switch mobile carriers when buying a new phone, with a slightly higher carrier-switching rate among Android buyers than iOS buyers.",
+    "stance": "neutral",
+    "stance_target": "Carrier churn as a contributing mechanism to platform switching",
+    "evidence_type": "statistical",
+    "scope_conditions": "US, CIRP quarterly mobile phone buyer survey (all brands)",
+    "quoted_support": "about one-quarter of buyers switch mobile carriers when they buy a new smartphone, with a slightly higher percentage of Android users than iOS users switching.",
+    "numbers": ["~25%"],
+    "entities": ["CIRP"],
+    "time_period": "not precisely dated (Aug 2025 article)",
+    "region": "US",
+    "confidence": "medium",
+    "source_note_id": "apple-loyalty-depends-on-carrier-loyalty"
+  },
+  {
+    "claim": "Overall iPhone loyalty rate was 89% for the twelve-month period ending June 2025, per CIRP's mobile phone buyer survey.",
+    "stance": "supports",
+    "stance_target": "Ecosystem lock-in is structural (high headline loyalty)",
+    "evidence_type": "statistical",
+    "scope_conditions": "US, trailing 12 months to June 2025",
+    "quoted_support": "For the twelve-month period ending in June 2025, iPhone had a loyalty rate of 89% (Chart 1).",
+    "numbers": ["89%"],
+    "entities": ["CIRP"],
+    "time_period": "July 2024-June 2025",
+    "region": "US",
+    "confidence": "high",
+    "source_note_id": "apple-loyalty-depends-on-carrier-loyalty"
+  }
+]
